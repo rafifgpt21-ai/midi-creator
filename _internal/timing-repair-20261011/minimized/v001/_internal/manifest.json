@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "One-note grid repro",
+  "combined": false,
+  "composition_sha256": "d5a4b5b7accec9c272050b09bfb88897fcfb2c24924c5f85936cc4c608bfc821",
+  "tempo_bpm": 118,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 1,
+  "ticks_per_beat": 960,
+  "end_tick": 3840,
+  "duration_seconds": 2.0339,
+  "layers": [
+    {
+      "id": "retro-drums",
+      "name": "One note",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1,
+      "file": "MIDI/retro-drums.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/retro-drums.mid",
+      "sha256": "5238dfea22d935cb8299f05d76ba297c54a85d571fe8ea93fc0e39a2ae930f23"
+    }
+  ]
+}

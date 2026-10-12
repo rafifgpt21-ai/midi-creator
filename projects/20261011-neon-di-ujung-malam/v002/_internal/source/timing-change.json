@@ -1,0 +1,42 @@
+{
+  "origin": "v001",
+  "revision": "v002",
+  "grid_division": 16,
+  "layers": {
+    "pulse-bass": {
+      "shifted_note_ons": 58,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "midnight-pad": {
+      "shifted_note_ons": 0,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "neon-chords": {
+      "shifted_note_ons": 635,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "glass-arp": {
+      "shifted_note_ons": 520,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "night-hook": {
+      "shifted_note_ons": 0,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "rain-keys": {
+      "shifted_note_ons": 0,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "radio-haze": {
+      "shifted_note_ons": 0,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "retro-drums": {
+      "shifted_note_ons": 968,
+      "shortened_gates_to_avoid_overlap": 0
+    }
+  },
+  "tempo_meter_ppqn_length_preserved": true,
+  "pitch_velocity_instruments_sections_preserved": true,
+  "arp_fixed_offset_removed_beats": 0.125
+}

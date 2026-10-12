@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "local_directory": "integrations/serum-mcp",
+  "python": "3.13.3",
+  "dependency_install": "uv sync --locked --no-dev --python C:/Python313/python.exe",
+  "native_format": ".SerumPreset",
+  "license": "MIT"
+}

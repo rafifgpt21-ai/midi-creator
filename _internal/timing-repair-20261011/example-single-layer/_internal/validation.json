@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Piano",
+          "end_tick": 7680,
+          "note_count": 12,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 69,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 12,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 600000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "undeclared",
+    "grid_division": 32,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "piano",
+        "note_ons": 12,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

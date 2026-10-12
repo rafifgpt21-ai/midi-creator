@@ -1,0 +1,30 @@
+Preset: sub-bass
+Description: Black Glass: mono sine-weighted low foundation, gentle verse velocity and massive chorus velocity; no stereo low-frequency processing.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.20  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=6.0ms  decay=2.80s  sustain=0.84  release=0.04s
+Env 2: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "BODY": 0%
+Macro 2 "TAIL": 0%
+
+FX chain:
+  - FXDistortion (wet=16%)
+
+Mod matrix (recognized routes only):
+  - velocity -> oscillator0.volume: +55%
+  - macro0 -> oscillator0.volume: +12%
+  - macro1 -> env0.release: +5%
+
+Global: master_volume=0.42  mono=on  poly=1

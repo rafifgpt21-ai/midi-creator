@@ -1,0 +1,171 @@
+{
+  "name": "neon-chords",
+  "description": "Short brass-like polyphonic retro chord stabs with an envelope sweep and restrained stereo chorus.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "volume": 0.42,
+      "table_position": 84.0,
+      "unison": 2.0,
+      "detune": 0.032
+    },
+    {
+      "enabled": true,
+      "wavetable": "pwm",
+      "volume": 0.24,
+      "table_position": 48.0,
+      "fine": 4.0
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_mini",
+      "volume": 0.12,
+      "table_position": 62.0,
+      "octave": -1.0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_12",
+      "cutoff": 0.32,
+      "resonance": 12.0,
+      "drive": 4.0,
+      "stereo": 50.0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.018,
+      "decay": 0.43,
+      "sustain": 0.35,
+      "release": 0.19
+    },
+    {
+      "attack": 0.009,
+      "decay": 0.29,
+      "sustain": 0,
+      "release": 0.16
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.11,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    },
+    {
+      "rate": 0.18,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "BITE",
+      "value": 0.0
+    },
+    {
+      "name": "BODY",
+      "value": 0.0
+    },
+    {
+      "name": "WIDTH",
+      "value": 0.0
+    },
+    {
+      "name": "ROOM",
+      "value": 0.0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 17.0,
+      "params": {
+        "kParamRate": 0.22,
+        "kParamDepth": 2.6,
+        "kParamDelay": 5.0,
+        "kParamFeedback": 2.0
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 10.0,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 29.0,
+        "kParamDelay": 22.0,
+        "kParamWidth": 95.0
+      }
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 22.0,
+      "bipolar": false
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 10.0,
+      "bipolar": false
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator0.table_position",
+      "amount": 2.5,
+      "bipolar": true
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator1.fine",
+      "amount": 0.7,
+      "bipolar": true
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 20.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "oscillator2.volume",
+      "amount": 17.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "fx0.wet",
+      "amount": 20.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "fx1.wet",
+      "amount": 17.0,
+      "bipolar": false
+    }
+  ],
+  "global": {
+    "master_volume": 0.39,
+    "mono": false,
+    "poly_count": 16.0,
+    "portamento_time": 0
+  }
+}

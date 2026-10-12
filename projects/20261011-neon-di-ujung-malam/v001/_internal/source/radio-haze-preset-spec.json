@@ -1,0 +1,182 @@
+{
+  "name": "radio-haze",
+  "description": "Quiet tonal radio-like haze with filtered brown noise, slow wavetable motion and a wide dark hall.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "harmonic_smooth",
+      "volume": 0.22,
+      "table_position": 35.0,
+      "unison": 2.0,
+      "detune": 0.03
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "volume": 0.13,
+      "table_position": 18.0,
+      "octave": -1.0,
+      "fine": -4.0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": true,
+      "noise_type": "Brown",
+      "volume": 0.055
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "bandpass_12",
+      "cutoff": 0.32,
+      "resonance": 17.0,
+      "drive": 0.0,
+      "stereo": 50.0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 1.2,
+      "decay": 2.4,
+      "sustain": 0.62,
+      "release": 2.1
+    },
+    {
+      "attack": 2.0,
+      "decay": 3.5,
+      "sustain": 0.2,
+      "release": 2.0
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.07,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    },
+    {
+      "rate": 0.19,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    },
+    {
+      "rate": 0.11,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "TUNE",
+      "value": 0.0
+    },
+    {
+      "name": "DUST",
+      "value": 0.0
+    },
+    {
+      "name": "DRIFT",
+      "value": 0.0
+    },
+    {
+      "name": "SPACE",
+      "value": 0.0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 13.0,
+      "params": {
+        "kParamRate": 0.22,
+        "kParamDepth": 3.0,
+        "kParamDelay": 5.0,
+        "kParamFeedback": 2.0
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 34.0,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 62.0,
+        "kParamDelay": 22.0,
+        "kParamWidth": 95.0
+      }
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 9.0,
+      "bipolar": false
+    },
+    {
+      "source": "lfo0",
+      "destination": "filter0.cutoff",
+      "amount": 4.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator0.table_position",
+      "amount": 7.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo2",
+      "destination": "oscillator0.pan",
+      "amount": 12.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator1.fine",
+      "amount": 1.6,
+      "bipolar": true
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 13.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "oscillator3.volume",
+      "amount": 12.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "lfo0.rate",
+      "amount": 1.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "fx1.wet",
+      "amount": 20.0,
+      "bipolar": false
+    }
+  ],
+  "global": {
+    "master_volume": 0.31,
+    "mono": false,
+    "poly_count": 16.0,
+    "portamento_time": 0
+  }
+}

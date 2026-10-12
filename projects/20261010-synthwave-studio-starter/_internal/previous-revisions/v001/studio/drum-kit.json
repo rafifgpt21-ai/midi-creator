@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "samples": [
+    {
+      "pitch": 36,
+      "file": "samples/36-TWMG_kick_deep.wav",
+      "source": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_deep.wav",
+      "sha256": "a8f6ee02acd3919a7634c3f542f6a6f3f16bc4088aafef65e9d8907eda09fcce",
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_deep.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 13782,
+      "seconds": 0.3125170068027211
+    },
+    {
+      "pitch": 38,
+      "file": "samples/38-TWMG_snare_pop.wav",
+      "source": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_pop.wav",
+      "sha256": "c8679cdbc960c9c3f3b7b080f3e297ef5eedaa8633c52763ccf651ce03fc692d",
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_pop.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 18704,
+      "seconds": 0.42412698412698413
+    },
+    {
+      "pitch": 42,
+      "file": "samples/42-TWMG_hihat_minimalist.wav",
+      "source": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_minimalist.wav",
+      "sha256": "d2f633bc5ecf5e0efcfac83870671b6dbdb20b2a603777eb463d5d649b73d629",
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_minimalist.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 9057,
+      "seconds": 0.20537414965986395
+    },
+    {
+      "pitch": 46,
+      "file": "samples/46-TWMG_hihat_open_rider.wav",
+      "source": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_rider.wav",
+      "sha256": "7ecddbf908f925ce2665e98372280043fea136f3aea0819e24d29d98e9407a91",
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_rider.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 24807,
+      "seconds": 0.5625170068027211
+    }
+  ]
+}

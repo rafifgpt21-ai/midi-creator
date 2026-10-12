@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-12T04:46:07.571765+00:00",
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false,
+  "server": {
+    "name": "serum-mcp",
+    "title": null,
+    "version": "1.28.1",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tools": [
+    "analyze_sample_file",
+    "describe_preset",
+    "edit_preset",
+    "find_reference_presets",
+    "generate_preset",
+    "list_parameters",
+    "list_sample_files"
+  ],
+  "preset": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-black-glass\\_internal\\preset-check-bass-grit-retry\\bass-grit.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-black-glass\\v001\\bass-grit.SerumPreset",
+    "sha256": "595cc5ea49eb3114f0aa85ed62e4468e496809cfac49cdbaa23d341d4163a1cd",
+    "structural_readback": {
+      "oscillators": true,
+      "filters": true,
+      "envelopes": true,
+      "macros": true,
+      "fx_chain": true,
+      "global": true,
+      "mod_routes": true,
+      "name": true
+    },
+    "dependency_note": []
+  }
+}

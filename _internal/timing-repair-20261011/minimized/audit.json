@@ -1,0 +1,47 @@
+{
+  "grid": "straight 1/32 note-on grid, half-tick rounding tolerance",
+  "projects": [
+    {
+      "project": "minimized",
+      "revision": "v001",
+      "tempo_bpm": 118,
+      "bars": 1,
+      "alignment_errors": [],
+      "off_grid_note_ons": 1,
+      "files": [
+        {
+          "layer": "retro-drums",
+          "file": "_internal\\timing-repair-20261011\\minimized\\v001\\MIDI\\retro-drums.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            3840
+          ],
+          "note_ons": 1,
+          "off_grid_note_ons": 1,
+          "max_grid_error_beats": 0.0020833333333333333,
+          "frequent_error_ticks": [
+            [
+              2.0,
+              1
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 962,
+              "beat": 1.0020833333333334,
+              "offset_ticks": 2.0,
+              "pitch": 42
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+Preset: NW_CP_Lead_futurepop
+Description: Neon Wave
+Author: Michael Oakley
+
+Osc A: ON   octave=+0  volume=0.16  pan=+0  wavetable=/Analog/Basic_McB.wav  table_pos=0.0  warp=fm(0.00)  unison=5  detune=0.08
+Osc B: ON   octave=+1  volume=0.75  pan=+0  wavetable=/Analog/Basic_McB.wav  table_pos=0.0  warp=fm(0.00)  unison=3  detune=0.10
+Osc C: ON   octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)  unison=3  detune=0.08
+Osc Noise: ON   octave=+0  volume=0.01  pan=+0  noise_type=White
+Osc Sub: ON   octave=-1  volume=0.25  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_24  cutoff=0.14  resonance=20%  drive=0%  stereo=50%  var=20%
+Filter 2: off  type=moog_lowpass_12  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=10.2ms  decay=2.97s  sustain=0.77  release=0.03s
+Env 2: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 9: rate=0  mode=Free  shape=lorenz
+LFO 10: rate=0  mode=Free  shape=rossler
+
+Macro 1 "BIT CRUSH": 0%
+Macro 2 "REVERB": 25%
+Macro 3 "CHORUS": 40%
+Macro 4 "DELAY": 20%
+Macro 5 "RESONANCE": 32%
+Macro 6 "HIGH PASS": 24%
+Macro 7 "DRIVE": 20%
+Macro 8 "PHASER": 0%
+
+FX chain:
+  - FXComp (wet=100%)
+  - FXEQ (wet=100%)
+  - FXDistortion (wet=100%)
+  - FXChorus (wet=0%)
+  - FXReverb (wet=0%)
+  - FXDelay (wet=0%)
+  - FXPhaser (wet=0%)
+  - FXUtils (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env0 -> filter0.cutoff: +100%, bipolar
+  - velocity -> filter0.cutoff: +30%
+  - macro4 -> filter0.resonance: +50%
+  - macro6 -> filter0.drive: +50%
+  - macro5 -> fx7.hpf: +100%
+  - macro7 -> fx6.wet: +100%
+  - macro1 -> fx4.wet: +100%
+  - macro2 -> fx3.wet: +100%
+  - macro3 -> fx5.wet: +100%
+  - mod_wheel -> filter0.cutoff: +10%
+  - lfo1 -> oscillator1.fine: +50%, bipolar
+  - lfo1 -> oscillator2.fine: +50%
+  - lfo1 -> oscillator0.fine: +50%, bipolar
+  - mod_wheel -> filter0.resonance: -10%
+
+Global: master_volume=0.36  mono=on  poly=1  portamento=0.01s

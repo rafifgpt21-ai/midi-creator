@@ -1,0 +1,42 @@
+[
+  {
+    "id": "serum2",
+    "path": "C:\\Users\\rafif\\.t3\\userdata\\attachments\\8dc578c3-248a-4009-9f15-7bb5be108b42-07cd7795-7eb6-4efb-a0d4-5d7ab5789a2c-pdf.pdf",
+    "sha256": "310af1f2e80f767bdf6d8765f71ff1f53bf6b80db5373300881593aa90c80765",
+    "pages": 354,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign 20.5 (Windows)",
+      "producer": "Adobe PDF Library 17.0",
+      "creationDate": "D:20250921140042-07'00'",
+      "modDate": "D:20250921140056-07'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "preserved_path": "docs/serum-sound-design/_internal/sources/Serum 2 User Guide.pdf"
+  },
+  {
+    "id": "theory",
+    "path": "C:\\Users\\rafif\\.t3\\userdata\\attachments\\8dc578c3-248a-4009-9f15-7bb5be108b42-e0831811-c8e2-4fea-ad9c-f136e5546812-pdf.pdf",
+    "sha256": "05e3b2e0aee838725713030c455d782c7f85bcfbee95f700c1ffa36ee6dd41dd",
+    "pages": 122,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "GPL Ghostscript 9.10",
+      "creationDate": "D:20171228010950-08'00'",
+      "modDate": "D:20171228010950-08'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "preserved_path": "docs/serum-sound-design/_internal/sources/Electronic_Music_and_Sound_Design_Theory.pdf"
+  }
+]

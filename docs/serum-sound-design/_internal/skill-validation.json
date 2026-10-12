@@ -1,0 +1,107 @@
+[
+  {
+    "skill": "serum-effects",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Effects",
+        "short_description": "Design effects chains, space and stereo routing",
+        "default_prompt": "Use $serum-effects for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  },
+  {
+    "skill": "serum-modulation",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Modulation",
+        "short_description": "Shape articulation, motion and expression",
+        "default_prompt": "Use $serum-modulation for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  },
+  {
+    "skill": "serum-preset-build",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Native Preset Build",
+        "short_description": "Build and deliver native Serum 2 presets",
+        "default_prompt": "Use $serum-preset-build for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  },
+  {
+    "skill": "serum-preset-qa",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Preset QA",
+        "short_description": "Verify and improve Serum presets against a brief",
+        "default_prompt": "Use $serum-preset-qa for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  },
+  {
+    "skill": "serum-reference-match",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Reference Match",
+        "short_description": "Recreate audio and preset references in Serum 2",
+        "default_prompt": "Use $serum-reference-match for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  },
+  {
+    "skill": "serum-sound-design",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Sound Design",
+        "short_description": "Create requested sounds with Serum 2",
+        "default_prompt": "Use $serum-sound-design for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  },
+  {
+    "skill": "serum-synthesis",
+    "valid": true,
+    "message": "Skill is valid!",
+    "metadata": {
+      "interface": {
+        "display_name": "Serum Synthesis",
+        "short_description": "Design sources, engines, filters and waveforms",
+        "default_prompt": "Use $serum-synthesis for the requested Serum 2 sound task."
+      },
+      "policy": {
+        "allow_implicit_invocation": true
+      }
+    }
+  }
+]

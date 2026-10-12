@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "revision": "v003",
+  "origin": "v002",
+  "midi_files": 8,
+  "native_presets": 7,
+  "notes": 3785,
+  "all_onsets_grid": "straight 1/16",
+  "origin_preserved": true,
+  "drum_byte_identical": true,
+  "preset_readback": true,
+  "tempo_bpm": 118,
+  "key": "F#m",
+  "meter": [
+    4,
+    4
+  ],
+  "bars": 112,
+  "ppqn": 960,
+  "duration_seconds": 227.7968,
+  "end_tick": 430080,
+  "live_import_tested": false,
+  "plugin_loaded": false,
+  "listening": false,
+  "files": {
+    "MIDI/glass-arp.mid": "0ca773c4f311bb98cb3651ce71bdb814a00ba3727f9cb3f1e2cb26f03ac3382f",
+    "MIDI/midnight-pad.mid": "ac2dcf2722550bb9478e45807085e3fc0ab7ce12c4b555b27710573fac51c2c3",
+    "MIDI/neon-chords.mid": "67ab09b3861985d5f205adcb2d995fadbbf1b4a94ab2c0d1c912cf7446ddbb1a",
+    "MIDI/night-hook.mid": "97a90ad80bfe312d9a663d3e8d0a4408ec0ad18aa6ee5389f322f48b87af8434",
+    "MIDI/pulse-bass.mid": "2bbb0a52b32ee57acf60e3ceafa932fe73fab66da1066c994a2b559effe8a6f0",
+    "MIDI/radio-haze.mid": "8984781e530be5e9fae821336fdf66cc53703f1e3608709ca9e6797001362262",
+    "MIDI/rain-keys.mid": "bcaadd1a2051e3ec6b3e3faa1190e070dea55144e65acd45f1d4d4bad203fa4b",
+    "MIDI/retro-drums.mid": "a93fd49e58d2b58806c9a2c767fae067e78027590430ee653d0e5f0672a8092d",
+    "Presets/glass-arp.SerumPreset": "e88b94499fbb067b67a667d5ff9969b096b3dea82f31f82e084909acc3cc05a6",
+    "Presets/midnight-pad.SerumPreset": "1347a4f6675b7dec6822575ea03e27770938ba82d9ffb5271d3ffec537073d64",
+    "Presets/neon-chords.SerumPreset": "2bccf5b25349652c3b5ef21816e9f0e598eda840f2ec274a25319d330ba46cb2",
+    "Presets/night-hook.SerumPreset": "06bc9430096748d51a138df71bb56b2b6471978ec593510182e9a4ca2c34cfbc",
+    "Presets/pulse-bass.SerumPreset": "a7df18ae0f2352b49fd5f3760c5fd77cd04f30cf5056eaff353edf223b120eff",
+    "Presets/radio-haze.SerumPreset": "6d09227398055f96fa9460a2a7b3a0b48eba5eb083fe95e0b541e6997c6c66b9",
+    "Presets/rain-keys.SerumPreset": "e2e48588d7a6674b2886437535c14533b3367cbf8fda926fdf7f39396e03f78d"
+  }
+}

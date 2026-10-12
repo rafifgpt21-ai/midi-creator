@@ -1,0 +1,158 @@
+{
+  "name": "rain-keys",
+  "description": "Soft electric bell keys with a warm fundamental, velocity-sensitive brightness and a longer decaying response.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "fm_piano",
+      "volume": 0.42,
+      "table_position": 76.0
+    },
+    {
+      "enabled": true,
+      "wavetable": "warm_sub",
+      "volume": 0.16,
+      "table_position": 16.0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.4,
+      "resonance": 5.0,
+      "drive": 0.0,
+      "stereo": 50.0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.006,
+      "decay": 1.15,
+      "sustain": 0,
+      "release": 0.55
+    },
+    {
+      "attack": 0.002,
+      "decay": 0.36,
+      "sustain": 0,
+      "release": 0.19
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.17,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "TINE",
+      "value": 0.0
+    },
+    {
+      "name": "LENGTH",
+      "value": 0.0
+    },
+    {
+      "name": "CHORUS",
+      "value": 0.0
+    },
+    {
+      "name": "ROOM",
+      "value": 0.0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 11.0,
+      "params": {
+        "kParamRate": 0.22,
+        "kParamDepth": 2.0,
+        "kParamDelay": 5.0,
+        "kParamFeedback": 2.0
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 18.0,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 41.0,
+        "kParamDelay": 22.0,
+        "kParamWidth": 95.0
+      }
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 12.0,
+      "bipolar": false
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 17.0,
+      "bipolar": false
+    },
+    {
+      "source": "velocity",
+      "destination": "oscillator0.table_position",
+      "amount": 7.0,
+      "bipolar": false
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator0.fine",
+      "amount": 0.6,
+      "bipolar": true
+    },
+    {
+      "source": "macro0",
+      "destination": "oscillator0.table_position",
+      "amount": 16.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "env0.decay",
+      "amount": 12.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "fx0.wet",
+      "amount": 19.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "fx1.wet",
+      "amount": 18.0,
+      "bipolar": false
+    }
+  ],
+  "global": {
+    "master_volume": 0.41,
+    "mono": false,
+    "poly_count": 16.0,
+    "portamento_time": 0
+  }
+}

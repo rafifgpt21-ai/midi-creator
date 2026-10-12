@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "from": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-serum-mcp-demo\\v001",
+  "to": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-serum-mcp-demo\\v002",
+  "original_files": {
+    "native/parameters.json": "531cad9fe6eeaa56325b2e41753488c1cf84388ba81c21d75363b8dd7af73fd2",
+    "native/receipt.json": "de25f8fa3fe4f6fdd453eede08404fbdbb659d668fd2764c48b86073cf2bd210",
+    "native/references.json": "375ab9f0ad4fd9c5d3cdd9ecba558b2e60754db9ffa5fd60464690fa14e3a0bb",
+    "native/tool-schemas.json": "91450c36df76a244d3775bb62d0d0598fbe17728bfc3690bc9d4857ab9cbc942",
+    "native-verified/decoded-spec.json": "007de2f93522edc11e72b1d9a1133968411fe990f86f852bb2c37c5e08159cc9",
+    "native-verified/description.txt": "4da23de84961e90175716d998f2c87665a52614733e1287a193d8f2423e79468",
+    "native-verified/parameters.json": "531cad9fe6eeaa56325b2e41753488c1cf84388ba81c21d75363b8dd7af73fd2",
+    "native-verified/PD - Warm Motion MCP.SerumPreset": "b2fbbe2744d9af6a2546974342370d4e0dcdf93d7e45beb424c2b20a17550c2f",
+    "native-verified/preset-spec.json": "886c6db5ad345ec71abf7af19ac525d2433348373fc8745820796aec71eb4b13",
+    "native-verified/receipt.json": "efd70648fd15a7de6a4a8295cff07a12eab8fa71cd9f8fec1b28ba34af265618",
+    "native-verified/references.json": "375ab9f0ad4fd9c5d3cdd9ecba558b2e60754db9ffa5fd60464690fa14e3a0bb",
+    "native-verified/tool-schemas.json": "91450c36df76a244d3775bb62d0d0598fbe17728bfc3690bc9d4857ab9cbc942",
+    "preset-spec.json": "886c6db5ad345ec71abf7af19ac525d2433348373fc8745820796aec71eb4b13",
+    "reference-check/parameters.json": "531cad9fe6eeaa56325b2e41753488c1cf84388ba81c21d75363b8dd7af73fd2",
+    "reference-check/receipt.json": "84c797009ff593569a027bf6c2f153c9e713f524aca6a0edd4d977c6fc5527ed",
+    "reference-check/reference-description.txt": "45a2b39bb2987e274cb33cd77a8c71bd957a26396053e75f3303659998313f95",
+    "reference-check/references.json": "375ab9f0ad4fd9c5d3cdd9ecba558b2e60754db9ffa5fd60464690fa14e3a0bb",
+    "reference-check/tool-schemas.json": "91450c36df76a244d3775bb62d0d0598fbe17728bfc3690bc9d4857ab9cbc942",
+    "request.md": "e6f08c172ad5de58f38745f6edf7163ecafa2976bc90ba82a05d49ab494b00e8",
+    "START-HERE.md": "d14ca2e8fb5ff2f890f4b638c87950702d3885def4583b293437279f7e3b4e47"
+  },
+  "new_files": {
+    "_internal/original-preset-receipt.json": "efd70648fd15a7de6a4a8295cff07a12eab8fa71cd9f8fec1b28ba34af265618",
+    "_internal/preset-spec.json": "886c6db5ad345ec71abf7af19ac525d2433348373fc8745820796aec71eb4b13",
+    "_internal/request.md": "7f7ed837cf954b940b96b61789943aa2a7358d9f34882cf6648e90019d9dfd83",
+    "Presets/PD - Warm Motion MCP.SerumPreset": "b2fbbe2744d9af6a2546974342370d4e0dcdf93d7e45beb424c2b20a17550c2f",
+    "README.md": "8bc8a997ed2ab8496511acf6582b7a9592dc1b651d14187028ebebf36bfd08d3"
+  },
+  "cubase_import_tested": false,
+  "auditioned": false
+}

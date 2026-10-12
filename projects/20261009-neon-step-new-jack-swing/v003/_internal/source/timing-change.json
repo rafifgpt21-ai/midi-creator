@@ -1,0 +1,70 @@
+{
+  "origin": "v002",
+  "revision": "v003",
+  "grid_division": 16,
+  "layers": {
+    "kick": {
+      "shifted_note_ons": 121,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "snare": {
+      "shifted_note_ons": 48,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "clap": {
+      "shifted_note_ons": 112,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "hihat": {
+      "shifted_note_ons": 711,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "shaker": {
+      "shifted_note_ons": 448,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "tambourine": {
+      "shifted_note_ons": 0,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "toms": {
+      "shifted_note_ons": 18,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "slap-bass": {
+      "shifted_note_ons": 219,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "electric-piano": {
+      "shifted_note_ons": 332,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "synth-stabs": {
+      "shifted_note_ons": 240,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "muted-guitar": {
+      "shifted_note_ons": 760,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "synth-brass": {
+      "shifted_note_ons": 156,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "lead-synth": {
+      "shifted_note_ons": 138,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "string-pad": {
+      "shifted_note_ons": 0,
+      "shortened_gates_to_avoid_overlap": 0
+    },
+    "bell-keys": {
+      "shifted_note_ons": 32,
+      "shortened_gates_to_avoid_overlap": 0
+    }
+  },
+  "tempo_meter_ppqn_length_preserved": true,
+  "pitch_velocity_instruments_sections_preserved": true,
+  "arp_fixed_offset_removed_beats": 0
+}

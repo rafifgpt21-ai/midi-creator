@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+studio.local.json
+integrations/mcp.local.json
+integrations/serum-mcp/
+.studio-bridge.lock
+# Keep composition specs and MIDI deliverables; they are project artifacts.

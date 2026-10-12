@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Afterimage Garden",
+  "combined": false,
+  "composition_sha256": "ba1cd081b748f2ecaabebcfb4936c1b89d2fe8b80ded6f23e1a4b2fdc36eb2a3",
+  "tempo_bpm": 108,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 104,
+  "ticks_per_beat": 480,
+  "end_tick": 199680,
+  "duration_seconds": 231.111296,
+  "layers": [
+    {
+      "id": "juno-pad",
+      "name": "Juno Memory Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 250,
+      "file": "MIDI/juno-pad.mid"
+    },
+    {
+      "id": "phase-bass",
+      "name": "Hypnotic Phase Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 504,
+      "file": "MIDI/phase-bass.mid"
+    },
+    {
+      "id": "prism-arp",
+      "name": "Prismatic Arpeggio",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 656,
+      "file": "MIDI/prism-arp.mid"
+    },
+    {
+      "id": "afterimage-lead",
+      "name": "Afterimage Hook Lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 144,
+      "file": "MIDI/afterimage-lead.mid"
+    },
+    {
+      "id": "velvet-keys",
+      "name": "Velvet Synth Keys",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 4,
+      "note_count": 864,
+      "file": "MIDI/velvet-keys.mid"
+    },
+    {
+      "id": "halo-texture",
+      "name": "Halo Air Texture",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 91,
+      "note_count": 46,
+      "file": "MIDI/halo-texture.mid"
+    },
+    {
+      "id": "disco-kit",
+      "name": "Disco Funk Kit",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1375,
+      "file": "MIDI/disco-kit.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/juno-pad.mid",
+      "sha256": "e9238077196276059fab329a3e9e988b7ece1c70e222eb2485a74911f43054c6"
+    },
+    {
+      "path": "MIDI/phase-bass.mid",
+      "sha256": "4b8f697d5d49c0a329aa845be3a10f5712949ce2289fe36e8a0bdd0877150269"
+    },
+    {
+      "path": "MIDI/prism-arp.mid",
+      "sha256": "2e7ebb782e0df5cce014d3b8876acc69fea19a021aef6e43a47550deea0cd3cc"
+    },
+    {
+      "path": "MIDI/afterimage-lead.mid",
+      "sha256": "83e5888b4c7b179e47ddc93adcaa3850ae38691ad5f16702f7012f349905f1f8"
+    },
+    {
+      "path": "MIDI/velvet-keys.mid",
+      "sha256": "b79b11cc18fb5009a35820e47fddc79834a7dcc81a474d12dd52882241d0b139"
+    },
+    {
+      "path": "MIDI/halo-texture.mid",
+      "sha256": "33ad6ec56f9051d842fd921bb70471c1f9c618ae61993ddce1f8362f59697b16"
+    },
+    {
+      "path": "MIDI/disco-kit.mid",
+      "sha256": "2a89ea2d2ae4d54669aa0c5fe365d8b2a3cf45d9b29f3e59db2b802be06b923e"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": {
+    "connected": true,
+    "ok": true,
+    "bridge_version": 1,
+    "selected_track": "",
+    "playing": false,
+    "recording": false,
+    "instrument_tracks": [],
+    "plugin_assignment_available": true,
+    "note_editing_available": false,
+    "preset_file_loading_available": false,
+    "project_creation_available": false,
+    "cubase_acknowledged": true
+  },
+  "discovery": {
+    "ok": true,
+    "token": "2:1791572830027",
+    "selected_track": "",
+    "objects": [
+      {
+        "object_id": -1,
+        "title": "",
+        "unique_name": "",
+        "type": "",
+        "unique_id": "",
+        "parameter_count": -1
+      }
+    ],
+    "truncated": false,
+    "cubase_acknowledged": true
+  },
+  "native_project_created": false,
+  "live_parameter_write_verified": false,
+  "serum_slot_assignment_verified": false
+}

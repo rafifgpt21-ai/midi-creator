@@ -1,0 +1,106 @@
+{
+  "ok": true,
+  "layers": 15,
+  "end_tick": 368640,
+  "duration_seconds": 213.333504,
+  "note_count": 6541,
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "kick",
+        "note_ons": 399,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "snare",
+        "note_ons": 232,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "clap",
+        "note_ons": 112,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "hihat",
+        "note_ons": 1470,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "shaker",
+        "note_ons": 896,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "tambourine",
+        "note_ons": 128,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "toms",
+        "note_ons": 27,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "slap-bass",
+        "note_ons": 525,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "electric-piano",
+        "note_ons": 1065,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "synth-stabs",
+        "note_ons": 240,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "muted-guitar",
+        "note_ons": 879,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "synth-brass",
+        "note_ons": 156,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "lead-synth",
+        "note_ons": 235,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "string-pad",
+        "note_ons": 144,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bell-keys",
+        "note_ons": 33,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

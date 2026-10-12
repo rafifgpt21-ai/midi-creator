@@ -1,0 +1,1185 @@
+[
+  {
+    "name": "pulse-bass",
+    "description": "Tight mono analog pulse bass with a clean triangle foundation, short filter snap and restrained tape warmth.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_mini",
+        "volume": 0.6,
+        "table_position": 65.0
+      },
+      {
+        "enabled": true,
+        "wavetable": "warm_sub",
+        "volume": 0.29,
+        "table_position": 24.0,
+        "octave": 0.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "moog_lowpass_24",
+        "cutoff": 0.25,
+        "resonance": 10.0,
+        "drive": 11.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.004,
+        "decay": 0.24,
+        "sustain": 0.78,
+        "release": 0.045
+      },
+      {
+        "attack": 0.001,
+        "decay": 0.19,
+        "sustain": 0,
+        "release": 0.035
+      }
+    ],
+    "lfos": [],
+    "macros": [
+      {
+        "name": "OPEN",
+        "value": 0.0
+      },
+      {
+        "name": "SNAP",
+        "value": 0.0
+      },
+      {
+        "name": "WARMTH",
+        "value": 0.0
+      },
+      {
+        "name": "SUB",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXDistortion",
+        "wet": 16.0,
+        "params": {
+          "kParamMode": "kTapeSat",
+          "kParamDrive": 14.0
+        }
+      },
+      {
+        "type": "FXEQ",
+        "wet": 100.0,
+        "params": {
+          "kParamFreq1": 180.0,
+          "kParamGain1": -1.5,
+          "kParamFreq2": 4200.0,
+          "kParamGain2": -3.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 22.0,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 7.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 22.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "env1.decay",
+        "amount": 10.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx0.wet",
+        "amount": 28.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "oscillator1.volume",
+        "amount": 20.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.46,
+      "mono": true,
+      "poly_count": 1.0,
+      "portamento_time": 0
+    }
+  },
+  {
+    "name": "midnight-pad",
+    "description": "Soft Juno-inspired harmony with a contrasting warm oscillator, slow drift and a spacious dark hall.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.33,
+        "table_position": 75.0,
+        "unison": 3.0,
+        "detune": 0.045,
+        "fine": -2.0
+      },
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.28,
+        "table_position": 100.0,
+        "unison": 3.0,
+        "detune": 0.035,
+        "fine": 3.0
+      },
+      {
+        "enabled": true,
+        "wavetable": "harmonic_smooth",
+        "volume": 0.08,
+        "table_position": 28.0,
+        "octave": 1.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "moog_lowpass_12",
+        "cutoff": 0.33,
+        "resonance": 6.0,
+        "drive": 0.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.65,
+        "decay": 1.8,
+        "sustain": 0.79,
+        "release": 1.7
+      },
+      {
+        "attack": 1.1,
+        "decay": 2.7,
+        "sustain": 0.35,
+        "release": 1.8
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.085,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      },
+      {
+        "rate": 0.14,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      },
+      {
+        "rate": 0.21,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      }
+    ],
+    "macros": [
+      {
+        "name": "OPEN",
+        "value": 0.0
+      },
+      {
+        "name": "DRIFT",
+        "value": 0.0
+      },
+      {
+        "name": "SPACE",
+        "value": 0.0
+      },
+      {
+        "name": "GLOW",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 22.0,
+        "params": {
+          "kParamRate": 0.22,
+          "kParamDepth": 4.0,
+          "kParamDelay": 5.0,
+          "kParamFeedback": 2.0
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 21.0,
+        "params": {
+          "kParamType": "kHall",
+          "kParamSize": 48.0,
+          "kParamDelay": 22.0,
+          "kParamWidth": 95.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 9.0,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator0.table_position",
+        "amount": 5.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo1",
+        "destination": "oscillator1.table_position",
+        "amount": 4.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo2",
+        "destination": "oscillator2.pan",
+        "amount": 9.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo0",
+        "destination": "filter0.cutoff",
+        "amount": 2.5,
+        "bipolar": true
+      },
+      {
+        "source": "lfo1",
+        "destination": "oscillator0.fine",
+        "amount": 0.9,
+        "bipolar": true
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 6.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 20.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "lfo0.rate",
+        "amount": 1.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx1.wet",
+        "amount": 22.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "oscillator2.volume",
+        "amount": 14.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.32,
+      "mono": false,
+      "poly_count": 16.0,
+      "portamento_time": 0
+    }
+  },
+  {
+    "name": "neon-chords",
+    "description": "Short brass-like polyphonic retro chord stabs with an envelope sweep and restrained stereo chorus.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.42,
+        "table_position": 84.0,
+        "unison": 2.0,
+        "detune": 0.032
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.24,
+        "table_position": 48.0,
+        "fine": 4.0
+      },
+      {
+        "enabled": true,
+        "wavetable": "analog_mini",
+        "volume": 0.12,
+        "table_position": 62.0,
+        "octave": -1.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "moog_lowpass_12",
+        "cutoff": 0.32,
+        "resonance": 12.0,
+        "drive": 4.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.018,
+        "decay": 0.43,
+        "sustain": 0.35,
+        "release": 0.19
+      },
+      {
+        "attack": 0.009,
+        "decay": 0.29,
+        "sustain": 0,
+        "release": 0.16
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.11,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      },
+      {
+        "rate": 0.18,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      }
+    ],
+    "macros": [
+      {
+        "name": "BITE",
+        "value": 0.0
+      },
+      {
+        "name": "BODY",
+        "value": 0.0
+      },
+      {
+        "name": "WIDTH",
+        "value": 0.0
+      },
+      {
+        "name": "ROOM",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 17.0,
+        "params": {
+          "kParamRate": 0.22,
+          "kParamDepth": 2.6,
+          "kParamDelay": 5.0,
+          "kParamFeedback": 2.0
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 10.0,
+        "params": {
+          "kParamType": "kHall",
+          "kParamSize": 29.0,
+          "kParamDelay": 22.0,
+          "kParamWidth": 95.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 22.0,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 10.0,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator0.table_position",
+        "amount": 2.5,
+        "bipolar": true
+      },
+      {
+        "source": "lfo1",
+        "destination": "oscillator1.fine",
+        "amount": 0.7,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 20.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "oscillator2.volume",
+        "amount": 17.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx0.wet",
+        "amount": 20.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx1.wet",
+        "amount": 17.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.39,
+      "mono": false,
+      "poly_count": 16.0,
+      "portamento_time": 0
+    }
+  },
+  {
+    "name": "glass-arp",
+    "description": "Small glassy pluck with a harmonic edge, single-direction timbral decay and tempo-matched eighth-note echoes.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "dying_sine",
+        "volume": 0.5,
+        "table_position": 96.0
+      },
+      {
+        "enabled": true,
+        "wavetable": "digital_fm",
+        "volume": 0.1,
+        "table_position": 36.0,
+        "octave": 1.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.43,
+        "resonance": 9.0,
+        "drive": 0.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.002,
+        "decay": 0.21,
+        "sustain": 0,
+        "release": 0.095
+      },
+      {
+        "attack": 0.001,
+        "decay": 0.16,
+        "sustain": 0,
+        "release": 0.08
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.14,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      }
+    ],
+    "macros": [
+      {
+        "name": "GLASS",
+        "value": 0.0
+      },
+      {
+        "name": "DECAY",
+        "value": 0.0
+      },
+      {
+        "name": "ECHO",
+        "value": 0.0
+      },
+      {
+        "name": "HALO",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXDelay",
+        "wet": 18.0,
+        "params": {
+          "kParamBeatSync": false,
+          "kParamTimeL": 0.2542372881355932,
+          "kParamTimeR": 0.2542372881355932,
+          "kParamFeedback": 24.0,
+          "kParamFreq": 4200.0
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 13.0,
+        "params": {
+          "kParamType": "kHall",
+          "kParamSize": 34.0,
+          "kParamDelay": 22.0,
+          "kParamWidth": 95.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 14.0,
+        "bipolar": false
+      },
+      {
+        "source": "env1",
+        "destination": "oscillator0.table_position",
+        "amount": 9.0,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.table_position",
+        "amount": 3.0,
+        "bipolar": true
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 7.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro0",
+        "destination": "oscillator1.volume",
+        "amount": 19.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "env0.decay",
+        "amount": 8.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx0.wet",
+        "amount": 20.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx1.wet",
+        "amount": 18.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.4,
+      "mono": false,
+      "poly_count": 12.0,
+      "portamento_time": 0
+    }
+  },
+  {
+    "name": "night-hook",
+    "description": "Singing mono saw-and-pulse lead with delayed gentle vibrato, a softened top and narrow stereo echoes.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_mini",
+        "volume": 0.48,
+        "table_position": 95.0,
+        "unison": 3.0,
+        "detune": 0.034
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.24,
+        "table_position": 61.0,
+        "fine": -3.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "moog_lowpass_12",
+        "cutoff": 0.43,
+        "resonance": 9.0,
+        "drive": 3.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.022,
+        "decay": 0.7,
+        "sustain": 0.78,
+        "release": 0.24
+      },
+      {
+        "attack": 0.02,
+        "decay": 0.44,
+        "sustain": 0.18,
+        "release": 0.18
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 5.2,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": false,
+        "delay": 0.24,
+        "rise": 0.2
+      },
+      {
+        "rate": 0.12,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      }
+    ],
+    "macros": [
+      {
+        "name": "OPEN",
+        "value": 0.0
+      },
+      {
+        "name": "BODY",
+        "value": 0.0
+      },
+      {
+        "name": "ECHO",
+        "value": 0.0
+      },
+      {
+        "name": "SPACE",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXDelay",
+        "wet": 14.0,
+        "params": {
+          "kParamBeatSync": false,
+          "kParamTimeL": 0.2542372881355932,
+          "kParamTimeR": 0.2542372881355932,
+          "kParamFeedback": 23.0,
+          "kParamFreq": 4200.0
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 12.0,
+        "params": {
+          "kParamType": "kHall",
+          "kParamSize": 31.0,
+          "kParamDelay": 22.0,
+          "kParamWidth": 95.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 13.0,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator0.fine",
+        "amount": 1.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.fine",
+        "amount": 1.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo1",
+        "destination": "oscillator1.table_position",
+        "amount": 2.0,
+        "bipolar": true
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 8.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 21.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "oscillator1.volume",
+        "amount": 20.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx0.wet",
+        "amount": 18.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx1.wet",
+        "amount": 20.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.47,
+      "mono": true,
+      "poly_count": 1.0,
+      "portamento_time": 0
+    }
+  },
+  {
+    "name": "rain-keys",
+    "description": "Soft electric bell keys with a warm fundamental, velocity-sensitive brightness and a longer decaying response.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "fm_piano",
+        "volume": 0.42,
+        "table_position": 76.0
+      },
+      {
+        "enabled": true,
+        "wavetable": "warm_sub",
+        "volume": 0.16,
+        "table_position": 16.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.4,
+        "resonance": 5.0,
+        "drive": 0.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.006,
+        "decay": 1.15,
+        "sustain": 0,
+        "release": 0.55
+      },
+      {
+        "attack": 0.002,
+        "decay": 0.36,
+        "sustain": 0,
+        "release": 0.19
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.17,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      }
+    ],
+    "macros": [
+      {
+        "name": "TINE",
+        "value": 0.0
+      },
+      {
+        "name": "LENGTH",
+        "value": 0.0
+      },
+      {
+        "name": "CHORUS",
+        "value": 0.0
+      },
+      {
+        "name": "ROOM",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 11.0,
+        "params": {
+          "kParamRate": 0.22,
+          "kParamDepth": 2.0,
+          "kParamDelay": 5.0,
+          "kParamFeedback": 2.0
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 18.0,
+        "params": {
+          "kParamType": "kHall",
+          "kParamSize": 41.0,
+          "kParamDelay": 22.0,
+          "kParamWidth": 95.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 12.0,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 17.0,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "oscillator0.table_position",
+        "amount": 7.0,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator0.fine",
+        "amount": 0.6,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "oscillator0.table_position",
+        "amount": 16.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "env0.decay",
+        "amount": 12.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx0.wet",
+        "amount": 19.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx1.wet",
+        "amount": 18.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.41,
+      "mono": false,
+      "poly_count": 16.0,
+      "portamento_time": 0
+    }
+  },
+  {
+    "name": "radio-haze",
+    "description": "Quiet tonal radio-like haze with filtered brown noise, slow wavetable motion and a wide dark hall.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "harmonic_smooth",
+        "volume": 0.22,
+        "table_position": 35.0,
+        "unison": 2.0,
+        "detune": 0.03
+      },
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.13,
+        "table_position": 18.0,
+        "octave": -1.0,
+        "fine": -4.0
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": true,
+        "noise_type": "Brown",
+        "volume": 0.055
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "bandpass_12",
+        "cutoff": 0.32,
+        "resonance": 17.0,
+        "drive": 0.0,
+        "stereo": 50.0
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 1.2,
+        "decay": 2.4,
+        "sustain": 0.62,
+        "release": 2.1
+      },
+      {
+        "attack": 2.0,
+        "decay": 3.5,
+        "sustain": 0.2,
+        "release": 2.0
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.07,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      },
+      {
+        "rate": 0.19,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      },
+      {
+        "rate": 0.11,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true
+      }
+    ],
+    "macros": [
+      {
+        "name": "TUNE",
+        "value": 0.0
+      },
+      {
+        "name": "DUST",
+        "value": 0.0
+      },
+      {
+        "name": "DRIFT",
+        "value": 0.0
+      },
+      {
+        "name": "SPACE",
+        "value": 0.0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 13.0,
+        "params": {
+          "kParamRate": 0.22,
+          "kParamDepth": 3.0,
+          "kParamDelay": 5.0,
+          "kParamFeedback": 2.0
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 34.0,
+        "params": {
+          "kParamType": "kHall",
+          "kParamSize": 62.0,
+          "kParamDelay": 22.0,
+          "kParamWidth": 95.0
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 9.0,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "filter0.cutoff",
+        "amount": 4.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo1",
+        "destination": "oscillator0.table_position",
+        "amount": 7.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo2",
+        "destination": "oscillator0.pan",
+        "amount": 12.0,
+        "bipolar": true
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.fine",
+        "amount": 1.6,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 13.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "oscillator3.volume",
+        "amount": 12.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "lfo0.rate",
+        "amount": 1.0,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx1.wet",
+        "amount": 20.0,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.31,
+      "mono": false,
+      "poly_count": 16.0,
+      "portamento_time": 0
+    }
+  }
+]

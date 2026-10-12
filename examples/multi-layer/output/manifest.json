@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Multi layer - A minor groove",
+  "combined": false,
+  "composition_sha256": "1b1572fca058434a2c3f56e1c05060241cbb8ea2da1319b71919aed0d90ffe55",
+  "tempo_bpm": 92,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 8,
+  "ticks_per_beat": 480,
+  "end_tick": 15360,
+  "duration_seconds": 20.869568,
+  "layers": [
+    {
+      "id": "keys",
+      "name": "Electric Piano",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 4,
+      "note_count": 24,
+      "file": "midi/layers/keys.mid"
+    },
+    {
+      "id": "bass",
+      "name": "Finger Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 33,
+      "note_count": 24,
+      "file": "midi/layers/bass.mid"
+    },
+    {
+      "id": "lead",
+      "name": "Piano Lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 24,
+      "file": "midi/layers/lead.mid"
+    },
+    {
+      "id": "kick",
+      "name": "Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 16,
+      "file": "midi/layers/kick.mid"
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 16,
+      "file": "midi/layers/snare.mid"
+    },
+    {
+      "id": "hihat",
+      "name": "Closed Hi-hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 64,
+      "file": "midi/layers/hihat.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "midi/layers/keys.mid",
+      "sha256": "0fd709e00d6fbea98e1509639f3f46284338322142d01839289013014e1efdf2"
+    },
+    {
+      "path": "midi/layers/bass.mid",
+      "sha256": "c1aeb1cf52690734048f93386687e352c4d5316c64aea95d02f521dc091a4a29"
+    },
+    {
+      "path": "midi/layers/lead.mid",
+      "sha256": "2677c06e9f0ff6cf3f243da023f58a4278a5e652d4ebd90df7c8cfecb99a7053"
+    },
+    {
+      "path": "midi/layers/kick.mid",
+      "sha256": "4d3068cebcb5aa8d616f64cd3c844262db49ea5e6daaf6c44c9e33249164b2f9"
+    },
+    {
+      "path": "midi/layers/snare.mid",
+      "sha256": "4a52448266a1a6ae8b56f5572d7fad9c3d119d2d2bb16fa7814d273024bea170"
+    },
+    {
+      "path": "midi/layers/hihat.mid",
+      "sha256": "2d8609245485903ac817d855a6886db74c0e5a146d2efd28e4b7c2c751ed6206"
+    }
+  ]
+}

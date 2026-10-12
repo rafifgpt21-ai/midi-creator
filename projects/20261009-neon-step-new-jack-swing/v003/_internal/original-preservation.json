@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "origin": "v002",
+  "sha256": {
+    "README.md": "fe1795c70e25bf3df8441f1f7c744506ca4fdc234d5f5c0c9c0bdac8ee168f60",
+    "MIDI/bell-keys.mid": "98db2b38863707463942d77c1e92218868d73d8c418e46f9fcec4c24cd28b402",
+    "MIDI/clap.mid": "a4b5416d551ed4996e3b3d2d4b8bdc8963c98bb10f416b0eb79319d3d8cd04ca",
+    "MIDI/electric-piano.mid": "2424a872b5c5c307444a886eca33f32cbe34003f7d498388842dce7fddfab096",
+    "MIDI/hihat.mid": "d3d5e72db44f98782f45c893829a465e340b8bd0845df4df94c1969e7d931d44",
+    "MIDI/kick.mid": "febe1ef9f86841a53a4a4a7731ab1e676abc8abad9bfe1695789c9ec1aa3d718",
+    "MIDI/lead-synth.mid": "d3b0779acccf509943c6e95592b3d6ab2c4e415848e67a33793b5d717a051ca8",
+    "MIDI/muted-guitar.mid": "e1c4e5e2c3c1ac1ca2d5e7a2d54fed3bd7ae59c8c0ae1cdcaa4749a7d1ed1ffd",
+    "MIDI/shaker.mid": "005fc1c41437bf93cdfc3f5125ab79e5cbb576d43a5528b7849aa5a6803a3468",
+    "MIDI/slap-bass.mid": "6f230a476db143b8d2d1c037ca04428813ae073c0ddbc103910a1d7e31e5cab4",
+    "MIDI/snare.mid": "fc2d8716ffac523c0ff6499a98e4eb81312aa8e2e32ecaa1f76bbf2cd1e74cb2",
+    "MIDI/string-pad.mid": "ab36c355a824fc3e83952fc0b5da74e3e605b9a8ab28709130f550e952552099",
+    "MIDI/synth-brass.mid": "f8a3d456a328b769bb887d461861ef44f3aaead08b6c92f66b74460030a40292",
+    "MIDI/synth-stabs.mid": "9b650c89ef9afb2d46a4749d451e44c7172dcd11307993a5fc0d8bafd7c132e5",
+    "MIDI/tambourine.mid": "8ac617feadcee8a268ad6e0d6204ccaa6e22bfabd11f71792e8fe6d488ff34c8",
+    "MIDI/toms.mid": "1b2f22102358521efda015c68821470528d4ff3196c230b30fbeb5967d7ce077",
+    "_internal/composition.json": "81f19f9793c3a01c29ca2ed790fba43ecd575ac162d0e67aea1c3e4d34771624",
+    "_internal/manifest.json": "9d9f70a9d348abe8aeab58075dd131a44ae9ba6a3a3854d2e1e4ca6276233ec5",
+    "_internal/migration.json": "29b3b036049a0828896e4ee1ae478d5e8119a4bae1e3235bb3ac05609c522f2d",
+    "_internal/request.md": "7f7ed837cf954b940b96b61789943aa2a7358d9f34882cf6648e90019d9dfd83",
+    "_internal/summary.md": "ca9dc3383cafea2fe27f7ec99d9f2b667303a86066cb24ba6dab9a4d87e30b66",
+    "_internal/validation.json": "8a008629af6ecfbd612f6042e96e4f61d3ae378957a78172ed46fd666cea5239"
+  }
+}

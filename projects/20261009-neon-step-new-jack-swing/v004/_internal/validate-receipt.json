@@ -1,0 +1,538 @@
+{
+  "ok": true,
+  "layers": 15,
+  "end_tick": 368640,
+  "duration_seconds": 213.333504,
+  "note_count": 6541,
+  "timing": {
+    "mode": "free",
+    "grid_division": 16,
+    "on_grid": false,
+    "off_grid_note_ons": 2756,
+    "layers": [
+      {
+        "id": "kick",
+        "note_ons": 399,
+        "off_grid_note_ons": 121,
+        "examples": [
+          {
+            "pitch": 36,
+            "tick": 8448,
+            "beat": 8.8,
+            "nearest_grid_tick": 8400,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 13248,
+            "beat": 13.8,
+            "nearest_grid_tick": 13200,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 20928,
+            "beat": 21.8,
+            "nearest_grid_tick": 20880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 23808,
+            "beat": 24.8,
+            "nearest_grid_tick": 23760,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "snare",
+        "note_ons": 232,
+        "off_grid_note_ons": 48,
+        "examples": [
+          {
+            "pitch": 38,
+            "tick": 37248,
+            "beat": 38.8,
+            "nearest_grid_tick": 37200,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 44928,
+            "beat": 46.8,
+            "nearest_grid_tick": 44880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 45888,
+            "beat": 47.8,
+            "nearest_grid_tick": 45840,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 52608,
+            "beat": 54.8,
+            "nearest_grid_tick": 52560,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 60288,
+            "beat": 62.8,
+            "nearest_grid_tick": 60240,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "clap",
+        "note_ons": 112,
+        "off_grid_note_ons": 112,
+        "examples": [
+          {
+            "pitch": 39,
+            "tick": 62410,
+            "beat": 65.01041666666667,
+            "nearest_grid_tick": 62400,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 64330,
+            "beat": 67.01041666666667,
+            "nearest_grid_tick": 64320,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 66250,
+            "beat": 69.01041666666667,
+            "nearest_grid_tick": 66240,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 68170,
+            "beat": 71.01041666666667,
+            "nearest_grid_tick": 68160,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 70090,
+            "beat": 73.01041666666667,
+            "nearest_grid_tick": 70080,
+            "offset_ticks": 10
+          }
+        ]
+      },
+      {
+        "id": "hihat",
+        "note_ons": 1470,
+        "off_grid_note_ons": 711,
+        "examples": [
+          {
+            "pitch": 42,
+            "tick": 7968,
+            "beat": 8.3,
+            "nearest_grid_tick": 7920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 8448,
+            "beat": 8.8,
+            "nearest_grid_tick": 8400,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 8928,
+            "beat": 9.3,
+            "nearest_grid_tick": 8880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 9408,
+            "beat": 9.8,
+            "nearest_grid_tick": 9360,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 9888,
+            "beat": 10.3,
+            "nearest_grid_tick": 9840,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "shaker",
+        "note_ons": 896,
+        "off_grid_note_ons": 448,
+        "examples": [
+          {
+            "pitch": 82,
+            "tick": 92448,
+            "beat": 96.3,
+            "nearest_grid_tick": 92400,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 92928,
+            "beat": 96.8,
+            "nearest_grid_tick": 92880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 93408,
+            "beat": 97.3,
+            "nearest_grid_tick": 93360,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 93888,
+            "beat": 97.8,
+            "nearest_grid_tick": 93840,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "tambourine",
+        "note_ons": 128,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "toms",
+        "note_ons": 27,
+        "off_grid_note_ons": 18,
+        "examples": [
+          {
+            "pitch": 50,
+            "tick": 30048,
+            "beat": 31.3,
+            "nearest_grid_tick": 30000,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 45,
+            "tick": 30528,
+            "beat": 31.8,
+            "nearest_grid_tick": 30480,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 50,
+            "tick": 91488,
+            "beat": 95.3,
+            "nearest_grid_tick": 91440,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 45,
+            "tick": 91968,
+            "beat": 95.8,
+            "nearest_grid_tick": 91920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 50,
+            "tick": 122208,
+            "beat": 127.3,
+            "nearest_grid_tick": 122160,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "slap-bass",
+        "note_ons": 525,
+        "off_grid_note_ons": 219,
+        "examples": [
+          {
+            "pitch": 42,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 54,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 33,
+            "tick": 19968,
+            "beat": 20.8,
+            "nearest_grid_tick": 19920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 45,
+            "tick": 20928,
+            "beat": 21.8,
+            "nearest_grid_tick": 20880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 37,
+            "tick": 22848,
+            "beat": 23.8,
+            "nearest_grid_tick": 22800,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "electric-piano",
+        "note_ons": 1065,
+        "off_grid_note_ons": 332,
+        "examples": [
+          {
+            "pitch": 57,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 61,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 64,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 68,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 56,
+            "tick": 20928,
+            "beat": 21.8,
+            "nearest_grid_tick": 20880,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "synth-stabs",
+        "note_ons": 240,
+        "off_grid_note_ons": 240,
+        "examples": [
+          {
+            "pitch": 69,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 76,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 98208,
+            "beat": 102.3,
+            "nearest_grid_tick": 98160,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 74,
+            "tick": 98208,
+            "beat": 102.3,
+            "nearest_grid_tick": 98160,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "muted-guitar",
+        "note_ons": 879,
+        "off_grid_note_ons": 357,
+        "examples": [
+          {
+            "pitch": 61,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 64,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 68,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 59,
+            "tick": 19968,
+            "beat": 20.8,
+            "nearest_grid_tick": 19920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 61,
+            "tick": 19968,
+            "beat": 20.8,
+            "nearest_grid_tick": 19920,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "synth-brass",
+        "note_ons": 156,
+        "off_grid_note_ons": 66,
+        "examples": [
+          {
+            "pitch": 66,
+            "tick": 26688,
+            "beat": 27.8,
+            "nearest_grid_tick": 26640,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 69,
+            "tick": 26688,
+            "beat": 27.8,
+            "nearest_grid_tick": 26640,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 26688,
+            "beat": 27.8,
+            "nearest_grid_tick": 26640,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 65,
+            "tick": 30528,
+            "beat": 31.8,
+            "nearest_grid_tick": 30480,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 71,
+            "tick": 30528,
+            "beat": 31.8,
+            "nearest_grid_tick": 30480,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "lead-synth",
+        "note_ons": 235,
+        "off_grid_note_ons": 84,
+        "examples": [
+          {
+            "pitch": 73,
+            "tick": 36288,
+            "beat": 37.8,
+            "nearest_grid_tick": 36240,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 77,
+            "tick": 43968,
+            "beat": 45.8,
+            "nearest_grid_tick": 43920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 51648,
+            "beat": 53.8,
+            "nearest_grid_tick": 51600,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 77,
+            "tick": 59328,
+            "beat": 61.8,
+            "nearest_grid_tick": 59280,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 67008,
+            "beat": 69.8,
+            "nearest_grid_tick": 66960,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "string-pad",
+        "note_ons": 144,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bell-keys",
+        "note_ons": 33,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

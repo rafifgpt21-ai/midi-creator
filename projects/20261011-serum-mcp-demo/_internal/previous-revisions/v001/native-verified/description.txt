@@ -1,0 +1,46 @@
+Preset: PD - Warm Motion MCP
+Description: Warm middle-register analog pad with slow wavetable movement, gentle chorus and hall reverb; macros control brightness, movement, space and the supporting PWM layer.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.55  pan=+0  wavetable=analog_warm  table_pos=45.0  warp=fm(0.00)  unison=3  detune=0.07
+Osc B: ON   octave=+0  volume=0.32  pan=+0  wavetable=pwm  table_pos=85.0  warp=fm(0.00)  unison=3  detune=0.04
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_12  cutoff=0.42  resonance=8%  drive=5%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=650.0ms  decay=1.80s  sustain=0.82  release=1.70s
+Env 2: attack=1200.0ms  decay=2.80s  sustain=0.45  release=1.90s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+
+Macro 1 "BRIGHT": 20%
+Macro 2 "MOTION": 0%
+Macro 3 "SPACE": 0%
+Macro 4 "COLOR": 0%
+
+FX chain:
+  - FXChorus (wet=18%)
+  - FXReverb (wet=15%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +12%
+  - lfo0 -> oscillator0.table_position: +5%, bipolar
+  - lfo0 -> oscillator1.table_position: +7%, bipolar
+  - lfo0 -> filter0.cutoff: +3%, bipolar
+  - velocity -> filter0.cutoff: +8%
+  - key_track -> filter0.cutoff: +5%
+  - macro0 -> filter0.cutoff: +25%
+  - macro0 -> oscillator0.table_position: +12%
+  - macro1 -> lfo0.rate: +2%
+  - macro1 -> oscillator1.table_position: +10%
+  - macro2 -> fx0.wet: +18%
+  - macro2 -> fx1.wet: +22%
+  - macro3 -> oscillator1.volume: +18%
+  - macro3 -> oscillator1.table_position: +14%
+
+Global: master_volume=0.30  mono=off  poly=16

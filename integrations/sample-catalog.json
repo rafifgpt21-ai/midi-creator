@@ -1,0 +1,3295 @@
+{
+  "ok": true,
+  "total_matches": 656,
+  "role_counts": {
+    "clap": 53,
+    "closed-hat": 193,
+    "kick": 131,
+    "open-hat": 51,
+    "snare": 206,
+    "crash": 22
+  },
+  "samples": [
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Air).wav",
+      "role": "clap",
+      "bytes": 32350
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Boomin).wav",
+      "role": "clap",
+      "bytes": 36916
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Clean).wav",
+      "role": "clap",
+      "bytes": 33412
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Combo).wav",
+      "role": "clap",
+      "bytes": 37864
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Ghoul).wav",
+      "role": "clap",
+      "bytes": 46294
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Less).wav",
+      "role": "clap",
+      "bytes": 36748
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (OnYou).wav",
+      "role": "clap",
+      "bytes": 41608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Rags).wav",
+      "role": "clap",
+      "bytes": 63958
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Report).wav",
+      "role": "clap",
+      "bytes": 30718
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Rinse).wav",
+      "role": "clap",
+      "bytes": 35896
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Smooth).wav",
+      "role": "clap",
+      "bytes": 50758
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Tomorrow).wav",
+      "role": "clap",
+      "bytes": 23368
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Trio).wav",
+      "role": "clap",
+      "bytes": 36910
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Wirl).wav",
+      "role": "clap",
+      "bytes": 72568
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Claps\\Cymatics - Clap (Youth).wav",
+      "role": "clap",
+      "bytes": 30790
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Boss).wav",
+      "role": "closed-hat",
+      "bytes": 34042
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Breeze).wav",
+      "role": "closed-hat",
+      "bytes": 22472
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Desire).wav",
+      "role": "closed-hat",
+      "bytes": 12550
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Droid).wav",
+      "role": "closed-hat",
+      "bytes": 21814
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Ember).wav",
+      "role": "closed-hat",
+      "bytes": 52920
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Golden).wav",
+      "role": "closed-hat",
+      "bytes": 21166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Ice).wav",
+      "role": "closed-hat",
+      "bytes": 31760
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Magic).wav",
+      "role": "closed-hat",
+      "bytes": 22630
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Mix).wav",
+      "role": "closed-hat",
+      "bytes": 21424
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Ozone).wav",
+      "role": "closed-hat",
+      "bytes": 34864
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Recent).wav",
+      "role": "closed-hat",
+      "bytes": 23602
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Rider).wav",
+      "role": "closed-hat",
+      "bytes": 32616
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Signal).wav",
+      "role": "closed-hat",
+      "bytes": 32680
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Tropez).wav",
+      "role": "closed-hat",
+      "bytes": 25846
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Hihats\\Cymatics - Hihat (Whisper).wav",
+      "role": "closed-hat",
+      "bytes": 29050
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (BlameGame).wav",
+      "role": "kick",
+      "bytes": 51874
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Clutch).wav",
+      "role": "kick",
+      "bytes": 72624
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Cortex).wav",
+      "role": "kick",
+      "bytes": 148936
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Earth).wav",
+      "role": "kick",
+      "bytes": 163630
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Intro).wav",
+      "role": "kick",
+      "bytes": 82342
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Issue).wav",
+      "role": "kick",
+      "bytes": 133966
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Memo).wav",
+      "role": "kick",
+      "bytes": 56398
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Producer).wav",
+      "role": "kick",
+      "bytes": 62404
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Punch).wav",
+      "role": "kick",
+      "bytes": 80638
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Rogue).wav",
+      "role": "kick",
+      "bytes": 46162
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (ShortKing).wav",
+      "role": "kick",
+      "bytes": 47980
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (ShowUp).wav",
+      "role": "kick",
+      "bytes": 68506
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Slump).wav",
+      "role": "kick",
+      "bytes": 59308
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (Stash).wav",
+      "role": "kick",
+      "bytes": 63196
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Kicks\\Cymatics - Kick (WhatNow).wav",
+      "role": "kick",
+      "bytes": 53608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Alaska).wav",
+      "role": "open-hat",
+      "bytes": 138574
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Bleed).wav",
+      "role": "open-hat",
+      "bytes": 153720
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Brace).wav",
+      "role": "open-hat",
+      "bytes": 135440
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Cleveland).wav",
+      "role": "open-hat",
+      "bytes": 126848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Confidence).wav",
+      "role": "open-hat",
+      "bytes": 277846
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Light).wav",
+      "role": "open-hat",
+      "bytes": 78120
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Mask).wav",
+      "role": "open-hat",
+      "bytes": 134824
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Nasa).wav",
+      "role": "open-hat",
+      "bytes": 169848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Saturn).wav",
+      "role": "open-hat",
+      "bytes": 191520
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Shatter).wav",
+      "role": "open-hat",
+      "bytes": 87766
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Shorty).wav",
+      "role": "open-hat",
+      "bytes": 99752
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Speed).wav",
+      "role": "open-hat",
+      "bytes": 100168
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Tape).wav",
+      "role": "open-hat",
+      "bytes": 117748
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Open Hats\\Cymatics - Open Hat (Topaz).wav",
+      "role": "open-hat",
+      "bytes": 167568
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Backed).wav",
+      "role": "snare",
+      "bytes": 26764
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Dreamer).wav",
+      "role": "snare",
+      "bytes": 33116
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (External).wav",
+      "role": "snare",
+      "bytes": 33116
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Heater).wav",
+      "role": "snare",
+      "bytes": 26872
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Jumper).wav",
+      "role": "snare",
+      "bytes": 35266
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Kangaroo).wav",
+      "role": "snare",
+      "bytes": 33116
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Plant).wav",
+      "role": "snare",
+      "bytes": 32656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Response).wav",
+      "role": "snare",
+      "bytes": 35084
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Rimmy).wav",
+      "role": "snare",
+      "bytes": 32448
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Semi).wav",
+      "role": "snare",
+      "bytes": 48130
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Share).wav",
+      "role": "snare",
+      "bytes": 28858
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Tiller).wav",
+      "role": "snare",
+      "bytes": 32448
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Trust).wav",
+      "role": "snare",
+      "bytes": 27394
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Whales).wav",
+      "role": "snare",
+      "bytes": 33116
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Atlantis  Drum One Shot Collection\\Snares\\Cymatics - Snare (Zone).wav",
+      "role": "snare",
+      "bytes": 37312
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - DUALITY\\Duality EDM Melody Collection\\Cymatics - Crash Out - 142 BPM D Min.wav",
+      "role": "crash",
+      "bytes": 7156040
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Dawn).wav",
+      "role": "clap",
+      "bytes": 42656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Fold).wav",
+      "role": "clap",
+      "bytes": 92690
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Grunt).wav",
+      "role": "clap",
+      "bytes": 41608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Hey).wav",
+      "role": "clap",
+      "bytes": 30484
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Hunter).wav",
+      "role": "clap",
+      "bytes": 58408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Jack).wav",
+      "role": "clap",
+      "bytes": 42656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Lobster).wav",
+      "role": "clap",
+      "bytes": 30976
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Lofi).wav",
+      "role": "clap",
+      "bytes": 30424
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (MetaData).wav",
+      "role": "clap",
+      "bytes": 93308
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Nation).wav",
+      "role": "clap",
+      "bytes": 55624
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (NightEnd).wav",
+      "role": "clap",
+      "bytes": 39244
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (North).wav",
+      "role": "clap",
+      "bytes": 39244
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Offbeat).wav",
+      "role": "clap",
+      "bytes": 55788
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Organic).wav",
+      "role": "clap",
+      "bytes": 61032
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Over).wav",
+      "role": "clap",
+      "bytes": 76576
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Presence).wav",
+      "role": "clap",
+      "bytes": 48316
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Stadium1).wav",
+      "role": "clap",
+      "bytes": 352202
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Violence).wav",
+      "role": "clap",
+      "bytes": 48452
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Clap (Year).wav",
+      "role": "clap",
+      "bytes": 66604
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Terror Clap 007.wav",
+      "role": "clap",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Terror Clap 011.wav",
+      "role": "clap",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - Terror Clap 014.wav",
+      "role": "clap",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - X Clap 2.wav",
+      "role": "clap",
+      "bytes": 119852
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - X Clap 36.wav",
+      "role": "clap",
+      "bytes": 85492
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - X Clap 5.wav",
+      "role": "clap",
+      "bytes": 95276
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - X Clap 58.wav",
+      "role": "clap",
+      "bytes": 206768
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - X Clap 59.wav",
+      "role": "clap",
+      "bytes": 341820
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics - X Clap 6.wav",
+      "role": "clap",
+      "bytes": 165422
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics x San Holo - 99% Blessed Organic Clap 2.wav",
+      "role": "clap",
+      "bytes": 176444
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Claps\\Cymatics x San Holo - Vibrance Organic Clap 8.wav",
+      "role": "clap",
+      "bytes": 176444
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Cymbals\\Cymatics - Terror Crash 001.wav",
+      "role": "crash",
+      "bytes": 1180022
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Cymbals\\Cymatics - Terror Crash 002.wav",
+      "role": "crash",
+      "bytes": 793844
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Cymbals\\Cymatics - X Crash 45.wav",
+      "role": "crash",
+      "bytes": 496888
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Cymbals\\Cymatics x San Holo - Vibrance Electronic Crash 1.wav",
+      "role": "crash",
+      "bytes": 302444
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Battery).wav",
+      "role": "closed-hat",
+      "bytes": 49808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Circuit).wav",
+      "role": "closed-hat",
+      "bytes": 62606
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Clinic).wav",
+      "role": "closed-hat",
+      "bytes": 48596
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Cobalt).wav",
+      "role": "closed-hat",
+      "bytes": 74498
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Doors).wav",
+      "role": "closed-hat",
+      "bytes": 39664
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Evidence).wav",
+      "role": "closed-hat",
+      "bytes": 33736
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Farther).wav",
+      "role": "closed-hat",
+      "bytes": 44860
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Fit).wav",
+      "role": "closed-hat",
+      "bytes": 62672
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Grant).wav",
+      "role": "closed-hat",
+      "bytes": 70664
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Hazard).wav",
+      "role": "closed-hat",
+      "bytes": 32160
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Humane).wav",
+      "role": "closed-hat",
+      "bytes": 22708
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Merit).wav",
+      "role": "closed-hat",
+      "bytes": 44756
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Sizzle).wav",
+      "role": "closed-hat",
+      "bytes": 45464
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Sprinkler).wav",
+      "role": "closed-hat",
+      "bytes": 27352
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (StandUp).wav",
+      "role": "closed-hat",
+      "bytes": 47908
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Strike).wav",
+      "role": "closed-hat",
+      "bytes": 42656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Hihat (Tiny).wav",
+      "role": "closed-hat",
+      "bytes": 62672
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Omega Closed Hihat 1.wav",
+      "role": "closed-hat",
+      "bytes": 44196
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Omega Closed Hihat 3.wav",
+      "role": "closed-hat",
+      "bytes": 59388
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Omega Expansion Closed Hihat 12.wav",
+      "role": "closed-hat",
+      "bytes": 204476
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - Omega Expansion Closed Hihat 7.wav",
+      "role": "closed-hat",
+      "bytes": 125152
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - X Closed Hihat 33.wav",
+      "role": "closed-hat",
+      "bytes": 124076
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - X Closed Hihat 38.wav",
+      "role": "closed-hat",
+      "bytes": 124076
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics - X Closed Hihat 4.wav",
+      "role": "closed-hat",
+      "bytes": 41390
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics Hihat 006.wav",
+      "role": "closed-hat",
+      "bytes": 135044
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics Hihat 007.wav",
+      "role": "closed-hat",
+      "bytes": 135044
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics Hihat 015.wav",
+      "role": "closed-hat",
+      "bytes": 103586
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics x San Holo - 99% Blessed Closed Hihat 1.wav",
+      "role": "closed-hat",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics x San Holo - Vibrance Organic Closed Hihat 16.wav",
+      "role": "closed-hat",
+      "bytes": 141164
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Hihats\\Cymatics x San Holo - Vibrance Organic Closed Hihat 19.wav",
+      "role": "closed-hat",
+      "bytes": 141164
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Alien).wav",
+      "role": "kick",
+      "bytes": 125144
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Binary).wav",
+      "role": "kick",
+      "bytes": 48760
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Blue).wav",
+      "role": "kick",
+      "bytes": 42328
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Course).wav",
+      "role": "kick",
+      "bytes": 44756
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Crowd).wav",
+      "role": "kick",
+      "bytes": 63656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (DayOne).wav",
+      "role": "kick",
+      "bytes": 47908
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Expert).wav",
+      "role": "kick",
+      "bytes": 52484
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Feature).wav",
+      "role": "kick",
+      "bytes": 47172
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (FireLane).wav",
+      "role": "kick",
+      "bytes": 38632
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Grains).wav",
+      "role": "kick",
+      "bytes": 97220
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Human).wav",
+      "role": "kick",
+      "bytes": 69564
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Inferno).wav",
+      "role": "kick",
+      "bytes": 50532
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Million).wav",
+      "role": "kick",
+      "bytes": 42656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Mole).wav",
+      "role": "kick",
+      "bytes": 39248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (OnTop).wav",
+      "role": "kick",
+      "bytes": 53324
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Origin).wav",
+      "role": "kick",
+      "bytes": 44144
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Power).wav",
+      "role": "kick",
+      "bytes": 97448
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Rider).wav",
+      "role": "kick",
+      "bytes": 37408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Speed).wav",
+      "role": "kick",
+      "bytes": 77582
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Spoken).wav",
+      "role": "kick",
+      "bytes": 40032
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Technician).wav",
+      "role": "kick",
+      "bytes": 46900
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Vulture).wav",
+      "role": "kick",
+      "bytes": 44144
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Kick (Weekend).wav",
+      "role": "kick",
+      "bytes": 53156
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Mothership Lipstick Kick - G#.wav",
+      "role": "kick",
+      "bytes": 109538
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Terror Full Kick 053.wav",
+      "role": "kick",
+      "bytes": 66194
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Titan Kick 78 - A.wav",
+      "role": "kick",
+      "bytes": 62108
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - Titan Kick 81 - A#.wav",
+      "role": "kick",
+      "bytes": 52268
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - X Kick 49 - F.wav",
+      "role": "kick",
+      "bytes": 89204
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - X Kick 58 - F.wav",
+      "role": "kick",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Kicks\\Cymatics - X Kick 66 - F#.wav",
+      "role": "kick",
+      "bytes": 124792
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Expansion Open Hihat 12.wav",
+      "role": "open-hat",
+      "bytes": 133370
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Expansion Open Hihat 3.wav",
+      "role": "open-hat",
+      "bytes": 222308
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Expansion Open Hihat 6.wav",
+      "role": "open-hat",
+      "bytes": 133558
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Open Hihat 11.wav",
+      "role": "open-hat",
+      "bytes": 208420
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Open Hihat 14.wav",
+      "role": "open-hat",
+      "bytes": 264348
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Open Hihat 16.wav",
+      "role": "open-hat",
+      "bytes": 124260
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Open Hihat 20.wav",
+      "role": "open-hat",
+      "bytes": 124260
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Open Hihat 24.wav",
+      "role": "open-hat",
+      "bytes": 62066
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Omega Open Hihat 4.wav",
+      "role": "open-hat",
+      "bytes": 155650
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Active).wav",
+      "role": "open-hat",
+      "bytes": 99888
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Down).wav",
+      "role": "open-hat",
+      "bytes": 66808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Formula).wav",
+      "role": "open-hat",
+      "bytes": 145430
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Keep).wav",
+      "role": "open-hat",
+      "bytes": 83344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Nature).wav",
+      "role": "open-hat",
+      "bytes": 66808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (NRG).wav",
+      "role": "open-hat",
+      "bytes": 81132
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Queue).wav",
+      "role": "open-hat",
+      "bytes": 66660
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Recon).wav",
+      "role": "open-hat",
+      "bytes": 88856
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Smooth).wav",
+      "role": "open-hat",
+      "bytes": 88856
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - Open Hat (Stack).wav",
+      "role": "open-hat",
+      "bytes": 141140
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - X Open Hihat 13.wav",
+      "role": "open-hat",
+      "bytes": 198494
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - X Open Hihat 14.wav",
+      "role": "open-hat",
+      "bytes": 396944
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - X Open Hihat 18.wav",
+      "role": "open-hat",
+      "bytes": 198494
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - X Open Hihat 23.wav",
+      "role": "open-hat",
+      "bytes": 132344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - X Open Hihat 4.wav",
+      "role": "open-hat",
+      "bytes": 124076
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics - X Open Hihat 9.wav",
+      "role": "open-hat",
+      "bytes": 132344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics x San Holo - Vibrance Organic Open Hihat 1.WAV",
+      "role": "open-hat",
+      "bytes": 51534
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics x San Holo - Vibrance Organic Open Hihat 11.wav",
+      "role": "open-hat",
+      "bytes": 141164
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics x San Holo - Vibrance Organic Open Hihat 23.wav",
+      "role": "open-hat",
+      "bytes": 203588
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics x San Holo - Vibrance Organic Open Hihat 4.wav",
+      "role": "open-hat",
+      "bytes": 330796
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Open Hihats\\Cymatics x San Holo - Vibrance Organic Open Hihat 9.wav",
+      "role": "open-hat",
+      "bytes": 141164
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Mothership Lipstick Snare - D#.wav",
+      "role": "snare",
+      "bytes": 328514
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (AirBender).wav",
+      "role": "snare",
+      "bytes": 63096
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Bithead).wav",
+      "role": "snare",
+      "bytes": 64448
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Break) - B.wav",
+      "role": "snare",
+      "bytes": 216744
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Chocolate) - A.wav",
+      "role": "snare",
+      "bytes": 252108
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Extra).wav",
+      "role": "snare",
+      "bytes": 55780
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Failure).wav",
+      "role": "snare",
+      "bytes": 57504
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Flatline).wav",
+      "role": "snare",
+      "bytes": 52412
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Ignite).wav",
+      "role": "snare",
+      "bytes": 88952
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Input).wav",
+      "role": "snare",
+      "bytes": 84108
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Insight).wav",
+      "role": "snare",
+      "bytes": 62672
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Laces).wav",
+      "role": "snare",
+      "bytes": 88516
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (LetsGo).wav",
+      "role": "snare",
+      "bytes": 61292
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (LightTheFlame).wav",
+      "role": "snare",
+      "bytes": 63656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (LightWeight).wav",
+      "role": "snare",
+      "bytes": 33992
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Massive).wav",
+      "role": "snare",
+      "bytes": 109572
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Overthrow).wav",
+      "role": "snare",
+      "bytes": 34500
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (PitLord).wav",
+      "role": "snare",
+      "bytes": 242592
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Terror).wav",
+      "role": "snare",
+      "bytes": 45156
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Toned).wav",
+      "role": "snare",
+      "bytes": 99878
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Trephinate).wav",
+      "role": "snare",
+      "bytes": 40392
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare (Victor).wav",
+      "role": "snare",
+      "bytes": 77804
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Snare 39.wav",
+      "role": "snare",
+      "bytes": 115646
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Terror Heavy Snare 004.wav",
+      "role": "snare",
+      "bytes": 113444
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Terror Heavy Snare 032.wav",
+      "role": "snare",
+      "bytes": 132344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - Titan Snare 49 - E.wav",
+      "role": "snare",
+      "bytes": 198494
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - X Snare 12 - D.wav",
+      "role": "snare",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - X Snare 33 - E.wav",
+      "role": "snare",
+      "bytes": 105884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics - X Snare 71 - G#.wav",
+      "role": "snare",
+      "bytes": 165420
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Cymatics - VENOM Production Suite\\Cymatics - Drum Kit (DIMENSION)\\Snares\\Cymatics x San Holo - Vibrance Electronic Snare 20 - F.wav",
+      "role": "snare",
+      "bytes": 635084
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Claps\\KMRBI_NB_clap_one_shot_luminous_lofi.wav",
+      "role": "clap",
+      "bytes": 226844
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Claps\\KMRBI_NB_clap_one_shot_plains_reverb.wav",
+      "role": "clap",
+      "bytes": 668510
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Claps\\KMRBI_NB_clap_one_shot_tidal.wav",
+      "role": "clap",
+      "bytes": 167174
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Claps\\KMRBI_NB_clap_one_shot_wilderness_analog.wav",
+      "role": "clap",
+      "bytes": 141800
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_borealis.wav",
+      "role": "closed-hat",
+      "bytes": 100118
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_currents.wav",
+      "role": "closed-hat",
+      "bytes": 232178
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_kaleidoscope_closed.wav",
+      "role": "closed-hat",
+      "bytes": 137522
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_kaleidoscope_open.wav",
+      "role": "open-hat",
+      "bytes": 132302
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_luminous.wav",
+      "role": "closed-hat",
+      "bytes": 165578
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_mirage.wav",
+      "role": "closed-hat",
+      "bytes": 99404
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_nebula_closed.wav",
+      "role": "closed-hat",
+      "bytes": 99074
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_nebula_open.wav",
+      "role": "open-hat",
+      "bytes": 132152
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_pathways.wav",
+      "role": "closed-hat",
+      "bytes": 99488
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_reflective.wav",
+      "role": "closed-hat",
+      "bytes": 99878
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_shifting.wav",
+      "role": "closed-hat",
+      "bytes": 92960
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_tidal.wav",
+      "role": "closed-hat",
+      "bytes": 99878
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_voyage.wav",
+      "role": "closed-hat",
+      "bytes": 131246
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Hihats\\KMRBI_NB_hihat_one_shot_wilderness.wav",
+      "role": "closed-hat",
+      "bytes": 98954
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_astral.wav",
+      "role": "kick",
+      "bytes": 154220
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_borealis_F.wav",
+      "role": "kick",
+      "bytes": 231356
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_currents.wav",
+      "role": "kick",
+      "bytes": 198698
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_ephemeral.wav",
+      "role": "kick",
+      "bytes": 199106
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_fleeting.wav",
+      "role": "kick",
+      "bytes": 132956
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_kaleidoscope.wav",
+      "role": "kick",
+      "bytes": 131054
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_luminous.wav",
+      "role": "kick",
+      "bytes": 166028
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_mirage.wav",
+      "role": "kick",
+      "bytes": 132818
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_nebula.wav",
+      "role": "kick",
+      "bytes": 128648
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_pathways.wav",
+      "role": "kick",
+      "bytes": 134102
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_plains.wav",
+      "role": "kick",
+      "bytes": 164870
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_reflective.wav",
+      "role": "kick",
+      "bytes": 99878
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_shifting.wav",
+      "role": "kick",
+      "bytes": 99572
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_tidal.wav",
+      "role": "kick",
+      "bytes": 200246
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_voyage.wav",
+      "role": "kick",
+      "bytes": 130802
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Kicks\\KMRBI_NB_kick_one_shot_wilderness.wav",
+      "role": "kick",
+      "bytes": 198326
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_astral.wav",
+      "role": "snare",
+      "bytes": 83162
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_borealis.wav",
+      "role": "snare",
+      "bytes": 86618
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_currents.wav",
+      "role": "snare",
+      "bytes": 132956
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_ephemeral.wav",
+      "role": "snare",
+      "bytes": 124682
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_luminous.wav",
+      "role": "snare",
+      "bytes": 166028
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_mirage.wav",
+      "role": "snare",
+      "bytes": 132476
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_mirage_electronic.wav",
+      "role": "snare",
+      "bytes": 160046
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_nebula.wav",
+      "role": "snare",
+      "bytes": 173102
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_pathways.wav",
+      "role": "snare",
+      "bytes": 66590
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_reflective.wav",
+      "role": "snare",
+      "bytes": 176984
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_shifting.wav",
+      "role": "snare",
+      "bytes": 92486
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_tidal.wav",
+      "role": "snare",
+      "bytes": 100934
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\Drum_One_Shots\\Snares\\KMRBI_NB_snare_one_shot_voyage.wav",
+      "role": "snare",
+      "bytes": 131930
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\FX_One_Shots\\KMRBI_NB_120_fx_crash_one_shot_mirage_delay.wav",
+      "role": "crash",
+      "bytes": 1588256
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi Audio - Nostalgic Beats - Lofi Electronica\\One_Shots\\FX_One_Shots\\KMRBI_NB_fx_crash_one_shot_plains.wav",
+      "role": "crash",
+      "bytes": 1056434
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_height.wav",
+      "role": "closed-hat",
+      "bytes": 55466
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_minimalist.wav",
+      "role": "closed-hat",
+      "bytes": 55466
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_modular.wav",
+      "role": "closed-hat",
+      "bytes": 83816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_hiss.wav",
+      "role": "open-hat",
+      "bytes": 159430
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_rider.wav",
+      "role": "open-hat",
+      "bytes": 149980
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_tamba.wav",
+      "role": "open-hat",
+      "bytes": 121630
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_tonality.wav",
+      "role": "open-hat",
+      "bytes": 178330
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_open_whitey.wav",
+      "role": "open-hat",
+      "bytes": 140530
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_shaker.wav",
+      "role": "closed-hat",
+      "bytes": 83816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Hihat\\TWMG_hihat_soft_modular.wav",
+      "role": "closed-hat",
+      "bytes": 83816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_crunch.wav",
+      "role": "kick",
+      "bytes": 102716
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_cyber.wav",
+      "role": "kick",
+      "bytes": 112166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_deep.wav",
+      "role": "kick",
+      "bytes": 83816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_driver.wav",
+      "role": "kick",
+      "bytes": 112166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_gnarly.wav",
+      "role": "kick",
+      "bytes": 140532
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_hard.wav",
+      "role": "kick",
+      "bytes": 112166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_psy.wav",
+      "role": "kick",
+      "bytes": 140530
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_soft.wav",
+      "role": "kick",
+      "bytes": 121630
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Kick\\TWMG_kick_trap.wav",
+      "role": "kick",
+      "bytes": 112166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_biff.wav",
+      "role": "snare",
+      "bytes": 170062
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_big.wav",
+      "role": "snare",
+      "bytes": 155884
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_bigverb.wav",
+      "role": "snare",
+      "bytes": 245664
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_claved_in_01.wav",
+      "role": "snare",
+      "bytes": 141712
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_claved_in_02.wav",
+      "role": "snare",
+      "bytes": 168880
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_cyber.wav",
+      "role": "snare",
+      "bytes": 84998
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_hard.wav",
+      "role": "snare",
+      "bytes": 112166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_hard_short.wav",
+      "role": "snare",
+      "bytes": 112166
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_pop.wav",
+      "role": "snare",
+      "bytes": 113348
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_short.wav",
+      "role": "snare",
+      "bytes": 77906
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_shrimpy.wav",
+      "role": "snare",
+      "bytes": 102716
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_skyline.wav",
+      "role": "snare",
+      "bytes": 84998
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_thok.wav",
+      "role": "snare",
+      "bytes": 338988
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_thwack.wav",
+      "role": "snare",
+      "bytes": 168880
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_wasteman.wav",
+      "role": "snare",
+      "bytes": 171234
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Komorebi.Audio.Trance.Wave.And.Midtempo.Glitch.WAV-FLARE\\Drum_One_Shots\\Snare\\TWMG_snare_wooden.wav",
+      "role": "snare",
+      "bytes": 225580
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap almost there .wav",
+      "role": "snare",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap balenciaga.wav",
+      "role": "snare",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap bewildered.wav",
+      "role": "snare",
+      "bytes": 27560
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap clean.wav",
+      "role": "snare",
+      "bytes": 72072
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap delay.wav",
+      "role": "snare",
+      "bytes": 653424
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap dont.wav",
+      "role": "snare",
+      "bytes": 48000
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap dp.wav",
+      "role": "snare",
+      "bytes": 24232
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap fav.wav",
+      "role": "snare",
+      "bytes": 34344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap hunned.wav",
+      "role": "snare",
+      "bytes": 55040
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap klap.wav",
+      "role": "snare",
+      "bytes": 14852
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap luger reverb.wav",
+      "role": "snare",
+      "bytes": 353208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap lyfe.wav",
+      "role": "snare",
+      "bytes": 50808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap marz.wav",
+      "role": "snare",
+      "bytes": 34920
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap perc.wav",
+      "role": "snare",
+      "bytes": 421720
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap plugg.wav",
+      "role": "snare",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap reverb 2.wav",
+      "role": "snare",
+      "bytes": 529608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap reverb 3.wav",
+      "role": "snare",
+      "bytes": 437912
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap reverb.wav",
+      "role": "snare",
+      "bytes": 454008
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap same old snare clap.wav",
+      "role": "snare",
+      "bytes": 24384
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap separate.wav",
+      "role": "snare",
+      "bytes": 54936
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap sudden.wav",
+      "role": "snare",
+      "bytes": 70728
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap the most basic.wav",
+      "role": "snare",
+      "bytes": 17720
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\clap wide.wav",
+      "role": "snare",
+      "bytes": 24604
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare add.wav",
+      "role": "snare",
+      "bytes": 38808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare bacc.wav",
+      "role": "snare",
+      "bytes": 105320
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare basic but good.wav",
+      "role": "snare",
+      "bytes": 211128
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare boss.wav",
+      "role": "snare",
+      "bytes": 104968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare bridge.wav",
+      "role": "snare",
+      "bytes": 77208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare chaos.wav",
+      "role": "snare",
+      "bytes": 41224
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare clap.wav",
+      "role": "snare",
+      "bytes": 32148
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare d rich.wav",
+      "role": "snare",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare end.wav",
+      "role": "snare",
+      "bytes": 64720
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare experimental.wav",
+      "role": "snare",
+      "bytes": 63248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare fire roll.wav",
+      "role": "snare",
+      "bytes": 15696
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare fiyaaaah.wav",
+      "role": "snare",
+      "bytes": 32872
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare flex.wav",
+      "role": "snare",
+      "bytes": 40872
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare future.wav",
+      "role": "snare",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare glock.wav",
+      "role": "snare",
+      "bytes": 38360
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare go to.wav",
+      "role": "snare",
+      "bytes": 127744
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare hybrid.wav",
+      "role": "snare",
+      "bytes": 115608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare layer me.wav",
+      "role": "snare",
+      "bytes": 316768
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare like that.wav",
+      "role": "snare",
+      "bytes": 51528
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare little.wav",
+      "role": "snare",
+      "bytes": 34464
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare matrix.wav",
+      "role": "snare",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare never.wav",
+      "role": "snare",
+      "bytes": 38808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare og.wav",
+      "role": "snare",
+      "bytes": 35676
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare oldie.wav",
+      "role": "snare",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare pack.wav",
+      "role": "snare",
+      "bytes": 43792
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare patrol.wav",
+      "role": "snare",
+      "bytes": 62640
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare place.wav",
+      "role": "snare",
+      "bytes": 106248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare reverb.wav",
+      "role": "snare",
+      "bytes": 705996
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare rich.wav",
+      "role": "snare",
+      "bytes": 31896
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare seductive.wav",
+      "role": "snare",
+      "bytes": 38696
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare semiautomatic.wav",
+      "role": "snare",
+      "bytes": 13368
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare separate.wav",
+      "role": "snare",
+      "bytes": 51208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare shh.wav",
+      "role": "snare",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare sihpmem.wav",
+      "role": "snare",
+      "bytes": 88296
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare slight reverb.wav",
+      "role": "snare",
+      "bytes": 1058808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare sorry.wav",
+      "role": "snare",
+      "bytes": 35024
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare stick.wav",
+      "role": "snare",
+      "bytes": 76512
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare sting.wav",
+      "role": "snare",
+      "bytes": 88596
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare style.wav",
+      "role": "snare",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare the very basic.wav",
+      "role": "snare",
+      "bytes": 19640
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare timed.wav",
+      "role": "snare",
+      "bytes": 46416
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare tone.wav",
+      "role": "snare",
+      "bytes": 95696
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare trap.wav",
+      "role": "snare",
+      "bytes": 37536
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare tree.wav",
+      "role": "snare",
+      "bytes": 282648
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare tuned.wav",
+      "role": "snare",
+      "bytes": 77208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare weird.wav",
+      "role": "snare",
+      "bytes": 32272
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare westcoast.wav",
+      "role": "snare",
+      "bytes": 22744
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\claps & snares\\snare ye.wav",
+      "role": "snare",
+      "bytes": 113168
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash baller.wav",
+      "role": "crash",
+      "bytes": 842320
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash goverement.wav",
+      "role": "crash",
+      "bytes": 1413568
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash long.wav",
+      "role": "crash",
+      "bytes": 3076760
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash nostalgia.wav",
+      "role": "crash",
+      "bytes": 981624
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash orchestral.wav",
+      "role": "crash",
+      "bytes": 1780648
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash power.wav",
+      "role": "crash",
+      "bytes": 1040792
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash predictable.wav",
+      "role": "crash",
+      "bytes": 1294008
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\crash ride.wav",
+      "role": "crash",
+      "bytes": 2117208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat 1898.wav",
+      "role": "closed-hat",
+      "bytes": 172560
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat awful.wav",
+      "role": "closed-hat",
+      "bytes": 216056
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat back then .wav",
+      "role": "closed-hat",
+      "bytes": 212088
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat back.wav",
+      "role": "closed-hat",
+      "bytes": 95000
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat bad.wav",
+      "role": "closed-hat",
+      "bytes": 93480
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat big.wav",
+      "role": "closed-hat",
+      "bytes": 170984
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat boombap.wav",
+      "role": "closed-hat",
+      "bytes": 66888
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat cd.wav",
+      "role": "closed-hat",
+      "bytes": 50688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat choppy.wav",
+      "role": "closed-hat",
+      "bytes": 136120
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat clean.wav",
+      "role": "closed-hat",
+      "bytes": 72408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat conway.wav",
+      "role": "closed-hat",
+      "bytes": 212088
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat creep.wav",
+      "role": "closed-hat",
+      "bytes": 53448
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat famous.wav",
+      "role": "closed-hat",
+      "bytes": 101456
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat fasho.wav",
+      "role": "closed-hat",
+      "bytes": 44848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat fav.wav",
+      "role": "closed-hat",
+      "bytes": 88200
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat gentle.wav",
+      "role": "closed-hat",
+      "bytes": 74248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat griselda.wav",
+      "role": "closed-hat",
+      "bytes": 82176
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat jelous.wav",
+      "role": "closed-hat",
+      "bytes": 176808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat layer.wav",
+      "role": "closed-hat",
+      "bytes": 192576
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat light.wav",
+      "role": "closed-hat",
+      "bytes": 61728
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat loud.wav",
+      "role": "closed-hat",
+      "bytes": 115608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat lowkey.wav",
+      "role": "closed-hat",
+      "bytes": 70992
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat mac.wav",
+      "role": "closed-hat",
+      "bytes": 22748
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat pain.wav",
+      "role": "closed-hat",
+      "bytes": 81728
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat plain.wav",
+      "role": "closed-hat",
+      "bytes": 106248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat psycho.wav",
+      "role": "closed-hat",
+      "bytes": 106248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat real one.wav",
+      "role": "closed-hat",
+      "bytes": 115608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat run.wav",
+      "role": "closed-hat",
+      "bytes": 102808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat search.wav",
+      "role": "closed-hat",
+      "bytes": 211272
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat shimmer.wav",
+      "role": "closed-hat",
+      "bytes": 107888
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat shook.wav",
+      "role": "closed-hat",
+      "bytes": 30840
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat sides.wav",
+      "role": "closed-hat",
+      "bytes": 129488
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat sixties.wav",
+      "role": "closed-hat",
+      "bytes": 384408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat smaller.wav",
+      "role": "closed-hat",
+      "bytes": 47848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat sorry.wav",
+      "role": "closed-hat",
+      "bytes": 35352
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat stainless.wav",
+      "role": "closed-hat",
+      "bytes": 176808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat street.wav",
+      "role": "closed-hat",
+      "bytes": 269392
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat tape.wav",
+      "role": "closed-hat",
+      "bytes": 41360
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat texture.wav",
+      "role": "closed-hat",
+      "bytes": 132080
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat think.wav",
+      "role": "closed-hat",
+      "bytes": 36632
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat uncle.wav",
+      "role": "closed-hat",
+      "bytes": 176808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat underground.wav",
+      "role": "closed-hat",
+      "bytes": 96992
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\hihat want to be .wav",
+      "role": "closed-hat",
+      "bytes": 200680
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick 2nd.wav",
+      "role": "kick",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick allergies.wav",
+      "role": "kick",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick august.wav",
+      "role": "kick",
+      "bytes": 181736
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick belly.wav",
+      "role": "kick",
+      "bytes": 230808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick chance.wav",
+      "role": "kick",
+      "bytes": 184728
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick clean.wav",
+      "role": "kick",
+      "bytes": 81144
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick dodger.wav",
+      "role": "kick",
+      "bytes": 177784
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick drive.wav",
+      "role": "kick",
+      "bytes": 88672
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick grimy.wav",
+      "role": "kick",
+      "bytes": 291224
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick layers.wav",
+      "role": "kick",
+      "bytes": 82496
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick lofi.wav",
+      "role": "kick",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick low.wav",
+      "role": "kick",
+      "bytes": 146832
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick pack.wav",
+      "role": "kick",
+      "bytes": 113264
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick sick.wav",
+      "role": "kick",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick soft.wav",
+      "role": "kick",
+      "bytes": 102152
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick solid.wav",
+      "role": "kick",
+      "bytes": 106640
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick stick.wav",
+      "role": "kick",
+      "bytes": 122064
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick wood.wav",
+      "role": "kick",
+      "bytes": 114552
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\kick yellow.wav",
+      "role": "kick",
+      "bytes": 113744
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare acoustic.wav",
+      "role": "snare",
+      "bytes": 134928
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare bap.wav",
+      "role": "snare",
+      "bytes": 94824
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare boss.wav",
+      "role": "snare",
+      "bytes": 122496
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare classic.wav",
+      "role": "snare",
+      "bytes": 98738
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare crack.wav",
+      "role": "snare",
+      "bytes": 80208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare darkness.wav",
+      "role": "snare",
+      "bytes": 575624
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare dawn.wav",
+      "role": "snare",
+      "bytes": 108816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare dead.wav",
+      "role": "snare",
+      "bytes": 49416
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare dollar.wav",
+      "role": "snare",
+      "bytes": 141528
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare ellu.wav",
+      "role": "snare",
+      "bytes": 141516
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare hall.wav",
+      "role": "snare",
+      "bytes": 1926816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare happy.wav",
+      "role": "snare",
+      "bytes": 78904
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare just clean.wav",
+      "role": "snare",
+      "bytes": 23516
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare lavie.wav",
+      "role": "snare",
+      "bytes": 215536
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare off.wav",
+      "role": "snare",
+      "bytes": 106352
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare orient.wav",
+      "role": "snare",
+      "bytes": 92144
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare plenty.wav",
+      "role": "snare",
+      "bytes": 137648
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare real.wav",
+      "role": "snare",
+      "bytes": 172976
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare reverb.wav",
+      "role": "snare",
+      "bytes": 238528
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare seal.wav",
+      "role": "snare",
+      "bytes": 176232
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare sofi.wav",
+      "role": "snare",
+      "bytes": 69616
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare soft.wav",
+      "role": "snare",
+      "bytes": 230808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare street.wav",
+      "role": "snare",
+      "bytes": 353208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\dark boom bap stash\\snare trashed.wav",
+      "role": "snare",
+      "bytes": 172440
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\extras\\crash quintana.wav",
+      "role": "crash",
+      "bytes": 703040
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat 712.wav",
+      "role": "closed-hat",
+      "bytes": 15464
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat all red.wav",
+      "role": "closed-hat",
+      "bytes": 32048
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat always.wav",
+      "role": "closed-hat",
+      "bytes": 38272
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat astroworld.wav",
+      "role": "closed-hat",
+      "bytes": 32488
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat balmain.wav",
+      "role": "closed-hat",
+      "bytes": 23744
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat bands.wav",
+      "role": "closed-hat",
+      "bytes": 9768
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat barry.wav",
+      "role": "closed-hat",
+      "bytes": 16384
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat basic clean.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat ben.wav",
+      "role": "closed-hat",
+      "bytes": 20816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat between.wav",
+      "role": "closed-hat",
+      "bytes": 41008
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat birdie.wav",
+      "role": "closed-hat",
+      "bytes": 211576
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat bratz.wav",
+      "role": "closed-hat",
+      "bytes": 38744
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat bricked.wav",
+      "role": "closed-hat",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat bugz.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat capone.wav",
+      "role": "closed-hat",
+      "bytes": 32344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat chaotic.wav",
+      "role": "closed-hat",
+      "bytes": 25848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat clean reverb.wav",
+      "role": "closed-hat",
+      "bytes": 176808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat clean.wav",
+      "role": "closed-hat",
+      "bytes": 28200
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat clip.wav",
+      "role": "closed-hat",
+      "bytes": 16120
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat code.wav",
+      "role": "closed-hat",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat como.wav",
+      "role": "closed-hat",
+      "bytes": 19760
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat daily.wav",
+      "role": "closed-hat",
+      "bytes": 38328
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat dig.wav",
+      "role": "closed-hat",
+      "bytes": 39168
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat division.wav",
+      "role": "closed-hat",
+      "bytes": 26024
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat drill.wav",
+      "role": "closed-hat",
+      "bytes": 22208
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat drug.wav",
+      "role": "closed-hat",
+      "bytes": 25768
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat duo.wav",
+      "role": "closed-hat",
+      "bytes": 78432
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat essential.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat flow.wav",
+      "role": "closed-hat",
+      "bytes": 60608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat fye.wav",
+      "role": "closed-hat",
+      "bytes": 23672
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat geeked.wav",
+      "role": "closed-hat",
+      "bytes": 35676
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat good.wav",
+      "role": "closed-hat",
+      "bytes": 38808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat goto.wav",
+      "role": "closed-hat",
+      "bytes": 35752
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat hard clean.wav",
+      "role": "closed-hat",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat homie.wav",
+      "role": "closed-hat",
+      "bytes": 26792
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat key.wav",
+      "role": "closed-hat",
+      "bytes": 33616
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat layer.wav",
+      "role": "closed-hat",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat lazy.wav",
+      "role": "closed-hat",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat light.wav",
+      "role": "closed-hat",
+      "bytes": 54504
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat louder.wav",
+      "role": "closed-hat",
+      "bytes": 49424
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat lurk.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat luv.wav",
+      "role": "closed-hat",
+      "bytes": 176808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat lyfestyle.wav",
+      "role": "closed-hat",
+      "bytes": 29296
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat mafia.wav",
+      "role": "closed-hat",
+      "bytes": 45888
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat mamacita.wav",
+      "role": "closed-hat",
+      "bytes": 122528
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat master.wav",
+      "role": "closed-hat",
+      "bytes": 19352
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat mixed.wav",
+      "role": "closed-hat",
+      "bytes": 487320
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat nato.wav",
+      "role": "closed-hat",
+      "bytes": 19608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat no more.wav",
+      "role": "closed-hat",
+      "bytes": 35248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat numbers.wav",
+      "role": "closed-hat",
+      "bytes": 38520
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat print.wav",
+      "role": "closed-hat",
+      "bytes": 17184
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat pure.wav",
+      "role": "closed-hat",
+      "bytes": 36736
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat real.wav",
+      "role": "closed-hat",
+      "bytes": 82360
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat relatable.wav",
+      "role": "closed-hat",
+      "bytes": 19376
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat reverb.wav",
+      "role": "closed-hat",
+      "bytes": 317928
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat reverse.wav",
+      "role": "closed-hat",
+      "bytes": 12708
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat ruff.wav",
+      "role": "closed-hat",
+      "bytes": 13216
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat slice.wav",
+      "role": "closed-hat",
+      "bytes": 11496
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat some reverb.wav",
+      "role": "closed-hat",
+      "bytes": 63816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat soul.wav",
+      "role": "closed-hat",
+      "bytes": 17888
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat space.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat tail.wav",
+      "role": "closed-hat",
+      "bytes": 176808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat texture.wav",
+      "role": "closed-hat",
+      "bytes": 63408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat tick.wav",
+      "role": "closed-hat",
+      "bytes": 38808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat tin.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat tm88.wav",
+      "role": "closed-hat",
+      "bytes": 63976
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat trapper.wav",
+      "role": "closed-hat",
+      "bytes": 48720
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat vintage.wav",
+      "role": "closed-hat",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat war.wav",
+      "role": "closed-hat",
+      "bytes": 28752
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\hihats\\hihat yeah.wav",
+      "role": "closed-hat",
+      "bytes": 12936
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick 2nd.wav",
+      "role": "kick",
+      "bytes": 38808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick 999.wav",
+      "role": "kick",
+      "bytes": 52440
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick anti.wav",
+      "role": "kick",
+      "bytes": 117656
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick arena.wav",
+      "role": "kick",
+      "bytes": 166536
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick bands.wav",
+      "role": "kick",
+      "bytes": 69016
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick bang.wav",
+      "role": "kick",
+      "bytes": 70124
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick bb.wav",
+      "role": "kick",
+      "bytes": 48664
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick body.wav",
+      "role": "kick",
+      "bytes": 98408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick both.wav",
+      "role": "kick",
+      "bytes": 70968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick byou.wav",
+      "role": "kick",
+      "bytes": 46928
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick cavalier.wav",
+      "role": "kick",
+      "bytes": 35676
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick drug.wav",
+      "role": "kick",
+      "bytes": 81824
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick eng.wav",
+      "role": "kick",
+      "bytes": 69016
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick favorito.wav",
+      "role": "kick",
+      "bytes": 26040
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick freal.wav",
+      "role": "kick",
+      "bytes": 63896
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick general.wav",
+      "role": "kick",
+      "bytes": 57096
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick gin.wav",
+      "role": "kick",
+      "bytes": 71832
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick hit.wav",
+      "role": "kick",
+      "bytes": 147720
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick insert.wav",
+      "role": "kick",
+      "bytes": 31152
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick kan.wav",
+      "role": "kick",
+      "bytes": 38112
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick lifestyle.wav",
+      "role": "kick",
+      "bytes": 61688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick mexico.wav",
+      "role": "kick",
+      "bytes": 106248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick money.wav",
+      "role": "kick",
+      "bytes": 67816
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick orait.wav",
+      "role": "kick",
+      "bytes": 85776
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick quintana.wav",
+      "role": "kick",
+      "bytes": 82328
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick retired.wav",
+      "role": "kick",
+      "bytes": 57064
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick ruh.wav",
+      "role": "kick",
+      "bytes": 88608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick softie.wav",
+      "role": "kick",
+      "bytes": 17548
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick sum.wav",
+      "role": "kick",
+      "bytes": 83520
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick the.wav",
+      "role": "kick",
+      "bytes": 22968
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick trip.wav",
+      "role": "kick",
+      "bytes": 47048
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick tweaker.wav",
+      "role": "kick",
+      "bytes": 80152
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick wide.wav",
+      "role": "kick",
+      "bytes": 59784
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\kicks\\kick zombie.wav",
+      "role": "kick",
+      "bytes": 262552
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\808 kick.wav",
+      "role": "kick",
+      "bytes": 988248
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\clap clean.wav",
+      "role": "clap",
+      "bytes": 26344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\clap fat.wav",
+      "role": "clap",
+      "bytes": 70792
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\crash classic.wav",
+      "role": "crash",
+      "bytes": 1292600
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\crash limits.wav",
+      "role": "crash",
+      "bytes": 498704
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\fx crash.wav",
+      "role": "crash",
+      "bytes": 1360872
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat barz.wav",
+      "role": "closed-hat",
+      "bytes": 21848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat close.wav",
+      "role": "closed-hat",
+      "bytes": 88344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat custom.wav",
+      "role": "closed-hat",
+      "bytes": 26384
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat cutthroat.wav",
+      "role": "closed-hat",
+      "bytes": 49064
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat hard.wav",
+      "role": "closed-hat",
+      "bytes": 43008
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat hitter.wav",
+      "role": "closed-hat",
+      "bytes": 65008
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat hog.wav",
+      "role": "closed-hat",
+      "bytes": 9336
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat light.wav",
+      "role": "closed-hat",
+      "bytes": 18048
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat low.wav",
+      "role": "closed-hat",
+      "bytes": 19304
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat paid.wav",
+      "role": "closed-hat",
+      "bytes": 12340
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat real.wav",
+      "role": "closed-hat",
+      "bytes": 38616
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat rugged.wav",
+      "role": "closed-hat",
+      "bytes": 112344
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat shoot.wav",
+      "role": "closed-hat",
+      "bytes": 48704
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat time.wav",
+      "role": "closed-hat",
+      "bytes": 71408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\hihat very clean.wav",
+      "role": "closed-hat",
+      "bytes": 14088
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\kick bastard.wav",
+      "role": "kick",
+      "bytes": 115808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\kick fav.wav",
+      "role": "kick",
+      "bytes": 94616
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\kick full.wav",
+      "role": "kick",
+      "bytes": 70736
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\kick one.wav",
+      "role": "kick",
+      "bytes": 113808
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\kick slapper.wav",
+      "role": "kick",
+      "bytes": 71584
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\kick thick.wav",
+      "role": "kick",
+      "bytes": 44992
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\openhat crash.wav",
+      "role": "crash",
+      "bytes": 514520
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\openhat hihat.wav",
+      "role": "closed-hat",
+      "bytes": 40076
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare america.wav",
+      "role": "snare",
+      "bytes": 66984
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare bad.wav",
+      "role": "snare",
+      "bytes": 70728
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare cart.wav",
+      "role": "snare",
+      "bytes": 83096
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare circus.wav",
+      "role": "snare",
+      "bytes": 62520
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare clone.wav",
+      "role": "snare",
+      "bytes": 38896
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare cult.wav",
+      "role": "snare",
+      "bytes": 29498
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare devil.wav",
+      "role": "snare",
+      "bytes": 53608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare different.wav",
+      "role": "snare",
+      "bytes": 30024
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare drizzy.wav",
+      "role": "snare",
+      "bytes": 25080
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare drunk.wav",
+      "role": "snare",
+      "bytes": 81040
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare eight.wav",
+      "role": "snare",
+      "bytes": 54456
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare fast.wav",
+      "role": "snare",
+      "bytes": 32352
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare fat.wav",
+      "role": "snare",
+      "bytes": 88256
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare fav.wav",
+      "role": "snare",
+      "bytes": 35688
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare gig.wav",
+      "role": "snare",
+      "bytes": 48152
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare good.wav",
+      "role": "snare",
+      "bytes": 44504
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare hoes.wav",
+      "role": "snare",
+      "bytes": 18036
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare hpshawty.wav",
+      "role": "snare",
+      "bytes": 41384
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare jingle.wav",
+      "role": "snare",
+      "bytes": 141528
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare juicy j.wav",
+      "role": "snare",
+      "bytes": 36332
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare lazy.wav",
+      "role": "snare",
+      "bytes": 37864
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare life.wav",
+      "role": "snare",
+      "bytes": 31912
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare light.wav",
+      "role": "snare",
+      "bytes": 28872
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare memphis.wav",
+      "role": "snare",
+      "bytes": 51296
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare must have.wav",
+      "role": "snare",
+      "bytes": 28032
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare okay.wav",
+      "role": "snare",
+      "bytes": 47104
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare old memphis.wav",
+      "role": "snare",
+      "bytes": 39400
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare old.wav",
+      "role": "snare",
+      "bytes": 31848
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare radio.wav",
+      "role": "snare",
+      "bytes": 48408
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare seize.wav",
+      "role": "snare",
+      "bytes": 30800
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare slap.wav",
+      "role": "snare",
+      "bytes": 66304
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare small.wav",
+      "role": "snare",
+      "bytes": 26364
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare stash.wav",
+      "role": "snare",
+      "bytes": 24576
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare tail.wav",
+      "role": "snare",
+      "bytes": 247368
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare trapper.wav",
+      "role": "snare",
+      "bytes": 17292
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare victim.wav",
+      "role": "snare",
+      "bytes": 41360
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis drum stash\\snare worse.wav",
+      "role": "snare",
+      "bytes": 72920
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\memphis vocals\\crash out a minor 140bpm.wav",
+      "role": "crash",
+      "bytes": 2419608
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\openhats\\openhat crash.wav",
+      "role": "crash",
+      "bytes": 215908
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\percs\\perc hat roll.wav",
+      "role": "closed-hat",
+      "bytes": 124448
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\percs\\perc hihat roll.wav",
+      "role": "closed-hat",
+      "bytes": 176392
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Maxeyy - Stash V8 Drum Kit\\percs\\perc kick.wav",
+      "role": "kick",
+      "bytes": 190328
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Paramount Motion - Odeon Cinematic Sound Effects Pack\\ODEON Sound Effects\\Humans\\Clap.Wav",
+      "role": "clap",
+      "bytes": 64200
+    },
+    {
+      "path": "C:\\Users\\rafif\\Music\\Sample Bank\\Paramount Motion - Odeon Cinematic Sound Effects Pack\\ODEON Sound Effects\\Humans\\Claps.Wav",
+      "role": "clap",
+      "bytes": 61062
+    }
+  ],
+  "classification": "filename heuristic; inspect duration and audition before choosing"
+}

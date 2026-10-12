@@ -1,0 +1,192 @@
+{
+  "ok": true,
+  "files": {
+    "piano": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 935,
+      "pitch_range": [
+        36,
+        80
+      ],
+      "velocity_range": [
+        18,
+        109
+      ]
+    },
+    "sub-bass": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 246,
+      "pitch_range": [
+        29,
+        49
+      ],
+      "velocity_range": [
+        47,
+        123
+      ]
+    },
+    "bass-grit": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 130,
+      "pitch_range": [
+        41,
+        61
+      ],
+      "velocity_range": [
+        98,
+        118
+      ]
+    },
+    "shadow-pad": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 189,
+      "pitch_range": [
+        67,
+        80
+      ],
+      "velocity_range": [
+        42,
+        65
+      ]
+    },
+    "ghost-bell": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 31,
+      "pitch_range": [
+        76,
+        88
+      ],
+      "velocity_range": [
+        41,
+        73
+      ]
+    },
+    "tension-rise": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 3,
+      "pitch_range": [
+        77,
+        77
+      ],
+      "velocity_range": [
+        96,
+        96
+      ]
+    },
+    "kick": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 244,
+      "pitch_range": [
+        36,
+        36
+      ],
+      "velocity_range": [
+        85,
+        122
+      ]
+    },
+    "snare": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 94,
+      "pitch_range": [
+        38,
+        38
+      ],
+      "velocity_range": [
+        42,
+        117
+      ]
+    },
+    "rim": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 26,
+      "pitch_range": [
+        41,
+        41
+      ],
+      "velocity_range": [
+        38,
+        54
+      ]
+    },
+    "closed-hat": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 751,
+      "pitch_range": [
+        54,
+        54
+      ],
+      "velocity_range": [
+        32,
+        87
+      ]
+    },
+    "open-hat": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 32,
+      "pitch_range": [
+        57,
+        57
+      ],
+      "velocity_range": [
+        57,
+        80
+      ]
+    },
+    "crash": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 5,
+      "pitch_range": [
+        64,
+        64
+      ],
+      "velocity_range": [
+        83,
+        113
+      ]
+    },
+    "floor-tom": {
+      "tracks": 1,
+      "end_tick": 215040,
+      "notes": 24,
+      "pitch_range": [
+        47,
+        47
+      ],
+      "velocity_range": [
+        66,
+        96
+      ]
+    }
+  },
+  "seed": 20261012,
+  "drop_bars": [
+    33,
+    77,
+    101
+  ],
+  "pre_drop_silence_beats": 1,
+  "piano_unique_velocities": 88,
+  "piano_unique_durations": 605,
+  "verse_sub_mean_velocity": 62.17,
+  "chorus_sub_mean_velocity": 111.22,
+  "preset_structure_readback": true,
+  "preset_count": 5,
+  "all_readme_links_exist": true,
+  "plugin_loaded": false,
+  "cubase_import_tested": false,
+  "audio_rendered": false,
+  "listened": false
+}

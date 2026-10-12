@@ -1,0 +1,32 @@
+Preset: bass-grit
+Description: Black Glass: mono mid-bass octave, driven saw/triangle harmonics, tightly gated and high-pass filtered before distortion; paired with separate sub.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.17  pan=+0  wavetable=analog_basic  table_pos=2.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.12  pan=+0  wavetable=analog_basic  table_pos=1.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=highpass_24  cutoff=0.24  resonance=0%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=8.0ms  decay=0.65s  sustain=0.72  release=0.04s
+Env 2: attack=2.0ms  decay=0.38s  sustain=0.10  release=0.04s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "BITE": 12%
+Macro 2 "WEIGHT": 10%
+
+FX chain:
+  - FXDistortion (wet=72%)
+  - FXComp (wet=45%)
+
+Mod matrix (recognized routes only):
+  - velocity -> oscillator0.volume: +35%
+  - velocity -> oscillator1.volume: +20%
+  - macro0 -> fx0.wet: +24%
+  - macro1 -> filter0.cutoff: -8%
+
+Global: master_volume=0.29  mono=on  poly=1

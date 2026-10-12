@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "target": "Serum 2.0.23; all recipes start from a fresh plugin Init state",
+  "profiles": {
+    "bass": {
+      "description": "Mono analog-style oscillator and sine sub: tight envelope and low-pass filtering for a synthwave bass line.",
+      "parameters": {"main_vol": {"raw": 0.34}, "a_enable": true, "a_unison": 1, "a_level": {"raw": 0.55}, "b_enable": false, "c_enable": false, "sub_enable": true, "sub_shape": {"raw": 0.0}, "sub_level": {"raw": 0.45}, "sub_octave_oct": -1, "mono_toggle": true, "filter_1_on": true, "filter_1_freq_hz": 1400, "filter_1_res": {"raw": 0.12}, "env_1_attack": {"raw": 0.15}, "env_1_decay": {"raw": 0.38}, "env_1_sustain": {"raw": 0.78}, "env_1_release": {"raw": 0.29}}
+    },
+    "lead": {
+      "description": "Three-voice mono lead with restrained detune and a fast envelope, for 80s synth melodies.",
+      "parameters": {"main_vol": {"raw": 0.36}, "a_enable": true, "a_unison": 3, "a_uni_detune": 0.06, "mono_toggle": true, "env_1_attack": {"raw": 0.16}, "env_1_decay": {"raw": 0.42}, "env_1_sustain": {"raw": 0.78}, "env_1_release": {"raw": 0.32}}
+    },
+    "pluck": {
+      "description": "Dry polyphonic pluck with zero sustain, a short decay, and a gentle low-pass filter.",
+      "parameters": {"main_vol": {"raw": 0.38}, "a_enable": true, "a_unison": 2, "a_uni_detune": 0.035, "filter_1_on": true, "filter_1_freq_hz": 5000, "env_1_attack": {"raw": 0.13}, "env_1_decay": {"raw": 0.39}, "env_1_sustain": {"raw": 0.0}, "env_1_release": {"raw": 0.30}}
+    },
+    "pad": {
+      "description": "Five-voice warm polyphonic pad with a slow attack and release; a dry foundation for Juno-style chorus in Cubase.",
+      "parameters": {"main_vol": {"raw": 0.30}, "a_enable": true, "a_unison": 5, "a_uni_detune": 0.10, "filter_1_on": true, "filter_1_freq_hz": 2200, "env_1_attack": {"raw": 0.48}, "env_1_decay": {"raw": 0.50}, "env_1_sustain": {"raw": 0.80}, "env_1_release": {"raw": 0.52}}
+    },
+    "brass": {
+      "description": "Polyphonic synth brass with a softened attack, two-voice detune, and a sustained body.",
+      "parameters": {"main_vol": {"raw": 0.32}, "a_enable": true, "a_unison": 2, "a_uni_detune": 0.035, "mono_toggle": false, "filter_1_on": true, "filter_1_freq_hz": 3200, "env_1_attack": {"raw": 0.28}, "env_1_decay": {"raw": 0.40}, "env_1_sustain": {"raw": 0.75}, "env_1_release": {"raw": 0.37}}
+    },
+    "keys": {
+      "description": "Glassy sine-based keys with a percussive envelope, suitable for spacious 80s chord accents.",
+      "parameters": {"main_vol": {"raw": 0.40}, "a_enable": false, "b_enable": false, "c_enable": false, "sub_enable": true, "sub_shape": {"raw": 0.0}, "sub_level": {"raw": 0.8}, "sub_octave_oct": 0, "mono_toggle": false, "env_1_attack": {"raw": 0.13}, "env_1_decay": {"raw": 0.46}, "env_1_sustain": {"raw": 0.10}, "env_1_release": {"raw": 0.36}}
+    }
+  }
+}

@@ -1,0 +1,1384 @@
+[
+  {
+    "bar_start": 1,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 3,
+    "bars": 2,
+    "chord": "E(add9)",
+    "bass_midi": 28,
+    "pad_voicing": [
+      56,
+      59,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11,
+      6
+    ]
+  },
+  {
+    "bar_start": 5,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 7,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 9,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 11,
+    "bars": 2,
+    "chord": "F#m(maj9)/E#",
+    "bass_midi": 29,
+    "pad_voicing": [
+      54,
+      57,
+      61,
+      65,
+      68
+    ],
+    "stab_voicing": [
+      65,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      5,
+      8
+    ]
+  },
+  {
+    "bar_start": 13,
+    "bars": 2,
+    "chord": "F#m7/E",
+    "bass_midi": 28,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4
+    ]
+  },
+  {
+    "bar_start": 15,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 17,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 19,
+    "bars": 2,
+    "chord": "F#m(maj9)/E#",
+    "bass_midi": 29,
+    "pad_voicing": [
+      54,
+      57,
+      61,
+      65,
+      68
+    ],
+    "stab_voicing": [
+      65,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      5,
+      8
+    ]
+  },
+  {
+    "bar_start": 21,
+    "bars": 2,
+    "chord": "F#m7/E",
+    "bass_midi": 28,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4
+    ]
+  },
+  {
+    "bar_start": 23,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 25,
+    "bars": 2,
+    "chord": "Bm9",
+    "bass_midi": 35,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      11,
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 27,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 29,
+    "bars": 2,
+    "chord": "Gmaj7(#11)",
+    "bass_midi": 31,
+    "pad_voicing": [
+      55,
+      59,
+      61,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      67,
+      71
+    ],
+    "pitch_classes": [
+      7,
+      11,
+      2,
+      6,
+      1
+    ]
+  },
+  {
+    "bar_start": 31,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 33,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 35,
+    "bars": 2,
+    "chord": "E(add9)",
+    "bass_midi": 28,
+    "pad_voicing": [
+      56,
+      59,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11,
+      6
+    ]
+  },
+  {
+    "bar_start": 37,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 39,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 41,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 43,
+    "bars": 2,
+    "chord": "E(add9)",
+    "bass_midi": 28,
+    "pad_voicing": [
+      56,
+      59,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11,
+      6
+    ]
+  },
+  {
+    "bar_start": 45,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 47,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 49,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 51,
+    "bars": 2,
+    "chord": "F#m(maj9)/E#",
+    "bass_midi": 29,
+    "pad_voicing": [
+      54,
+      57,
+      61,
+      65,
+      68
+    ],
+    "stab_voicing": [
+      65,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      5,
+      8
+    ]
+  },
+  {
+    "bar_start": 53,
+    "bars": 2,
+    "chord": "F#m7/E",
+    "bass_midi": 28,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4
+    ]
+  },
+  {
+    "bar_start": 55,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 57,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 59,
+    "bars": 2,
+    "chord": "F#m(maj9)/E#",
+    "bass_midi": 29,
+    "pad_voicing": [
+      54,
+      57,
+      61,
+      65,
+      68
+    ],
+    "stab_voicing": [
+      65,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      5,
+      8
+    ]
+  },
+  {
+    "bar_start": 61,
+    "bars": 2,
+    "chord": "F#m7/E",
+    "bass_midi": 28,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4
+    ]
+  },
+  {
+    "bar_start": 63,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 65,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 67,
+    "bars": 2,
+    "chord": "F#m(maj9)/E#",
+    "bass_midi": 29,
+    "pad_voicing": [
+      54,
+      57,
+      61,
+      65,
+      68
+    ],
+    "stab_voicing": [
+      65,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      5,
+      8
+    ]
+  },
+  {
+    "bar_start": 69,
+    "bars": 2,
+    "chord": "F#m7/E",
+    "bass_midi": 28,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4
+    ]
+  },
+  {
+    "bar_start": 71,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 73,
+    "bars": 2,
+    "chord": "Bm9",
+    "bass_midi": 35,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      11,
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 75,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 77,
+    "bars": 2,
+    "chord": "Gmaj7(#11)",
+    "bass_midi": 31,
+    "pad_voicing": [
+      55,
+      59,
+      61,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      67,
+      71
+    ],
+    "pitch_classes": [
+      7,
+      11,
+      2,
+      6,
+      1
+    ]
+  },
+  {
+    "bar_start": 79,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 81,
+    "bars": 2,
+    "chord": "Bm9",
+    "bass_midi": 35,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      11,
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 83,
+    "bars": 2,
+    "chord": "F#m(add9)/A",
+    "bass_midi": 33,
+    "pad_voicing": [
+      57,
+      61,
+      66,
+      68
+    ],
+    "stab_voicing": [
+      61,
+      66,
+      68,
+      69
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      8
+    ]
+  },
+  {
+    "bar_start": 85,
+    "bars": 2,
+    "chord": "Gmaj7(#11)",
+    "bass_midi": 31,
+    "pad_voicing": [
+      55,
+      59,
+      61,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      67,
+      71
+    ],
+    "pitch_classes": [
+      7,
+      11,
+      2,
+      6,
+      1
+    ]
+  },
+  {
+    "bar_start": 87,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 89,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 91,
+    "bars": 2,
+    "chord": "E(add9)",
+    "bass_midi": 28,
+    "pad_voicing": [
+      56,
+      59,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11,
+      6
+    ]
+  },
+  {
+    "bar_start": 93,
+    "bars": 2,
+    "chord": "Dmaj7",
+    "bass_midi": 26,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 95,
+    "bars": 2,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 97,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 99,
+    "bars": 2,
+    "chord": "E(add9)",
+    "bass_midi": 28,
+    "pad_voicing": [
+      56,
+      59,
+      64,
+      66
+    ],
+    "stab_voicing": [
+      64,
+      66,
+      68,
+      71
+    ],
+    "pitch_classes": [
+      4,
+      8,
+      11,
+      6
+    ]
+  },
+  {
+    "bar_start": 101,
+    "bars": 1,
+    "chord": "Bm9",
+    "bass_midi": 35,
+    "pad_voicing": [
+      57,
+      61,
+      62,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      11,
+      2,
+      6,
+      9,
+      1
+    ]
+  },
+  {
+    "bar_start": 102,
+    "bars": 1,
+    "chord": "Gmaj7(#11)",
+    "bass_midi": 31,
+    "pad_voicing": [
+      55,
+      59,
+      61,
+      66
+    ],
+    "stab_voicing": [
+      62,
+      66,
+      67,
+      71
+    ],
+    "pitch_classes": [
+      7,
+      11,
+      2,
+      6,
+      1
+    ]
+  },
+  {
+    "bar_start": 103,
+    "bars": 1,
+    "chord": "C#7(b9)",
+    "bass_midi": 25,
+    "pad_voicing": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "stab_voicing": [
+      61,
+      65,
+      71,
+      74
+    ],
+    "pitch_classes": [
+      1,
+      5,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "bar_start": 104,
+    "bars": 1,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  },
+  {
+    "bar_start": 105,
+    "bars": 2,
+    "chord": "F#m(add9)",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      66,
+      68
+    ],
+    "stab_voicing": [
+      61,
+      66,
+      68,
+      69
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      8
+    ]
+  },
+  {
+    "bar_start": 107,
+    "bars": 2,
+    "chord": "F#m9",
+    "bass_midi": 30,
+    "pad_voicing": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "stab_voicing": [
+      64,
+      68,
+      69,
+      73
+    ],
+    "pitch_classes": [
+      6,
+      9,
+      1,
+      4,
+      8
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "ok": false,
+  "checked_at": "2026-10-12T04:45:51.997504+00:00",
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false,
+  "server": {
+    "name": "serum-mcp",
+    "title": null,
+    "version": "1.28.1",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tools": [
+    "analyze_sample_file",
+    "describe_preset",
+    "edit_preset",
+    "find_reference_presets",
+    "generate_preset",
+    "list_parameters",
+    "list_sample_files"
+  ],
+  "error": "generate_preset: [TextContent(type='text', text=\"Error executing tool generate_preset: unknown mod destination 'fx0.drive'; expected one of ['arp.chance', 'arp.gate', 'arp.offset', 'arp.rate', 'arp.transpose_range', 'env0.attack', 'env0.decay', 'env0.release', 'env0.sustain', 'env1.attack', 'env1.decay', 'env1.release', 'env1.sustain', 'env2.attack', 'env2.decay', 'env2.release', 'env2.sustain', 'env3.attack', 'env3.decay', 'env3.release', 'env3.sustain', 'filter0.cutoff', 'filter0.drive', 'filter0.level_out', 'filter0.resonance', 'filter0.stereo', 'filter0.var', 'filter0.wet', 'filter1.cutoff', 'filter1.drive', 'filter1.level_out', 'filter1.resonance', 'filter1.stereo', 'filter1.var', 'filter1.wet', 'global.voice_amp', 'global.voice_scaling_env_time', 'global.voice_scaling_lfo_time', 'lfo0.rate', 'lfo1.rate', 'lfo2.rate', 'lfo3.rate', 'lfo4.rate', 'lfo5.rate', 'lfo6.rate', 'lfo7.rate', 'lfo8.rate', 'lfo9.rate', 'macro0.value', 'macro1.value', 'macro2.value', 'macro3.value', 'macro4.value', 'macro5.value', 'macro6.value', 'macro7.value', 'oscillator0.fine', 'oscillator0.octave', 'oscillator0.pan', 'oscillator0.pitch', 'oscillator0.table_position', 'oscillator0.volume', 'oscillator0.warp_amount', 'oscillator0.warp_amount2', 'oscillator0.warp_var2', 'oscillator1.fine', 'oscillator1.octave', 'oscillator1.pan', 'oscillator1.pitch', 'oscillator1.table_position', 'oscillator1.volume', 'oscillator1.warp_amount', 'oscillator1.warp_amount2', 'oscillator1.warp_var2', 'oscillator2.fine', 'oscillator2.octave', 'oscillator2.pan', 'oscillator2.pitch', 'oscillator2.table_position', 'oscillator2.volume', 'oscillator2.warp_amount', 'oscillator2.warp_amount2', 'oscillator2.warp_var2', 'oscillator3.fine', 'oscillator3.noise_color', 'oscillator3.noise_fine', 'oscillator3.noise_initial_phase', 'oscillator3.octave', 'oscillator3.pan', 'oscillator3.pitch', 'oscillator3.volume', 'oscillator4.fine', 'oscillator4.octave', 'oscillator4.pan', 'oscillator4.pitch', 'oscillator4.volume'], 'fx{i}.wet', or one of ['balance', 'freq2', 'hpf', 'level_out', 'lf_xover', 'lpf', 'width'] for an FX type that supports it\", annotations=None, meta=None)]"
+}

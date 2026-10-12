@@ -1,0 +1,34 @@
+Preset: shadow-pad
+Description: Black Glass: warm filtered upper-register stereo veil, restrained wet space and slow filter breathing; supports piano without covering the bass.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.23  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)  unison=4  detune=0.07
+Osc B: ON   octave=+0  volume=0.13  pan=+0  wavetable=analog_basic  table_pos=1.0  warp=fm(0.00)  unison=3  detune=0.06
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_12  cutoff=0.39  resonance=8%  drive=6%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=360.0ms  decay=1.80s  sustain=0.78  release=0.58s
+Env 2: attack=1900.0ms  decay=2.80s  sustain=0.38  release=0.70s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+
+Macro 1 "OPEN": 10%
+Macro 2 "SPACE": 12%
+
+FX chain:
+  - FXReverb (wet=17%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +13%
+  - lfo0 -> filter0.cutoff: +4%, bipolar
+  - macro0 -> filter0.cutoff: +20%
+  - macro1 -> fx0.wet: +24%
+  - velocity -> oscillator0.volume: +12%
+
+Global: master_volume=0.36  mono=off  poly=16

@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Afterimage Garden",
+  "combined": false,
+  "composition_sha256": "1032eda304633828f6113663172364e6e99214c647ccdbdd6620259f245925af",
+  "tempo_bpm": 108,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 104,
+  "ticks_per_beat": 480,
+  "end_tick": 199680,
+  "duration_seconds": 231.111296,
+  "layers": [
+    {
+      "id": "disco-kit",
+      "name": "Disco Funk Kit",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1375,
+      "file": "MIDI/disco-kit.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/disco-kit.mid",
+      "sha256": "381e076befbb8a60812d0bde2f8474d2a223377878089e434680f45159d5c4aa"
+    }
+  ]
+}

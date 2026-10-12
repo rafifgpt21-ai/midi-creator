@@ -1,0 +1,4656 @@
+{
+  "oscillator": {
+    "kParamEnable": {
+      "key": "kParamEnable",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "Per-slot default, NOT uniform: confirmed via VST3 dump that only Osc A (Oscillator0) defaults On -- Osc B/C/Noise/Sub (Oscillator1..4) default Off. The `False` here is the common case; callers resolving Oscillator0 specifically must special-case it to True (see preset/introspect.py)."
+    },
+    "kParamOctave": {
+      "key": "kParamOctave",
+      "kind": "float",
+      "default": 0.0,
+      "min": -4.0,
+      "max": 4.0,
+      "unit": "octaves",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    "kParamVolume": {
+      "key": "kParamVolume",
+      "kind": "float",
+      "default": 0.75,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized (0=-inf dB, 1=0dB)",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "VST3 default is 75% (~-5.0dB) for Osc A/B."
+    },
+    "kParamPan": {
+      "key": "kParamPan",
+      "kind": "float",
+      "default": 0.0,
+      "min": -50.0,
+      "max": 50.0,
+      "unit": "normalized pan",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamFine": {
+      "key": "kParamFine",
+      "kind": "float",
+      "default": 0.0,
+      "min": -80.0,
+      "max": 80.0,
+      "unit": "cents (approx.)",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Bounds widened from +/-50 after finding real presets with fine=67.2, -63.0, and 76.2."
+    },
+    "kParamCoarsePit": {
+      "key": "kParamCoarsePit",
+      "kind": "float",
+      "default": 0.0,
+      "min": -72.0,
+      "max": 72.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Bounds widened from -24/48 after finding real presets with coarsePit=-64.0 and 60.26."
+    },
+    "kParamPitch": {
+      "key": "kParamPitch",
+      "kind": "float",
+      "default": 0.0,
+      "min": -12.0,
+      "max": 12.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Only seen set when this oscillator is a mod-matrix destination."
+    },
+    "kParamDetune": {
+      "key": "kParamDetune",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized unison detune",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamDetuneWid": {
+      "key": "kParamDetuneWid",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "% unison width",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamUnison": {
+      "key": "kParamUnison",
+      "kind": "float",
+      "default": 1.0,
+      "min": 1.0,
+      "max": 16.0,
+      "unit": "voice count",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "VST3 default shows 1 voice; observed max in samples was 16."
+    },
+    "kParamUnisonStereo": {
+      "key": "kParamUnisonStereo",
+      "kind": "float",
+      "default": 100.0,
+      "min": -100.0,
+      "max": 100.0,
+      "unit": "% width",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamPitchTrack": {
+      "key": "kParamPitchTrack",
+      "kind": "bool",
+      "default": true,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    "kParamType": {
+      "key": "kParamType",
+      "kind": "enum",
+      "default": "kOsc_WT",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kOsc_WT",
+        "kOsc_Sample",
+        "kOsc_Granular",
+        "kOsc_MultiSample",
+        "kOsc_Spectral"
+      ],
+      "confidence": "observed",
+      "notes": "Selects which of the 5 sound-source engines (see module docstring above) this slot's nested Osc dict is actually driven by. Found via factory-preset survey, not the VST3 dump. Absent from plainParams == kOsc_WT (every WTOsc preset this project generates before this field existed omitted it and loaded fine) -- serum-mcp now writes it explicitly every time regardless, so a later partial edit that switches an oscillator's engine can't leave a stale value behind (see docs/PARAMETER_SCHEMA.md's mapping.py partial-edit lesson)."
+    },
+    "kParamLoopMode": {
+      "key": "kParamLoopMode",
+      "kind": "enum",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kForward",
+        "kPingPong",
+        "kTailed",
+        "kReverse"
+      ],
+      "confidence": "observed",
+      "notes": "SampleOsc only. Absent from plainParams in every factory preset that doesn't loop its sample (i.e. a true one-shot) -- there is no observed 'off' enum value, omitting the key entirely is what turns looping off. kReverse found live in real Factory content, not yet exposed via SIMPLE_SAMPLE_LOOP_MODES/OscillatorSpec.sample_loop."
+    },
+    "kParamLoopStart": {
+      "key": "kParamLoopStart",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "% into the sample",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "SampleOsc only, only meaningful when kParamLoopMode is set."
+    },
+    "kParamLoopEnd": {
+      "key": "kParamLoopEnd",
+      "kind": "float",
+      "default": 100.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "% into the sample",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "SampleOsc only, only meaningful when kParamLoopMode is set."
+    },
+    "kParamLoopCrossfade": {
+      "key": "kParamLoopCrossfade",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "SampleOsc only. Observed range in factory presets was ~0.5-63%; the true engine-enforced ceiling isn't confirmed, treating 100 as the bound like other %-unit params in this schema."
+    }
+  },
+  "wavetable_oscillator": {
+    "kParamTablePos": {
+      "key": "kParamTablePos",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 256.0,
+      "unit": "table frame",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Range depends on the loaded wavetable's frame count; 256 is the observed ceiling."
+    },
+    "kParamWarp": {
+      "key": "kParamWarp",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamWarp2": {
+      "key": "kParamWarp2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamWarpMenu": {
+      "key": "kParamWarpMenu",
+      "kind": "enum",
+      "default": "kFM_OSC",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kAM_OSC",
+        "kAM_SUB",
+        "kASYMNeg",
+        "kASYMPos",
+        "kASYMPosNeg",
+        "kBendNeg",
+        "kBendPos",
+        "kBendPosNeg",
+        "kDLM",
+        "kDistAsym",
+        "kDistDiode1",
+        "kDistDiode2",
+        "kDistHardClip",
+        "kDistLinFold",
+        "kDistSineShaper",
+        "kDistSinFold",
+        "kDistSoftClip",
+        "kDistSoftSat",
+        "kDistStompBox",
+        "kDistTapeSat",
+        "kDistTube",
+        "kDistZeroSquare",
+        "kEvenOdd",
+        "kFMP_NOISE",
+        "kFMP_OSC",
+        "kFMX_NOISE",
+        "kFMX_OSC",
+        "kFMX_OSC2",
+        "kFM_FILT1",
+        "kFM_FILT2",
+        "kFM_NOISE",
+        "kFM_OSC",
+        "kFM_OSC2",
+        "kFM_SUB",
+        "kFilterHPF",
+        "kFilterLPF",
+        "kFlip",
+        "kPD_FILT1",
+        "kPD_NOISE",
+        "kPD_OSC",
+        "kPD_OSC2",
+        "kPD_SUB",
+        "kPWM",
+        "kQuantize",
+        "kRM_FILT1",
+        "kRM_FILT2",
+        "kRM_NOISE",
+        "kRM_OSC",
+        "kRM_OSC2",
+        "kRM_SUB",
+        "kRemap_4",
+        "kSelfPD",
+        "kSync"
+      ],
+      "confidence": "observed",
+      "notes": "'Warp mode A'. Union of values observed across samples (expanded again after checking real Factory/third-party content: kAM_SUB, kASYMPosNeg, kDistAsym, kDistStompBox, kDistTapeSat, kDistZeroSquare, kFM_FILT1). The true full enum (from Serum's UI dropdown) may still be a superset."
+    },
+    "kParamInitialPhase": {
+      "key": "kParamInitialPhase",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 360.0,
+      "unit": "degrees",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamRandomPhase": {
+      "key": "kParamRandomPhase",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamXfadeMode": {
+      "key": "kParamXfadeMode",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "How the primary/secondary warp lanes combine. Only ever observed at 1.0 (46 samples) whenever a second lane is in use -- written automatically alongside kParamWarp2/kParamWarpMenu2 rather than exposed as its own OscillatorSpec field, since no other value has ever been seen."
+    },
+    "kParamWarpMenu2": {
+      "key": "kParamWarpMenu2",
+      "kind": "enum",
+      "default": "kFM_OSC",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kAM_OSC",
+        "kAM_SUB",
+        "kASYMNeg",
+        "kASYMPos",
+        "kASYMPosNeg",
+        "kBendNeg",
+        "kBendPos",
+        "kBendPosNeg",
+        "kDLM",
+        "kDistAsym",
+        "kDistDiode1",
+        "kDistDiode2",
+        "kDistHardClip",
+        "kDistLinFold",
+        "kDistSineShaper",
+        "kDistSinFold",
+        "kDistSoftClip",
+        "kDistSoftSat",
+        "kDistStompBox",
+        "kDistTapeSat",
+        "kDistTube",
+        "kDistZeroSquare",
+        "kEvenOdd",
+        "kFMP_NOISE",
+        "kFMP_OSC",
+        "kFMX_NOISE",
+        "kFMX_OSC",
+        "kFMX_OSC2",
+        "kFM_FILT1",
+        "kFM_FILT2",
+        "kFM_NOISE",
+        "kFM_OSC",
+        "kFM_OSC2",
+        "kFM_SUB",
+        "kFilterHPF",
+        "kFilterLPF",
+        "kFlip",
+        "kPD_FILT1",
+        "kPD_NOISE",
+        "kPD_OSC",
+        "kPD_OSC2",
+        "kPD_SUB",
+        "kPWM",
+        "kQuantize",
+        "kRM_FILT1",
+        "kRM_FILT2",
+        "kRM_NOISE",
+        "kRM_OSC",
+        "kRM_OSC2",
+        "kRM_SUB",
+        "kRemap_4",
+        "kSelfPD",
+        "kSync"
+      ],
+      "confidence": "observed",
+      "notes": "Second warp lane's mode -- same raw enum as kParamWarpMenu (confirmed: every value observed here across 886 real presets is already in that enum)."
+    },
+    "kParamWarpVar2": {
+      "key": "kParamWarpVar2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Only 3 distinct base values observed (~0.19-0.55) across 14 WTOsc slots; exact role vs. kParamWarp2 unconfirmed."
+    }
+  },
+  "simple_warp_modes": {
+    "fm": "kFM_OSC",
+    "am": "kAM_OSC",
+    "sync": "kSync",
+    "pwm": "kPWM",
+    "bend": "kBendPos",
+    "fold": "kDistLinFold",
+    "soft_clip": "kDistSoftClip",
+    "hard_clip": "kDistHardClip",
+    "quantize": "kQuantize",
+    "filter_lpf": "kFilterLPF",
+    "filter_hpf": "kFilterHPF"
+  },
+  "simple_wavetables": {
+    "default": "S2 Tables/Default Shapes.wav",
+    "analog_basic": "Analog/Basic Shapes.wav",
+    "analog_warm": "S2 Tables/Analog/DM - OSCAR.wav",
+    "pwm": "Analog/PWM Juno.wav",
+    "analog_mini": "Analog/Basic Mini.wav",
+    "warm_sub": "S2 Tables/Analog/Warm Sub.wav",
+    "digital_fm": "S2 Tables/Digital/Basic OPL.wav",
+    "harmonic_smooth": "S2 Tables/Digital/Harmonic Series Smooth.wav",
+    "dying_sine": "S2 Tables/Digital/Dying Sine.wav",
+    "acid": "Analog/Acid.wav",
+    "fm_piano": "S2 Tables/Digital/FM Piano.wav",
+    "flute": "S2 Tables/Digital/JF Flute.wav"
+  },
+  "noise_oscillator": {
+    "kParamNoiseType": {
+      "key": "kParamNoiseType",
+      "kind": "enum",
+      "default": "White",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "White",
+        "Pink",
+        "Brown",
+        "Geiger"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamColor": {
+      "key": "kParamColor",
+      "kind": "float",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamOneShot": {
+      "key": "kParamOneShot",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    }
+  },
+  "sub_oscillator": {
+    "kParamShape": {
+      "key": "kParamShape",
+      "kind": "enum",
+      "default": "kSaw",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kSaw",
+        "kSquare",
+        "kTriangle",
+        "kPulse",
+        "kRoundRect"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    }
+  },
+  "simple_sub_shapes": {
+    "saw": "kSaw",
+    "square": "kSquare",
+    "triangle": "kTriangle",
+    "pulse": "kPulse",
+    "round_rect": "kRoundRect"
+  },
+  "granular_oscillator": {
+    "kParamWarp": {
+      "key": "kParamWarp",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Shared with WTOsc/SampleOsc's own warp system -- see OscillatorSpec.warp_amount."
+    },
+    "kParamWarpMenu": {
+      "key": "kParamWarpMenu",
+      "kind": "enum",
+      "default": "kFM_OSC",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kFM_OSC",
+        "kAM_OSC",
+        "kSync",
+        "kPWM",
+        "kBendPos",
+        "kDistLinFold",
+        "kDistSoftClip",
+        "kDistHardClip",
+        "kQuantize",
+        "kFilterLPF",
+        "kFilterHPF",
+        "kDistAsym",
+        "kPD_OSC",
+        "kGate"
+      ],
+      "confidence": "observed",
+      "notes": "Real corpus values included kDistAsym/kPD_OSC/kGate, NOT in SIMPLE_WARP_MODES's curated 11-value subset -- Serum's real warp-mode menu is larger than what this project exposes for generation; see OscillatorSpec.warp_mode."
+    },
+    "kParamWarp2": {
+      "key": "kParamWarp2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Second warp lane's amount, same concept as WTOsc's kParamWarp2 -- NOT wired into OscillatorSpec.warp_amount2 for this engine yet."
+    },
+    "kParamWarpMenu2": {
+      "key": "kParamWarpMenu2",
+      "kind": "enum",
+      "default": "kAM_OSC",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kFM_OSC",
+        "kAM_OSC",
+        "kSync",
+        "kPWM",
+        "kBendPos",
+        "kDistLinFold",
+        "kDistSoftClip",
+        "kDistHardClip",
+        "kQuantize",
+        "kFilterLPF",
+        "kFilterHPF"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamWarpVar": {
+      "key": "kParamWarpVar",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamWarpVar2": {
+      "key": "kParamWarpVar2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamDensity": {
+      "key": "kParamDensity",
+      "kind": "float",
+      "default": 0.0247,
+      "min": 0.0,
+      "max": 1000.0,
+      "unit": "raw (see GRANULAR_DENSITY_CURVE_DIVISOR)",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "Grain trigger rate. 89% presence (59/66 real samples), real raw range 7.6e-6-800.0. THIS IS THE RAW STORAGE VALUE, not what Serum's DENS knob displays -- confirmed live 2026-07-30: raw = displayed**4 / 810 (quartic), displayed range 0-30. Interpretation depends on kParamDensityMode (Free Hz/BPM-synced/direct grain count) -- only kDensityFree confirmed as the overwhelmingly common real default (3/66 used a non-default mode)."
+    },
+    "kParamGrainLength": {
+      "key": "kParamGrainLength",
+      "kind": "float",
+      "default": 0.124,
+      "min": 0.0,
+      "max": 10.0,
+      "unit": "raw (see GRANULAR_GRAIN_LENGTH_DIVISOR; displayed unit is MILLISECONDS)",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "83% presence (55/66), real raw range 0.0-10.0. THIS IS THE RAW STORAGE VALUE, not what Serum's LENGTH knob displays -- confirmed live 2026-07-30: raw = displayed_ms / 1000 (linear), confirmed via BOTH the original 3-point calibration (displayed 0.05/0.3/1.0ms) AND independently cross-validated against a real Factory preset (808 - Texture's Osc B: raw 0.1243 -> predicted displayed 124.3ms, user-reported real value 124ms -- matches to within rounding). The displayed unit is confirmed MILLISECONDS (not seconds, an earlier wrong assumption) -- so real raw=10.0 implies displayed=10000ms=10s, plausible as an extreme long-grain/pad setting, not necessarily broken. Getting the raw<->displayed conversion backwards (writing the intended displayed number directly as raw) was the root cause of GranularOsc's first live test sounding broken -- see the module comment above this table."
+    },
+    "kParamGrainReverse": {
+      "key": "kParamGrainReverse",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamRandomOffset": {
+      "key": "kParamRandomOffset",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Random start-offset within the source sample per grain."
+    },
+    "kParamRandomDir": {
+      "key": "kParamRandomDir",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamRandomPitch": {
+      "key": "kParamRandomPitch",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 12.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "33% presence (22/66), real range ~0-12 (one octave)."
+    },
+    "kParamRandomGrainLength": {
+      "key": "kParamRandomGrainLength",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "61% presence (40/66), real range 1.0-100.0."
+    },
+    "kParamRandomPan": {
+      "key": "kParamRandomPan",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "62% presence (41/66), real range 15.9-100.0."
+    },
+    "kParamRandomGain": {
+      "key": "kParamRandomGain",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamRandomWindowAmount": {
+      "key": "kParamRandomWindowAmount",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamRandomWindowSkew": {
+      "key": "kParamRandomWindowSkew",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamRandomWarp": {
+      "key": "kParamRandomWarp",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamRandomWarp2": {
+      "key": "kParamRandomWarp2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamWindowParam": {
+      "key": "kParamWindowParam",
+      "kind": "float",
+      "default": 50.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Shapes the grain envelope window."
+    },
+    "kParamWindowSkew": {
+      "key": "kParamWindowSkew",
+      "kind": "float",
+      "default": 0.0,
+      "min": -100.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamWindowShape": {
+      "key": "kParamWindowShape",
+      "kind": "enum",
+      "default": "kWindowHann",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kWindowHann",
+        "kWindowWelch",
+        "kWindowGaussian",
+        "kWindowBlackmanHarris",
+        "kWindowSinc",
+        "kWindowTukey",
+        "kWindowTriangle",
+        "kWindowTrapezoid",
+        "kWindowExpDec",
+        "kWindowExpDecRev"
+      ],
+      "confidence": "observed",
+      "notes": "Ordinals confirmed via VST3 binary string dump (declaration order 0-9)."
+    },
+    "kParamDensityMode": {
+      "key": "kParamDensityMode",
+      "kind": "enum",
+      "default": "kDensityFree",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kDensityFree",
+        "kDensityBPM",
+        "kDensityGrains"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamLengthMode": {
+      "key": "kParamLengthMode",
+      "kind": "enum",
+      "default": "kLengthFree",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kLengthFree",
+        "kLengthBPM",
+        "kLengthPercent"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamUnisonTrigPattern": {
+      "key": "kParamUnisonTrigPattern",
+      "kind": "enum",
+      "default": "kTogether",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kTogether",
+        "kEven",
+        "kExponential",
+        "kRandom"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamYAxisAssignment": {
+      "key": "kParamYAxisAssignment",
+      "kind": "enum",
+      "default": "kYAxisNone",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kYAxisNone",
+        "kYAxisOscVolume",
+        "kYAxisGranularWarp",
+        "kYAxisGranularWarp2",
+        "kYAxisGranularDensity",
+        "kYAxisGranularGrainLength",
+        "kYAxisGranularWindowParam",
+        "kYAxisGranularWindowSkew",
+        "kYAxisGranularRandomOffset",
+        "kYAxisGranularRandomDir",
+        "kYAxisGranularRandomPitch",
+        "kYAxisGranularRandomGrainLength"
+      ],
+      "confidence": "uncertain",
+      "notes": "Only 1/66 real samples used this (assigns an XY-pad axis to a granular param) -- rare, low-priority."
+    },
+    "kParamMaxNumGrains": {
+      "key": "kParamMaxNumGrains",
+      "kind": "float",
+      "default": 16.0,
+      "min": 1.0,
+      "max": 64.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamJumpStartGrains": {
+      "key": "kParamJumpStartGrains",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamDensityDotted": {
+      "key": "kParamDensityDotted",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamDensityTriplet": {
+      "key": "kParamDensityTriplet",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamLengthDotted": {
+      "key": "kParamLengthDotted",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamLengthTriplet": {
+      "key": "kParamLengthTriplet",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamLoopGrains": {
+      "key": "kParamLoopGrains",
+      "kind": "bool",
+      "default": true,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamLengthKeyTrack": {
+      "key": "kParamLengthKeyTrack",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    }
+  },
+  "spectral_oscillator": {
+    "kParamWarp": {
+      "key": "kParamWarp",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Real range observed 0.035-1.0 across 26 samples."
+    },
+    "kParamWarpMenu": {
+      "key": "kParamWarpMenu",
+      "kind": "enum",
+      "default": "kNoWarp",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kNoWarp",
+        "kDetune",
+        "kSmear",
+        "kSpread",
+        "kAddharmonics",
+        "kAddsubharmonics",
+        "kGate",
+        "kRobotize",
+        "kSpectralShift",
+        "kMirror",
+        "kPeakFollow",
+        "kPeakOctaveUp",
+        "kPeakOctaveDown",
+        "kPeakHarmUp",
+        "kPeakHarmDown",
+        "kPeakHarmSweep",
+        "kShepardNarrow",
+        "kShepardFilter",
+        "kSpectralComb",
+        "kSpectralPitchShift",
+        "kSpectralPitchShiftNew",
+        "kSpectralPhaseTwist",
+        "kSpectralFormantShift",
+        "kMask_OSC",
+        "kMask_OSC2",
+        "kMask_NOISE",
+        "kMask_SUB",
+        "kMask_FILT1",
+        "kMask_FILT2",
+        "kVocode_OSC",
+        "kVocode_OSC2",
+        "kVocode_NOISE",
+        "kVocode_SUB",
+        "kVocode_FILT1",
+        "kVocode_FILT2",
+        "kFilterLPF",
+        "kFilterHPF",
+        "kDistTube",
+        "kDistSoftClip",
+        "kDistHardClip",
+        "kDistDiode1",
+        "kDistDiode2",
+        "kDistLinFold",
+        "kDistSinFold",
+        "kDistZeroSquare",
+        "kDistAsym",
+        "kDistRectify",
+        "kDistSineShaper",
+        "kDistStompBox",
+        "kDistTapeSat",
+        "kDistSoftSat",
+        "kFM_OSC",
+        "kFM_OSC2",
+        "kFM_NOISE",
+        "kFM_SUB",
+        "kFM_FILT1",
+        "kFM_FILT2",
+        "kFMX_OSC",
+        "kFMX_OSC2",
+        "kFMX_NOISE",
+        "kFMX_SUB",
+        "kFMX_FILT1",
+        "kFMX_FILT2",
+        "kFMP_OSC",
+        "kFMP_OSC2",
+        "kFMP_NOISE",
+        "kFMP_SUB",
+        "kFMP_FILT1",
+        "kFMP_FILT2",
+        "kSelfPD",
+        "kPD_OSC",
+        "kPD_OSC2",
+        "kPD_NOISE",
+        "kPD_SUB",
+        "kPD_FILT1",
+        "kPD_FILT2",
+        "kAM_OSC",
+        "kAM_OSC2",
+        "kAM_NOISE",
+        "kAM_SUB",
+        "kAM_FILT1",
+        "kAM_FILT2",
+        "kRM_OSC",
+        "kRM_OSC2",
+        "kRM_NOISE",
+        "kRM_SUB",
+        "kRM_FILT1",
+        "kRM_FILT2"
+      ],
+      "confidence": "observed",
+      "notes": "SpectralOsc's OWN warp-mode vocabulary, much larger and mostly DIFFERENT names than SIMPLE_WARP_MODES (WTOsc/SampleOsc/GranularOsc's shared one) -- see the module-level comment above this table. Not offered as curated friendly names; pass the raw 'kXxx' string directly via OscillatorSpec.warp_mode (falls through unchanged when not a SIMPLE_WARP_MODES key, same mechanism already used for any warp-capable engine)."
+    },
+    "kParamWarp2": {
+      "key": "kParamWarp2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Second warp lane's amount -- NOT wired into OscillatorSpec.warp_amount2 for this engine yet."
+    },
+    "kParamWarpMenu2": {
+      "key": "kParamWarpMenu2",
+      "kind": "enum",
+      "default": "kNoWarp",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kNoWarp",
+        "kDetune",
+        "kSmear",
+        "kSpread",
+        "kAddharmonics",
+        "kAddsubharmonics",
+        "kGate",
+        "kRobotize",
+        "kSpectralShift",
+        "kMirror",
+        "kPeakFollow",
+        "kPeakOctaveUp",
+        "kPeakOctaveDown",
+        "kPeakHarmUp",
+        "kPeakHarmDown",
+        "kPeakHarmSweep",
+        "kShepardNarrow",
+        "kShepardFilter",
+        "kSpectralComb",
+        "kSpectralPitchShift",
+        "kSpectralPitchShiftNew",
+        "kSpectralPhaseTwist",
+        "kSpectralFormantShift",
+        "kMask_OSC",
+        "kMask_OSC2",
+        "kMask_NOISE",
+        "kMask_SUB",
+        "kMask_FILT1",
+        "kMask_FILT2",
+        "kVocode_OSC",
+        "kVocode_OSC2",
+        "kVocode_NOISE",
+        "kVocode_SUB",
+        "kVocode_FILT1",
+        "kVocode_FILT2",
+        "kFilterLPF",
+        "kFilterHPF",
+        "kDistTube",
+        "kDistSoftClip",
+        "kDistHardClip",
+        "kDistDiode1",
+        "kDistDiode2",
+        "kDistLinFold",
+        "kDistSinFold",
+        "kDistZeroSquare",
+        "kDistAsym",
+        "kDistRectify",
+        "kDistSineShaper",
+        "kDistStompBox",
+        "kDistTapeSat",
+        "kDistSoftSat",
+        "kFM_OSC",
+        "kFM_OSC2",
+        "kFM_NOISE",
+        "kFM_SUB",
+        "kFM_FILT1",
+        "kFM_FILT2",
+        "kFMX_OSC",
+        "kFMX_OSC2",
+        "kFMX_NOISE",
+        "kFMX_SUB",
+        "kFMX_FILT1",
+        "kFMX_FILT2",
+        "kFMP_OSC",
+        "kFMP_OSC2",
+        "kFMP_NOISE",
+        "kFMP_SUB",
+        "kFMP_FILT1",
+        "kFMP_FILT2",
+        "kSelfPD",
+        "kPD_OSC",
+        "kPD_OSC2",
+        "kPD_NOISE",
+        "kPD_SUB",
+        "kPD_FILT1",
+        "kPD_FILT2",
+        "kAM_OSC",
+        "kAM_OSC2",
+        "kAM_NOISE",
+        "kAM_SUB",
+        "kAM_FILT1",
+        "kAM_FILT2",
+        "kRM_OSC",
+        "kRM_OSC2",
+        "kRM_NOISE",
+        "kRM_SUB",
+        "kRM_FILT1",
+        "kRM_FILT2"
+      ],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamWarpVar": {
+      "key": "kParamWarpVar",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamWarpVar2": {
+      "key": "kParamWarpVar2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamSpecFltShift": {
+      "key": "kParamSpecFltShift",
+      "kind": "float",
+      "default": 0.0,
+      "min": -100.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Shifts the spectral filter/curve's effective position. Real range observed -100.0 to 100.0."
+    },
+    "kParamSpecFltWetDry": {
+      "key": "kParamSpecFltWetDry",
+      "kind": "float",
+      "default": 100.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Wet/dry for the spectral filter/curve effect. Real range observed 0.0-98.7."
+    },
+    "kParamFreqLo": {
+      "key": "kParamFreqLo",
+      "kind": "float",
+      "default": 20.0,
+      "min": 20.0,
+      "max": 20000.0,
+      "unit": "Hz",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Low edge of the frequency range the spectral effect applies to. Real range observed 15.9-4307.3 Hz."
+    },
+    "kParamFreqHi": {
+      "key": "kParamFreqHi",
+      "kind": "float",
+      "default": 20000.0,
+      "min": 20.0,
+      "max": 20000.0,
+      "unit": "Hz",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "High edge of the frequency range. Real range observed 371.1-17462.0 Hz."
+    },
+    "kParamPhaseLock": {
+      "key": "kParamPhaseLock",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamTransients": {
+      "key": "kParamTransients",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamLoHiIsPost": {
+      "key": "kParamLoHiIsPost",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamLoHiIsSmooth": {
+      "key": "kParamLoHiIsSmooth",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "kParamYAxisAssignment": {
+      "key": "kParamYAxisAssignment",
+      "kind": "enum",
+      "default": "kYAxisNone",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kYAxisNone",
+        "kYAxisOscVolume",
+        "kYAxisSpectralWarp",
+        "kYAxisSpectralWarp2",
+        "kYAxisSpectralSpecFltShift",
+        "kYAxisSpectralSpecFltWetDry",
+        "kYAxisSpectralFreqLo",
+        "kYAxisSpectralFreqHi"
+      ],
+      "confidence": "uncertain",
+      "notes": "Rare (an XY-pad axis assignment) -- low-priority, same as GranularOsc's own kParamYAxisAssignment."
+    }
+  },
+  "multisample_oscillator": {
+    "kParamEnvAttack": {
+      "key": "kParamEnvAttack",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 0.4,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "98% presence (242/246). Real range 0.0-0.396 -- notably SHORT compared to Env0-3's own attack range, consistent with this being a separate note-shaping stage layered on the SFZ's own baked-in ampeg envelope, not the primary voice envelope."
+    },
+    "kParamEnvDecay": {
+      "key": "kParamEnvDecay",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 32.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "97% presence (239/246). Real range 0.0-32.0."
+    },
+    "kParamEnvSustain": {
+      "key": "kParamEnvSustain",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Only 11/246 real samples -- rare, most content relies on the SFZ's own loop/release behavior instead."
+    },
+    "kParamEnvRelease": {
+      "key": "kParamEnvRelease",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 32.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "100% presence (245/246, effectively always set). Real range 0.0-32.0."
+    },
+    "kParamEnvHold": {
+      "key": "kParamEnvHold",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 32.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Rare (5/246)."
+    },
+    "kParamEnvDelay": {
+      "key": "kParamEnvDelay",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Very rare (4/246), tiny real values observed."
+    },
+    "kParamEnvOverride": {
+      "key": "kParamEnvOverride",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "27% presence (66/246), always 1.0/True when present. Presumed to gate whether kParamEnv* values override the SFZ's own per-region ampeg envelope vs. layering on top of it -- not independently confirmed."
+    },
+    "kParamVelTrack": {
+      "key": "kParamVelTrack",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Rare (33/246), real range 0.0-95.7."
+    },
+    "kParamVelTrackOverride": {
+      "key": "kParamVelTrackOverride",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Rare (22/246), always 1.0/True when present -- same pattern as kParamEnvOverride, presumably gating kParamVelTrack similarly."
+    },
+    "kParamTimbreShift": {
+      "key": "kParamTimbreShift",
+      "kind": "float",
+      "default": 0.0,
+      "min": -20.0,
+      "max": 65.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "18% presence (44/246), real range -17.0 to 64.0. Exact effect unconfirmed."
+    },
+    "kParamRandomPhase": {
+      "key": "kParamRandomPhase",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Rare (23/246)."
+    },
+    "kParamWarp": {
+      "key": "kParamWarp",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Shared with WTOsc/SampleOsc/GranularOsc/SpectralOsc's warp system -- see OscillatorSpec.warp_amount. 13% presence (31/246)."
+    },
+    "kParamWarpMenu": {
+      "key": "kParamWarpMenu",
+      "kind": "enum",
+      "default": "kFM_OSC",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kFM_OSC",
+        "kFM_OSC2",
+        "kFM_NOISE",
+        "kFM_SUB",
+        "kAM_OSC",
+        "kRM_OSC",
+        "kRM_SUB",
+        "kSelfPD",
+        "kPD_OSC",
+        "kPD_OSC2",
+        "kPD_SUB",
+        "kFilterLPF",
+        "kFilterHPF",
+        "kDistTube",
+        "kDistSoftClip",
+        "kDistHardClip",
+        "kDistDiode1",
+        "kDistDiode2",
+        "kDistSinFold",
+        "kDistAsym",
+        "kDistSineShaper",
+        "kDistStompBox",
+        "kDistSoftSat",
+        "kDistTapeSat"
+      ],
+      "confidence": "observed",
+      "notes": "30% presence (74/246) -- a curated subset of the values actually observed in real content (not necessarily exhaustive); same 'pass raw name through' convention as SpectralOsc's warp_mode."
+    },
+    "kParamWarp2": {
+      "key": "kParamWarp2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Rare (15/246) -- NOT wired into OscillatorSpec.warp_amount2 for this engine yet."
+    },
+    "kParamWarpMenu2": {
+      "key": "kParamWarpMenu2",
+      "kind": "enum",
+      "default": "kFM_OSC",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "kFM_OSC",
+        "kFM_OSC2",
+        "kFM_NOISE",
+        "kFM_SUB",
+        "kFMX_OSC",
+        "kAM_OSC",
+        "kAM_OSC2",
+        "kAM_SUB",
+        "kRM_OSC",
+        "kRM_NOISE",
+        "kSelfPD",
+        "kPD_OSC",
+        "kPD_NOISE",
+        "kPD_FILT1",
+        "kFilterLPF",
+        "kDistSoftClip",
+        "kDistTube",
+        "kDistStompBox",
+        "kDistSineShaper"
+      ],
+      "confidence": "uncertain",
+      "notes": "Rare (43/246)."
+    },
+    "kParamWarpVar": {
+      "key": "kParamWarpVar",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Very rare (2/246)."
+    },
+    "kParamWarpVar2": {
+      "key": "kParamWarpVar2",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Very rare (1/246)."
+    }
+  },
+  "multisample_instruments": {
+    "choir_ah": "Factory/Choir/Ah High.sfz",
+    "synth_sid": "Factory/Synth/SID Tarkus.sfz",
+    "guitar_ac": "Factory/Plucked/Gtr Ac Martin Pick.sfz",
+    "violins": "Factory/Strings/Violins LE.sfz",
+    "brass_french_horn": "Factory/Winds/French Horns.sfz",
+    "epiano_suitcase": "Factory/Keys/Elec.Piano Suitcase.sfz",
+    "synth_pad_superjx": "Factory/Synth/SuperJX 4 Chorus Pad.sfz",
+    "mallet_balafon": "Factory/Mallet/Balafon.sfz",
+    "strings_full": "Factory/Strings/Full Strings LE.sfz",
+    "piano_grand": "Factory/Keys/Baby Grand Piano.sfz"
+  },
+  "voice_filter": {
+    "kParamEnable": {
+      "key": "kParamEnable",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "Both filter slots are OFF by default in a fresh Serum 2 instance."
+    },
+    "kParamType": {
+      "key": "kParamType",
+      "kind": "enum",
+      "default": "MgL12",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "L6",
+        "L12",
+        "L18",
+        "L24",
+        "H6",
+        "H12",
+        "H18",
+        "H24",
+        "B12",
+        "B24",
+        "N24",
+        "BN12",
+        "NN12",
+        "BPN12",
+        "BPN24",
+        "BandReject",
+        "Allpasses",
+        "LH12",
+        "HB12",
+        "LBH12",
+        "LBH24",
+        "LNH12",
+        "LNH24",
+        "LPH24",
+        "LN12",
+        "PP12",
+        "HP12",
+        "MgL6",
+        "MgL12",
+        "MgL18",
+        "MgL24",
+        "LadderMg",
+        "LadderAcid",
+        "LadderEMS",
+        "DirtyMg",
+        "Comb2",
+        "CombN",
+        "CombP",
+        "CombH6N",
+        "CombHL6P",
+        "DistComb2LP",
+        "DistComb2BP",
+        "FlangeN",
+        "FlangeP",
+        "FlangePhase12HL6P",
+        "Phase24P",
+        "Phase36N",
+        "Phase36P",
+        "Phase48H6P",
+        "Phase48HL6P",
+        "Phase48P",
+        "FormantONE",
+        "FormantTWB",
+        "FormantTWO",
+        "DJMixer",
+        "Diffuser",
+        "Exp",
+        "ExpBPF",
+        "PZ_SVF",
+        "RM",
+        "RMT",
+        "Reverb1",
+        "Scream",
+        "Scream3LP",
+        "Wsp",
+        "ADD_BASS",
+        "BEQ12",
+        "BP12",
+        "CombHL6N",
+        "CombL6N",
+        "Combs",
+        "DistComb1BP",
+        "DistComb1LP",
+        "FlangeH6P",
+        "FlangeL6P",
+        "HEQ12",
+        "HN12",
+        "LB12",
+        "N12",
+        "P12",
+        "FlangeHL6N",
+        "HEQ6",
+        "LPH12",
+        "PN12",
+        "Phase12N",
+        "Phase12P",
+        "SNH1",
+        "ZDF_A",
+        "Scream3BP",
+        "Phase48HL6N",
+        "Phase48N",
+        "FlangeHL6P",
+        "Phase24N",
+        "FlangeL6N",
+        "SNH2",
+        "CombH6P",
+        "LEQ12"
+      ],
+      "confidence": "confirmed",
+      "notes": "VST3 default display name is 'MG Low 12' -> CBOR enum 'MgL12'."
+    },
+    "kParamFreq": {
+      "key": "kParamFreq",
+      "kind": "float",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized cutoff",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "0=fully closed, 1=fully open. Calibrated 2026-07-31 via the audio-rendering pipeline (see docs/PARAMETER_SCHEMA.md item 2 and reference-serum-verify-audio-pipeline): an 11-point sweep on lowpass_24 fed white noise, measuring 85%-energy spectral rolloff, gives 0.05->21.5Hz through 1.00->14427.2Hz, roughly log-linear through the middle with some flattening at both extremes. Treat as the best current reference table, not a closed-form formula (rolloff85 is a proxy for -3dB point, and the flattening at the extremes could be a real curve feature or a proxy artifact, not disambiguated). Still `uncertain` because this table is specific to lowpass_24 -- not independently confirmed for every other filter type in the enum above (comb/formant/moog/etc. plausibly use a different Freq curve or a different role for this knob entirely). Confirmed 2026-08-01 via VST3 binary string mining: DistComb1BP/1LP/2BP/2LP's 'COMBFRQ' UI knob (previously flagged as an unconfirmed possible 5th filter param) is THIS param under a type-specific label, not a separate one -- the binary's automatable-param enum for VoiceFilter has no separate Comb-frequency ID, and 'CombFrq'/'LP Frq'/'HP Frq' sit adjacent in the string table as per-type label variants of kParamFreq (the same pattern as kParamVar's per-type relabeling below)."
+    },
+    "kParamReso": {
+      "key": "kParamReso",
+      "kind": "float",
+      "default": 10.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    "kParamDrive": {
+      "key": "kParamDrive",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamVar": {
+      "key": "kParamVar",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "'Var' knob; meaning changes per filter type (e.g. comb spacing, formant blend)."
+    },
+    "kParamLevelOut": {
+      "key": "kParamLevelOut",
+      "kind": "float",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamStereo": {
+      "key": "kParamStereo",
+      "kind": "float",
+      "default": 50.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "50 is centered/neutral, not 0 -- confirmed live (2026-07-28, real Serum 2) via an isolated A/B test after 0 was found to cause an audible, meter-visible hard-left bias whenever a VoiceFilter is enabled."
+    },
+    "kParamWet": {
+      "key": "kParamWet",
+      "kind": "float",
+      "default": 100.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamKeyTrack": {
+      "key": "kParamKeyTrack",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    }
+  },
+  "simple_filter_types": {
+    "lowpass_12": "L12",
+    "lowpass_24": "L24",
+    "highpass_12": "H12",
+    "highpass_24": "H24",
+    "bandpass_12": "B12",
+    "bandpass_24": "B24",
+    "notch": "N24",
+    "moog_lowpass_12": "MgL12",
+    "moog_lowpass_24": "MgL24",
+    "comb": "CombN",
+    "formant": "FormantONE"
+  },
+  "envelope": {
+    "kParamAttack": {
+      "key": "kParamAttack",
+      "kind": "float",
+      "default": 0.0005,
+      "min": 0.0,
+      "max": 10.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "VST3 default 0.5ms. Max corrected from 7.0 to 10.0 after finding a real Factory preset (FX - Wasp Whistle Sweep) with attack=9.46 in the raw CBOR -- same VST3-dump-undersells-the-real-range pattern as kParamRelease."
+    },
+    "kParamHold": {
+      "key": "kParamHold",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 5.2,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamDecay": {
+      "key": "kParamDecay",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 32.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "VST3 default 1.00s."
+    },
+    "kParamSustain": {
+      "key": "kParamSustain",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "VST3 default full sustain (0dB)."
+    },
+    "kParamRelease": {
+      "key": "kParamRelease",
+      "kind": "float",
+      "default": 0.015,
+      "min": 0.0,
+      "max": 32.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "VST3 default 15ms. Max corrected from 13.0 to 32.0 (matching kParamDecay) after finding real presets in a third-party bank with release=32.0 written directly into the CBOR data -- stronger evidence than the VST3 automation-range dump this field's earlier max came from."
+    },
+    "kParamCurve1": {
+      "key": "kParamCurve1",
+      "kind": "float",
+      "default": 50.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "curve %",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamCurve2": {
+      "key": "kParamCurve2",
+      "kind": "float",
+      "default": 66.6,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "curve %",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamCurve3": {
+      "key": "kParamCurve3",
+      "kind": "float",
+      "default": 66.6,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "curve %",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    }
+  },
+  "lfo": {
+    "kParamRate": {
+      "key": "kParamRate",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "normalized rate",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Hz/BPM mapping depends on kParamMode and beat-sync flags. Two points known from 2026-07-29 live UI probing (beat-synced regime): with kParamBeatSync absent (its own true default), setting the RATE knob to exactly '1/8' writes kParamRate=10.66; setting it back to '1/4' makes Serum omit the key again -- i.e. '1/4' BPM-synced IS the genuine absent-state default (not a UI placeholder), confirming mapping.py's omit-when-default fix is correct. \n\n**RETRACTED AND CORRECTED 2026-08-01**: a 2026-07-31 attempt to calibrate the separate FREE (beat_sync=False) Hz curve produced a bogus, wildly non-monotonic 'result' (a fake exponential-doubling shape at low raw values, anomalous plateaus above raw~35) -- traced to a REAL bug, not a Serum quirk: LfoSpec.beat_sync used to be a plain `bool` defaulting to `False`, which is indistinguishable from 'not set' once mapping.py's omit-at-default logic runs -- so EVERY calibration preset in that sweep silently omitted kParamBeatSync entirely and was actually measured in Serum's real absent-state default (BPM-SYNCED), not free-Hz mode at all. Found live by a user manually turning a calibration preset's RATE knob in Serum and noticing it displayed 'BPM'/a note fraction (e.g. '1/16') instead of Hz -- the automated pipeline never would have caught this on its own, since it only ever inspected the rendered AUDIO, not the loaded preset's own UI state. Fixed by making `LfoSpec.beat_sync` a 3-state `bool | None` (see its docstring) so `False` genuinely writes `kParamBeatSync=False` instead of being omitted.\n\n**Re-calibrated 2026-08-01 with the fix in place, genuine free-Hz mode confirmed this time**: raw 2/5/10/20/30 measured 2.0/5.0/10.0/20.0/30.0 Hz -- an exact 1:1 match, i.e. **raw kParamRate IS literal Hz** in free mode, no curve needed at all (trust this for raw <= ~30). raw=0 (which still omits kParamRate itself, a separate and correct omission -- see _LFO_KEYS_OMIT_AT_DEFAULT) measured 6.25Hz, presumably Serum's own genuine free-mode rate default; not independently confirmed.\n\n**The raw>=~35-40 'anomaly' -- live-Serum cross-check 2026-08-01, resolved as a measurement-pipeline limitation, NOT a real Serum DSP issue.** First live check found real visible/audible glitches -- but traced entirely to the well-known per-voice LFO phase-reset-on-note-on behavior (see LfoSpec.mono's docstring), an artifact of testing with a looping/retriggering piano-roll note, not the rate curve. Re-tested with `mono=True` (removes the retrigger confound) sweeping RATE 20-100%: STILL saw visible 'jumps' at the high end, but explicitly confirmed INAUDIBLE -- consistent with a stroboscopic/ aliasing illusion (the cyclic knob motion beating against the screen's own refresh rate), a known visual-perception effect, not a real audio glitch. **Conclusion**: no evidence of a genuine Serum DSP anomaly at any rate tested -- the real audio is smooth throughout, confirmed by ear with the retrigger confound removed. The automated pipeline's earlier non-monotonic Hz readings (raw 40/60/80 all reading an identical 21.6Hz, 50/70/90/100 giving inconsistent values) are now understood to be a limitation of `detect_modulation_rate_hz` itself at fast target rates (see its own docstring's 2 documented caveats), not a real curve kink -- don't re-litigate raw>=35 as a Serum bug going forward, but also don't trust the pipeline's own Hz number that fast, only that the underlying audio is well-behaved. See docs/PARAMETER_SCHEMA.md item 6a for the full writeup and reference-serum-verify-audio-pipeline for the pipeline-side notes."
+    },
+    "kParamMode": {
+      "key": "kParamMode",
+      "kind": "enum",
+      "default": "Free",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "Free",
+        "Retrig",
+        "Envelope"
+      ],
+      "confidence": "observed",
+      "notes": "'Retrig' recovered from the plugin binary's debug strings ('Free = 0, Retrig, Envelope, kCount'); never observed in the factory sample."
+    },
+    "kParamBeatSync": {
+      "key": "kParamBeatSync",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "The schema default (False/free-Hz) is NOT the genuine absent-state default -- confirmed live 2026-07-29 (real preset screenshot + empirical probing, see kParamRate above): an untouched LFO is BPM-synced by default. mapping.py omits this key when False rather than writing it explicitly, letting Serum fall back to its own (beat-synced) default correctly."
+    },
+    "kParamRise": {
+      "key": "kParamRise",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 5.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Max corrected from 3.0 to 5.0 after finding real Factory presets with rise up to 4.0 in the raw CBOR."
+    },
+    "kParamSmooth": {
+      "key": "kParamSmooth",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamDelay": {
+      "key": "kParamDelay",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 3.6,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamType": {
+      "key": "kParamType",
+      "kind": "enum",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "Rossler",
+        "Lorenz",
+        "RandomSH",
+        "Path"
+      ],
+      "confidence": "observed",
+      "notes": "Named algorithmic LFO shape -- absent (None) is a real, common state (plain/curve-drawn LFO), not 'unset'/'default Rossler' or similar. See the module comment above for the 886-preset survey this came from. NOT yet confirmed live for GENERATION (only observed being read from real files) -- whether writing kParamType alone, without any curveData, is sufficient for Serum to render it correctly hasn't been tested in real Serum yet."
+    },
+    "kParamMono": {
+      "key": "kParamMono",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Found live 2026-07-29 diagnosing a recreated preset that still sounded '8-bit' after fixing the LFO shape/filter/warp-lane gaps: the real preset's user reported its LFO visibly kept moving even with no note held, while the recreation's didn't -- traced to this key, present (always =1.0 when present, 63/4374 real LFO slots surveyed) only on that preset's busiest LFO (rate 100, RandomSH shape, driving a fast-arpeggiated oscillator). Hypothesis: a non-mono/per-voice LFO restarts its phase at every note-on, so under a fast arp it gets reset almost every step and never completes a meaningful cycle -- 'mono' instead runs one shared, continuously-free-running instance independent of note-on events, which would also read as 'moving without notes' and, since it isn't constantly reset, less choppy/'faster'-feeling."
+    },
+    "kParamSwing": {
+      "key": "kParamSwing",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Only ever observed at 1.0 (9/4374 real LFO slots). Presumed to affect timing/shuffle of a stepped (e.g. RandomSH) LFO's steps, by analogy with 'swing' elsewhere in music software, but not independently confirmed."
+    },
+    "kParamDotted": {
+      "key": "kParamDotted",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamTriplets": {
+      "key": "kParamTriplets",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamRate10x": {
+      "key": "kParamRate10x",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-06 via serum-verify audio pipeline: literal x10 rate multiplier. rate=2 (free-Hz) measured 1.9995Hz with rate10x omitted/False vs. 19.995Hz with rate10x=True -- exact 10x. An earlier same-day pass measured a spurious ~90x ratio (0.15Hz vs 20Hz); traced to detect_modulation_rate_hz's default fmin_hz=0.01 picking up a broadband low-frequency artifact from the note-on transient (a single early spectral-centroid spike) instead of the real 2Hz cycling -- raising fmin_hz to 0.8 (above the transient's leakage band, still well below the real rate) recovered the clean 2.0Hz reading. 599/4384 real LFO slots surveyed (14%), always 1.0 when present."
+    }
+  },
+  "macro": {
+    "kParamValue": {
+      "key": "kParamValue",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    }
+  },
+  "global": {
+    "kParamMasterVolume": {
+      "key": "kParamMasterVolume",
+      "kind": "float",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized (0.5=-9dB)",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    "kParamMonoToggle": {
+      "key": "kParamMonoToggle",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamPolyCount": {
+      "key": "kParamPolyCount",
+      "kind": "float",
+      "default": 8.0,
+      "min": 1.0,
+      "max": 32.0,
+      "unit": "voices",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamPortamentoTime": {
+      "key": "kParamPortamentoTime",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 3.0,
+      "unit": "seconds",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "Max corrected from 2.6 to 3.0 after finding a real Factory preset (FX - BHouse Glide - 04) with portamento_time=2.61 in the raw CBOR. CONFIRMED 2026-08-06 via pitch-tracked audio measurement (MIDI-driven 2-note render, librosa pyin): NOT a flat constant duration regardless of interval -- at kParamPortamentoTime=1.2, a 24-semitone glide measured ~1.22s (matching this value almost exactly) but a 7-semitone glide at the SAME setting measured only ~0.70s. Only audible on a legato-overlapping note change unless kParamPortaAlways is also set (see that key)."
+    },
+    "kParamLimitSameNotePolyphony": {
+      "key": "kParamLimitSameNotePolyphony",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Found live 2026-07-29 comparing a recreated preset's Global0 against the original's -- present (always True when present) on 325/832 real Global0 slots surveyed (39%). Presumed to limit voice-stacking when the SAME note is retriggered rapidly (e.g. under a fast arp) rather than letting overlapping voices for one note pile up -- not independently confirmed."
+    },
+    "kParamDirectVol": {
+      "key": "kParamDirectVol",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Volume for signal from any source routed with RoutingSlot.kParamRoutingDest='kRoutingDestDirect' (bypasses both filters AND the FX bus system entirely). Real values seen 0.21-0.43 -- well below the presumed unity default, uncertain why."
+    },
+    "kParamFXBus1Vol": {
+      "key": "kParamFXBus1Vol",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Aggregate volume for FX Bus 1 (fed by any source's RoutingSlot.kParamFXBus1Level send). Real values seen 0.26-1.75 -- CAN exceed 1.0 (a real boost/gain stage, not just 0-100% attenuation like most params in this schema)."
+    },
+    "kParamFXBus2Vol": {
+      "key": "kParamFXBus2Vol",
+      "kind": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Same as kParamFXBus1Vol, for FX Bus 2."
+    },
+    "kParamFXBus1Dest": {
+      "key": "kParamFXBus1Dest",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 3.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Decoded 2026-07-30 by a full-corpus survey (626 real Factory presets, 14 with this key present): every value observed was 1.0 or 2.0, NEVER 0.0 or 3.0 -- exactly the two RoutingSlot.kParamRoutingDest ordinals that make sense as a post-FX bus return (kRoutingDestMaster=1: straight to main output; kRoutingDestDirect=2: a separate bypass path) and never the two that wouldn't (kRoutingDestFilter=0: nonsensical, already downstream of the filter stage; kRoutingDestNone=3: would silence the whole processed bus). Shares the same MEANING as RoutingSlot's kParamRoutingDest but NOT the same storage kind -- unlike RoutingSlot (which stores this enum as a literal string, e.g. 'kRoutingDestFilter'), Global0 stores it as a raw float ordinal (1.0/2.0), confirmed directly against real Factory CBOR. kind stays 'float' here for that reason; GlobalSpec.fx_bus1_destination/mapping.py does the 'master'/'direct'<->1.0/2.0 translation instead. default=0.0 (kRoutingDestFilter's ordinal) is assumed by that same-enum convention, NOT independently confirmed -- genuine absent-key behavior was never isolated since real content only ever writes 1.0/2.0 explicitly. Where FX Bus 1's OWN processed signal (after passing through its FX chain) rejoins the main path -- distinct from GLOBAL_PARAMS['kParamFXBus1Vol'] (that bus's aggregate level) and ROUTING_SLOT_PARAMS['kParamFXBus1Level'] (how much of a given source is SENT into the bus to begin with)."
+    },
+    "kParamFXBus2Dest": {
+      "key": "kParamFXBus2Dest",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 3.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Same as kParamFXBus1Dest, for FX Bus 2 (6 real occurrences of 1.0, 2 of 2.0 in the same 626-preset survey)."
+    },
+    "kParamBendRangeUp": {
+      "key": "kParamBendRangeUp",
+      "kind": "float",
+      "default": 2.0,
+      "min": 0.0,
+      "max": 48.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: 12, 24."
+    },
+    "kParamBendRangeDn": {
+      "key": "kParamBendRangeDn",
+      "kind": "float",
+      "default": -2.0,
+      "min": -48.0,
+      "max": 0.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: -1, -12. Stored as the raw (typically negative) value."
+    },
+    "kParamLegato": {
+      "key": "kParamLegato",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Only ever observed True when present. ~11% real-corpus presence."
+    },
+    "kParamPortaAlways": {
+      "key": "kParamPortaAlways",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-06 via serum-verify audio pipeline (MIDI-driven 2-note render, non-overlapping/non-legato retrigger, pitch-tracked with librosa pyin): forces kParamPortamentoTime to apply to EVERY note change, not just legato-overlapping ones. False/omitted -> instant pitch jump on a non-overlapping retrigger (no glide); True -> a clean glide from the previous note's pitch lasting almost exactly kParamPortamentoTime (measured 1.22s at a configured 1.2s). Only ever observed True when present in real content."
+    },
+    "kParamPortaScaled": {
+      "key": "kParamPortaScaled",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "TESTED 2026-08-06, no measurable audio effect found (not fully resolved). Original hypothesis: scale portamento time by pitch distance. Audio test (kParamPortaAlways=1.0 to force a glide, pitch-tracked via librosa pyin) found an IDENTICAL glide curve/duration for a 24-semitone jump whether this was 1.0, explicitly 0.0, or fully absent -- same per-frame Hz values in all 3 conditions. Separately found kParamPortamentoTime ITSELF already produces a distance-dependent glide duration by default (see that key's notes), which may explain the null result here: the un-flagged default might already be the 'scaled' behavior this was hypothesized to enable. Needs a live-Serum GUI check to fully resolve, same as kParamNoteLatch. Only ever observed True when present in real content."
+    },
+    "kParamPortamentoCurve": {
+      "key": "kParamPortamentoCurve",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-06 via serum-verify audio pipeline (MIDI-driven 2-note glide, kParamPortaAlways=1.0, pitch-tracked frame-by-frame with librosa pyin): the glide's easing shape, low=linear/constant-rate, high=front-loaded/fast-start, and higher values also audibly shorten the glide's overall duration. Tested 11/50/100 at kParamPortamentoTime=1.2 against the unset baseline: unset produced a near-perfectly LINEAR pitch-vs-time ramp over the full ~1.2s; 11 was close to unset; 50 was noticeably front-loaded and finished in ~1.0s; 100 collapsed to an almost-instant, still cleanly monotonic ~0.1s glide. Direction/trend solid, exact curve formula not pinned down. Real values observed: 11-100."
+    },
+    "kParamSwing": {
+      "key": "kParamSwing",
+      "kind": "float",
+      "default": 50.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-06 via serum-verify audio pipeline (held-note algorithmic arp at a confirmed 1/16-note rate, onset-detected via librosa): affects the arpeggiator's step timing. Explicit 50.0 produced the exact same steady, unswung onset grid as this key being absent, confirming 50%=neutral. 90.0 produced large, repeating, non-trivial deviations (up to ~60ms) from the grid. Real values observed: 50-58%."
+    },
+    "kParamSwingDiv": {
+      "key": "kParamSwingDiv",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "PARTIALLY RESOLVED 2026-08-06: CONFIRMED to have a real, independent effect (1.0 vs 2.0 at the same kParamSwing=90.0 produced measurably different, non-identical onset timings -- not a null result), but the exact subdivision-selection semantics aren't pinned down -- the two conditions' onset patterns drift in and out of phase rather than showing a simple fixed offset, suggesting interaction with the arp's own rate that a single test point didn't cleanly isolate. Real values observed: 1, 2."
+    },
+    "kParamTranspose": {
+      "key": "kParamTranspose",
+      "kind": "float",
+      "default": 0.0,
+      "min": -48.0,
+      "max": 48.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Real values observed: -24 to +12."
+    },
+    "kParamGlobalTuning": {
+      "key": "kParamGlobalTuning",
+      "kind": "float",
+      "default": 440.0,
+      "min": 0.0,
+      "max": null,
+      "unit": "Hz",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED via a real Serum GLOBAL tab screenshot 2026-08-05 ('TUNING: A = 440 Hz' matches the raw value exactly). Real non-default values observed: 432, 435."
+    },
+    "kParamOversampling": {
+      "key": "kParamOversampling",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Corresponds to the GLOBAL tab's QUALITY dropdown (confirmed via screenshot 2026-08-05), but only ONE raw value (2.0) has been observed -- other option(s)' ordinal(s) unconfirmed."
+    },
+    "kParamS1Compatibility": {
+      "key": "kParamS1Compatibility",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "'S1 COMPATIBILITY MODE' in the GLOBAL tab, CONFIRMED via a real screenshot 2026-08-05 -- a legacy-behavior toggle for presets ported from Serum 1. Only ever observed True when present (157 real occurrences)."
+    },
+    "kParamUseUltraOnRender": {
+      "key": "kParamUseUltraOnRender",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "UNCERTAIN exact meaning. Only ever observed True when present."
+    },
+    "kParamNoteLatch": {
+      "key": "kParamNoteLatch",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "UNCERTAIN exact meaning. Only 1 real sample observed, very low confidence."
+    },
+    "kParamVoiceAmp": {
+      "key": "kParamVoiceAmp",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Static/base value for the same key already used as a mod-matrix DESTINATION (see MOD_DEST_TARGETS['global.voice_amp']) -- this is its own base value, never modeled before. Only 1 real sample observed (0.43), very low confidence."
+    }
+  },
+  "mod_matrix_slot": {
+    "kParamAmount": {
+      "key": "kParamAmount",
+      "kind": "float",
+      "default": 0.0,
+      "min": -100.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    "kParamBipolar": {
+      "key": "kParamBipolar",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamAuxInverted": {
+      "key": "kParamAuxInverted",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Inverts the AUX source (not the main source) before it scales/gates kParamAmount -- exact combination formula not decoded."
+    },
+    "kParamAuxCurve": {
+      "key": "kParamAuxCurve",
+      "kind": "float",
+      "default": 0.0,
+      "min": -100.0,
+      "max": 100.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "A scalar curve-shape value for the AUX source, same family as the per-route kParamCurveIn (main source) -- distinct mechanism, not decoded."
+    },
+    "kParamBypass": {
+      "key": "kParamBypass",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Every real sample observed had this at 1.0 (True) when present -- unclear if 'route bypassed but kept configured' is really the common case, or if the semantics are inverted from the name."
+    },
+    "kParamCurveIn": {
+      "key": "kParamCurveIn",
+      "kind": "float",
+      "default": 0.0,
+      "min": -100.0,
+      "max": 100.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Per-route curve-shape scalar for the MAIN source -- see the Dreams recreation write-up in docs/REAL_SERUM_TESTING.md for the discovery context."
+    },
+    "kParamMainCurveData": {
+      "key": "kParamMainCurveData",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "A flag (observed only at 1.0), not the curve itself -- confirmed live 2026-07-30 (real file inspection): the actual hand-drawn point data lives in a SIBLING 'flex' key on the ModSlot (same pattern as FX units' own 'flex'), not inside plainParams. Arbitrary points, not generatable."
+    },
+    "kParamAuxCurveData": {
+      "key": "kParamAuxCurveData",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Same flag-not-data pattern as kParamMainCurveData, presumably pointing at a second curve within the same sibling 'flex' structure for the AUX source -- a system this project only just found, never looked for before 2026-07-30, exact 'flex' layout when both main and aux curves are present unconfirmed."
+    },
+    "kParamDelayOffset": {
+      "key": "kParamDelayOffset",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Per-route delay before the modulation takes effect -- only ever observed on 'LOOP'-category presets (beat-synced loop content). Real values seen ~0.3-0.8 (units unconfirmed, possibly beats)."
+    },
+    "kParamDelayBeatSync": {
+      "key": "kParamDelayBeatSync",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Beat-syncs kParamDelayOffset -- co-occurs with it in every sample seen."
+    },
+    "kParamSmoothRise": {
+      "key": "kParamSmoothRise",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Per-route smoothing time/amount for a rising modulation value, independent of the source's own smoothing (e.g. an LFO's kParamSmooth). Real values seen 5.8-92.8 -- units unconfirmed."
+    },
+    "kParamSmoothFall": {
+      "key": "kParamSmoothFall",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Same as kParamSmoothRise, for a falling modulation value."
+    },
+    "kParamSmoothLink": {
+      "key": "kParamSmoothLink",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Presumed 'link rise and fall smoothing to one value' toggle -- every real sample seen had this at 0.0 (False) even when Rise/Fall were both set, so the presumption is unconfirmed."
+    }
+  },
+  "mod_source_ids": {
+    "lfo0": 6,
+    "lfo1": 7,
+    "lfo2": 8,
+    "lfo3": 9,
+    "lfo4": 10,
+    "lfo5": 11,
+    "lfo6": 12,
+    "lfo7": 13,
+    "lfo8": 14,
+    "lfo9": 15,
+    "macro0": 25,
+    "macro1": 26,
+    "macro2": 27,
+    "macro3": 28,
+    "macro4": 29,
+    "macro5": 30,
+    "macro6": 31,
+    "macro7": 32,
+    "velocity": 16,
+    "mod_wheel": 1,
+    "env0": 2,
+    "env1": 3,
+    "env2": 4,
+    "env3": 5,
+    "key_track": 17,
+    "aftertouch": 18,
+    "poly_aftertouch": 19,
+    "random1": 21,
+    "random2": 22,
+    "pitch_bend": 33,
+    "random_discrete": 59,
+    "release_velo": 37,
+    "voice_mod1": 56,
+    "voice_mod2": 57,
+    "active_voices": 55,
+    "voice_index": 58,
+    "fixed": 38,
+    "note_on_alt": 23,
+    "note_on_alt2": 24,
+    "expr_pan": 34,
+    "expr_timbre": 35,
+    "expr_press": 36,
+    "oscillator0": 49,
+    "oscillator1": 50,
+    "oscillator2": 51,
+    "oscillator4": 52,
+    "oscillator3": 20,
+    "filter0": 53,
+    "filter1": 54,
+    "lfo1_y": 40
+  },
+  "mod_dest_targets": {
+    "oscillator0.volume": {
+      "dest_type": "Oscillator",
+      "dest_id": 0,
+      "param_name": "kParamVolume"
+    },
+    "oscillator0.pan": {
+      "dest_type": "Oscillator",
+      "dest_id": 0,
+      "param_name": "kParamPan"
+    },
+    "oscillator0.octave": {
+      "dest_type": "Oscillator",
+      "dest_id": 0,
+      "param_name": "kParamOctave"
+    },
+    "oscillator0.pitch": {
+      "dest_type": "Oscillator",
+      "dest_id": 0,
+      "param_name": "kParamPitch"
+    },
+    "oscillator0.fine": {
+      "dest_type": "Oscillator",
+      "dest_id": 0,
+      "param_name": "kParamFine"
+    },
+    "oscillator1.volume": {
+      "dest_type": "Oscillator",
+      "dest_id": 1,
+      "param_name": "kParamVolume"
+    },
+    "oscillator1.pan": {
+      "dest_type": "Oscillator",
+      "dest_id": 1,
+      "param_name": "kParamPan"
+    },
+    "oscillator1.octave": {
+      "dest_type": "Oscillator",
+      "dest_id": 1,
+      "param_name": "kParamOctave"
+    },
+    "oscillator1.pitch": {
+      "dest_type": "Oscillator",
+      "dest_id": 1,
+      "param_name": "kParamPitch"
+    },
+    "oscillator1.fine": {
+      "dest_type": "Oscillator",
+      "dest_id": 1,
+      "param_name": "kParamFine"
+    },
+    "oscillator2.volume": {
+      "dest_type": "Oscillator",
+      "dest_id": 2,
+      "param_name": "kParamVolume"
+    },
+    "oscillator2.pan": {
+      "dest_type": "Oscillator",
+      "dest_id": 2,
+      "param_name": "kParamPan"
+    },
+    "oscillator2.octave": {
+      "dest_type": "Oscillator",
+      "dest_id": 2,
+      "param_name": "kParamOctave"
+    },
+    "oscillator2.pitch": {
+      "dest_type": "Oscillator",
+      "dest_id": 2,
+      "param_name": "kParamPitch"
+    },
+    "oscillator2.fine": {
+      "dest_type": "Oscillator",
+      "dest_id": 2,
+      "param_name": "kParamFine"
+    },
+    "oscillator3.volume": {
+      "dest_type": "Oscillator",
+      "dest_id": 3,
+      "param_name": "kParamVolume"
+    },
+    "oscillator3.pan": {
+      "dest_type": "Oscillator",
+      "dest_id": 3,
+      "param_name": "kParamPan"
+    },
+    "oscillator3.octave": {
+      "dest_type": "Oscillator",
+      "dest_id": 3,
+      "param_name": "kParamOctave"
+    },
+    "oscillator3.pitch": {
+      "dest_type": "Oscillator",
+      "dest_id": 3,
+      "param_name": "kParamPitch"
+    },
+    "oscillator3.fine": {
+      "dest_type": "Oscillator",
+      "dest_id": 3,
+      "param_name": "kParamFine"
+    },
+    "oscillator4.volume": {
+      "dest_type": "Oscillator",
+      "dest_id": 4,
+      "param_name": "kParamVolume"
+    },
+    "oscillator4.pan": {
+      "dest_type": "Oscillator",
+      "dest_id": 4,
+      "param_name": "kParamPan"
+    },
+    "oscillator4.octave": {
+      "dest_type": "Oscillator",
+      "dest_id": 4,
+      "param_name": "kParamOctave"
+    },
+    "oscillator4.pitch": {
+      "dest_type": "Oscillator",
+      "dest_id": 4,
+      "param_name": "kParamPitch"
+    },
+    "oscillator4.fine": {
+      "dest_type": "Oscillator",
+      "dest_id": 4,
+      "param_name": "kParamFine"
+    },
+    "filter0.cutoff": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamFreq"
+    },
+    "filter0.resonance": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamReso"
+    },
+    "filter0.drive": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamDrive"
+    },
+    "filter0.wet": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamWet"
+    },
+    "filter0.var": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamVar"
+    },
+    "filter0.stereo": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamStereo"
+    },
+    "filter0.level_out": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 0,
+      "param_name": "kParamLevelOut"
+    },
+    "filter1.cutoff": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamFreq"
+    },
+    "filter1.resonance": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamReso"
+    },
+    "filter1.drive": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamDrive"
+    },
+    "filter1.wet": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamWet"
+    },
+    "filter1.var": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamVar"
+    },
+    "filter1.stereo": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamStereo"
+    },
+    "filter1.level_out": {
+      "dest_type": "VoiceFilter",
+      "dest_id": 1,
+      "param_name": "kParamLevelOut"
+    },
+    "env0.attack": {
+      "dest_type": "Env",
+      "dest_id": 0,
+      "param_name": "kParamAttack"
+    },
+    "env0.decay": {
+      "dest_type": "Env",
+      "dest_id": 0,
+      "param_name": "kParamDecay"
+    },
+    "env0.sustain": {
+      "dest_type": "Env",
+      "dest_id": 0,
+      "param_name": "kParamSustain"
+    },
+    "env0.release": {
+      "dest_type": "Env",
+      "dest_id": 0,
+      "param_name": "kParamRelease"
+    },
+    "env1.attack": {
+      "dest_type": "Env",
+      "dest_id": 1,
+      "param_name": "kParamAttack"
+    },
+    "env1.decay": {
+      "dest_type": "Env",
+      "dest_id": 1,
+      "param_name": "kParamDecay"
+    },
+    "env1.sustain": {
+      "dest_type": "Env",
+      "dest_id": 1,
+      "param_name": "kParamSustain"
+    },
+    "env1.release": {
+      "dest_type": "Env",
+      "dest_id": 1,
+      "param_name": "kParamRelease"
+    },
+    "env2.attack": {
+      "dest_type": "Env",
+      "dest_id": 2,
+      "param_name": "kParamAttack"
+    },
+    "env2.decay": {
+      "dest_type": "Env",
+      "dest_id": 2,
+      "param_name": "kParamDecay"
+    },
+    "env2.sustain": {
+      "dest_type": "Env",
+      "dest_id": 2,
+      "param_name": "kParamSustain"
+    },
+    "env2.release": {
+      "dest_type": "Env",
+      "dest_id": 2,
+      "param_name": "kParamRelease"
+    },
+    "env3.attack": {
+      "dest_type": "Env",
+      "dest_id": 3,
+      "param_name": "kParamAttack"
+    },
+    "env3.decay": {
+      "dest_type": "Env",
+      "dest_id": 3,
+      "param_name": "kParamDecay"
+    },
+    "env3.sustain": {
+      "dest_type": "Env",
+      "dest_id": 3,
+      "param_name": "kParamSustain"
+    },
+    "env3.release": {
+      "dest_type": "Env",
+      "dest_id": 3,
+      "param_name": "kParamRelease"
+    },
+    "oscillator0.table_position": {
+      "dest_type": "WTOsc",
+      "dest_id": 0,
+      "param_name": "kParamTablePos"
+    },
+    "oscillator0.warp_amount": {
+      "dest_type": "WTOsc",
+      "dest_id": 0,
+      "param_name": "kParamWarp"
+    },
+    "oscillator0.warp_var2": {
+      "dest_type": "WTOsc",
+      "dest_id": 0,
+      "param_name": "kParamWarpVar2"
+    },
+    "oscillator0.warp_amount2": {
+      "dest_type": "WTOsc",
+      "dest_id": 0,
+      "param_name": "kParamWarp2"
+    },
+    "oscillator1.table_position": {
+      "dest_type": "WTOsc",
+      "dest_id": 1,
+      "param_name": "kParamTablePos"
+    },
+    "oscillator1.warp_amount": {
+      "dest_type": "WTOsc",
+      "dest_id": 1,
+      "param_name": "kParamWarp"
+    },
+    "oscillator1.warp_var2": {
+      "dest_type": "WTOsc",
+      "dest_id": 1,
+      "param_name": "kParamWarpVar2"
+    },
+    "oscillator1.warp_amount2": {
+      "dest_type": "WTOsc",
+      "dest_id": 1,
+      "param_name": "kParamWarp2"
+    },
+    "oscillator2.table_position": {
+      "dest_type": "WTOsc",
+      "dest_id": 2,
+      "param_name": "kParamTablePos"
+    },
+    "oscillator2.warp_amount": {
+      "dest_type": "WTOsc",
+      "dest_id": 2,
+      "param_name": "kParamWarp"
+    },
+    "oscillator2.warp_var2": {
+      "dest_type": "WTOsc",
+      "dest_id": 2,
+      "param_name": "kParamWarpVar2"
+    },
+    "oscillator2.warp_amount2": {
+      "dest_type": "WTOsc",
+      "dest_id": 2,
+      "param_name": "kParamWarp2"
+    },
+    "lfo0.rate": {
+      "dest_type": "LFO",
+      "dest_id": 0,
+      "param_name": "kParamRate"
+    },
+    "lfo1.rate": {
+      "dest_type": "LFO",
+      "dest_id": 1,
+      "param_name": "kParamRate"
+    },
+    "lfo2.rate": {
+      "dest_type": "LFO",
+      "dest_id": 2,
+      "param_name": "kParamRate"
+    },
+    "lfo3.rate": {
+      "dest_type": "LFO",
+      "dest_id": 3,
+      "param_name": "kParamRate"
+    },
+    "lfo4.rate": {
+      "dest_type": "LFO",
+      "dest_id": 4,
+      "param_name": "kParamRate"
+    },
+    "lfo5.rate": {
+      "dest_type": "LFO",
+      "dest_id": 5,
+      "param_name": "kParamRate"
+    },
+    "lfo6.rate": {
+      "dest_type": "LFO",
+      "dest_id": 6,
+      "param_name": "kParamRate"
+    },
+    "lfo7.rate": {
+      "dest_type": "LFO",
+      "dest_id": 7,
+      "param_name": "kParamRate"
+    },
+    "lfo8.rate": {
+      "dest_type": "LFO",
+      "dest_id": 8,
+      "param_name": "kParamRate"
+    },
+    "lfo9.rate": {
+      "dest_type": "LFO",
+      "dest_id": 9,
+      "param_name": "kParamRate"
+    },
+    "macro0.value": {
+      "dest_type": "Macro",
+      "dest_id": 0,
+      "param_name": "kParamValue"
+    },
+    "macro1.value": {
+      "dest_type": "Macro",
+      "dest_id": 1,
+      "param_name": "kParamValue"
+    },
+    "macro2.value": {
+      "dest_type": "Macro",
+      "dest_id": 2,
+      "param_name": "kParamValue"
+    },
+    "macro3.value": {
+      "dest_type": "Macro",
+      "dest_id": 3,
+      "param_name": "kParamValue"
+    },
+    "macro4.value": {
+      "dest_type": "Macro",
+      "dest_id": 4,
+      "param_name": "kParamValue"
+    },
+    "macro5.value": {
+      "dest_type": "Macro",
+      "dest_id": 5,
+      "param_name": "kParamValue"
+    },
+    "macro6.value": {
+      "dest_type": "Macro",
+      "dest_id": 6,
+      "param_name": "kParamValue"
+    },
+    "macro7.value": {
+      "dest_type": "Macro",
+      "dest_id": 7,
+      "param_name": "kParamValue"
+    },
+    "oscillator3.noise_color": {
+      "dest_type": "NoiseOsc",
+      "dest_id": 3,
+      "param_name": "kParamColor"
+    },
+    "oscillator3.noise_initial_phase": {
+      "dest_type": "NoiseOsc",
+      "dest_id": 3,
+      "param_name": "kParamInitialPhase"
+    },
+    "oscillator3.noise_fine": {
+      "dest_type": "NoiseOsc",
+      "dest_id": 3,
+      "param_name": "kParamFine"
+    },
+    "global.voice_amp": {
+      "dest_type": "Global",
+      "dest_id": 0,
+      "param_name": "kParamVoiceAmp"
+    },
+    "arp.gate": {
+      "dest_type": "Arp",
+      "dest_id": 0,
+      "param_name": "kParamGate"
+    },
+    "arp.rate": {
+      "dest_type": "Arp",
+      "dest_id": 0,
+      "param_name": "kParamRate"
+    },
+    "arp.chance": {
+      "dest_type": "Arp",
+      "dest_id": 0,
+      "param_name": "kParamChance"
+    },
+    "arp.offset": {
+      "dest_type": "Arp",
+      "dest_id": 0,
+      "param_name": "kParamOffset"
+    },
+    "arp.transpose_range": {
+      "dest_type": "Arp",
+      "dest_id": 0,
+      "param_name": "kParamTransposeRange"
+    },
+    "global.voice_scaling_env_time": {
+      "dest_type": "VoicePanel",
+      "dest_id": 0,
+      "param_name": "kParamGlobalScalingEnvTime"
+    },
+    "global.voice_scaling_lfo_time": {
+      "dest_type": "VoicePanel",
+      "dest_id": 0,
+      "param_name": "kParamGlobalScalingLfoTime"
+    }
+  },
+  "fx_type_ids": {
+    "0": "FXDistortion",
+    "1": "FXFlanger",
+    "2": "FXPhaser",
+    "3": "FXChorus",
+    "4": "FXDelay",
+    "5": "FXComp",
+    "6": "FXReverb",
+    "7": "FXEQ",
+    "8": "FXFilter",
+    "9": "FXHyperD",
+    "10": "FXBode",
+    "11": "FXConv",
+    "12": "FXUtils",
+    "13": "FXSplit",
+    "14": "FXSplit3",
+    "15": "FXSplitMS"
+  },
+  "fx_params": {
+    "FXDistortion": {
+      "kParamMode": {
+        "key": "kParamMode",
+        "kind": "enum",
+        "default": "kOverdrive",
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [
+          "kAsym",
+          "kDiode1",
+          "kDiode2",
+          "kDownsample",
+          "kHardClip",
+          "kLinFold",
+          "kOverdrive",
+          "kRectify",
+          "kSinFold",
+          "kSineShaper",
+          "kSoftClip",
+          "kSoftSat",
+          "kStompBox",
+          "kTapeSat",
+          "kXShaper",
+          "kXShaperAsym",
+          "kZeroSquare"
+        ],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDrive": {
+        "key": "kParamDrive",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamFreq": {
+        "key": "kParamFreq",
+        "kind": "float",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 1.0,
+        "unit": "normalized",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamNumStages": {
+        "key": "kParamNumStages",
+        "kind": "float",
+        "default": 2.0,
+        "min": 2.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 7.0 after finding a real preset with numStages=16.0."
+      }
+    },
+    "FXChorus": {
+      "kParamRate": {
+        "key": "kParamRate",
+        "kind": "float",
+        "default": 0.5,
+        "min": 0.0,
+        "max": 20.0,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 1.4 after finding a real Factory preset with rate=20.0. Partially calibrated 2026-08-01 via the audio-rendering pipeline (same detect_modulation_rate_hz technique as LFO_PARAMS['kParamRate'], see docs/PARAMETER_SCHEMA.md item 6b): raw 15/20 measured EXACTLY 15.0/20.0 Hz -- 'approx.' can be trusted as literal Hz at the top of the range. Raw 2-10 measured inconsistently 1x-2x the raw value (e.g. raw=4->4Hz but raw=3->6Hz and raw=5->10Hz) -- plausibly the analysis locking onto the 2nd harmonic of the true rate (a symmetric brightness sweep can read as 2x in a spectral-centroid-based measurement) rather than a real curve kink, unconfirmed. Raw 0.5/1.0 measured a fixed ~16.5/~32 Hz -- NOT a multiple of the raw value at all. NOTE: originally written up as 'matching the exact same anomaly found calibrating LFO_PARAMS[\"kParamRate\"]', presented as cross-validation -- that LFO-side finding was RETRACTED 2026-08-01 (it had been measuring the wrong mode entirely due to an unrelated beat_sync bug, see LFO_PARAMS['kParamRate']'s notes), so this FXChorus anomaly is back to being an independent, uncorroborated finding, not confirmed by a second source. Still real and reproducible on its own terms (unaffected by the beat_sync bug -- FXChorus has no such field), just don't cite it as cross-validated anymore. Trust raw >= ~15 only; don't trust the low end without a live Serum check."
+      },
+      "kParamDepth": {
+        "key": "kParamDepth",
+        "kind": "float",
+        "default": 10.0,
+        "min": 0.0,
+        "max": 26.0,
+        "unit": "ms (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDelay": {
+        "key": "kParamDelay",
+        "kind": "float",
+        "default": 5.0,
+        "min": 0.0,
+        "max": 20.0,
+        "unit": "ms (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 12.8 after finding real presets with delay up to 18.0."
+      },
+      "kParamFeedback": {
+        "key": "kParamFeedback",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 75.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 58.2 after finding a real preset with feedback=71.9."
+      },
+      "kParamFilt": {
+        "key": "kParamFilt",
+        "kind": "float",
+        "default": 2000.0,
+        "min": 50.0,
+        "max": 20000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXFlanger": {
+      "kParamRate": {
+        "key": "kParamRate",
+        "kind": "float",
+        "default": 0.5,
+        "min": 0.0,
+        "max": 10.0,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 5.1 after finding a real preset with rate=9.3. Calibrated 2026-08-01 via the audio-rendering pipeline (same technique as FXChorus): measured Hz was EXACTLY 2x the raw value across all 7 points tested (raw 1/2/3/5/7/9/10 -> 2/4/6/10/14/18/20 Hz), a suspiciously perfect and uniform ratio, not the erratic 1x/2x flip-flopping seen calibrating FXChorus's low range. Most likely explanation: detect_modulation_rate_hz's known 2nd-harmonic-locking limitation (see its own docstring) is unusually STRONG and consistent for a flanger's sharp, symmetric comb-filter-notch brightness sweep -- meaning the true curve is presumably raw=Hz, matching every other similarly-labeled rate param calibrated this project (LFO free rate, FXChorus's own confirmed raw>=15 range), not a genuine '2x' Serum curve. NOT independently disambiguated (would need a live Serum check or a differently-shaped destination signal) -- treat 'raw=Hz' as the working assumption, not a confirmed fact, for this specific param."
+      },
+      "kParamDepth": {
+        "key": "kParamDepth",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamFeedback": {
+        "key": "kParamFeedback",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWidth": {
+        "key": "kParamWidth",
+        "kind": "float",
+        "default": 180.0,
+        "min": 0.0,
+        "max": 360.0,
+        "unit": "degrees",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXPhaser": {
+      "kParamRate": {
+        "key": "kParamRate",
+        "kind": "float",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 20.0,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Calibrated 2026-08-01, same technique/caveat as FXFlanger above: measured Hz was ~2x raw at most points (raw 1/2/10/15/18/20 -> 2/4/20/30/36/40 Hz) but NOT perfectly consistent -- raw=5 measured 20Hz (4x, not the expected ~10Hz/2x), an outlier that itself supports 'harmonic-locking instability' over 'genuine clean 2x curve' (a real fixed-ratio Serum curve shouldn't have produced this one inconsistent point). Same working assumption as FXFlanger: true curve presumably raw=Hz, not independently confirmed."
+      },
+      "kParamDepth": {
+        "key": "kParamDepth",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamFeedback": {
+        "key": "kParamFeedback",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamFreq": {
+        "key": "kParamFreq",
+        "kind": "float",
+        "default": 800.0,
+        "min": 20.0,
+        "max": 20000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 2563.0 after finding real presets with freq up to 18000.0."
+      },
+      "kParamNumPoles": {
+        "key": "kParamNumPoles",
+        "kind": "float",
+        "default": 4.0,
+        "min": 1.0,
+        "max": 18.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXDelay": {
+      "kParamTimeL": {
+        "key": "kParamTimeL",
+        "kind": "float",
+        "default": 0.25,
+        "min": 0.001,
+        "max": 0.34,
+        "unit": "seconds",
+        "enum_values": [],
+        "confidence": "confirmed",
+        "notes": "CONFIRMED literal seconds 2026-08-01 via the audio-rendering pipeline (a sharp transient through the delay, feedback>0 for repeats, measuring the echo gap via onset detection) -- but ONLY when kParamBeatSync (see below) is explicitly False. Real bug found in the process, same class as LFO_PARAMS['kParamRate']'s beat_sync issue: kParamBeatSync was never catalogued in this schema at all (found via VST3 binary string mining, same technique as the COMBFRQ/RoutingSlot/ModSlot investigations), so no serum-mcp-generated FXDelay has ever set it -- meaning every one has been silently falling back to Serum's real (BPM-synced/note-quantized) default, NOT literal seconds as this label implied. Raw 0.05/0.1/0.2/0.3 measured clean note-value-like jumps (~0.255/~0.5/~2.0/~2.0/~4.0s -- doubling at irregular raw intervals, unmistakably a quantized/synced pattern, not a smooth curve) when kParamBeatSync was left absent; with kParamBeatSync=False explicitly written, the SAME raw values measured near-exact literal seconds (0.05->0.046, 0.1->0.105, 0.2->0.197, 0.3->0.302, all within onset-detection noise of the raw value itself). Pass `kParamBeatSync: False` explicitly in FxUnitSpec.params whenever kParamTimeL/R should mean literal seconds."
+      },
+      "kParamTimeR": {
+        "key": "kParamTimeR",
+        "kind": "float",
+        "default": 0.25,
+        "min": 0.001,
+        "max": 0.32,
+        "unit": "seconds",
+        "enum_values": [],
+        "confidence": "confirmed",
+        "notes": "See kParamTimeL -- identical finding/fix."
+      },
+      "kParamBeatSync": {
+        "key": "kParamBeatSync",
+        "kind": "bool",
+        "default": false,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "confirmed",
+        "notes": "Never catalogued before 2026-08-01 (found via VST3 binary string mining while investigating why kParamTimeL/R's calibration looked note-quantized instead of linear) -- see kParamTimeL's notes for the full story. Presumed genuine absent-state default is BPM-synced (True-like), mirroring LFO_PARAMS['kParamRate']'s own beat_sync default, but NOT independently confirmed via the omit-vs-explicit-True comparison that nailed that down for the LFO case -- only confirmed that explicit False unlocks literal-seconds kParamTimeL/R. Not yet exposed as a dedicated OscillatorSpec-style field -- pass `kParamBeatSync: False` directly via FxUnitSpec.params (validated fine, `_build_fx_entry` allows unknown-to-common-schema keys through for any FX type) whenever literal-second delay times are wanted."
+      },
+      "kParamMode": {
+        "key": "kParamMode",
+        "kind": "float",
+        "default": null,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "Found via the same 2026-08-01 binary string mining as kParamBeatSync above, never independently investigated -- likely a delay-topology enum (e.g. normal/ping-pong/dual-mono) given it sits alongside kParamLink/kParamOffsetL/kParamOffsetR in the same automatable-param group, but the real values/kind (float vs enum) aren't confirmed. Documented for round-trip safety only."
+      },
+      "kParamLink": {
+        "key": "kParamLink",
+        "kind": "bool",
+        "default": false,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "Found via binary string mining, presumably 'link L/R times together' given its position next to kParamTimeL/R -- not independently confirmed."
+      },
+      "kParamBW": {
+        "key": "kParamBW",
+        "kind": "float",
+        "default": null,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "Found via binary string mining; also independently spotted as a real, uncatalogued key surviving edit-round-trip passthrough on real third-party content during the 2026-07-28 stress test (see PARAMETER_SCHEMA.md item at the top of \u00a75). Presumably the tone filter's bandwidth, alongside kParamFreq -- not independently confirmed."
+      },
+      "kParamOffsetL": {
+        "key": "kParamOffsetL",
+        "kind": "float",
+        "default": null,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "Found via binary string mining, presumably a per-channel timing offset/micro-delay alongside kParamOffsetR -- not independently confirmed."
+      },
+      "kParamOffsetR": {
+        "key": "kParamOffsetR",
+        "kind": "float",
+        "default": null,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "See kParamOffsetL."
+      },
+      "kParamHQ": {
+        "key": "kParamHQ",
+        "kind": "bool",
+        "default": false,
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "Found via binary string mining, presumably a high-quality/oversampling toggle -- not independently confirmed."
+      },
+      "kParamFeedback": {
+        "key": "kParamFeedback",
+        "kind": "float",
+        "default": 30.0,
+        "min": 0.0,
+        "max": 90.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 83.3 after finding a real preset with feedback=89.5."
+      },
+      "kParamFreq": {
+        "key": "kParamFreq",
+        "kind": "float",
+        "default": 8000.0,
+        "min": 49.5,
+        "max": 17981.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Delay tap tone filter frequency. Min nudged from 49.6 to 49.5 after finding a real preset with freq=49.56."
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 30.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXReverb": {
+      "kParamType": {
+        "key": "kParamType",
+        "kind": "enum",
+        "default": "kHall",
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [
+          "kAbyss",
+          "kHall",
+          "kSpace",
+          "kVintage"
+        ],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamSize": {
+        "key": "kParamSize",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDelay": {
+        "key": "kParamDelay",
+        "kind": "float",
+        "default": 20.0,
+        "min": 0.0,
+        "max": 250.0,
+        "unit": "ms",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWidth": {
+        "key": "kParamWidth",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 30.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXComp": {
+      "kParamThresh": {
+        "key": "kParamThresh",
+        "kind": "float",
+        "default": 0.5,
+        "min": 0.0,
+        "max": 1.0,
+        "unit": "normalized",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamRatio": {
+        "key": "kParamRatio",
+        "kind": "float",
+        "default": 4.0,
+        "min": 1.0,
+        "max": 1000000.0,
+        "unit": "ratio:1",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Min corrected from 1.1 to 1.0 after finding real Factory presets with ratio=1.0 (no compression, ratio matrix's neutral position) in the raw CBOR."
+      },
+      "kParamAttack": {
+        "key": "kParamAttack",
+        "kind": "float",
+        "default": 10.0,
+        "min": 0.1,
+        "max": 1000.0,
+        "unit": "ms",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamRelease": {
+        "key": "kParamRelease",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.1,
+        "max": 1000.0,
+        "unit": "ms",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamMakeup": {
+        "key": "kParamMakeup",
+        "kind": "float",
+        "default": 1.0,
+        "min": 1.0,
+        "max": 32.0,
+        "unit": "gain factor",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 25.8 after finding a real preset with makeup=31.0."
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXEQ": {
+      "kParamFreq1": {
+        "key": "kParamFreq1",
+        "kind": "float",
+        "default": 200.0,
+        "min": 21.5,
+        "max": 10000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 9454.0 after finding a real preset with freq1=10000.0."
+      },
+      "kParamFreq2": {
+        "key": "kParamFreq2",
+        "kind": "float",
+        "default": 4000.0,
+        "min": 21.5,
+        "max": 20000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamGain1": {
+        "key": "kParamGain1",
+        "kind": "float",
+        "default": 0.0,
+        "min": -24.0,
+        "max": 24.0,
+        "unit": "dB",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamGain2": {
+        "key": "kParamGain2",
+        "kind": "float",
+        "default": 0.0,
+        "min": -24.0,
+        "max": 24.0,
+        "unit": "dB",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamReso1": {
+        "key": "kParamReso1",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "Q (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 69.6 after finding a real preset with reso1=100.0."
+      },
+      "kParamReso2": {
+        "key": "kParamReso2",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 95.0,
+        "unit": "Q (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 79.0 after finding a real preset with reso2=81.3."
+      }
+    },
+    "FXFilter": {
+      "kParamType": {
+        "key": "kParamType",
+        "kind": "enum",
+        "default": "L12",
+        "min": null,
+        "max": null,
+        "unit": "",
+        "enum_values": [
+          "L6",
+          "L12",
+          "L18",
+          "L24",
+          "H6",
+          "H12",
+          "H18",
+          "H24",
+          "B12",
+          "B24",
+          "N24",
+          "BN12",
+          "NN12",
+          "BPN12",
+          "BPN24",
+          "BandReject",
+          "Allpasses",
+          "LH12",
+          "HB12",
+          "LBH12",
+          "LBH24",
+          "LNH12",
+          "LNH24",
+          "LPH24",
+          "LN12",
+          "PP12",
+          "HP12",
+          "MgL6",
+          "MgL12",
+          "MgL18",
+          "MgL24",
+          "LadderMg",
+          "LadderAcid",
+          "LadderEMS",
+          "DirtyMg",
+          "Comb2",
+          "CombN",
+          "CombP",
+          "CombH6N",
+          "CombHL6P",
+          "DistComb2LP",
+          "DistComb2BP",
+          "FlangeN",
+          "FlangeP",
+          "FlangePhase12HL6P",
+          "Phase24P",
+          "Phase36N",
+          "Phase36P",
+          "Phase48H6P",
+          "Phase48HL6P",
+          "Phase48P",
+          "FormantONE",
+          "FormantTWB",
+          "FormantTWO",
+          "DJMixer",
+          "Diffuser",
+          "Exp",
+          "ExpBPF",
+          "PZ_SVF",
+          "RM",
+          "RMT",
+          "Reverb1",
+          "Scream",
+          "Scream3LP",
+          "Wsp",
+          "ADD_BASS",
+          "BEQ12",
+          "BP12",
+          "CombHL6N",
+          "CombL6N",
+          "Combs",
+          "DistComb1BP",
+          "DistComb1LP",
+          "FlangeH6P",
+          "FlangeL6P",
+          "HEQ12",
+          "HN12",
+          "LB12",
+          "N12",
+          "P12",
+          "FlangeHL6N",
+          "HEQ6",
+          "LPH12",
+          "PN12",
+          "Phase12N",
+          "Phase12P",
+          "SNH1",
+          "ZDF_A",
+          "Scream3BP",
+          "Phase48HL6N",
+          "Phase48N",
+          "FlangeHL6P",
+          "Phase24N",
+          "FlangeL6N",
+          "SNH2",
+          "CombH6P",
+          "LEQ12"
+        ],
+        "confidence": "uncertain",
+        "notes": "RISK, found live 2026-07-30 (user reported frequent crashes on freshly-generated presets): this enum is a straight copy of VoiceFilter's full type list, but the docstring's own claim ('minus a few voice-only variants') was NEVER actually enforced in code -- some of these ~95 raw filter-engine names were only ever confirmed present in real *VoiceFilter* data, not confirmed safe for the FXFilter (FX-chain insert) context specifically, and using one of the unconfirmed ones is a plausible crash cause. Every real preset this project has generated AND live-confirmed with an FXFilter unit (Dreams/Beyond recreations) left kParamType UNSET (Serum's own default) -- do the same until someone does the work of confirming which subset is actually FXFilter-safe."
+      },
+      "kParamFreq": {
+        "key": "kParamFreq",
+        "kind": "float",
+        "default": 0.5,
+        "min": 0.0,
+        "max": 1.0,
+        "unit": "normalized cutoff",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamReso": {
+        "key": "kParamReso",
+        "kind": "float",
+        "default": 10.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDrive": {
+        "key": "kParamDrive",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXBode": {
+      "kParamShift": {
+        "key": "kParamShift",
+        "kind": "float",
+        "default": 0.0,
+        "min": -100.0,
+        "max": 82.0,
+        "unit": "% (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 73.4 after finding a real preset with shift=80.7."
+      },
+      "kParamRange": {
+        "key": "kParamRange",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.1,
+        "max": 3043.2,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamFeedback": {
+        "key": "kParamFeedback",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamBlur": {
+        "key": "kParamBlur",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDelayTime": {
+        "key": "kParamDelayTime",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 1.8,
+        "unit": "seconds (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 1.62 after finding a real preset with delayTime=1.75."
+      },
+      "kParamOutputWidth": {
+        "key": "kParamOutputWidth",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamOutputMix": {
+        "key": "kParamOutputMix",
+        "kind": "float",
+        "default": 0.0,
+        "min": -100.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 30.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXHyperD": {
+      "kParamRate": {
+        "key": "kParamRate",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDetune": {
+        "key": "kParamDetune",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamUnison": {
+        "key": "kParamUnison",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 7.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDimESize": {
+        "key": "kParamDimESize",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDimEWet": {
+        "key": "kParamDimEWet",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXConv": {
+      "kParamSize": {
+        "key": "kParamSize",
+        "kind": "float",
+        "default": 100.0,
+        "min": 10.0,
+        "max": 1000.0,
+        "unit": "% (IR stretch)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDecay": {
+        "key": "kParamDecay",
+        "kind": "float",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 40.0,
+        "unit": "seconds (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamTone": {
+        "key": "kParamTone",
+        "kind": "float",
+        "default": 0.0,
+        "min": -100.0,
+        "max": 85.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 84.2 after finding a real preset with tone=84.21."
+      },
+      "kParamIpTrim": {
+        "key": "kParamIpTrim",
+        "kind": "float",
+        "default": 0.0,
+        "min": -34.0,
+        "max": 6.0,
+        "unit": "dB",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamDamping": {
+        "key": "kParamDamping",
+        "kind": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 30.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      }
+    },
+    "FXUtils": {
+      "kParamWidth": {
+        "key": "kParamWidth",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.0,
+        "max": 800.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamBalance": {
+        "key": "kParamBalance",
+        "kind": "float",
+        "default": 0.0,
+        "min": -100.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamHPF": {
+        "key": "kParamHPF",
+        "kind": "float",
+        "default": 20.0,
+        "min": 1.3,
+        "max": 400.0,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": ""
+      },
+      "kParamLPF": {
+        "key": "kParamLPF",
+        "kind": "float",
+        "default": 20000.0,
+        "min": 50.0,
+        "max": 20000.0,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 18976.0 after finding a real preset with LPF=19924.3."
+      },
+      "kParamLFXover": {
+        "key": "kParamLFXover",
+        "kind": "float",
+        "default": 150.0,
+        "min": 20.25,
+        "max": 400.0,
+        "unit": "Hz (approx.)",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Max corrected from 300.0 after finding a real preset with LFXover=400.0."
+      },
+      "kParamWet": {
+        "key": "kParamWet",
+        "kind": "float",
+        "default": 100.0,
+        "min": 0.0,
+        "max": 100.0,
+        "unit": "%",
+        "enum_values": [],
+        "confidence": "uncertain",
+        "notes": "Only 2 samples observed; FXUtils may not meaningfully use a wet knob."
+      }
+    },
+    "FXSplit": {
+      "kParamFreq": {
+        "key": "kParamFreq",
+        "kind": "float",
+        "default": 1000.0,
+        "min": 20.0,
+        "max": 20000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Crossover between band 1 (below) and band 2 (above). Real range observed 30.8-3517.9 Hz across 54 samples (shared with FXSplit3's kParamFreq)."
+      },
+      "kParamModuleCount1": {
+        "key": "kParamModuleCount1",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "How many of the flat fx_chain entries immediately following this one (within the same rack) belong to band 1 -- see the module-level comment above this table. Absent/0 means band 1 has no additional processing."
+      },
+      "kParamModuleCount2": {
+        "key": "kParamModuleCount2",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Same as kParamModuleCount1, for band 2 -- consumed from the flat list right after band 1's entries."
+      }
+    },
+    "FXSplit3": {
+      "kParamFreq": {
+        "key": "kParamFreq",
+        "kind": "float",
+        "default": 300.0,
+        "min": 20.0,
+        "max": 20000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Crossover between band 1 (low) and band 2 (mid)."
+      },
+      "kParamFreq2": {
+        "key": "kParamFreq2",
+        "kind": "float",
+        "default": 3000.0,
+        "min": 20.0,
+        "max": 20000.0,
+        "unit": "Hz",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Crossover between band 2 (mid) and band 3 (high). Real range observed 309.5-9000.0 Hz across 17 samples."
+      },
+      "kParamModuleCount1": {
+        "key": "kParamModuleCount1",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Band 1 (low)'s own unit count -- see FXSplit's kParamModuleCount1 note; same consumption rule, 3 bands instead of 2."
+      },
+      "kParamModuleCount2": {
+        "key": "kParamModuleCount2",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Band 2 (mid)'s own unit count."
+      },
+      "kParamModuleCount3": {
+        "key": "kParamModuleCount3",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Band 3 (high)'s own unit count."
+      }
+    },
+    "FXSplitMS": {
+      "kParamModuleCount1": {
+        "key": "kParamModuleCount1",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Mid branch's own unit count -- no crossover frequency (channel-based split, not frequency-based); same consumption rule as FXSplit."
+      },
+      "kParamModuleCount2": {
+        "key": "kParamModuleCount2",
+        "kind": "float",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 16.0,
+        "unit": "",
+        "enum_values": [],
+        "confidence": "observed",
+        "notes": "Side branch's own unit count."
+      }
+    }
+  },
+  "arp": {
+    "kParamEnabled": {
+      "key": "kParamEnabled",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamActiveClipID": {
+      "key": "kParamActiveClipID",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 11.0,
+      "unit": "ArpClip slot index",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Almost always absent in real content (implicitly slot 0) -- this project always writes to ArpClip0 and never sets this explicitly."
+    },
+    "kParamLaunchQuantize": {
+      "key": "kParamLaunchQuantize",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 32.0,
+      "unit": "uncertain",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Observed values 0.0/10.0/12.0 across only 4 samples -- real unit/meaning (beats? steps?) not established. Not currently exposed via ArpSpec."
+    },
+    "kParamKeyZoneMin": {
+      "key": "kParamKeyZoneMin",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 127.0,
+      "unit": "MIDI note",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: 12-84. ~5.5% real-corpus presence."
+    },
+    "kParamKeyZoneMax": {
+      "key": "kParamKeyZoneMax",
+      "kind": "float",
+      "default": 127.0,
+      "min": 0.0,
+      "max": 127.0,
+      "unit": "MIDI note",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Only ever observed at 126.0. ~15% real-corpus presence."
+    },
+    "kParamMidiSelectOctave": {
+      "key": "kParamMidiSelectOctave",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: -2, 0, 1. ~2.7% real-corpus presence, very low sample count."
+    }
+  },
+  "arp_clip": {
+    "kParamShape": {
+      "key": "kParamShape",
+      "kind": "enum",
+      "default": "Played",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "Played",
+        "Pattern",
+        "Chord",
+        "Converge",
+        "Diverge",
+        "ConvAndDiv",
+        "Down",
+        "UpDown",
+        "DownUp",
+        "UpAndDown",
+        "DownAndUp",
+        "ThumbUp",
+        "ThumbUD",
+        "Rand",
+        "RandOnce",
+        "RandDrift",
+        "RandNoDup"
+      ],
+      "confidence": "observed",
+      "notes": "Union of values observed across kParamShape AND kParamTransposeShape (same enum -- confirmed by 'Down'/'ThumbUp'/'Diverge' appearing on the latter too) across all 844 real presets available, not just the original 180-preset sample. Almost certainly still a superset exists (e.g. a plain 'Up', matching 'Down''s presence, never directly observed with certainty so not included). See SIMPLE_ARP_SHAPES for the curated subset ArpSpec generates; mapping.py falls back to passing an uncurated-but-otherwise-valid raw value through unchanged (same pattern as filter types/wavetables) so a round-tripped edit of a preset using a shape outside this curated list doesn't fail -- 'Pattern' is the sole deliberate exception, since it needs real note data this project doesn't generate (see ArpSpec)."
+    },
+    "kParamRate": {
+      "key": "kParamRate",
+      "kind": "float",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "unit": "normalized (discrete note-division breakpoints, see notes)",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-05 via the serum-verify audio pipeline (a held chord through an algorithmic-shape arp, onset-detection on the render) to be a DISCRETE, tempo-synced note-division dial, not continuous Hz -- measured breakpoints (120bpm host tempo): ~0.0-0.08=barely retriggers within 6s (effectively 'off'); 0.10-0.20=1/2 note; 0.225-0.325=1/4; 0.35-0.425=1/8; 0.45-0.55=1/16; 0.575-0.65=1/32; 0.675+=1/64 (and presumably faster, not reliably measurable past this point -- onset detection breaks down once note density exceeds the test envelope's decay time). See ArpSpec.rate's docstring for the full breakpoint table. Separately, for shape='pattern': a low value (0.25, this field's old default, which lands in the 1/4-note tier) made a real generated pattern appear stuck on its first note -- an isolated diagnostic confirmed raising it to a real Factory preset's value (~0.51, 1/16 tier) was the difference between stuck and correctly stepping through the pattern, holding every other field constant. Default raised to 0.5 accordingly. Pattern mode's own stepping may interact with this value differently from the algorithmic-shape breakpoints above."
+    },
+    "kParamGate": {
+      "key": "kParamGate",
+      "kind": "float",
+      "default": 75.0,
+      "min": 0.0,
+      "max": 200.0,
+      "unit": "% (approx.)",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Observed range 0..145.6 -- can exceed 100% (legato overlap past the next step), not a simple 0-100% knob."
+    },
+    "kParamDotted": {
+      "key": "kParamDotted",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamTriplets": {
+      "key": "kParamTriplets",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamTransposeShift": {
+      "key": "kParamTransposeShift",
+      "kind": "float",
+      "default": 0.0,
+      "min": -24.0,
+      "max": 24.0,
+      "unit": "semitones",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": ""
+    },
+    "kParamTransposeShape": {
+      "key": "kParamTransposeShape",
+      "kind": "enum",
+      "default": "Played",
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [
+        "Played",
+        "Pattern",
+        "Chord",
+        "Converge",
+        "Diverge",
+        "ConvAndDiv",
+        "Down",
+        "UpDown",
+        "DownUp",
+        "UpAndDown",
+        "DownAndUp",
+        "ThumbUp",
+        "ThumbUD",
+        "Rand",
+        "RandOnce",
+        "RandDrift",
+        "RandNoDup"
+      ],
+      "confidence": "observed",
+      "notes": "Same enum as kParamShape (see there) -- an independent pattern for the transpose lane, so the pitch pattern and the note-trigger pattern can differ."
+    },
+    "kParamNoteRetrig": {
+      "key": "kParamNoteRetrig",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "CORRECTION: an earlier version of this note claimed this field alone fixed a real 'stuck on one note' Pattern-mode bug -- a later, more rigorous isolated diagnostic (holding every other field constant one at a time) found the ACTUAL cause was kParamRate (see there), not this field. This field was present in every working configuration tested but never individually proven necessary in isolation. apply_spec still writes 1.0 when arp.pattern is set (unless ArpSpec.note_retrig overrides it), since it's present in every real working example found and never observed to cause harm, but treat its necessity as unconfirmed, not established. Also independently real and settable OUTSIDE Pattern mode (31.0% real-corpus presence across all arp-enabled presets, found 2026-08-04) -- see ArpSpec.note_retrig."
+    },
+    "kParamWrapRange": {
+      "key": "kParamWrapRange",
+      "kind": "float",
+      "default": 12.0,
+      "min": 0.0,
+      "max": 24.0,
+      "unit": "semitones (approx.)",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: 1.0, 2.0, 12.0, 14.0, 24.0. Likely the pitch range the pattern wraps/folds within, unconfirmed. Same status as kParamNoteRetrig: present in every working Pattern-mode configuration tested (default 12.0, one octave), never individually isolated as necessary -- kParamRate was the actual fix for the 'stuck on one note' bug this was originally (incorrectly) blamed alongside. Also independently real and settable OUTSIDE Pattern mode (23.9% real-corpus presence across all arp-enabled presets, found 2026-08-04 diagnosing a real 'ARP range doesn't match' report -- Galaxy's actual value is 14.0) -- see ArpSpec.wrap_range."
+    },
+    "kParamWrapTranspose": {
+      "key": "kParamWrapTranspose",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Only ever observed at 1.0 across real content. Same status as kParamWrapRange/kParamNoteRetrig -- written (True) whenever arp.pattern is set, present in every working configuration tested, never individually isolated as necessary."
+    },
+    "kParamChance": {
+      "key": "kParamChance",
+      "kind": "float",
+      "default": 100.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "% chance each step actually plays a note. 7.0% real-corpus presence (observed 0-90%); absent means Serum's own always-play default."
+    },
+    "kParamOffset": {
+      "key": "kParamOffset",
+      "kind": "float",
+      "default": 0.0,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-06 via serum-verify audio pipeline (held-note algorithmic arp over a 3-note chord, first-onset spectral analysis): a starting-step-index shift into the pattern sequence, taken MOD the pattern's own length -- rotates which note the arp starts on. Baseline (absent) started on the chord's 2nd note; 1.0 shifted to the 3rd note; -8.0 ALSO shifted to the 3rd note, matching the mod-3 prediction (1+1=2 and 1-8\u22612 mod 3) -- a clean cross-check between two very different raw values. Real values observed: -8, -6, 1. 8.5% real-corpus presence."
+    },
+    "kParamTransposeRange": {
+      "key": "kParamTransposeRange",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 24.0,
+      "unit": "semitones (approx.)",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: 1, 2. Independent of kParamWrapRange (that's the note pattern's own wrap range, this is the transpose lane's). 18.3% real-corpus presence."
+    },
+    "kParamRetrigRate": {
+      "key": "kParamRetrigRate",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "TESTED 2026-08-06, no measurable audio effect found (not resolved). Tried 5 configurations (onset-detected, held-note rig): shape='Played' with kParamNoteRetrig=1.0 at 0.0/4.0/11.0 (bit-for-bit identical onsets across all 3), and shape='Pattern' with a single 4-grid-unit sustained step at 0.0/4.0 (identical, no internal ratcheting). Confirmed the raw CBOR genuinely differed each time. Joins kParamBeatRetrig/kParamLaunchRetrig as a 3rd retrigger/clock-timing-adjacent ArpClip field with zero measured effect this session, vs. 3/3 confirmed on note-generation fields (kParamOffset/kParamThru/kParamRepeats) via the identical pipeline -- suspected shared render-pipeline blind spot, see docs/PARAMETER_SCHEMA.md. Needs a live-Serum check. Real values observed: 4, 5, 11. Only meaningful alongside kParamNoteRetrig/kParamFirstNoteRetrig. 18.3% real-corpus presence."
+    },
+    "kParamFirstNoteRetrig": {
+      "key": "kParamFirstNoteRetrig",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Only ever observed at 1.0. 12.7% real-corpus presence."
+    },
+    "kParamVeloEnabled": {
+      "key": "kParamVeloEnabled",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "observed",
+      "notes": "Only ever observed at 1.0. 18.3% real-corpus presence. See kParamVeloTarget for the amount."
+    },
+    "kParamVeloTarget": {
+      "key": "kParamVeloTarget",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: 3-95%. Exact target parameter velocity affects unconfirmed. 15.5% real-corpus presence."
+    },
+    "kParamWrapPhantomNote": {
+      "key": "kParamWrapPhantomNote",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": 100.0,
+      "unit": "%",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values observed: 20-82%. Exact meaning unconfirmed (possibly % chance of an extra note at the wrap point). Only 5.6% real-corpus presence, lowest-confidence of this group."
+    },
+    "kParamBeatRetrig": {
+      "key": "kParamBeatRetrig",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "TESTED 2026-08-06, no measurable audio effect found (not resolved). Audio test (held single note, note-on placed OFF the arp's confirmed 1/16-note grid, onset-detected) produced bit-for-bit identical timings whether this was 0.0, 1.0, or absent -- all 3 already showed an immediate first note then locking onto the absolute transport-anchored grid from the 3rd note on, regardless of this field. Possibly the same render-pipeline blind spot as kParamLaunchRetrig (both quantization/clock-adjacent), unlike note-generation ArpClip fields (kParamOffset/kParamThru/kParamRepeats) which DID show clear differences this session. Needs a live-Serum check. Only ever observed True when present. ~61.6% real-corpus presence -- the single most common of this batch."
+    },
+    "kParamLaunchRetrig": {
+      "key": "kParamLaunchRetrig",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "TESTED 2026-08-06, no measurable audio effect found (not resolved). Audio test (held-note algorithmic arp, a chord pressed/released/re-pressed, first-onset spectral analysis on each press) produced bit-for-bit identical audio whether this was 0.0, 1.0, or absent -- confirmed the raw CBOR really did differ each time, so not a serialization bug on this project's side. Needs a live-Serum check, same open question as kParamNoteLatch/kParamPortaScaled. Only ever observed False when present. ~60.3% real-corpus presence."
+    },
+    "kParamVeloRetrig": {
+      "key": "kParamVeloRetrig",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Only ever observed True when present. ~26.0% real-corpus presence."
+    },
+    "kParamVeloDecay": {
+      "key": "kParamVeloDecay",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Real values cluster tightly around ~3.9267 -- possibly a UI-touch residue rather than a hand-tuned value. ~31.5% real-corpus presence."
+    },
+    "kParamRepeats": {
+      "key": "kParamRepeats",
+      "kind": "float",
+      "default": 0.0,
+      "min": 0.0,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED core mechanism 2026-08-06 via serum-verify audio pipeline (held-note algorithmic arp, onset-detected via librosa): caps how many times the arp plays before it goes SILENT, instead of looping indefinitely while the note is held -- baseline (absent) looped continuously (47 onsets across a 6.5s held note), while 1/4/8 fired only 1/3/7 onsets then fell silent. Exact count formula NOT pinned down (4 and 8 both gave value-1 onsets on the normal grid, but 1 gave exactly 1 onset with different, non-grid-delayed start timing -- not a single clean formula across all values). Real values observed: 1, 4, 8. ~6.8% real-corpus presence."
+    },
+    "kParamTranspose": {
+      "key": "kParamTranspose",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "PARTIALLY RESOLVED 2026-08-06 via serum-verify audio pipeline: CONFIRMED literal SEMITONES (with kParamTransposeShape set, 1.0 measured +1.0 semitone via precise librosa.pyin pitch tracking -- a coarse FFT-bin peak wasn't sensitive enough to catch it -- and 12.0 measured exactly +12.0 semitones). NOT confirmed: the 'step applied per wrap cycle' framing (a walking/incrementing offset) -- both an 8s single held note and 3 separate key-presses showed a flat, constant offset throughout, no incrementing/wrapping observed in either scenario tested. DISTINCT from kParamTransposeShift/kParamTransposeRange. Real values observed: 1, 2, 12. ~6.8% real-corpus presence."
+    },
+    "kParamThru": {
+      "key": "kParamThru",
+      "kind": "bool",
+      "default": false,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "confirmed",
+      "notes": "CONFIRMED 2026-08-06 via serum-verify audio pipeline (held-note algorithmic arp over a 3-note chord, onset-detected via librosa): a MIDI-thru toggle, passing the originally-held notes through as their own audible trigger alongside the arpeggiated pattern. True produced exactly ONE extra onset near t=0 (matching the moment the chord was first pressed) that the same render with this False/omitted did not have; every subsequent onset in both renders lined up with the arp's own regular step grid. Only ever observed True when present. ~2.7% real-corpus presence, very low sample count."
+    },
+    "kParamPlaybackModeTime": {
+      "key": "kParamPlaybackModeTime",
+      "kind": "float",
+      "default": null,
+      "min": null,
+      "max": null,
+      "unit": "",
+      "enum_values": [],
+      "confidence": "uncertain",
+      "notes": "Paired with kParamPlaybackMode. Only ever observed at 2.0. ~5.5% real-corpus presence, low sample count."
+    }
+  },
+  "simple_arp_shapes": {
+    "played": "Played",
+    "chord": "Chord",
+    "converge": "Converge",
+    "diverge": "Diverge",
+    "converge_diverge": "ConvAndDiv",
+    "down": "Down",
+    "up_down": "UpDown",
+    "down_up": "DownUp",
+    "up_and_down": "UpAndDown",
+    "down_and_up": "DownAndUp",
+    "thumb_up": "ThumbUp",
+    "thumb_up_down": "ThumbUD",
+    "random": "Rand",
+    "random_once": "RandOnce",
+    "random_drift": "RandDrift",
+    "random_no_dup": "RandNoDup"
+  },
+  "role_starting_points": {
+    "bass": {
+      "sample_size": 26,
+      "mono": true,
+      "envelope": {
+        "attack": 0.004,
+        "release": 0.045,
+        "sustain": 0.84
+      },
+      "filter": {
+        "type": "moog_lowpass_12",
+        "resonance": 7,
+        "drive": 14
+      },
+      "oscillator_count": 2,
+      "warp_mode": "fm",
+      "mod_route_pattern": "macro -> oscillator / macro -> env, not LFO-driven",
+      "fx_backbone": "FXComp + FXEQ ahead of character effects (reverb/delay/dist)",
+      "note": "held, punchy tone (fast attack, short release, high sustain) -- not a pluck"
+    },
+    "pluck": {
+      "sample_size": 24,
+      "envelope": {
+        "attack": 0.006,
+        "decay": 0.232,
+        "sustain": 0.0
+      },
+      "filter": {
+        "type": "moog_lowpass_12",
+        "resonance": 10
+      },
+      "warp_mode": "bend",
+      "mod_route_pattern": "macro -> env (decay/release feel) then macro -> fx",
+      "note": "sustain=0 is the single clearest role-defining signal in the whole dataset -- a real decaying pluck, not a held note"
+    },
+    "lead": {
+      "sample_size": 22,
+      "mono": true,
+      "envelope": {
+        "attack": 0.026,
+        "decay": 1.08,
+        "release": 0.38,
+        "sustain": 0.74
+      },
+      "warp_mode": "bend",
+      "mod_route_pattern": "macro -> fx (effect intensity) then lfo -> oscillator (vibrato/movement)",
+      "note": "sustained melodic voice, not a pluck"
+    },
+    "pad": {
+      "sample_size": 12,
+      "envelope": {
+        "attack": 0.664,
+        "decay": 1.75,
+        "release": 1.1
+      },
+      "oscillator_count": 3,
+      "warp_mode": "fm",
+      "mod_route_pattern": "lfo -> oscillator (continuous evolving movement, not macro-driven like bass/lead)"
+    },
+    "chords": {
+      "sample_size": 23,
+      "mono": false,
+      "filter_count": 2,
+      "oscillator_count": 3,
+      "warp_mode": "fm",
+      "mod_route_pattern": "lfo -> oscillator, close behind macro -> oscillator"
+    },
+    "synth": {
+      "sample_size": 28,
+      "oscillator_count": "2-3",
+      "envelope": {
+        "decay": 0.81
+      },
+      "warp_mode": "fm",
+      "note": "heaviest and most evenly-spread macro usage across fx/env/oscillator/filter of any category -- the most 'built for live tweaking' role"
+    },
+    "arp": {
+      "sample_size": 16,
+      "mono": false,
+      "envelope": "short attack/release",
+      "warp_mode": "fm",
+      "mod_route_pattern": "lfo -> oscillator"
+    },
+    "sequence": {
+      "sample_size": 14,
+      "envelope": {
+        "attack": 0.001
+      },
+      "note": "long decay/sustain held near max -- built to be gated/retriggered rhythmically rather than shaped by its own envelope",
+      "mod_route_pattern": "by far the heaviest lfo -> oscillator usage of any category -- strong rhythmic pitch/timbre modulation is a defining trait here"
+    }
+  }
+}

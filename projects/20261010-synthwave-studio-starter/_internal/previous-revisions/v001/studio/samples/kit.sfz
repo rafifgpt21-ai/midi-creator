@@ -1,0 +1,4 @@
+<region> sample=36-TWMG_kick_deep.wav key=36 loop_mode=one_shot
+<region> sample=38-TWMG_snare_pop.wav key=38 loop_mode=one_shot
+<region> sample=42-TWMG_hihat_minimalist.wav key=42 loop_mode=one_shot
+<region> sample=46-TWMG_hihat_open_rider.wav key=46 loop_mode=one_shot

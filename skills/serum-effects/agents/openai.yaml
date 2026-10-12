@@ -1,0 +1,6 @@
+interface:
+  display_name: "Serum Effects"
+  short_description: "Design effects chains, space and stereo routing"
+  default_prompt: "Use $serum-effects for the requested Serum 2 sound task."
+policy:
+  allow_implicit_invocation: true

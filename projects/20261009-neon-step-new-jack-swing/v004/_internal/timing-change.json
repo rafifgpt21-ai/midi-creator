@@ -1,0 +1,39 @@
+{
+  "origin": "v002",
+  "revision": "v004",
+  "protected_layers": [
+    "clap",
+    "electric-piano",
+    "hihat",
+    "kick",
+    "shaker",
+    "slap-bass",
+    "snare",
+    "string-pad",
+    "synth-stabs",
+    "tambourine",
+    "toms"
+  ],
+  "changed_layers": {
+    "muted-guitar": {
+      "shifted_note_ons": 879,
+      "notes": 879
+    },
+    "synth-brass": {
+      "shifted_note_ons": 90,
+      "notes": 156
+    },
+    "lead-synth": {
+      "shifted_note_ons": 92,
+      "notes": 235
+    },
+    "bell-keys": {
+      "shifted_note_ons": 32,
+      "notes": 33
+    }
+  },
+  "swing_ratio": "60:40",
+  "pitch_velocity_gates_preserved": true,
+  "tempo_meter_ppqn_end_preserved": true,
+  "listening": false
+}

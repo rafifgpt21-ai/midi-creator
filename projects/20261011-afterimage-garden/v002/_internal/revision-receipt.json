@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-11T17:43:38.844030+00:00",
+  "revision": "v002",
+  "source_revision": "v001",
+  "midi_files": 1,
+  "tracks": 1,
+  "notes": 1375,
+  "note_events_match_remapped_v001": true,
+  "non_note_events_unchanged": true,
+  "prior_MIDI_and_presets_unchanged": true,
+  "only_drum_exported": true,
+  "all_pitches_in_default_map": true,
+  "default_map_entries": 27,
+  "readme_links_exist": true,
+  "on_grid": true,
+  "audio_rendered": false,
+  "audio_listened": false,
+  "cubase_import_tested": false
+}

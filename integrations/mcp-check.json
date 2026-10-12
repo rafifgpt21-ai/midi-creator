@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "server": {
+    "name": "MIDI Studio",
+    "title": null,
+    "version": "1.30.0",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tools": [
+    "composition_schema",
+    "configure_drums",
+    "create_serum_preset",
+    "cubase_assign_serum",
+    "cubase_command",
+    "cubase_objects",
+    "cubase_parameters",
+    "cubase_select_instrument",
+    "cubase_set_parameters",
+    "cubase_slot_plugins",
+    "cubase_status",
+    "find_drum_samples",
+    "generate_midi",
+    "prepare_cubase_session",
+    "serum_parameters",
+    "serum_presets",
+    "studio_status",
+    "validate_composition",
+    "verify_cubase_session",
+    "verify_midi"
+  ],
+  "studio": {
+    "ok": true,
+    "ready_to_prepare": true,
+    "workspace": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator",
+    "serum": {
+      "path": "C:\\Program Files\\Common Files\\VST3\\Serum2.vst3",
+      "installed": true,
+      "version": "2.0.23"
+    },
+    "midi": {
+      "inputs": [
+        "LoopBe Internal MIDI 0"
+      ],
+      "outputs": [
+        "Microsoft GS Wavetable Synth 0",
+        "LoopBe Internal MIDI 1"
+      ],
+      "configured_ports_available": true
+    },
+    "drum_roots": [
+      "C:\\Users\\rafif\\Music\\Sample Bank"
+    ],
+    "drum_pitches": [
+      "36",
+      "38",
+      "42",
+      "46"
+    ],
+    "missing_samples": [],
+    "cubase": {
+      "connected": null,
+      "tested": false
+    },
+    "capabilities": {
+      "midi_generation": true,
+      "serum_vstpreset_creation": "requires plugin worker check",
+      "drum_sample_stems": true,
+      "live_control": "requires Cubase handshake",
+      "native_project_creation": false,
+      "native_preset_loading": false
+    }
+  },
+  "serum_worker": {
+    "ok": true,
+    "plugin": "Serum 2",
+    "version": "2.0.23",
+    "parameters": {
+      "main_vol": {
+        "value": " 50% [-9.0 dB]",
+        "raw": 0.5,
+        "label": "None",
+        "range": "(None, None, None)",
+        "type": "<class 'str'>"
+      }
+    },
+    "total_matches": 1
+  },
+  "bundle": {
+    "ok": true,
+    "errors": [],
+    "midi_ok": true,
+    "tracks": 10,
+    "cubase_project_verified": false,
+    "audio_auditioned": false
+  },
+  "live_control_verified": false
+}

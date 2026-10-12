@@ -1,0 +1,117 @@
+{
+  "name": "ghost-bell",
+  "description": "Black Glass: dark sine/FM bell with a soft transient, short decay and a quiet stereo eighth-note echo at 136 BPM; sparse piano-response phrases.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 0,
+      "volume": 0.24,
+      "warp_mode": "fm",
+      "warp_amount": 0.08
+    },
+    {
+      "enabled": true,
+      "wavetable": "digital_fm",
+      "volume": 0.055,
+      "octave": 1,
+      "unison": 1
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.53,
+      "resonance": 3,
+      "drive": 0,
+      "stereo": 50
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.005,
+      "decay": 0.78,
+      "sustain": 0.05,
+      "release": 0.32
+    },
+    {
+      "attack": 0.001,
+      "decay": 0.28,
+      "sustain": 0,
+      "release": 0.08
+    }
+  ],
+  "macros": [
+    {
+      "name": "GLASS",
+      "value": 8
+    },
+    {
+      "name": "ECHO",
+      "value": 0
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "oscillator0.warp_amount",
+      "amount": 8
+    },
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 30
+    },
+    {
+      "source": "macro0",
+      "destination": "oscillator0.warp_amount",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "fx0.wet",
+      "amount": 24
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDelay",
+      "wet": 16,
+      "params": {
+        "kParamBeatSync": false,
+        "kParamTimeL": 0.22058823529411764,
+        "kParamTimeR": 0.22058823529411764,
+        "kParamFeedback": 18,
+        "kParamFreq": 2700
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 12,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 31,
+        "kParamDelay": 18,
+        "kParamWidth": 96
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.37,
+    "mono": false,
+    "poly_count": 8
+  }
+}

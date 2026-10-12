@@ -1,0 +1,6 @@
+interface:
+  display_name: "Serum Sound Design"
+  short_description: "Create requested sounds with Serum 2"
+  default_prompt: "Use $serum-sound-design for the requested Serum 2 sound task."
+policy:
+  allow_implicit_invocation: true

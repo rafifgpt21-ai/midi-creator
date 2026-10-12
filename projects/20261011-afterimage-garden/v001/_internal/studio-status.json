@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "ready_to_prepare": true,
+  "workspace": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator",
+  "serum": {
+    "path": "C:\\Program Files\\Common Files\\VST3\\Serum2.vst3",
+    "installed": true,
+    "version": "2.0.23"
+  },
+  "midi": {
+    "inputs": [
+      "LoopBe Internal MIDI 0"
+    ],
+    "outputs": [
+      "Microsoft GS Wavetable Synth 0",
+      "LoopBe Internal MIDI 1"
+    ],
+    "configured_ports_available": true
+  },
+  "drum_roots": [
+    "C:\\Users\\rafif\\Music\\Sample Bank"
+  ],
+  "drum_pitches": [
+    "36",
+    "38",
+    "42",
+    "46"
+  ],
+  "missing_samples": [],
+  "cubase": {
+    "connected": null,
+    "tested": false
+  },
+  "capabilities": {
+    "midi_generation": true,
+    "serum_vstpreset_creation": "requires plugin worker check",
+    "drum_sample_stems": true,
+    "live_control": "requires Cubase handshake",
+    "native_project_creation": false,
+    "native_preset_loading": false
+  }
+}

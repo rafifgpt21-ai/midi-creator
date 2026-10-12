@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Afterglow Circuit - Progressive House",
+  "combined": false,
+  "composition_sha256": "91fe168f38fe2b873fb028214f67ebfea108401c43acfbc230882dcb34b1f176",
+  "tempo_bpm": 126,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 160,
+  "ticks_per_beat": 960,
+  "end_tick": 614400,
+  "duration_seconds": 304.7616,
+  "layers": [
+    {
+      "id": "kick",
+      "name": "Electronic kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 493,
+      "file": "MIDI/kick.mid"
+    },
+    {
+      "id": "clap",
+      "name": "Electronic clap",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 200,
+      "file": "MIDI/clap.mid"
+    },
+    {
+      "id": "snare-roll",
+      "name": "Snare build and fills",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 264,
+      "file": "MIDI/snare-roll.mid"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Closed hi-hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1170,
+      "file": "MIDI/closed-hat.mid"
+    },
+    {
+      "id": "open-hat",
+      "name": "Open hi-hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 414,
+      "file": "MIDI/open-hat.mid"
+    },
+    {
+      "id": "ride",
+      "name": "Ride cymbal",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 96,
+      "file": "MIDI/ride.mid"
+    },
+    {
+      "id": "shaker",
+      "name": "Shaker / maracas",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 432,
+      "file": "MIDI/shaker.mid"
+    },
+    {
+      "id": "synth-bass",
+      "name": "Deep mono synth bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 429,
+      "file": "MIDI/synth-bass.mid"
+    },
+    {
+      "id": "poly-synth",
+      "name": "Wide saw poly synth",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 1616,
+      "file": "MIDI/poly-synth.mid"
+    },
+    {
+      "id": "pluck-arp",
+      "name": "Plucked synth arpeggio",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 2100,
+      "file": "MIDI/pluck-arp.mid"
+    },
+    {
+      "id": "warm-pad",
+      "name": "Warm atmospheric pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 400,
+      "file": "MIDI/warm-pad.mid"
+    },
+    {
+      "id": "lead-synth",
+      "name": "Melodic saw lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 209,
+      "file": "MIDI/lead-synth.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/kick.mid",
+      "sha256": "5c719d7deb7fd3227558ddf5db29576fdce6d82aa653e21eb9b463a30c341f49"
+    },
+    {
+      "path": "MIDI/clap.mid",
+      "sha256": "69ccce51d93b68f5e2409eae1a2740ae03f74df836fb62ce69feaac6c6b51030"
+    },
+    {
+      "path": "MIDI/snare-roll.mid",
+      "sha256": "83ab1395ed3e10e9d2ec21a51474e8fb537cc00f202faa48116e548c4a1c4cdb"
+    },
+    {
+      "path": "MIDI/closed-hat.mid",
+      "sha256": "45fac5b6cbcf4d8b183c566b5ce420847e27df2a8541686dcbfcf09405374bf0"
+    },
+    {
+      "path": "MIDI/open-hat.mid",
+      "sha256": "3702d9a3534f60505c5e3c0b4e4033454857e40d4840f5658459b79a3fd7f9a5"
+    },
+    {
+      "path": "MIDI/ride.mid",
+      "sha256": "4b831c518fccf6a5824f86ff771e5397a82327603b4a2b4e29c4fcde1b9bdbf0"
+    },
+    {
+      "path": "MIDI/shaker.mid",
+      "sha256": "8d2a2cc43d3a47effe2c41b61b5fafb373695accebd12519e12939d27456f745"
+    },
+    {
+      "path": "MIDI/synth-bass.mid",
+      "sha256": "800a3b8e40df37f1b4b0ac09172391c4e80e05f9965da031dd7f874c6439442c"
+    },
+    {
+      "path": "MIDI/poly-synth.mid",
+      "sha256": "8baa9151094fc900661687208c0fdd37b8e6f256bdb305f44dcc54b6d0f1e12d"
+    },
+    {
+      "path": "MIDI/pluck-arp.mid",
+      "sha256": "c0f368e064078c3ce082d13ade646ba821b2a1ab8c3092d23e076d818ee56d8e"
+    },
+    {
+      "path": "MIDI/warm-pad.mid",
+      "sha256": "2e031e79170943bc1d5d13ec49f27ebfc79b6a07f9cfebf6b95090d3055d05a6"
+    },
+    {
+      "path": "MIDI/lead-synth.mid",
+      "sha256": "79fb30e3b3a7a904d091fccc25f4d85196fd9803c95aaf9dffab2a1e75adde1e"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Neon Step - New Jack Swing",
+  "combined": false,
+  "composition_sha256": "81f19f9793c3a01c29ca2ed790fba43ecd575ac162d0e67aea1c3e4d34771624",
+  "tempo_bpm": 108,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 96,
+  "ticks_per_beat": 960,
+  "end_tick": 368640,
+  "duration_seconds": 213.333504,
+  "layers": [
+    {
+      "id": "kick",
+      "name": "Kick - punchy drum machine",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 399,
+      "file": "midi/layers/kick.mid"
+    },
+    {
+      "id": "snare",
+      "name": "Snare - gated backbeat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 232,
+      "file": "midi/layers/snare.mid"
+    },
+    {
+      "id": "clap",
+      "name": "Hand clap",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 112,
+      "file": "midi/layers/clap.mid"
+    },
+    {
+      "id": "hihat",
+      "name": "Hi-hat - closed and open",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1470,
+      "file": "midi/layers/hihat.mid"
+    },
+    {
+      "id": "shaker",
+      "name": "Shaker",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 896,
+      "file": "midi/layers/shaker.mid"
+    },
+    {
+      "id": "tambourine",
+      "name": "Tambourine",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 128,
+      "file": "midi/layers/tambourine.mid"
+    },
+    {
+      "id": "toms",
+      "name": "Electronic toms",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 27,
+      "file": "midi/layers/toms.mid"
+    },
+    {
+      "id": "slap-bass",
+      "name": "Slap bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 36,
+      "note_count": 525,
+      "file": "midi/layers/slap-bass.mid"
+    },
+    {
+      "id": "electric-piano",
+      "name": "Electric piano",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 4,
+      "note_count": 1065,
+      "file": "midi/layers/electric-piano.mid"
+    },
+    {
+      "id": "synth-stabs",
+      "name": "Poly synth stabs",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 90,
+      "note_count": 240,
+      "file": "midi/layers/synth-stabs.mid"
+    },
+    {
+      "id": "muted-guitar",
+      "name": "Muted funk guitar",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 28,
+      "note_count": 879,
+      "file": "midi/layers/muted-guitar.mid"
+    },
+    {
+      "id": "synth-brass",
+      "name": "Synth brass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 62,
+      "note_count": 156,
+      "file": "midi/layers/synth-brass.mid"
+    },
+    {
+      "id": "lead-synth",
+      "name": "Saw synth lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 235,
+      "file": "midi/layers/lead-synth.mid"
+    },
+    {
+      "id": "string-pad",
+      "name": "Warm string pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 50,
+      "note_count": 144,
+      "file": "midi/layers/string-pad.mid"
+    },
+    {
+      "id": "bell-keys",
+      "name": "FM bell keys",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 10,
+      "note_count": 33,
+      "file": "midi/layers/bell-keys.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "midi/layers/kick.mid",
+      "sha256": "a67b929da71b91aa2168b6ad7403b2e816d696f7546f2dd2a110518dc68a3dd4"
+    },
+    {
+      "path": "midi/layers/snare.mid",
+      "sha256": "b3beaf45aa1e9c48e04ffd31a0c1f127e2224244bb200c59d59bc7602d30bfd9"
+    },
+    {
+      "path": "midi/layers/clap.mid",
+      "sha256": "5f7521ff7a0052a2745df46374db4406a4cbd794b2de00b8b13ae471f5dbdebc"
+    },
+    {
+      "path": "midi/layers/hihat.mid",
+      "sha256": "ad660cb36d68708394d8926a5fd6af1d0dee3690654febad91326c6758a2b103"
+    },
+    {
+      "path": "midi/layers/shaker.mid",
+      "sha256": "224fa1e519d27ff09896f35b21ab70117e60c0e8b97b6c1afa275a4b5231d2c6"
+    },
+    {
+      "path": "midi/layers/tambourine.mid",
+      "sha256": "bbe63b103cb6975b63fe1e825d423f0e681eacd6f997e8b9719d65302bdc56bf"
+    },
+    {
+      "path": "midi/layers/toms.mid",
+      "sha256": "6b32a81f9f1ef162d500afad3f7f4e8af8b6bbf800a5e02931df5aa9ad8a1fb2"
+    },
+    {
+      "path": "midi/layers/slap-bass.mid",
+      "sha256": "fa649379a5018411f6bbee1d487a28a5ecb2c1f63503793b7aa8af9535e17a2a"
+    },
+    {
+      "path": "midi/layers/electric-piano.mid",
+      "sha256": "a76633b4f803fbc0e4c490ca16e849402379dc2d739116bd6c291e63aa30dc40"
+    },
+    {
+      "path": "midi/layers/synth-stabs.mid",
+      "sha256": "5d06e5dae0a95ff3feb46818bdadcbae93ee969af0f1072aadba3ca3820cbc09"
+    },
+    {
+      "path": "midi/layers/muted-guitar.mid",
+      "sha256": "c302cbef20a54ad040f1e537fe14a14f32b7e6b0ec8cdc834e3ffaa87137d644"
+    },
+    {
+      "path": "midi/layers/synth-brass.mid",
+      "sha256": "bdd8e5a8b915555d78779122c963010c84e891499e14dfd213e1ca410162720b"
+    },
+    {
+      "path": "midi/layers/lead-synth.mid",
+      "sha256": "2d6a8bab33d3af4dba6e8b34622a05fd4f9074df8930be6803f12a2343984c4a"
+    },
+    {
+      "path": "midi/layers/string-pad.mid",
+      "sha256": "aecf2ab0c7ebaa41eae2d876fddb54c43ad527ef38267ac0257df5e44372c6c3"
+    },
+    {
+      "path": "midi/layers/bell-keys.mid",
+      "sha256": "b3c4ceefa48763f008048b4fa9c1439a4997966a2343cab342f90d8d3a05de29"
+    }
+  ]
+}

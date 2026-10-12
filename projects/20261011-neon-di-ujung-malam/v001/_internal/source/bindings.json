@@ -1,0 +1,79 @@
+{
+  "pulse-bass": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/pulse-bass.mid",
+    "preset": "Presets/pulse-bass.SerumPreset",
+    "macros": [
+      "OPEN",
+      "SNAP",
+      "WARMTH",
+      "SUB"
+    ]
+  },
+  "midnight-pad": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/midnight-pad.mid",
+    "preset": "Presets/midnight-pad.SerumPreset",
+    "macros": [
+      "OPEN",
+      "DRIFT",
+      "SPACE",
+      "GLOW"
+    ]
+  },
+  "neon-chords": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/neon-chords.mid",
+    "preset": "Presets/neon-chords.SerumPreset",
+    "macros": [
+      "BITE",
+      "BODY",
+      "WIDTH",
+      "ROOM"
+    ]
+  },
+  "glass-arp": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/glass-arp.mid",
+    "preset": "Presets/glass-arp.SerumPreset",
+    "macros": [
+      "GLASS",
+      "DECAY",
+      "ECHO",
+      "HALO"
+    ]
+  },
+  "night-hook": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/night-hook.mid",
+    "preset": "Presets/night-hook.SerumPreset",
+    "macros": [
+      "OPEN",
+      "BODY",
+      "ECHO",
+      "SPACE"
+    ]
+  },
+  "rain-keys": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/rain-keys.mid",
+    "preset": "Presets/rain-keys.SerumPreset",
+    "macros": [
+      "TINE",
+      "LENGTH",
+      "CHORUS",
+      "ROOM"
+    ]
+  },
+  "radio-haze": {
+    "plugin": "Serum 2",
+    "midi": "MIDI/radio-haze.mid",
+    "preset": "Presets/radio-haze.SerumPreset",
+    "macros": [
+      "TUNE",
+      "DUST",
+      "DRIFT",
+      "SPACE"
+    ]
+  }
+}

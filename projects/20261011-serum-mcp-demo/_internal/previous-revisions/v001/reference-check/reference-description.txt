@@ -1,0 +1,65 @@
+Preset: PD - Warm Room
+Description: Instant warmth
+Author: Level 8
+
+Osc A: ON   octave=-1  volume=0.52  pan=+0  wavetable=Digital/Shrats.wav  table_pos=51.3  warp=soft_clip(0.00)  unison=5  detune=0.07
+Osc B: ON   octave=+0  volume=0.75  pan=+0  wavetable=Analog/MB Saw.wav  table_pos=2.1  warp=am(0.00)  unison=3  detune=0.04
+Osc C: ON   octave=+1  volume=0.05  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: off  type=moog_lowpass_12  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+Filter 2: off  type=moog_lowpass_12  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=12.0ms  decay=1.00s  sustain=1.00  release=0.96s
+Env 2: attack=0.5ms  decay=1.09s  sustain=0.00  release=2.51s
+Env 3: attack=0.5ms  decay=2.24s  sustain=0.67  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=1  mode=Free
+LFO 2: rate=1  mode=Free  shape=lorenz
+LFO 4: rate=4  mode=Free
+LFO 9: rate=0  mode=Free  shape=lorenz
+LFO 10: rate=0  mode=Free  shape=rossler
+
+Macro 1 "WIDTH": 30%
+Macro 2 "CHORUS WET": 55%
+Macro 3 "CHANGE": 0%
+Macro 4 "COLOR": 29%
+Macro 5 "PHASER WET": 43%
+Macro 6 "FLANGER WET": 60%
+Macro 7 "OPEN": 0%
+Macro 8 "HIGH SAW": 63%
+
+FX chain:
+  - FXUtils (wet=100%)
+  - FXChorus (wet=0%)
+  - FXPhaser (wet=0%)
+  - FXFlanger (wet=0%)
+  - FXReverb (wet=0%)
+  - FXFilter (wet=100%)
+
+Mod matrix (recognized routes only):
+  - mod_wheel -> macro2.value: +20%
+  - mod_wheel -> macro3.value: +25%
+  - aftertouch -> macro7.value: +37%
+  - macro0 -> fx0.width: +36%
+  - macro1 -> fx1.wet: +100%
+  - macro2 -> oscillator0.table_position: +46%
+  - macro2 -> oscillator1.table_position: +86%
+  - macro3 -> oscillator0.warp_amount: +47%
+  - macro3 -> oscillator1.warp_amount: +100%
+  - mod_wheel -> macro6.value: +100%
+  - macro4 -> fx2.wet: +100%
+  - macro5 -> fx3.wet: +100%
+  - macro6 -> fx4.wet: +32%
+  - lfo1_y -> oscillator2.volume: +88%
+  - mod_wheel -> fx0.level_out: -9%
+  - lfo0 -> oscillator0.pan: -24%, bipolar
+  - lfo0 -> oscillator1.pan: +46%, bipolar
+  - lfo3 -> oscillator0.volume: +21%
+  - lfo3 -> oscillator0.table_position: +16%
+  - lfo3 -> oscillator1.table_position: +11%
+  - velocity -> macro7.value: +18%
+
+Global: master_volume=0.22  mono=off  poly=16

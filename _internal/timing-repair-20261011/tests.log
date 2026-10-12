@@ -1,0 +1,55 @@
+test_clip_requires_interval_and_checks_overlap_and_bounds (test_framework.ContractTests.test_clip_requires_interval_and_checks_overlap_and_bounds) ... ok
+test_integer_valued_json_numbers_are_supported (test_framework.ContractTests.test_integer_valued_json_numbers_are_supported) ... ok
+test_json_duplicate_keys_nonfinite_and_bom (test_framework.ContractTests.test_json_duplicate_keys_nonfinite_and_bom) ... ok
+test_layer_ids_empty_layer_and_duplicate_pitch (test_framework.ContractTests.test_layer_ids_empty_layer_and_duplicate_pitch) ... ok
+test_note_bounds_and_zero_tick_duration (test_framework.ContractTests.test_note_bounds_and_zero_tick_duration) ... ok
+test_pitch_names_and_boundaries (test_framework.ContractTests.test_pitch_names_and_boundaries) ... ok
+test_schema_rejects_invalid_notes_and_layer_fields (test_framework.ContractTests.test_schema_rejects_invalid_notes_and_layer_fields) ... ok
+test_sections_out_of_bounds (test_framework.ContractTests.test_sections_out_of_bounds) ... ok
+test_shared_drum_channels_are_checked_only_for_combined (test_framework.ContractTests.test_shared_drum_channels_are_checked_only_for_combined) ... ok
+test_all_layer_lengths_match_even_if_they_enter_late (test_framework.ExportTests.test_all_layer_lengths_match_even_if_they_enter_late) ... ok
+test_chord_polyphony (test_framework.ExportTests.test_chord_polyphony) ... ok
+test_cli_returns_nonzero_for_invalid_spec (test_framework.ExportTests.test_cli_returns_nonzero_for_invalid_spec) ... ok
+test_clips_retrigger_release_before_note_on (test_framework.ExportTests.test_clips_retrigger_release_before_note_on) ... ok
+test_combined_is_optional_and_reserves_explicit_channel (test_framework.ExportTests.test_combined_is_optional_and_reserves_explicit_channel) ... ok
+test_compound_meter_and_quarter_note_tempo (test_framework.ExportTests.test_compound_meter_and_quarter_note_tempo) ... ok
+test_cubase_layer_has_one_track_and_only_import_metadata (test_framework.ExportTests.test_cubase_layer_has_one_track_and_only_import_metadata) ... ok
+test_example_specs_export_and_reopen (test_framework.ExportTests.test_example_specs_export_and_reopen) ... ok
+test_existing_output_is_preserved (test_framework.ExportTests.test_existing_output_is_preserved) ... ok
+test_explicit_free_timing_preserves_intentional_swing_and_reports_it (test_framework.ExportTests.test_explicit_free_timing_preserves_intentional_swing_and_reports_it) ... ok
+test_grid_allows_note_gates_and_half_tick_rounding (test_framework.ExportTests.test_grid_allows_note_gates_and_half_tick_rounding) ... ok
+test_grid_checks_absolute_clip_offset_not_only_local_pattern (test_framework.ExportTests.test_grid_checks_absolute_clip_offset_not_only_local_pattern) ... ok
+test_grid_resolves_absolute_clips_without_tempo_or_layer_drift (test_framework.ExportTests.test_grid_resolves_absolute_clips_without_tempo_or_layer_drift) ... ok
+test_inspect_reports_stuck_notes_and_truncated_midi (test_framework.ExportTests.test_inspect_reports_stuck_notes_and_truncated_midi) ... ok
+test_invalid_input_does_not_publish_output (test_framework.ExportTests.test_invalid_input_does_not_publish_output) ... ok
+test_many_instruments_in_independent_files (test_framework.ExportTests.test_many_instruments_in_independent_files) ... ok
+test_new_export_rejects_unrequested_off_grid_layer (test_framework.ExportTests.test_new_export_rejects_unrequested_off_grid_layer) ... ok
+test_original_v1_exports_remain_verifiable (test_framework.ExportTests.test_original_v1_exports_remain_verifiable) ... ok
+test_per_layer_is_one_track_one_instrument_with_silence_and_metadata (test_framework.ExportTests.test_per_layer_is_one_track_one_instrument_with_silence_and_metadata) ... ok
+test_producer_layout_and_readme_keep_technical_files_together (test_framework.ExportTests.test_producer_layout_and_readme_keep_technical_files_together) ... ok
+test_separate_kick_and_hihat_have_channel_ten_no_program (test_framework.ExportTests.test_separate_kick_and_hihat_have_channel_ten_no_program) ... ok
+test_track_name_unicode (test_framework.ExportTests.test_track_name_unicode) ... ok
+test_validate_cli_catches_the_same_off_grid_source_as_generate (test_framework.ExportTests.test_validate_cli_catches_the_same_off_grid_source_as_generate) ... ok
+test_verify_detects_added_midi_and_snapshot_change (test_framework.ExportTests.test_verify_detects_added_midi_and_snapshot_change) ... ok
+test_verify_detects_tampered_note_and_missing_file (test_framework.ExportTests.test_verify_detects_tampered_note_and_missing_file) ... ok
+test_verify_rejects_unsafe_inventory (test_framework.ExportTests.test_verify_rejects_unsafe_inventory) ... ok
+test_artifact_and_sample_paths_cannot_escape (test_studio.BundleTests.test_artifact_and_sample_paths_cannot_escape) ... ok
+test_missing_mapping_publishes_nothing (test_studio.BundleTests.test_missing_mapping_publishes_nothing) ... ok
+test_real_sample_render_preserves_silence_velocity_and_length (test_studio.BundleTests.test_real_sample_render_preserves_silence_velocity_and_length) ... ok
+test_remote_host_contract (test_studio.BundleTests.test_remote_host_contract) ... ok
+test_mcp_worker_starts_with_private_stdin_and_saves_real_state (test_studio.InstalledSerumTests.test_mcp_worker_starts_with_private_stdin_and_saves_real_state) ... skipped 'Opt-in installed Serum integration'
+test_stdio_initialize_real_export_and_scope_error (test_studio.MCPTests.test_stdio_initialize_real_export_and_scope_error) ... Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+ok
+test_conflicting_chunks_and_oversized_message_are_rejected (test_studio.ProtocolTests.test_conflicting_chunks_and_oversized_message_are_rejected) ... ok
+test_unicode_reordered_chunks_and_echo_isolation (test_studio.ProtocolTests.test_unicode_reordered_chunks_and_echo_isolation) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 4.150s
+
+OK (skipped=1)

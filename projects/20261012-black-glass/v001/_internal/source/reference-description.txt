@@ -1,0 +1,68 @@
+Preset: PD - Dark Space
+Description: You want warm pads, wa got warm pads
+Author: Electric Himalaya
+
+Osc A: ON   octave=-1  volume=0.24  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)  unison=6  detune=0.10
+Osc B: ON   octave=-1  volume=0.24  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)  unison=5  detune=0.07
+Osc C: ON   octave=+0  volume=0.14  pan=+0  wavetable=default  table_pos=58.1  warp=fm(0.00)  unison=2  detune=0.05
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=L18  cutoff=0.47  resonance=0%  drive=0%  stereo=50%
+Filter 2: ON   type=H18  cutoff=0.00  resonance=0%  drive=0%  stereo=50%
+
+Env 1: attack=153.3ms  decay=1.00s  sustain=1.00  release=6.91s
+Env 2: attack=568.1ms  decay=7.24s  sustain=0.27  release=3.46s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=5  mode=Free
+LFO 2: rate=5  mode=Free
+LFO 3: rate=11  mode=Free
+LFO 4: rate=6  mode=Free
+
+Macro 1 "MORE ATTACK": 0%
+Macro 2 "MAX FADE": 0%
+Macro 3 "LPF CUTOFF": 0%
+Macro 4 "LPF RES": 0%
+Macro 5 "HPF": 0%
+Macro 6 "MELLOW": 0%
+Macro 7 "MOTION": 1%
+Macro 8 "MOTION 2": 1%
+
+FX chain:
+  - FXConv (wet=24%)
+  - FXChorus (wet=31%)
+  - FXDelay (wet=41%)
+  - FXReverb (wet=35%)
+  - FXEQ (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +13%
+  - random1 -> oscillator0.fine: -4%
+  - macro1 -> env0.attack: +34%
+  - lfo0 -> oscillator0.fine: +43%, bipolar
+  - lfo1 -> oscillator1.fine: +43%, bipolar
+  - lfo0 -> oscillator2.fine: -19%, bipolar
+  - aftertouch -> lfo0.rate: +2%
+  - macro2 -> filter0.cutoff: +36%
+  - macro3 -> filter0.resonance: +61%
+  - macro4 -> filter1.cutoff: +62%
+  - macro4 -> filter1.resonance: +25%
+  - macro5 -> oscillator0.table_position: +27%
+  - random1 -> oscillator1.fine: +5%
+  - macro5 -> oscillator1.table_position: +29%
+  - macro5 -> oscillator2.table_position: -5%
+  - lfo2 -> oscillator0.volume: -100%
+  - lfo2 -> oscillator1.volume: -100%
+  - lfo2 -> oscillator2.volume: -100%
+  - lfo3 -> filter0.cutoff: +32%
+  - key_track -> filter0.cutoff: +15%
+  - key_track -> oscillator1.fine: -4%
+  - key_track -> oscillator0.fine: +5%
+  - mod_wheel -> filter0.cutoff: +50%
+  - macro0 -> env0.attack: -26%
+  - macro0 -> env1.attack: -32%
+  - macro1 -> env1.attack: +32%
+
+Global: master_volume=0.46  mono=off  poly=24

@@ -1,0 +1,576 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/kick.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Kick - punchy drum machine",
+          "end_tick": 368640,
+          "note_count": 399,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 36,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 399,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/snare.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Snare - gated backbeat",
+          "end_tick": 368640,
+          "note_count": 232,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 38,
+          "pitch_max": 38,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 232,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/clap.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Hand clap",
+          "end_tick": 368640,
+          "note_count": 112,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 39,
+          "pitch_max": 39,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 112,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/hihat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Hi-hat - closed and open",
+          "end_tick": 368640,
+          "note_count": 1470,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 42,
+          "pitch_max": 46,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 1470,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/shaker.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Shaker",
+          "end_tick": 368640,
+          "note_count": 896,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 82,
+          "pitch_max": 82,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 896,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/tambourine.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Tambourine",
+          "end_tick": 368640,
+          "note_count": 128,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 54,
+          "pitch_max": 54,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 128,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/toms.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Electronic toms",
+          "end_tick": 368640,
+          "note_count": 27,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 45,
+          "pitch_max": 50,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 27,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/slap-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Slap bass",
+          "end_tick": 368640,
+          "note_count": 525,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 33,
+          "pitch_max": 54,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 525,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/electric-piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Electric piano",
+          "end_tick": 368640,
+          "note_count": 1065,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 42,
+          "pitch_max": 68,
+          "peak_polyphony": 5
+        }
+      ],
+      "note_count": 1065,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/synth-stabs.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Poly synth stabs",
+          "end_tick": 368640,
+          "note_count": 240,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 69,
+          "pitch_max": 80,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 240,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/muted-guitar.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Muted funk guitar",
+          "end_tick": 368640,
+          "note_count": 879,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 57,
+          "pitch_max": 68,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 879,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/synth-brass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Synth brass",
+          "end_tick": 368640,
+          "note_count": 156,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 65,
+          "pitch_max": 74,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 156,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/lead-synth.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Saw synth lead",
+          "end_tick": 368640,
+          "note_count": 235,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 66,
+          "pitch_max": 83,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 235,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/string-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Warm string pad",
+          "end_tick": 368640,
+          "note_count": 144,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 53,
+          "pitch_max": 68,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 144,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bell-keys.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "FM bell keys",
+          "end_tick": 368640,
+          "note_count": 33,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 80,
+          "pitch_max": 92,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 33,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  }
+}

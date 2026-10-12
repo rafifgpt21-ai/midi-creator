@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "check_cubase": false,
+  "serum": {
+    "path": "C:/Program Files/Common Files/VST3/Serum2.vst3",
+    "installed": true,
+    "version": "2.0.23"
+  },
+  "cubase": {"connected": null, "tested": false},
+  "capabilities": {"native_preset_loading": false, "native_project_creation": false},
+  "plugin_loaded_for_this_song": false,
+  "audio_rendered": false,
+  "auditioned": false,
+  "source": "midi-studio studio_status(check_cubase=false), 2026-10-11"
+}

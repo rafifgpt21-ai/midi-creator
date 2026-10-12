@@ -1,0 +1,1565 @@
+{
+  "grid": "straight 1/32 note-on grid, half-tick rounding tolerance",
+  "projects": [
+    {
+      "project": "20261009-afterglow-circuit-progressive-house",
+      "revision": "v002",
+      "tempo_bpm": 126,
+      "bars": 160,
+      "alignment_errors": [],
+      "off_grid_note_ons": 0,
+      "files": [
+        {
+          "layer": "kick",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\kick.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 493,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "clap",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\clap.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 200,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "snare-roll",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\snare-roll.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 264,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "closed-hat",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\closed-hat.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 1170,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "open-hat",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\open-hat.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 414,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "ride",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\ride.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 96,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "shaker",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\shaker.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 432,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "synth-bass",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\synth-bass.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 429,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "poly-synth",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\poly-synth.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 1616,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "pluck-arp",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\pluck-arp.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 2100,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "warm-pad",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\warm-pad.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 400,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "lead-synth",
+          "file": "projects\\20261009-afterglow-circuit-progressive-house\\v002\\MIDI\\lead-synth.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              476190
+            ]
+          ],
+          "track_ends": [
+            614400
+          ],
+          "note_ons": 209,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "project": "20261009-neon-step-new-jack-swing",
+      "revision": "v002",
+      "tempo_bpm": 108,
+      "bars": 96,
+      "alignment_errors": [],
+      "off_grid_note_ons": 3335,
+      "files": [
+        {
+          "layer": "kick",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\kick.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 399,
+          "off_grid_note_ons": 121,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              121
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 8448,
+              "beat": 8.8,
+              "offset_ticks": 48.0,
+              "pitch": 36
+            },
+            {
+              "tick": 13248,
+              "beat": 13.8,
+              "offset_ticks": 48.0,
+              "pitch": 36
+            },
+            {
+              "tick": 16128,
+              "beat": 16.8,
+              "offset_ticks": 48.0,
+              "pitch": 36
+            },
+            {
+              "tick": 20928,
+              "beat": 21.8,
+              "offset_ticks": 48.0,
+              "pitch": 36
+            },
+            {
+              "tick": 23808,
+              "beat": 24.8,
+              "offset_ticks": 48.0,
+              "pitch": 36
+            }
+          ]
+        },
+        {
+          "layer": "snare",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\snare.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 232,
+          "off_grid_note_ons": 48,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              48
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 37248,
+              "beat": 38.8,
+              "offset_ticks": 48.0,
+              "pitch": 38
+            },
+            {
+              "tick": 44928,
+              "beat": 46.8,
+              "offset_ticks": 48.0,
+              "pitch": 38
+            },
+            {
+              "tick": 45888,
+              "beat": 47.8,
+              "offset_ticks": 48.0,
+              "pitch": 38
+            },
+            {
+              "tick": 52608,
+              "beat": 54.8,
+              "offset_ticks": 48.0,
+              "pitch": 38
+            },
+            {
+              "tick": 60288,
+              "beat": 62.8,
+              "offset_ticks": 48.0,
+              "pitch": 38
+            }
+          ]
+        },
+        {
+          "layer": "clap",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\clap.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 112,
+          "off_grid_note_ons": 112,
+          "max_grid_error_beats": 0.010416666666666666,
+          "frequent_error_ticks": [
+            [
+              10.0,
+              112
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 62410,
+              "beat": 65.01041666666667,
+              "offset_ticks": 10.0,
+              "pitch": 39
+            },
+            {
+              "tick": 64330,
+              "beat": 67.01041666666667,
+              "offset_ticks": 10.0,
+              "pitch": 39
+            },
+            {
+              "tick": 66250,
+              "beat": 69.01041666666667,
+              "offset_ticks": 10.0,
+              "pitch": 39
+            },
+            {
+              "tick": 68170,
+              "beat": 71.01041666666667,
+              "offset_ticks": 10.0,
+              "pitch": 39
+            },
+            {
+              "tick": 70090,
+              "beat": 73.01041666666667,
+              "offset_ticks": 10.0,
+              "pitch": 39
+            }
+          ]
+        },
+        {
+          "layer": "hihat",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\hihat.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 1470,
+          "off_grid_note_ons": 711,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              711
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 7968,
+              "beat": 8.3,
+              "offset_ticks": 48.0,
+              "pitch": 42
+            },
+            {
+              "tick": 8448,
+              "beat": 8.8,
+              "offset_ticks": 48.0,
+              "pitch": 42
+            },
+            {
+              "tick": 8928,
+              "beat": 9.3,
+              "offset_ticks": 48.0,
+              "pitch": 42
+            },
+            {
+              "tick": 9408,
+              "beat": 9.8,
+              "offset_ticks": 48.0,
+              "pitch": 42
+            },
+            {
+              "tick": 9888,
+              "beat": 10.3,
+              "offset_ticks": 48.0,
+              "pitch": 42
+            }
+          ]
+        },
+        {
+          "layer": "shaker",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\shaker.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 896,
+          "off_grid_note_ons": 448,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              448
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 92448,
+              "beat": 96.3,
+              "offset_ticks": 48.0,
+              "pitch": 82
+            },
+            {
+              "tick": 92928,
+              "beat": 96.8,
+              "offset_ticks": 48.0,
+              "pitch": 82
+            },
+            {
+              "tick": 93408,
+              "beat": 97.3,
+              "offset_ticks": 48.0,
+              "pitch": 82
+            },
+            {
+              "tick": 93888,
+              "beat": 97.8,
+              "offset_ticks": 48.0,
+              "pitch": 82
+            },
+            {
+              "tick": 94368,
+              "beat": 98.3,
+              "offset_ticks": 48.0,
+              "pitch": 82
+            }
+          ]
+        },
+        {
+          "layer": "tambourine",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\tambourine.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 128,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "toms",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\toms.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 27,
+          "off_grid_note_ons": 18,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              18
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 30048,
+              "beat": 31.3,
+              "offset_ticks": 48.0,
+              "pitch": 50
+            },
+            {
+              "tick": 30528,
+              "beat": 31.8,
+              "offset_ticks": 48.0,
+              "pitch": 45
+            },
+            {
+              "tick": 91488,
+              "beat": 95.3,
+              "offset_ticks": 48.0,
+              "pitch": 50
+            },
+            {
+              "tick": 91968,
+              "beat": 95.8,
+              "offset_ticks": 48.0,
+              "pitch": 45
+            },
+            {
+              "tick": 122208,
+              "beat": 127.3,
+              "offset_ticks": 48.0,
+              "pitch": 50
+            }
+          ]
+        },
+        {
+          "layer": "slap-bass",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\slap-bass.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 525,
+          "off_grid_note_ons": 219,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              219
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 16128,
+              "beat": 16.8,
+              "offset_ticks": 48.0,
+              "pitch": 42
+            },
+            {
+              "tick": 17088,
+              "beat": 17.8,
+              "offset_ticks": 48.0,
+              "pitch": 54
+            },
+            {
+              "tick": 19968,
+              "beat": 20.8,
+              "offset_ticks": 48.0,
+              "pitch": 33
+            },
+            {
+              "tick": 20928,
+              "beat": 21.8,
+              "offset_ticks": 48.0,
+              "pitch": 45
+            },
+            {
+              "tick": 22848,
+              "beat": 23.8,
+              "offset_ticks": 48.0,
+              "pitch": 37
+            }
+          ]
+        },
+        {
+          "layer": "electric-piano",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\electric-piano.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 1065,
+          "off_grid_note_ons": 332,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              332
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 17088,
+              "beat": 17.8,
+              "offset_ticks": 48.0,
+              "pitch": 57
+            },
+            {
+              "tick": 17088,
+              "beat": 17.8,
+              "offset_ticks": 48.0,
+              "pitch": 61
+            },
+            {
+              "tick": 17088,
+              "beat": 17.8,
+              "offset_ticks": 48.0,
+              "pitch": 64
+            },
+            {
+              "tick": 17088,
+              "beat": 17.8,
+              "offset_ticks": 48.0,
+              "pitch": 68
+            },
+            {
+              "tick": 20928,
+              "beat": 21.8,
+              "offset_ticks": 48.0,
+              "pitch": 56
+            }
+          ]
+        },
+        {
+          "layer": "synth-stabs",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\synth-stabs.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 240,
+          "off_grid_note_ons": 240,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              240
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 94368,
+              "beat": 98.3,
+              "offset_ticks": 48.0,
+              "pitch": 69
+            },
+            {
+              "tick": 94368,
+              "beat": 98.3,
+              "offset_ticks": 48.0,
+              "pitch": 73
+            },
+            {
+              "tick": 94368,
+              "beat": 98.3,
+              "offset_ticks": 48.0,
+              "pitch": 76
+            },
+            {
+              "tick": 98208,
+              "beat": 102.3,
+              "offset_ticks": 48.0,
+              "pitch": 73
+            },
+            {
+              "tick": 98208,
+              "beat": 102.3,
+              "offset_ticks": 48.0,
+              "pitch": 74
+            }
+          ]
+        },
+        {
+          "layer": "muted-guitar",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\muted-guitar.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 879,
+          "off_grid_note_ons": 760,
+          "max_grid_error_beats": 0.058333333333333334,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              174
+            ],
+            [
+              52.0,
+              174
+            ],
+            [
+              56.0,
+              174
+            ],
+            [
+              4.0,
+              119
+            ],
+            [
+              8.0,
+              119
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 15844,
+              "beat": 16.504166666666666,
+              "offset_ticks": 4.0,
+              "pitch": 64
+            },
+            {
+              "tick": 15848,
+              "beat": 16.508333333333333,
+              "offset_ticks": 8.0,
+              "pitch": 68
+            },
+            {
+              "tick": 17568,
+              "beat": 18.3,
+              "offset_ticks": 48.0,
+              "pitch": 61
+            },
+            {
+              "tick": 17572,
+              "beat": 18.304166666666667,
+              "offset_ticks": 52.0,
+              "pitch": 64
+            },
+            {
+              "tick": 17576,
+              "beat": 18.308333333333334,
+              "offset_ticks": 56.0,
+              "pitch": 68
+            }
+          ]
+        },
+        {
+          "layer": "synth-brass",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\synth-brass.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 156,
+          "off_grid_note_ons": 156,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              156
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 26208,
+              "beat": 27.3,
+              "offset_ticks": 48.0,
+              "pitch": 66
+            },
+            {
+              "tick": 26208,
+              "beat": 27.3,
+              "offset_ticks": 48.0,
+              "pitch": 69
+            },
+            {
+              "tick": 26208,
+              "beat": 27.3,
+              "offset_ticks": 48.0,
+              "pitch": 73
+            },
+            {
+              "tick": 26688,
+              "beat": 27.8,
+              "offset_ticks": 48.0,
+              "pitch": 66
+            },
+            {
+              "tick": 26688,
+              "beat": 27.8,
+              "offset_ticks": 48.0,
+              "pitch": 69
+            }
+          ]
+        },
+        {
+          "layer": "lead-synth",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\lead-synth.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 235,
+          "off_grid_note_ons": 138,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              138
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 8928,
+              "beat": 9.3,
+              "offset_ticks": 48.0,
+              "pitch": 74
+            },
+            {
+              "tick": 24288,
+              "beat": 25.3,
+              "offset_ticks": 48.0,
+              "pitch": 78
+            },
+            {
+              "tick": 35808,
+              "beat": 37.3,
+              "offset_ticks": 48.0,
+              "pitch": 73
+            },
+            {
+              "tick": 37248,
+              "beat": 38.8,
+              "offset_ticks": 48.0,
+              "pitch": 73
+            },
+            {
+              "tick": 43488,
+              "beat": 45.3,
+              "offset_ticks": 48.0,
+              "pitch": 77
+            }
+          ]
+        },
+        {
+          "layer": "string-pad",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\string-pad.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 144,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "bell-keys",
+          "file": "projects\\20261009-neon-step-new-jack-swing\\v002\\MIDI\\bell-keys.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              555556
+            ]
+          ],
+          "track_ends": [
+            368640
+          ],
+          "note_ons": 33,
+          "off_grid_note_ons": 32,
+          "max_grid_error_beats": 0.05,
+          "frequent_error_ticks": [
+            [
+              48.0,
+              32
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 2688,
+              "beat": 2.8,
+              "offset_ticks": 48.0,
+              "pitch": 92
+            },
+            {
+              "tick": 3168,
+              "beat": 3.3,
+              "offset_ticks": 48.0,
+              "pitch": 85
+            },
+            {
+              "tick": 10368,
+              "beat": 10.8,
+              "offset_ticks": 48.0,
+              "pitch": 90
+            },
+            {
+              "tick": 10848,
+              "beat": 11.3,
+              "offset_ticks": 48.0,
+              "pitch": 85
+            },
+            {
+              "tick": 18048,
+              "beat": 18.8,
+              "offset_ticks": 48.0,
+              "pitch": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "20261010-synthwave-studio-starter",
+      "revision": "v002",
+      "tempo_bpm": 110,
+      "bars": 16,
+      "alignment_errors": [],
+      "off_grid_note_ons": 0,
+      "files": [
+        {
+          "layer": "pad",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\pad.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 32,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "bass",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\bass.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 100,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "arp",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\arp.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 84,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "lead",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\lead.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 19,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "brass",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\brass.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 36,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "keys",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\keys.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 18,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "kick",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\kick.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 50,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "snare",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\snare.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 25,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "closed-hat",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\closed-hat.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 100,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "open-hat",
+          "file": "projects\\20261010-synthwave-studio-starter\\v002\\MIDI\\open-hat.mid",
+          "format": 1,
+          "ppqn": 480,
+          "tempo": [
+            [
+              0,
+              545455
+            ]
+          ],
+          "track_ends": [
+            30720
+          ],
+          "note_ons": 4,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "project": "20261011-neon-di-ujung-malam",
+      "revision": "v001",
+      "tempo_bpm": 118,
+      "bars": 112,
+      "alignment_errors": [],
+      "off_grid_note_ons": 1613,
+      "files": [
+        {
+          "layer": "pulse-bass",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\pulse-bass.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 519,
+          "off_grid_note_ons": 10,
+          "max_grid_error_beats": 0.04479166666666667,
+          "frequent_error_ticks": [
+            [
+              -43.0,
+              10
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 15437,
+              "beat": 16.080208333333335,
+              "offset_ticks": -43.0,
+              "pitch": 33
+            },
+            {
+              "tick": 23117,
+              "beat": 24.080208333333335,
+              "offset_ticks": -43.0,
+              "pitch": 40
+            },
+            {
+              "tick": 184397,
+              "beat": 192.08020833333333,
+              "offset_ticks": -43.0,
+              "pitch": 30
+            },
+            {
+              "tick": 192077,
+              "beat": 200.08020833333333,
+              "offset_ticks": -43.0,
+              "pitch": 38
+            },
+            {
+              "tick": 199757,
+              "beat": 208.08020833333333,
+              "offset_ticks": -43.0,
+              "pitch": 33
+            }
+          ]
+        },
+        {
+          "layer": "midnight-pad",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\midnight-pad.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 222,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "neon-chords",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\neon-chords.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 888,
+          "off_grid_note_ons": 635,
+          "max_grid_error_beats": 0.00625,
+          "frequent_error_ticks": [
+            [
+              4.0,
+              228
+            ],
+            [
+              6.0,
+              219
+            ],
+            [
+              2.0,
+              188
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 31442,
+              "beat": 32.75208333333333,
+              "offset_ticks": 2.0,
+              "pitch": 76
+            },
+            {
+              "tick": 31444,
+              "beat": 32.75416666666667,
+              "offset_ticks": 4.0,
+              "pitch": 66
+            },
+            {
+              "tick": 31446,
+              "beat": 32.75625,
+              "offset_ticks": 6.0,
+              "pitch": 73
+            },
+            {
+              "tick": 36002,
+              "beat": 37.50208333333333,
+              "offset_ticks": 2.0,
+              "pitch": 66
+            },
+            {
+              "tick": 36002,
+              "beat": 37.50208333333333,
+              "offset_ticks": 2.0,
+              "pitch": 76
+            }
+          ]
+        },
+        {
+          "layer": "glass-arp",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\glass-arp.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 520,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "night-hook",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\night-hook.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 125,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "rain-keys",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\rain-keys.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 92,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "radio-haze",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\radio-haze.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 9,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "retro-drums",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v001\\MIDI\\retro-drums.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 1474,
+          "off_grid_note_ons": 968,
+          "max_grid_error_beats": 0.023958333333333335,
+          "frequent_error_ticks": [
+            [
+              6.0,
+              198
+            ],
+            [
+              2.0,
+              194
+            ],
+            [
+              4.0,
+              192
+            ],
+            [
+              19.0,
+              104
+            ],
+            [
+              21.0,
+              102
+            ],
+            [
+              23.0,
+              93
+            ]
+          ],
+          "examples": [
+            {
+              "tick": 24002,
+              "beat": 25.002083333333335,
+              "offset_ticks": 2.0,
+              "pitch": 42
+            },
+            {
+              "tick": 25926,
+              "beat": 27.00625,
+              "offset_ticks": 6.0,
+              "pitch": 42
+            },
+            {
+              "tick": 27842,
+              "beat": 29.002083333333335,
+              "offset_ticks": 2.0,
+              "pitch": 42
+            },
+            {
+              "tick": 29764,
+              "beat": 31.004166666666666,
+              "offset_ticks": 4.0,
+              "pitch": 42
+            },
+            {
+              "tick": 31221,
+              "beat": 32.521875,
+              "offset_ticks": 21.0,
+              "pitch": 42
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

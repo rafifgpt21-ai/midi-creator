@@ -1,0 +1,117 @@
+{
+  "name": "bass-grit",
+  "description": "Black Glass: mono mid-bass octave, driven saw/triangle harmonics, tightly gated and high-pass filtered before distortion; paired with separate sub.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 2,
+      "volume": 0.17,
+      "unison": 1,
+      "detune": 0
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 1,
+      "volume": 0.12,
+      "fine": 0,
+      "unison": 1
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "highpass_24",
+      "cutoff": 0.24,
+      "resonance": 0,
+      "drive": 8,
+      "stereo": 50
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.008,
+      "decay": 0.65,
+      "sustain": 0.72,
+      "release": 0.035
+    },
+    {
+      "attack": 0.002,
+      "decay": 0.38,
+      "sustain": 0.1,
+      "release": 0.035
+    }
+  ],
+  "macros": [
+    {
+      "name": "BITE",
+      "value": 12
+    },
+    {
+      "name": "WEIGHT",
+      "value": 10
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 35
+    },
+    {
+      "source": "velocity",
+      "destination": "oscillator1.volume",
+      "amount": 20
+    },
+    {
+      "source": "macro0",
+      "destination": "fx0.wet",
+      "amount": 24
+    },
+    {
+      "source": "macro1",
+      "destination": "filter0.cutoff",
+      "amount": -8
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDistortion",
+      "wet": 72,
+      "params": {
+        "kParamMode": "kSoftClip",
+        "kParamDrive": 52
+      }
+    },
+    {
+      "type": "FXComp",
+      "wet": 45,
+      "params": {
+        "kParamThresh": 0.58,
+        "kParamRatio": 3,
+        "kParamAttack": 16,
+        "kParamRelease": 85,
+        "kParamMakeup": 1
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.29,
+    "mono": true,
+    "poly_count": 1,
+    "portamento_time": 0
+  }
+}

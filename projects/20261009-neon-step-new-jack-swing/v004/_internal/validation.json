@@ -1,0 +1,1107 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/kick.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Kick - punchy drum machine",
+          "end_tick": 368640,
+          "note_count": 399,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 36,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 399,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/snare.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Snare - gated backbeat",
+          "end_tick": 368640,
+          "note_count": 232,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 38,
+          "pitch_max": 38,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 232,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/clap.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Hand clap",
+          "end_tick": 368640,
+          "note_count": 112,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 39,
+          "pitch_max": 39,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 112,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/hihat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Hi-hat - closed and open",
+          "end_tick": 368640,
+          "note_count": 1470,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 42,
+          "pitch_max": 46,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 1470,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/shaker.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Shaker",
+          "end_tick": 368640,
+          "note_count": 896,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 82,
+          "pitch_max": 82,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 896,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/tambourine.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Tambourine",
+          "end_tick": 368640,
+          "note_count": 128,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 54,
+          "pitch_max": 54,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 128,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/toms.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Electronic toms",
+          "end_tick": 368640,
+          "note_count": 27,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 45,
+          "pitch_max": 50,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 27,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/slap-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Slap bass",
+          "end_tick": 368640,
+          "note_count": 525,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 33,
+          "pitch_max": 54,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 525,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/electric-piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Electric piano",
+          "end_tick": 368640,
+          "note_count": 1065,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 42,
+          "pitch_max": 68,
+          "peak_polyphony": 5
+        }
+      ],
+      "note_count": 1065,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/synth-stabs.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Poly synth stabs",
+          "end_tick": 368640,
+          "note_count": 240,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 69,
+          "pitch_max": 80,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 240,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/muted-guitar.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Muted funk guitar",
+          "end_tick": 368640,
+          "note_count": 879,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 57,
+          "pitch_max": 68,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 879,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/synth-brass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Synth brass",
+          "end_tick": 368640,
+          "note_count": 156,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 65,
+          "pitch_max": 74,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 156,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/lead-synth.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Saw synth lead",
+          "end_tick": 368640,
+          "note_count": 235,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 66,
+          "pitch_max": 83,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 235,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/string-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Warm string pad",
+          "end_tick": 368640,
+          "note_count": 144,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 53,
+          "pitch_max": 68,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 144,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bell-keys.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "FM bell keys",
+          "end_tick": 368640,
+          "note_count": 33,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 80,
+          "pitch_max": 92,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 33,
+      "end_tick": 368640,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "free",
+    "grid_division": 16,
+    "on_grid": false,
+    "off_grid_note_ons": 2756,
+    "layers": [
+      {
+        "id": "kick",
+        "note_ons": 399,
+        "off_grid_note_ons": 121,
+        "examples": [
+          {
+            "pitch": 36,
+            "tick": 8448,
+            "beat": 8.8,
+            "nearest_grid_tick": 8400,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 13248,
+            "beat": 13.8,
+            "nearest_grid_tick": 13200,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 20928,
+            "beat": 21.8,
+            "nearest_grid_tick": 20880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 36,
+            "tick": 23808,
+            "beat": 24.8,
+            "nearest_grid_tick": 23760,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "snare",
+        "note_ons": 232,
+        "off_grid_note_ons": 48,
+        "examples": [
+          {
+            "pitch": 38,
+            "tick": 37248,
+            "beat": 38.8,
+            "nearest_grid_tick": 37200,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 44928,
+            "beat": 46.8,
+            "nearest_grid_tick": 44880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 45888,
+            "beat": 47.8,
+            "nearest_grid_tick": 45840,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 52608,
+            "beat": 54.8,
+            "nearest_grid_tick": 52560,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 38,
+            "tick": 60288,
+            "beat": 62.8,
+            "nearest_grid_tick": 60240,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "clap",
+        "note_ons": 112,
+        "off_grid_note_ons": 112,
+        "examples": [
+          {
+            "pitch": 39,
+            "tick": 62410,
+            "beat": 65.01041666666667,
+            "nearest_grid_tick": 62400,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 64330,
+            "beat": 67.01041666666667,
+            "nearest_grid_tick": 64320,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 66250,
+            "beat": 69.01041666666667,
+            "nearest_grid_tick": 66240,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 68170,
+            "beat": 71.01041666666667,
+            "nearest_grid_tick": 68160,
+            "offset_ticks": 10
+          },
+          {
+            "pitch": 39,
+            "tick": 70090,
+            "beat": 73.01041666666667,
+            "nearest_grid_tick": 70080,
+            "offset_ticks": 10
+          }
+        ]
+      },
+      {
+        "id": "hihat",
+        "note_ons": 1470,
+        "off_grid_note_ons": 711,
+        "examples": [
+          {
+            "pitch": 42,
+            "tick": 7968,
+            "beat": 8.3,
+            "nearest_grid_tick": 7920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 8448,
+            "beat": 8.8,
+            "nearest_grid_tick": 8400,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 8928,
+            "beat": 9.3,
+            "nearest_grid_tick": 8880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 9408,
+            "beat": 9.8,
+            "nearest_grid_tick": 9360,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 42,
+            "tick": 9888,
+            "beat": 10.3,
+            "nearest_grid_tick": 9840,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "shaker",
+        "note_ons": 896,
+        "off_grid_note_ons": 448,
+        "examples": [
+          {
+            "pitch": 82,
+            "tick": 92448,
+            "beat": 96.3,
+            "nearest_grid_tick": 92400,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 92928,
+            "beat": 96.8,
+            "nearest_grid_tick": 92880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 93408,
+            "beat": 97.3,
+            "nearest_grid_tick": 93360,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 93888,
+            "beat": 97.8,
+            "nearest_grid_tick": 93840,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 82,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "tambourine",
+        "note_ons": 128,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "toms",
+        "note_ons": 27,
+        "off_grid_note_ons": 18,
+        "examples": [
+          {
+            "pitch": 50,
+            "tick": 30048,
+            "beat": 31.3,
+            "nearest_grid_tick": 30000,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 45,
+            "tick": 30528,
+            "beat": 31.8,
+            "nearest_grid_tick": 30480,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 50,
+            "tick": 91488,
+            "beat": 95.3,
+            "nearest_grid_tick": 91440,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 45,
+            "tick": 91968,
+            "beat": 95.8,
+            "nearest_grid_tick": 91920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 50,
+            "tick": 122208,
+            "beat": 127.3,
+            "nearest_grid_tick": 122160,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "slap-bass",
+        "note_ons": 525,
+        "off_grid_note_ons": 219,
+        "examples": [
+          {
+            "pitch": 42,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 54,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 33,
+            "tick": 19968,
+            "beat": 20.8,
+            "nearest_grid_tick": 19920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 45,
+            "tick": 20928,
+            "beat": 21.8,
+            "nearest_grid_tick": 20880,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 37,
+            "tick": 22848,
+            "beat": 23.8,
+            "nearest_grid_tick": 22800,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "electric-piano",
+        "note_ons": 1065,
+        "off_grid_note_ons": 332,
+        "examples": [
+          {
+            "pitch": 57,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 61,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 64,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 68,
+            "tick": 17088,
+            "beat": 17.8,
+            "nearest_grid_tick": 17040,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 56,
+            "tick": 20928,
+            "beat": 21.8,
+            "nearest_grid_tick": 20880,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "synth-stabs",
+        "note_ons": 240,
+        "off_grid_note_ons": 240,
+        "examples": [
+          {
+            "pitch": 69,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 76,
+            "tick": 94368,
+            "beat": 98.3,
+            "nearest_grid_tick": 94320,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 98208,
+            "beat": 102.3,
+            "nearest_grid_tick": 98160,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 74,
+            "tick": 98208,
+            "beat": 102.3,
+            "nearest_grid_tick": 98160,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "muted-guitar",
+        "note_ons": 879,
+        "off_grid_note_ons": 357,
+        "examples": [
+          {
+            "pitch": 61,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 64,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 68,
+            "tick": 16128,
+            "beat": 16.8,
+            "nearest_grid_tick": 16080,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 59,
+            "tick": 19968,
+            "beat": 20.8,
+            "nearest_grid_tick": 19920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 61,
+            "tick": 19968,
+            "beat": 20.8,
+            "nearest_grid_tick": 19920,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "synth-brass",
+        "note_ons": 156,
+        "off_grid_note_ons": 66,
+        "examples": [
+          {
+            "pitch": 66,
+            "tick": 26688,
+            "beat": 27.8,
+            "nearest_grid_tick": 26640,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 69,
+            "tick": 26688,
+            "beat": 27.8,
+            "nearest_grid_tick": 26640,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 26688,
+            "beat": 27.8,
+            "nearest_grid_tick": 26640,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 65,
+            "tick": 30528,
+            "beat": 31.8,
+            "nearest_grid_tick": 30480,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 71,
+            "tick": 30528,
+            "beat": 31.8,
+            "nearest_grid_tick": 30480,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "lead-synth",
+        "note_ons": 235,
+        "off_grid_note_ons": 84,
+        "examples": [
+          {
+            "pitch": 73,
+            "tick": 36288,
+            "beat": 37.8,
+            "nearest_grid_tick": 36240,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 77,
+            "tick": 43968,
+            "beat": 45.8,
+            "nearest_grid_tick": 43920,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 51648,
+            "beat": 53.8,
+            "nearest_grid_tick": 51600,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 77,
+            "tick": 59328,
+            "beat": 61.8,
+            "nearest_grid_tick": 59280,
+            "offset_ticks": 48
+          },
+          {
+            "pitch": 73,
+            "tick": 67008,
+            "beat": 69.8,
+            "nearest_grid_tick": 66960,
+            "offset_ticks": 48
+          }
+        ]
+      },
+      {
+        "id": "string-pad",
+        "note_ons": 144,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bell-keys",
+        "note_ons": 33,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

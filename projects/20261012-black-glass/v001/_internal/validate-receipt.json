@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "layers": 13,
+  "end_tick": 215040,
+  "duration_seconds": 197.646848,
+  "note_count": 2710,
+  "timing": {
+    "mode": "strict",
+    "grid_division": 32,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "piano",
+        "note_ons": 935,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "sub-bass",
+        "note_ons": 246,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bass-grit",
+        "note_ons": 130,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "shadow-pad",
+        "note_ons": 189,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "ghost-bell",
+        "note_ons": 31,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "tension-rise",
+        "note_ons": 3,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "kick",
+        "note_ons": 244,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "snare",
+        "note_ons": 94,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "rim",
+        "note_ons": 26,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "closed-hat",
+        "note_ons": 751,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "open-hat",
+        "note_ons": 32,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "crash",
+        "note_ons": 5,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "floor-tom",
+        "note_ons": 24,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

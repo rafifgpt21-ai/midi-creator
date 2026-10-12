@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "title": "One-note grid repro",
+  "tempo_bpm": 118,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 1,
+  "ticks_per_beat": 960,
+  "layers": [
+    {
+      "id": "retro-drums",
+      "name": "One note",
+      "kind": "drums",
+      "notes": [
+        {
+          "pitch": 42,
+          "start": 1.002,
+          "duration": 0.1,
+          "velocity": 41
+        }
+      ]
+    }
+  ]
+}

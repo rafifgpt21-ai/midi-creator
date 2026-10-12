@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "title": "Neon Workshop - Serum Synthwave Starter",
+  "tempo_bpm": 110,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 16,
+  "sample_rate": 48000,
+  "audio_frames": 1675638,
+  "tracks": [
+    {
+      "id": "pad",
+      "name": "Serum - Warm Neon Pad",
+      "instrument": "Serum 2",
+      "profile": "pad",
+      "preset": "presets/pad.vstpreset",
+      "parameters": {
+        "main_vol": {
+          "raw": 0.3
+        },
+        "a_enable": true,
+        "a_unison": 5,
+        "a_uni_detune": 0.1,
+        "filter_1_on": true,
+        "filter_1_freq_hz": 2200,
+        "env_1_attack": {
+          "raw": 0.48
+        },
+        "env_1_decay": {
+          "raw": 0.5
+        },
+        "env_1_sustain": {
+          "raw": 0.8
+        },
+        "env_1_release": {
+          "raw": 0.52
+        }
+      },
+      "midi": "performance/midi/layers/pad.mid",
+      "audio": "audio/pad.wav",
+      "volume_cc": 80,
+      "pan_cc": 64
+    },
+    {
+      "id": "bass",
+      "name": "Serum - Night Drive Bass",
+      "instrument": "Serum 2",
+      "profile": "bass",
+      "preset": "presets/bass.vstpreset",
+      "parameters": {
+        "main_vol": {
+          "raw": 0.34
+        },
+        "a_enable": true,
+        "a_unison": 1,
+        "a_level": {
+          "raw": 0.55
+        },
+        "b_enable": false,
+        "c_enable": false,
+        "sub_enable": true,
+        "sub_shape": {
+          "raw": 0.0
+        },
+        "sub_level": {
+          "raw": 0.45
+        },
+        "sub_octave_oct": -1,
+        "mono_toggle": true,
+        "filter_1_on": true,
+        "filter_1_freq_hz": 1400,
+        "filter_1_res": {
+          "raw": 0.12
+        },
+        "env_1_attack": {
+          "raw": 0.15
+        },
+        "env_1_decay": {
+          "raw": 0.38
+        },
+        "env_1_sustain": {
+          "raw": 0.78
+        },
+        "env_1_release": {
+          "raw": 0.29
+        }
+      },
+      "midi": "performance/midi/layers/bass.mid",
+      "audio": "audio/bass.wav",
+      "volume_cc": 100,
+      "pan_cc": 64
+    },
+    {
+      "id": "arp",
+      "name": "Serum - Skyline Arp",
+      "instrument": "Serum 2",
+      "profile": "pluck",
+      "preset": "presets/arp.vstpreset",
+      "parameters": {
+        "main_vol": {
+          "raw": 0.38
+        },
+        "a_enable": true,
+        "a_unison": 2,
+        "a_uni_detune": 0.035,
+        "filter_1_on": true,
+        "filter_1_freq_hz": 5000,
+        "env_1_attack": {
+          "raw": 0.13
+        },
+        "env_1_decay": {
+          "raw": 0.39
+        },
+        "env_1_sustain": {
+          "raw": 0.0
+        },
+        "env_1_release": {
+          "raw": 0.3
+        }
+      },
+      "midi": "performance/midi/layers/arp.mid",
+      "audio": "audio/arp.wav",
+      "volume_cc": 76,
+      "pan_cc": 76
+    },
+    {
+      "id": "lead",
+      "name": "Serum - Midnight Lead",
+      "instrument": "Serum 2",
+      "profile": "lead",
+      "preset": "presets/lead.vstpreset",
+      "parameters": {
+        "main_vol": {
+          "raw": 0.36
+        },
+        "a_enable": true,
+        "a_unison": 3,
+        "a_uni_detune": 0.06,
+        "mono_toggle": true,
+        "env_1_attack": {
+          "raw": 0.16
+        },
+        "env_1_decay": {
+          "raw": 0.42
+        },
+        "env_1_sustain": {
+          "raw": 0.78
+        },
+        "env_1_release": {
+          "raw": 0.32
+        }
+      },
+      "midi": "performance/midi/layers/lead.mid",
+      "audio": "audio/lead.wav",
+      "volume_cc": 88,
+      "pan_cc": 64
+    },
+    {
+      "id": "brass",
+      "name": "Serum - Retro Brass",
+      "instrument": "Serum 2",
+      "profile": "brass",
+      "preset": "presets/brass.vstpreset",
+      "parameters": {
+        "main_vol": {
+          "raw": 0.32
+        },
+        "a_enable": true,
+        "a_unison": 2,
+        "a_uni_detune": 0.035,
+        "mono_toggle": false,
+        "filter_1_on": true,
+        "filter_1_freq_hz": 3200,
+        "env_1_attack": {
+          "raw": 0.28
+        },
+        "env_1_decay": {
+          "raw": 0.4
+        },
+        "env_1_sustain": {
+          "raw": 0.75
+        },
+        "env_1_release": {
+          "raw": 0.37
+        }
+      },
+      "midi": "performance/midi/layers/brass.mid",
+      "audio": "audio/brass.wav",
+      "volume_cc": 78,
+      "pan_cc": 48
+    },
+    {
+      "id": "keys",
+      "name": "Serum - Glass Keys",
+      "instrument": "Serum 2",
+      "profile": "keys",
+      "preset": "presets/keys.vstpreset",
+      "parameters": {
+        "main_vol": {
+          "raw": 0.4
+        },
+        "a_enable": false,
+        "b_enable": false,
+        "c_enable": false,
+        "sub_enable": true,
+        "sub_shape": {
+          "raw": 0.0
+        },
+        "sub_level": {
+          "raw": 0.8
+        },
+        "sub_octave_oct": 0,
+        "mono_toggle": false,
+        "env_1_attack": {
+          "raw": 0.13
+        },
+        "env_1_decay": {
+          "raw": 0.46
+        },
+        "env_1_sustain": {
+          "raw": 0.1
+        },
+        "env_1_release": {
+          "raw": 0.36
+        }
+      },
+      "midi": "performance/midi/layers/keys.mid",
+      "audio": "audio/keys.wav",
+      "volume_cc": 74,
+      "pan_cc": 66
+    },
+    {
+      "id": "kick",
+      "name": "Drums - Kick",
+      "instrument": "Drum samples / Groove Agent SE",
+      "midi": "performance/midi/layers/kick.mid",
+      "audio": "audio/kick.wav",
+      "pitches": [
+        36
+      ]
+    },
+    {
+      "id": "snare",
+      "name": "Drums - Snare",
+      "instrument": "Drum samples / Groove Agent SE",
+      "midi": "performance/midi/layers/snare.mid",
+      "audio": "audio/snare.wav",
+      "pitches": [
+        38
+      ]
+    },
+    {
+      "id": "closed-hat",
+      "name": "Drums - Closed Hat",
+      "instrument": "Drum samples / Groove Agent SE",
+      "midi": "performance/midi/layers/closed-hat.mid",
+      "audio": "audio/closed-hat.wav",
+      "pitches": [
+        42
+      ]
+    },
+    {
+      "id": "open-hat",
+      "name": "Drums - Open Hat",
+      "instrument": "Drum samples / Groove Agent SE",
+      "midi": "performance/midi/layers/open-hat.mid",
+      "audio": "audio/open-hat.wav",
+      "pitches": [
+        46
+      ]
+    }
+  ],
+  "render_audio": true,
+  "serum_receipt": {
+    "ok": true,
+    "plugin": "Serum 2",
+    "version": "2.0.23",
+    "presets": [
+      {
+        "file": "presets/pad.vstpreset",
+        "round_trip_verified": true,
+        "parameters": {
+          "main_vol": {
+            "value": " 30% [-17.9 dB]",
+            "raw": 0.30000001192092896,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "a_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "a_unison": {
+            "value": "5.0",
+            "raw": 0.2666666805744171,
+            "label": "None",
+            "range": "(1.0, 16.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "a_uni_detune": {
+            "value": "0.1",
+            "raw": 0.3162277638912201,
+            "label": "None",
+            "range": "(0.0, 1.0, 0.01)",
+            "type": "<class 'float'>"
+          },
+          "filter_1_on": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "filter_1_freq_hz": {
+            "value": "2200.0",
+            "raw": 0.7080649137496948,
+            "label": "Hz",
+            "range": "(8.0, 22050.0, None)",
+            "type": "<class 'float'>"
+          },
+          "env_1_attack": {
+            "value": "815 ms",
+            "raw": 0.47999998927116394,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_decay": {
+            "value": "1.00 s",
+            "raw": 0.5,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_sustain": {
+            "value": "-3.9 dB",
+            "raw": 0.800000011920929,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_release": {
+            "value": "1.22 s",
+            "raw": 0.5199999809265137,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          }
+        },
+        "render": {
+          "file": "audio/pad.wav",
+          "frames": 1675638,
+          "sample_rate": 48000,
+          "source_peak": 0.10974472016096115,
+          "applied_gain": 1.0,
+          "host_frames": 1675637,
+          "volume_cc": 80,
+          "pan_cc": 64,
+          "auditioned": false
+        }
+      },
+      {
+        "file": "presets/bass.vstpreset",
+        "round_trip_verified": true,
+        "parameters": {
+          "main_vol": {
+            "value": " 34% [-15.7 dB]",
+            "raw": 0.3400000035762787,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "a_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "a_unison": {
+            "value": "1.0",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(1.0, 16.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "a_level": {
+            "value": " 55% [-10.4 dB]",
+            "raw": 0.550000011920929,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "b_enable": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "c_enable": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "sub_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "sub_shape": {
+            "value": "Sine",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "sub_level": {
+            "value": " 45% [-13.9 dB]",
+            "raw": 0.44999998807907104,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "sub_octave_oct": {
+            "value": "-1.0",
+            "raw": 0.375,
+            "label": "oct",
+            "range": "(-4.0, 4.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "mono_toggle": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "filter_1_on": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "filter_1_freq_hz": {
+            "value": "1402.0",
+            "raw": 0.6510000228881836,
+            "label": "Hz",
+            "range": "(8.0, 22050.0, None)",
+            "type": "<class 'float'>"
+          },
+          "filter_1_res": {
+            "value": "12.0",
+            "raw": 0.11999999731779099,
+            "label": "%",
+            "range": "(0.0, 100.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "env_1_attack": {
+            "value": "2.4 ms",
+            "raw": 0.15000000596046448,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_decay": {
+            "value": "254 ms",
+            "raw": 0.3799999952316284,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_sustain": {
+            "value": "-4.3 dB",
+            "raw": 0.7799999713897705,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_release": {
+            "value": "66 ms",
+            "raw": 0.28999999165534973,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          }
+        },
+        "render": {
+          "file": "audio/bass.wav",
+          "frames": 1675638,
+          "sample_rate": 48000,
+          "source_peak": 0.05108054727315903,
+          "applied_gain": 1.0,
+          "host_frames": 1675637,
+          "volume_cc": 100,
+          "pan_cc": 64,
+          "auditioned": false
+        }
+      },
+      {
+        "file": "presets/arp.vstpreset",
+        "round_trip_verified": true,
+        "parameters": {
+          "main_vol": {
+            "value": " 38% [-13.8 dB]",
+            "raw": 0.3799999952316284,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "a_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "a_unison": {
+            "value": "2.0",
+            "raw": 0.06666667014360428,
+            "label": "None",
+            "range": "(1.0, 16.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "a_uni_detune": {
+            "value": "0.04",
+            "raw": 0.18799999356269836,
+            "label": "None",
+            "range": "(0.0, 1.0, 0.01)",
+            "type": "<class 'float'>"
+          },
+          "filter_1_on": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "filter_1_freq_hz": {
+            "value": "5002.0",
+            "raw": 0.8119999766349792,
+            "label": "Hz",
+            "range": "(8.0, 22050.0, None)",
+            "type": "<class 'float'>"
+          },
+          "env_1_attack": {
+            "value": "1.2 ms",
+            "raw": 0.12999999523162842,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_decay": {
+            "value": "289 ms",
+            "raw": 0.38999998569488525,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_sustain": {
+            "value": "-∞ dB",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_release": {
+            "value": "78 ms",
+            "raw": 0.30000001192092896,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          }
+        },
+        "render": {
+          "file": "audio/arp.wav",
+          "frames": 1675638,
+          "sample_rate": 48000,
+          "source_peak": 0.04220522567629814,
+          "applied_gain": 1.0,
+          "host_frames": 1675637,
+          "volume_cc": 76,
+          "pan_cc": 76,
+          "auditioned": false
+        }
+      },
+      {
+        "file": "presets/lead.vstpreset",
+        "round_trip_verified": true,
+        "parameters": {
+          "main_vol": {
+            "value": " 36% [-14.7 dB]",
+            "raw": 0.36000001430511475,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "a_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "a_unison": {
+            "value": "3.0",
+            "raw": 0.13333334028720856,
+            "label": "None",
+            "range": "(1.0, 16.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "a_uni_detune": {
+            "value": "0.06",
+            "raw": 0.24494896829128265,
+            "label": "None",
+            "range": "(0.0, 1.0, 0.01)",
+            "type": "<class 'float'>"
+          },
+          "mono_toggle": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "env_1_attack": {
+            "value": "3.4 ms",
+            "raw": 0.1599999964237213,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_decay": {
+            "value": "418 ms",
+            "raw": 0.41999998688697815,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_sustain": {
+            "value": "-4.3 dB",
+            "raw": 0.7799999713897705,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_release": {
+            "value": "107 ms",
+            "raw": 0.3199999928474426,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          }
+        },
+        "render": {
+          "file": "audio/lead.wav",
+          "frames": 1675638,
+          "sample_rate": 48000,
+          "source_peak": 0.045287877321243286,
+          "applied_gain": 1.0,
+          "host_frames": 1675637,
+          "volume_cc": 88,
+          "pan_cc": 64,
+          "auditioned": false
+        }
+      },
+      {
+        "file": "presets/brass.vstpreset",
+        "round_trip_verified": true,
+        "parameters": {
+          "main_vol": {
+            "value": " 32% [-16.8 dB]",
+            "raw": 0.3199999928474426,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "a_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "a_unison": {
+            "value": "2.0",
+            "raw": 0.06666667014360428,
+            "label": "None",
+            "range": "(1.0, 16.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "a_uni_detune": {
+            "value": "0.04",
+            "raw": 0.18799999356269836,
+            "label": "None",
+            "range": "(0.0, 1.0, 0.01)",
+            "type": "<class 'float'>"
+          },
+          "mono_toggle": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "filter_1_on": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "filter_1_freq_hz": {
+            "value": "3200.0",
+            "raw": 0.7554795742034912,
+            "label": "Hz",
+            "range": "(8.0, 22050.0, None)",
+            "type": "<class 'float'>"
+          },
+          "env_1_attack": {
+            "value": "55 ms",
+            "raw": 0.2800000011920929,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_decay": {
+            "value": "328 ms",
+            "raw": 0.4000000059604645,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_sustain": {
+            "value": "-5.0 dB",
+            "raw": 0.75,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_release": {
+            "value": "222 ms",
+            "raw": 0.3700000047683716,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          }
+        },
+        "render": {
+          "file": "audio/brass.wav",
+          "frames": 1675638,
+          "sample_rate": 48000,
+          "source_peak": 0.06488209217786789,
+          "applied_gain": 1.0,
+          "host_frames": 1675637,
+          "volume_cc": 78,
+          "pan_cc": 48,
+          "auditioned": false
+        }
+      },
+      {
+        "file": "presets/keys.vstpreset",
+        "round_trip_verified": true,
+        "parameters": {
+          "main_vol": {
+            "value": " 40% [-12.9 dB]",
+            "raw": 0.4000000059604645,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "a_enable": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "b_enable": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "c_enable": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "sub_enable": {
+            "value": "True",
+            "raw": 1.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "sub_shape": {
+            "value": "Sine",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "sub_level": {
+            "value": " 80% [-3.9 dB]",
+            "raw": 0.800000011920929,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "sub_octave_oct": {
+            "value": "0.0",
+            "raw": 0.5,
+            "label": "oct",
+            "range": "(-4.0, 4.0, 1.0)",
+            "type": "<class 'float'>"
+          },
+          "mono_toggle": {
+            "value": "False",
+            "raw": 0.0,
+            "label": "None",
+            "range": "(False, True, 1)",
+            "type": "<class 'bool'>"
+          },
+          "env_1_attack": {
+            "value": "1.2 ms",
+            "raw": 0.12999999523162842,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_decay": {
+            "value": "659 ms",
+            "raw": 0.46000000834465027,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_sustain": {
+            "value": "-40.0 dB",
+            "raw": 0.10000000149011612,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          },
+          "env_1_release": {
+            "value": "193 ms",
+            "raw": 0.36000001430511475,
+            "label": "None",
+            "range": "(None, None, None)",
+            "type": "<class 'str'>"
+          }
+        },
+        "render": {
+          "file": "audio/keys.wav",
+          "frames": 1675638,
+          "sample_rate": 48000,
+          "source_peak": 0.1572767049074173,
+          "applied_gain": 1.0,
+          "host_frames": 1675637,
+          "volume_cc": 74,
+          "pan_cc": 66,
+          "auditioned": false
+        }
+      }
+    ]
+  },
+  "drum_receipts": [
+    {
+      "file": "audio/kick.wav",
+      "frames": 1675638,
+      "sample_rate": 48000,
+      "source_peak": 0.5965002775192261,
+      "applied_gain": 1.0,
+      "auditioned": false
+    },
+    {
+      "file": "audio/snare.wav",
+      "frames": 1675638,
+      "sample_rate": 48000,
+      "source_peak": 0.4865109622478485,
+      "applied_gain": 1.0,
+      "auditioned": false
+    },
+    {
+      "file": "audio/closed-hat.wav",
+      "frames": 1675638,
+      "sample_rate": 48000,
+      "source_peak": 0.24451330304145813,
+      "applied_gain": 1.0,
+      "auditioned": false
+    },
+    {
+      "file": "audio/open-hat.wav",
+      "frames": 1675638,
+      "sample_rate": 48000,
+      "source_peak": 0.20624922215938568,
+      "applied_gain": 1.0,
+      "auditioned": false
+    }
+  ],
+  "cubase_project_created": false,
+  "audio_auditioned": false,
+  "template_project": null
+}

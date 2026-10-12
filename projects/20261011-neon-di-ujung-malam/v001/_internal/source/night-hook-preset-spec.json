@@ -1,0 +1,176 @@
+{
+  "name": "night-hook",
+  "description": "Singing mono saw-and-pulse lead with delayed gentle vibrato, a softened top and narrow stereo echoes.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_mini",
+      "volume": 0.48,
+      "table_position": 95.0,
+      "unison": 3.0,
+      "detune": 0.034
+    },
+    {
+      "enabled": true,
+      "wavetable": "pwm",
+      "volume": 0.24,
+      "table_position": 61.0,
+      "fine": -3.0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_12",
+      "cutoff": 0.43,
+      "resonance": 9.0,
+      "drive": 3.0,
+      "stereo": 50.0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.022,
+      "decay": 0.7,
+      "sustain": 0.78,
+      "release": 0.24
+    },
+    {
+      "attack": 0.02,
+      "decay": 0.44,
+      "sustain": 0.18,
+      "release": 0.18
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 5.2,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": false,
+      "delay": 0.24,
+      "rise": 0.2
+    },
+    {
+      "rate": 0.12,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "OPEN",
+      "value": 0.0
+    },
+    {
+      "name": "BODY",
+      "value": 0.0
+    },
+    {
+      "name": "ECHO",
+      "value": 0.0
+    },
+    {
+      "name": "SPACE",
+      "value": 0.0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDelay",
+      "wet": 14.0,
+      "params": {
+        "kParamBeatSync": false,
+        "kParamTimeL": 0.2542372881355932,
+        "kParamTimeR": 0.2542372881355932,
+        "kParamFeedback": 23.0,
+        "kParamFreq": 4200.0
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 12.0,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 31.0,
+        "kParamDelay": 22.0,
+        "kParamWidth": 95.0
+      }
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 13.0,
+      "bipolar": false
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator0.fine",
+      "amount": 1.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator1.fine",
+      "amount": 1.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator1.table_position",
+      "amount": 2.0,
+      "bipolar": true
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 8.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 21.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "oscillator1.volume",
+      "amount": 20.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "fx0.wet",
+      "amount": 18.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "fx1.wet",
+      "amount": 20.0,
+      "bipolar": false
+    }
+  ],
+  "global": {
+    "master_volume": 0.47,
+    "mono": true,
+    "poly_count": 1.0,
+    "portamento_time": 0
+  }
+}

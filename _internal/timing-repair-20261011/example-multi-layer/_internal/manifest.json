@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Multi layer - A minor groove",
+  "combined": false,
+  "composition_sha256": "1b1572fca058434a2c3f56e1c05060241cbb8ea2da1319b71919aed0d90ffe55",
+  "tempo_bpm": 92,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 8,
+  "ticks_per_beat": 480,
+  "end_tick": 15360,
+  "duration_seconds": 20.869568,
+  "layers": [
+    {
+      "id": "keys",
+      "name": "Electric Piano",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 4,
+      "note_count": 24,
+      "file": "MIDI/keys.mid"
+    },
+    {
+      "id": "bass",
+      "name": "Finger Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 33,
+      "note_count": 24,
+      "file": "MIDI/bass.mid"
+    },
+    {
+      "id": "lead",
+      "name": "Piano Lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 24,
+      "file": "MIDI/lead.mid"
+    },
+    {
+      "id": "kick",
+      "name": "Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 16,
+      "file": "MIDI/kick.mid"
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 16,
+      "file": "MIDI/snare.mid"
+    },
+    {
+      "id": "hihat",
+      "name": "Closed Hi-hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 64,
+      "file": "MIDI/hihat.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/keys.mid",
+      "sha256": "040ead03fc5804d1286e308f4c8871903ca3747135f74dd249032f42a226fb58"
+    },
+    {
+      "path": "MIDI/bass.mid",
+      "sha256": "ccb3ea66aef5c6bbdbfd30dd260c08bece9f1ee7acb1676fd84bb2110ef932c3"
+    },
+    {
+      "path": "MIDI/lead.mid",
+      "sha256": "f3eb641a6e403622de49d14c46b9463854b78fa4421f79e7ac504f2a499dc0c5"
+    },
+    {
+      "path": "MIDI/kick.mid",
+      "sha256": "c0e7fcfac3f5e438991c2c48159e70d85c0985b39f568b0997246e66910bfec7"
+    },
+    {
+      "path": "MIDI/snare.mid",
+      "sha256": "64cdb94c4584565caeeeb22b9a3de5ac1c57793d36796df9241b0ea229205acc"
+    },
+    {
+      "path": "MIDI/hihat.mid",
+      "sha256": "5e5eb4b6f9fcc2c48e3f8ce3e43e3d5e06d981a334b61c0be1abe221e4a4fd0f"
+    }
+  ]
+}

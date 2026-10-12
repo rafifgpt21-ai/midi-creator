@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Neon Workshop - Serum Synthwave Starter",
+  "combined": false,
+  "composition_sha256": "76f5c89d56de58437e0f56d61fb3d00207cd5440f880c7f2be8c8b2c279ff40e",
+  "tempo_bpm": 110,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 16,
+  "ticks_per_beat": 480,
+  "end_tick": 30720,
+  "duration_seconds": 34.90912,
+  "layers": [
+    {
+      "id": "pad",
+      "name": "Serum - Warm Neon Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 32,
+      "file": "MIDI/pad.mid"
+    },
+    {
+      "id": "bass",
+      "name": "Serum - Night Drive Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 100,
+      "file": "MIDI/bass.mid"
+    },
+    {
+      "id": "arp",
+      "name": "Serum - Skyline Arp",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 84,
+      "file": "MIDI/arp.mid"
+    },
+    {
+      "id": "lead",
+      "name": "Serum - Midnight Lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 19,
+      "file": "MIDI/lead.mid"
+    },
+    {
+      "id": "brass",
+      "name": "Serum - Retro Brass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 62,
+      "note_count": 36,
+      "file": "MIDI/brass.mid"
+    },
+    {
+      "id": "keys",
+      "name": "Serum - Glass Keys",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 10,
+      "note_count": 18,
+      "file": "MIDI/keys.mid"
+    },
+    {
+      "id": "kick",
+      "name": "Drums - Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 50,
+      "file": "MIDI/kick.mid"
+    },
+    {
+      "id": "snare",
+      "name": "Drums - Snare",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 25,
+      "file": "MIDI/snare.mid"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Drums - Closed Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 100,
+      "file": "MIDI/closed-hat.mid"
+    },
+    {
+      "id": "open-hat",
+      "name": "Drums - Open Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 4,
+      "file": "MIDI/open-hat.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/pad.mid",
+      "sha256": "ee351bdaa5056954b66da0d4d827edde30f449a27a14630ba44c4e001f7b9efc"
+    },
+    {
+      "path": "MIDI/bass.mid",
+      "sha256": "9abeea1e263fd8d68f152c51abb62dd917f72ae4cfcba7b9276fd80bde03e159"
+    },
+    {
+      "path": "MIDI/arp.mid",
+      "sha256": "df717c4d77b7aaa6ced2184f897215b7628412412f87438a83baff8292332d60"
+    },
+    {
+      "path": "MIDI/lead.mid",
+      "sha256": "916d92221f2788a424a2efa69d203d4480bc47a0ff8fed089087668fc322c1fd"
+    },
+    {
+      "path": "MIDI/brass.mid",
+      "sha256": "4e3299234ddcbcfe57733963a37f4abdc6982697164bfe37ec18fe1cf8daaab9"
+    },
+    {
+      "path": "MIDI/keys.mid",
+      "sha256": "a87d632ea7f366a2052ee741fbdf76fda1cb8d854a579ab909ef862f2dbe4f51"
+    },
+    {
+      "path": "MIDI/kick.mid",
+      "sha256": "bad23fffce74f00af9312caf10f12e8dd01c06928fd48b60ea7d9a0c1b947ec6"
+    },
+    {
+      "path": "MIDI/snare.mid",
+      "sha256": "0da0abc34353c9cd6d0d01d8d3c0fdc469202ba999303dedb76c076151dd5e09"
+    },
+    {
+      "path": "MIDI/closed-hat.mid",
+      "sha256": "9dccb918aeb50ede806968df0361b569a63fe284efb5815a172ed09bbbfd047d"
+    },
+    {
+      "path": "MIDI/open-hat.mid",
+      "sha256": "907199f460eb93c0abe6cba9379a2731ce6d9ef93004bfb65d94a8318f6e13a0"
+    }
+  ]
+}

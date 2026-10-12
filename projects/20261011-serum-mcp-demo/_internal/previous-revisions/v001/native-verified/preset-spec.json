@@ -1,0 +1,218 @@
+{
+  "name": "PD - Warm Motion MCP",
+  "description": "Warm middle-register analog pad with slow wavetable movement, gentle chorus and hall reverb; macros control brightness, movement, space and the supporting PWM layer.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "octave": 0.0,
+      "volume": 0.55,
+      "unison": 3.0,
+      "detune": 0.065,
+      "table_position": 45.0,
+      "warp_mode": "fm",
+      "warp_amount": 0.0
+    },
+    {
+      "enabled": true,
+      "wavetable": "pwm",
+      "octave": 0.0,
+      "fine": 3.0,
+      "volume": 0.32,
+      "unison": 3.0,
+      "detune": 0.045,
+      "table_position": 85.0,
+      "warp_mode": "fm",
+      "warp_amount": 0.0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.42,
+      "resonance": 8.0,
+      "drive": 5.0,
+      "stereo": 50.0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.65,
+      "decay": 1.8,
+      "sustain": 0.82,
+      "release": 1.7
+    },
+    {
+      "attack": 1.2,
+      "decay": 2.8,
+      "sustain": 0.45,
+      "release": 1.9
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.12,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 0.5,
+          "y": 1.0
+        },
+        {
+          "x": 1.0,
+          "y": 0.0
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "BRIGHT",
+      "value": 20.0
+    },
+    {
+      "name": "MOTION",
+      "value": 0.0
+    },
+    {
+      "name": "SPACE",
+      "value": 0.0
+    },
+    {
+      "name": "COLOR",
+      "value": 0.0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 18.0,
+      "params": {
+        "kParamRate": 0.3,
+        "kParamDepth": 4.0,
+        "kParamDelay": 5.0,
+        "kParamFeedback": 3.0
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 15.0,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 38.0,
+        "kParamDelay": 20.0,
+        "kParamWidth": 95.0
+      }
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 12.0,
+      "bipolar": false
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator0.table_position",
+      "amount": 5.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator1.table_position",
+      "amount": 7.0,
+      "bipolar": true
+    },
+    {
+      "source": "lfo0",
+      "destination": "filter0.cutoff",
+      "amount": 3.0,
+      "bipolar": true
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 8.0,
+      "bipolar": false
+    },
+    {
+      "source": "key_track",
+      "destination": "filter0.cutoff",
+      "amount": 5.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 25.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro0",
+      "destination": "oscillator0.table_position",
+      "amount": 12.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "lfo0.rate",
+      "amount": 2.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "oscillator1.table_position",
+      "amount": 10.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "fx0.wet",
+      "amount": 18.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "fx1.wet",
+      "amount": 22.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "oscillator1.volume",
+      "amount": 18.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "oscillator1.table_position",
+      "amount": 14.0,
+      "bipolar": false
+    }
+  ],
+  "global": {
+    "master_volume": 0.3,
+    "mono": false,
+    "poly_count": 16.0
+  }
+}

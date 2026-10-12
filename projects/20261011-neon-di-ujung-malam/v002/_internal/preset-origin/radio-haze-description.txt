@@ -1,0 +1,43 @@
+Preset: radio-haze
+Description: Quiet tonal radio-like haze with filtered brown noise, slow wavetable motion and a wide dark hall.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.22  pan=+0  wavetable=harmonic_smooth  table_pos=35.0  warp=fm(0.00)  unison=2  detune=0.03
+Osc B: ON   octave=-1  volume=0.13  pan=+0  wavetable=analog_warm  table_pos=18.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: ON   octave=+0  volume=0.06  pan=+0  noise_type=Brown
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=bandpass_12  cutoff=0.32  resonance=17%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=1200.0ms  decay=2.40s  sustain=0.62  release=2.10s
+Env 2: attack=2000.0ms  decay=3.50s  sustain=0.20  release=2.00s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+LFO 2: rate=0  mode=Free  mono
+LFO 3: rate=0  mode=Free  mono
+
+Macro 1 "TUNE": 0%
+Macro 2 "DUST": 0%
+Macro 3 "DRIFT": 0%
+Macro 4 "SPACE": 0%
+
+FX chain:
+  - FXChorus (wet=13%)
+  - FXReverb (wet=34%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +9%
+  - lfo0 -> filter0.cutoff: +4%, bipolar
+  - lfo1 -> oscillator0.table_position: +7%, bipolar
+  - lfo2 -> oscillator0.pan: +12%, bipolar
+  - lfo0 -> oscillator1.fine: +2%, bipolar
+  - macro0 -> filter0.cutoff: +13%
+  - macro1 -> oscillator3.volume: +12%
+  - macro2 -> lfo0.rate: +1%
+  - macro3 -> fx1.wet: +20%
+
+Global: master_volume=0.31  mono=off  poly=16

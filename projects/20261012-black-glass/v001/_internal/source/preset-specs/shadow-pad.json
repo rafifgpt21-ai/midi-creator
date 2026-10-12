@@ -1,0 +1,142 @@
+{
+  "name": "shadow-pad",
+  "description": "Black Glass: warm filtered upper-register stereo veil, restrained wet space and slow filter breathing; supports piano without covering the bass.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "volume": 0.23,
+      "unison": 4,
+      "detune": 0.075
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 1,
+      "volume": 0.13,
+      "unison": 3,
+      "detune": 0.06
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_12",
+      "cutoff": 0.39,
+      "resonance": 8,
+      "drive": 6,
+      "stereo": 50
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.36,
+      "decay": 1.8,
+      "sustain": 0.78,
+      "release": 0.58
+    },
+    {
+      "attack": 1.9,
+      "decay": 2.8,
+      "sustain": 0.38,
+      "release": 0.7
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.12,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0.5
+        },
+        {
+          "x": 0.25,
+          "y": 1
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": 0.75,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "OPEN",
+      "value": 10
+    },
+    {
+      "name": "SPACE",
+      "value": 12
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 13
+    },
+    {
+      "source": "lfo0",
+      "destination": "filter0.cutoff",
+      "amount": 4,
+      "bipolar": true
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 20
+    },
+    {
+      "source": "macro1",
+      "destination": "fx0.wet",
+      "amount": 24
+    },
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 12
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXReverb",
+      "wet": 17,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 37,
+        "kParamDelay": 29,
+        "kParamWidth": 94
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.36,
+    "mono": false,
+    "poly_count": 16
+  }
+}

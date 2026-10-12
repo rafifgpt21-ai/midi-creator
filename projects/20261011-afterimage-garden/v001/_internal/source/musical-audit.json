@@ -1,0 +1,301 @@
+{
+  "seed": 108104,
+  "tempo_bpm": 108,
+  "bars": 104,
+  "seconds": 231.11111111111111,
+  "harmony": [
+    {
+      "bar": 1,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 3,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 5,
+      "chord": "Fmaj9"
+    },
+    {
+      "bar": 7,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 9,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 11,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 13,
+      "chord": "Fmaj9"
+    },
+    {
+      "bar": 15,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 17,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 19,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 21,
+      "chord": "Fmaj9"
+    },
+    {
+      "bar": 23,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 25,
+      "chord": "Gm9"
+    },
+    {
+      "bar": 27,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 29,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 31,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 33,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 35,
+      "chord": "F/A"
+    },
+    {
+      "bar": 37,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 39,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 41,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 43,
+      "chord": "F/A"
+    },
+    {
+      "bar": 45,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 47,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 49,
+      "chord": "Gm9"
+    },
+    {
+      "bar": 51,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 53,
+      "chord": "Fmaj9"
+    },
+    {
+      "bar": 55,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 57,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 59,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 61,
+      "chord": "Fmaj9"
+    },
+    {
+      "bar": 63,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 65,
+      "chord": "Gm9"
+    },
+    {
+      "bar": 67,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 69,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 71,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 73,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 75,
+      "chord": "F/A"
+    },
+    {
+      "bar": 77,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 79,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 81,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 83,
+      "chord": "F/A"
+    },
+    {
+      "bar": 85,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 87,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 89,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 91,
+      "chord": "Bbmaj7"
+    },
+    {
+      "bar": 93,
+      "chord": "Fmaj9"
+    },
+    {
+      "bar": 95,
+      "chord": "Cadd9"
+    },
+    {
+      "bar": 97,
+      "chord": "Dm9"
+    },
+    {
+      "bar": 99,
+      "chord": "Dm9"
+    }
+  ],
+  "layers": {
+    "juno-pad": {
+      "notes": 250,
+      "range": [
+        53,
+        67
+      ],
+      "first_beat": 0,
+      "last_note_end": 399.75
+    },
+    "phase-bass": {
+      "notes": 504,
+      "range": [
+        31,
+        53
+      ],
+      "first_beat": 16,
+      "last_note_end": 391.65
+    },
+    "prism-arp": {
+      "notes": 656,
+      "range": [
+        70,
+        88
+      ],
+      "first_beat": 16.5,
+      "last_note_end": 383.78
+    },
+    "afterimage-lead": {
+      "notes": 144,
+      "range": [
+        57,
+        81
+      ],
+      "first_beat": 81.5,
+      "last_note_end": 382.4
+    },
+    "velvet-keys": {
+      "notes": 864,
+      "range": [
+        57,
+        67
+      ],
+      "first_beat": 32.5,
+      "last_note_end": 366.9
+    },
+    "halo-texture": {
+      "notes": 46,
+      "range": [
+        82,
+        91
+      ],
+      "first_beat": 0,
+      "last_note_end": 399.5
+    },
+    "disco-kit": {
+      "notes": 1375,
+      "range": [
+        17,
+        56
+      ],
+      "first_beat": 16,
+      "last_note_end": 392.1
+    }
+  },
+  "drum_pitches": [
+    17,
+    21,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    49,
+    53,
+    55,
+    56
+  ],
+  "musical_review": [
+    "Pad moves on two-bar chord boundaries with shared tones and extensions above bass.",
+    "Bass roots anchor kick; short octave/fifth syncopation leaves room for snare.",
+    "Eighth arp and occasional sixteenth lift share the same strict grid.",
+    "Lead chorus uses repeating two-bar cells, lower answers, and phrase-end rests.",
+    "Intro/interlude/outro reduce density; second chorus adds accents, cowbell and ride bell.",
+    "All pitched notes use D natural minor; percussion follows user numeric map.",
+    "Last note ends before bar 101; four final bars are silent MIDI for release/effects."
+  ],
+  "audio_listened": false
+}

@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Neon di Ujung Malam",
+  "combined": false,
+  "composition_sha256": "245441e743b2b20390d2a6e80c3515498f38bbbb3b543f2f93a521a4a124ceb0",
+  "tempo_bpm": 118,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 112,
+  "ticks_per_beat": 960,
+  "end_tick": 430080,
+  "duration_seconds": 227.7968,
+  "layers": [
+    {
+      "id": "pulse-bass",
+      "name": "Pulse Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 519,
+      "file": "MIDI/pulse-bass.mid"
+    },
+    {
+      "id": "midnight-pad",
+      "name": "Midnight Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 222,
+      "file": "MIDI/midnight-pad.mid"
+    },
+    {
+      "id": "neon-chords",
+      "name": "Neon Chords",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 62,
+      "note_count": 888,
+      "file": "MIDI/neon-chords.mid"
+    },
+    {
+      "id": "glass-arp",
+      "name": "Glass Arp",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 520,
+      "file": "MIDI/glass-arp.mid"
+    },
+    {
+      "id": "night-hook",
+      "name": "Night Hook",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 125,
+      "file": "MIDI/night-hook.mid"
+    },
+    {
+      "id": "rain-keys",
+      "name": "Rain Keys",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 4,
+      "note_count": 92,
+      "file": "MIDI/rain-keys.mid"
+    },
+    {
+      "id": "radio-haze",
+      "name": "Radio Haze",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 95,
+      "note_count": 9,
+      "file": "MIDI/radio-haze.mid"
+    },
+    {
+      "id": "retro-drums",
+      "name": "Retro Drum Kit",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1474,
+      "file": "MIDI/retro-drums.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/pulse-bass.mid",
+      "sha256": "6215dc650790a13dbbcf9b7a97ddcde6ee89978070002fbe0d029e69e0d9cdd3"
+    },
+    {
+      "path": "MIDI/midnight-pad.mid",
+      "sha256": "499d133d26ac64b5176e24f628bc9866827a373099d4e27cc4ef2c4a63fb8e92"
+    },
+    {
+      "path": "MIDI/neon-chords.mid",
+      "sha256": "acfb2782d3c16ca28a86dd1bea6326341d5a55a328e9e8b5c1df7461a733b67d"
+    },
+    {
+      "path": "MIDI/glass-arp.mid",
+      "sha256": "ae704441a37613dd2876ae63fde788edda3b79a4edae4a3bc94740f6b071b06e"
+    },
+    {
+      "path": "MIDI/night-hook.mid",
+      "sha256": "d1a75cb88a43a404725c08d5b0355079d3c1a0adafa95edcd20a3ced67294bef"
+    },
+    {
+      "path": "MIDI/rain-keys.mid",
+      "sha256": "42a2e60f0f09aa1c7d210eb25494897f329a0bf3ce23e4afa72f3c1d788fc7d8"
+    },
+    {
+      "path": "MIDI/radio-haze.mid",
+      "sha256": "88c4052bdee35814c1cb579960533e59da8cb13ad7da1649c5c69f156342de8f"
+    },
+    {
+      "path": "MIDI/retro-drums.mid",
+      "sha256": "a93fd49e58d2b58806c9a2c767fae067e78027590430ee653d0e5f0672a8092d"
+    }
+  ]
+}

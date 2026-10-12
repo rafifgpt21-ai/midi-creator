@@ -1,0 +1,175 @@
+{
+  "grid": "straight 1/32 note-on grid, half-tick rounding tolerance",
+  "projects": [
+    {
+      "project": "20261011-neon-di-ujung-malam",
+      "revision": "v002",
+      "tempo_bpm": 118,
+      "bars": 112,
+      "alignment_errors": [],
+      "off_grid_note_ons": 0,
+      "files": [
+        {
+          "layer": "pulse-bass",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\pulse-bass.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 519,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "midnight-pad",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\midnight-pad.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 222,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "neon-chords",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\neon-chords.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 888,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "glass-arp",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\glass-arp.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 520,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "night-hook",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\night-hook.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 125,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "rain-keys",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\rain-keys.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 92,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "radio-haze",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\radio-haze.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 9,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        },
+        {
+          "layer": "retro-drums",
+          "file": "projects\\20261011-neon-di-ujung-malam\\v002\\MIDI\\retro-drums.mid",
+          "format": 1,
+          "ppqn": 960,
+          "tempo": [
+            [
+              0,
+              508475
+            ]
+          ],
+          "track_ends": [
+            430080
+          ],
+          "note_ons": 1474,
+          "off_grid_note_ons": 0,
+          "max_grid_error_beats": 0,
+          "frequent_error_ticks": [],
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

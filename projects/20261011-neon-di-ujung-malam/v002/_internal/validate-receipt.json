@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "layers": 8,
+  "end_tick": 430080,
+  "duration_seconds": 227.7968,
+  "note_count": 3849,
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "pulse-bass",
+        "note_ons": 519,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "midnight-pad",
+        "note_ons": 222,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "neon-chords",
+        "note_ons": 888,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "glass-arp",
+        "note_ons": 520,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "night-hook",
+        "note_ons": 125,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "rain-keys",
+        "note_ons": 92,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "radio-haze",
+        "note_ons": 9,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "retro-drums",
+        "note_ons": 1474,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

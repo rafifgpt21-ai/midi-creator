@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "plugin": "Serum 2",
+  "version": "2.0.23",
+  "parameters": {
+    "main_vol": {
+      "value": " 50% [-9.0 dB]",
+      "raw": 0.5,
+      "label": "None",
+      "range": "(None, None, None)",
+      "type": "<class 'str'>"
+    },
+    "a_enable": {
+      "value": "True",
+      "raw": 1.0,
+      "label": "None",
+      "range": "(False, True, 1)",
+      "type": "<class 'bool'>"
+    },
+    "a_unison": {
+      "value": "1.0",
+      "raw": 0.0,
+      "label": "None",
+      "range": "(1.0, 16.0, 1.0)",
+      "type": "<class 'float'>"
+    },
+    "a_octave_oct": {
+      "value": "0.0",
+      "raw": 0.5,
+      "label": "oct",
+      "range": "(-4.0, 4.0, 1.0)",
+      "type": "<class 'float'>"
+    },
+    "a_uni_detune": {
+      "value": "0.25",
+      "raw": 0.5,
+      "label": "None",
+      "range": "(0.0, 1.0, 0.01)",
+      "type": "<class 'float'>"
+    },
+    "filter_1_on": {
+      "value": "False",
+      "raw": 0.0,
+      "label": "None",
+      "range": "(False, True, 1)",
+      "type": "<class 'bool'>"
+    },
+    "filter_1_freq_hz": {
+      "value": "425.0",
+      "raw": 0.5,
+      "label": "Hz",
+      "range": "(8.0, 22050.0, None)",
+      "type": "<class 'float'>"
+    },
+    "env_1_attack": {
+      "value": "1.0 ms",
+      "raw": 0.12559431791305542,
+      "label": "None",
+      "range": "(None, None, None)",
+      "type": "<class 'str'>"
+    },
+    "env_1_decay": {
+      "value": "1.00 s",
+      "raw": 0.5,
+      "label": "None",
+      "range": "(None, None, None)",
+      "type": "<class 'str'>"
+    },
+    "env_1_sustain": {
+      "value": "0.0 dB",
+      "raw": 1.0,
+      "label": "None",
+      "range": "(None, None, None)",
+      "type": "<class 'str'>"
+    },
+    "env_1_release": {
+      "value": "15 ms",
+      "raw": 0.2150000035762787,
+      "label": "None",
+      "range": "(None, None, None)",
+      "type": "<class 'str'>"
+    },
+    "sub_shape": {
+      "value": "Sine",
+      "raw": 0.0,
+      "label": "None",
+      "range": "(None, None, None)",
+      "type": "<class 'str'>"
+    },
+    "sub_enable": {
+      "value": "False",
+      "raw": 0.0,
+      "label": "None",
+      "range": "(False, True, 1)",
+      "type": "<class 'bool'>"
+    },
+    "mono_toggle": {
+      "value": "False",
+      "raw": 0.0,
+      "label": "None",
+      "range": "(False, True, 1)",
+      "type": "<class 'bool'>"
+    },
+    "a_wt_pos": {
+      "value": "1.0",
+      "raw": 0.0,
+      "label": "None",
+      "range": "(1.0, 9.0, 1.0)",
+      "type": "<class 'float'>"
+    }
+  },
+  "total_matches": 15
+}

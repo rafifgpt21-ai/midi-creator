@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-11T16:59:01.566315+00:00",
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "generated_via": "mcp__serum_mcp__generate_preset",
+  "described_via": "mcp__serum_mcp__describe_preset",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "audio_listened": false,
+  "cubase_import_tested": false,
+  "presets": [
+    {
+      "layer_id": "juno-pad",
+      "file": "Presets/juno-pad.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\juno-pad.SerumPreset",
+      "bytes": 2396,
+      "sha256": "f57940e842b07792f58e7ff81069fb2be913e40bb98e9305aa5d8558a52520b0",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "factory_wavetables": [
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Analog\\DM - OSCAR.wav",
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\PWM Juno.wav"
+      ]
+    },
+    {
+      "layer_id": "phase-bass",
+      "file": "Presets/phase-bass.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\phase-bass.SerumPreset",
+      "bytes": 2391,
+      "sha256": "9a422f2327256c68a50a1ab9270bff9a4f182cc7995ef14fafb6ca05808848d5",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "factory_wavetables": [
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\Basic Mini.wav",
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\PWM Juno.wav"
+      ]
+    },
+    {
+      "layer_id": "prism-arp",
+      "file": "Presets/prism-arp.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\prism-arp.SerumPreset",
+      "bytes": 2428,
+      "sha256": "543a4ec4f7a5c772efb4c6c414b4abb73c0e6c0fbb6e395d36602cee7da7ed4c",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true,
+        "arp_disabled": true
+      },
+      "factory_wavetables": [
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\Basic Mini.wav",
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\PWM Juno.wav"
+      ]
+    },
+    {
+      "layer_id": "afterimage-lead",
+      "file": "Presets/afterimage-lead.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\afterimage-lead.SerumPreset",
+      "bytes": 2441,
+      "sha256": "c26cf9752a4cbebb2e77911df7e66e1cd0d70c68ea3c65a0cdd319fcfc862e7b",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "factory_wavetables": [
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Analog\\DM - OSCAR.wav",
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\PWM Juno.wav"
+      ]
+    },
+    {
+      "layer_id": "velvet-keys",
+      "file": "Presets/velvet-keys.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\velvet-keys.SerumPreset",
+      "bytes": 2340,
+      "sha256": "d5ade0e5785a6a2521c4317b9f3adbe97057996f189b9f68ae6ab51dbebd6c32",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "factory_wavetables": [
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Analog\\DM - OSCAR.wav",
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\PWM Juno.wav"
+      ]
+    },
+    {
+      "layer_id": "halo-texture",
+      "file": "Presets/halo-texture.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\halo-texture.SerumPreset",
+      "bytes": 2338,
+      "sha256": "9f87b60e9a27773444db97197d950c9a15c8ec8cd599b354904206f99ab4b5f1",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "factory_wavetables": [
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Digital\\Harmonic Series Smooth.wav",
+        "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Analog\\DM - OSCAR.wav"
+      ]
+    }
+  ]
+}

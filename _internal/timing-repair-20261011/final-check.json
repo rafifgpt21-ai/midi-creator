@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "live_import_tested": false,
+  "listening": false,
+  "verified_exports": [
+    {
+      "folder": "projects/20261011-neon-di-ujung-malam/v002",
+      "ok": true,
+      "timing": {
+        "mode": "strict",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    },
+    {
+      "folder": "projects/20261011-neon-di-ujung-malam/v001",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": false,
+        "off_grid_note_ons": 1613
+      }
+    },
+    {
+      "folder": "projects/20261010-synthwave-studio-starter/_internal/previous-revisions/v001/output",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    },
+    {
+      "folder": "projects/20261010-synthwave-studio-starter/_internal/previous-revisions/v001/studio/performance",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    },
+    {
+      "folder": "projects/20261010-synthwave-studio-starter/v002",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    },
+    {
+      "folder": "projects/20261009-neon-step-new-jack-swing/_internal/previous-revisions/v001/output",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": false,
+        "off_grid_note_ons": 3335
+      }
+    },
+    {
+      "folder": "projects/20261009-neon-step-new-jack-swing/v004",
+      "ok": true,
+      "timing": {
+        "mode": "free",
+        "on_grid": false,
+        "off_grid_note_ons": 2756
+      }
+    },
+    {
+      "folder": "projects/20261009-neon-step-new-jack-swing/v003",
+      "ok": true,
+      "timing": {
+        "mode": "strict",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    },
+    {
+      "folder": "projects/20261009-neon-step-new-jack-swing/v002",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": false,
+        "off_grid_note_ons": 3335
+      }
+    },
+    {
+      "folder": "projects/20261009-afterglow-circuit-progressive-house/_internal/previous-revisions/v001/output",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    },
+    {
+      "folder": "projects/20261009-afterglow-circuit-progressive-house/v002",
+      "ok": true,
+      "timing": {
+        "mode": "undeclared",
+        "on_grid": true,
+        "off_grid_note_ons": 0
+      }
+    }
+  ],
+  "original_revisions_unchanged": true,
+  "new_jack_core_byte_identical_layers": 11,
+  "four_support_layers_on_shared_swing_grid": true,
+  "dark_synth_all_eight_layers_on_straight_sixteenth": true,
+  "seven_native_presets_unchanged_with_original_readback": true,
+  "producer_readme_local_links_exist": true,
+  "example_exports": [
+    {
+      "name": "single-layer",
+      "ok": true,
+      "layers": 1
+    },
+    {
+      "name": "multi-layer",
+      "ok": true,
+      "layers": 6
+    }
+  ],
+  "tests": {
+    "exit_code": 0,
+    "summary": "43 tests, 42 passed, 1 opt-in Serum integration skipped"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "query": "synthwave",
+  "expanded_terms": [
+    "lead",
+    "pad",
+    "retro analog",
+    "synthwave"
+  ],
+  "count": 5,
+  "truncated": true,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Pad_epoch.SerumPreset",
+      "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+      "matched_terms": [
+        "pad",
+        "synthwave"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Pad_orion.SerumPreset",
+      "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+      "matched_terms": [
+        "pad",
+        "synthwave"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Pad_thx2084.SerumPreset",
+      "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+      "matched_terms": [
+        "pad",
+        "synthwave"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Pad_bellagio.SerumPreset",
+      "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+      "matched_terms": [
+        "pad",
+        "synthwave"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Lead_futurepop.SerumPreset",
+      "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+      "matched_terms": [
+        "lead",
+        "synthwave"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

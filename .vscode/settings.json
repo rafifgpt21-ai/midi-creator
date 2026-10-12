@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["**/composition.json"],
+      "url": "./src/midi_creator/composition.schema.json"
+    }
+  ]
+}

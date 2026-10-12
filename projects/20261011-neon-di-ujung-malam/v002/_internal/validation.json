@@ -1,0 +1,367 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/pulse-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Pulse Bass",
+          "end_tick": 430080,
+          "note_count": 519,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 30,
+          "pitch_max": 52,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 519,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/midnight-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Midnight Pad",
+          "end_tick": 430080,
+          "note_count": 222,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 56,
+          "pitch_max": 68,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 222,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/neon-chords.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Neon Chords",
+          "end_tick": 430080,
+          "note_count": 888,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 64,
+          "pitch_max": 76,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 888,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/glass-arp.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Glass Arp",
+          "end_tick": 430080,
+          "note_count": 520,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 76,
+          "pitch_max": 88,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 520,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/night-hook.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Night Hook",
+          "end_tick": 430080,
+          "note_count": 125,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 66,
+          "pitch_max": 78,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 125,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/rain-keys.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Rain Keys",
+          "end_tick": 430080,
+          "note_count": 92,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 64,
+          "pitch_max": 76,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 92,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/radio-haze.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Radio Haze",
+          "end_tick": 430080,
+          "note_count": 9,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 76,
+          "pitch_max": 80,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 9,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/retro-drums.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Retro Drum Kit",
+          "end_tick": 430080,
+          "note_count": 1474,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 82,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 1474,
+      "end_tick": 430080,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "pulse-bass",
+        "note_ons": 519,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "midnight-pad",
+        "note_ons": 222,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "neon-chords",
+        "note_ons": 888,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "glass-arp",
+        "note_ons": 520,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "night-hook",
+        "note_ons": 125,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "rain-keys",
+        "note_ons": 92,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "radio-haze",
+        "note_ons": 9,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "retro-drums",
+        "note_ons": 1474,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "projects": [
+    {
+      "project": "20261009-afterglow-circuit-progressive-house",
+      "ok": true,
+      "midi_files": 12,
+      "archive_checksums_match": true
+    },
+    {
+      "project": "20261009-neon-step-new-jack-swing",
+      "ok": true,
+      "midi_files": 15,
+      "archive_checksums_match": true
+    },
+    {
+      "project": "20261010-synthwave-studio-starter",
+      "ok": true,
+      "midi_files": 10,
+      "archive_checksums_match": true
+    },
+    {
+      "project": "20261011-serum-mcp-demo",
+      "ok": true,
+      "midi_files": 0,
+      "archive_checksums_match": true
+    }
+  ],
+  "midi_files": 37,
+  "producer_links_ok": true,
+  "sound_assets_unchanged": true,
+  "cubase_import_tested": false,
+  "auditioned": false
+}

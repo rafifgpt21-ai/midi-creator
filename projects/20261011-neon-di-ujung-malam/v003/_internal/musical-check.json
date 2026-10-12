@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "onset_grid": "straight 1/16",
+  "end_tick": 430080,
+  "layers": [
+    {
+      "layer": "pulse-bass",
+      "note_count": 519,
+      "pitch_min": 25,
+      "pitch_max": 47,
+      "first_note_tick": 15360,
+      "last_note_off_tick": 414144,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "midnight-pad",
+      "note_count": 229,
+      "pitch_min": 54,
+      "pitch_max": 68,
+      "first_note_tick": 0,
+      "last_note_off_tick": 414336,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "neon-chords",
+      "note_count": 896,
+      "pitch_min": 61,
+      "pitch_max": 74,
+      "first_note_tick": 31440,
+      "last_note_off_tick": 399168,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "glass-arp",
+      "note_count": 456,
+      "pitch_min": 73,
+      "pitch_max": 86,
+      "first_note_tick": 15360,
+      "last_note_off_tick": 406368,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "night-hook",
+      "note_count": 114,
+      "pitch_min": 61,
+      "pitch_max": 73,
+      "first_note_tick": 23520,
+      "last_note_off_tick": 402240,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "rain-keys",
+      "note_count": 88,
+      "pitch_min": 61,
+      "pitch_max": 71,
+      "first_note_tick": 33120,
+      "last_note_off_tick": 399168,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "radio-haze",
+      "note_count": 9,
+      "pitch_min": 73,
+      "pitch_max": 74,
+      "first_note_tick": 0,
+      "last_note_off_tick": 414144,
+      "off_grid_onsets": 0
+    },
+    {
+      "layer": "retro-drums",
+      "note_count": 1474,
+      "pitch_min": 36,
+      "pitch_max": 82,
+      "first_note_tick": 24000,
+      "last_note_off_tick": 406656,
+      "off_grid_onsets": 0
+    }
+  ],
+  "harmonic_note_check": "Every sounding tonal note belongs to the declared chord pitch-class set, including across chord boundaries.",
+  "drum_byte_identical_to_v002": true,
+  "origin_v002_all_files_unchanged": true,
+  "listening": false,
+  "live_import_tested": false
+}

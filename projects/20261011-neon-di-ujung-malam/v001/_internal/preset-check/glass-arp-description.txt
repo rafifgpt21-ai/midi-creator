@@ -1,0 +1,40 @@
+Preset: glass-arp
+Description: Small glassy pluck with a harmonic edge, single-direction timbral decay and tempo-matched eighth-note echoes.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.50  pan=+0  wavetable=dying_sine  table_pos=96.0  warp=fm(0.00)
+Osc B: ON   octave=+1  volume=0.10  pan=+0  wavetable=digital_fm  table_pos=36.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_12  cutoff=0.43  resonance=9%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=2.0ms  decay=0.21s  sustain=0.00  release=0.10s
+Env 2: attack=1.0ms  decay=0.16s  sustain=0.00  release=0.08s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+
+Macro 1 "GLASS": 0%
+Macro 2 "DECAY": 0%
+Macro 3 "ECHO": 0%
+Macro 4 "HALO": 0%
+
+FX chain:
+  - FXDelay (wet=18%)
+  - FXReverb (wet=13%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +14%
+  - env1 -> oscillator0.table_position: +9%
+  - lfo0 -> oscillator1.table_position: +3%, bipolar
+  - velocity -> filter0.cutoff: +7%
+  - macro0 -> oscillator1.volume: +19%
+  - macro1 -> env0.decay: +8%
+  - macro2 -> fx0.wet: +20%
+  - macro3 -> fx1.wet: +18%
+
+Global: master_volume=0.40  mono=off  poly=12

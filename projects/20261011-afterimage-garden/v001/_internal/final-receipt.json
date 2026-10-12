@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-11T17:02:59.196598+00:00",
+  "midi_ok": true,
+  "layers": 7,
+  "native_presets": 6,
+  "notes": 3839,
+  "all_links_exist": true,
+  "link_count": 14,
+  "source_matches_snapshot": true,
+  "all_melodic_notes_in_D_natural_minor": true,
+  "drums_use_user_map": true,
+  "preset_checksums_match": true,
+  "producer_layout_ok": true,
+  "plugin_loaded": false,
+  "cubase_import_tested": false,
+  "audio_rendered": false,
+  "audio_listened": false
+}

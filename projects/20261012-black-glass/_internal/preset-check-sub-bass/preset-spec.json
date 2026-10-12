@@ -1,0 +1,85 @@
+{
+  "name": "sub-bass",
+  "description": "Black Glass: mono sine-weighted low foundation, gentle verse velocity and massive chorus velocity; no stereo low-frequency processing.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 0,
+      "volume": 0.2,
+      "unison": 1,
+      "detune": 0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.006,
+      "decay": 2.8,
+      "sustain": 0.84,
+      "release": 0.035
+    }
+  ],
+  "macros": [
+    {
+      "name": "BODY",
+      "value": 0
+    },
+    {
+      "name": "TAIL",
+      "value": 0
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 55
+    },
+    {
+      "source": "macro0",
+      "destination": "oscillator0.volume",
+      "amount": 12
+    },
+    {
+      "source": "macro1",
+      "destination": "env0.release",
+      "amount": 5
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDistortion",
+      "wet": 16,
+      "params": {
+        "kParamMode": "kSoftSat",
+        "kParamDrive": 16
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.42,
+    "mono": true,
+    "poly_count": 1,
+    "portamento_time": 0
+  }
+}

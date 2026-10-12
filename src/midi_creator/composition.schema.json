@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MIDI Creator composition v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "title", "tempo_bpm", "time_signature", "bars", "layers"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "version": {"const": 1},
+    "title": {"type": "string", "minLength": 1, "maxLength": 200},
+    "description": {"type": "string"},
+    "prompt": {"type": "string"},
+    "assumptions": {"type": "array", "items": {"type": "string"}},
+    "tempo_bpm": {"type": "number", "minimum": 4, "maximum": 1000},
+    "time_signature": {
+      "type": "array", "prefixItems": [
+        {"type": "integer", "minimum": 1, "maximum": 255},
+        {"enum": [1, 2, 4, 8, 16, 32, 64]}
+      ], "items": false, "minItems": 2, "maxItems": 2
+    },
+    "bars": {"type": "integer", "minimum": 1, "maximum": 10000},
+    "ticks_per_beat": {"type": "integer", "minimum": 24, "maximum": 32767, "default": 480},
+    "timing": {
+      "type": "object", "additionalProperties": false, "required": ["mode"],
+      "properties": {
+        "mode": {"enum": ["strict", "free"]},
+        "grid_division": {"enum": [4, 8, 12, 16, 24, 32, 48, 64, 96, 128], "default": 32}
+      }
+    },
+    "key_signature": {"enum": ["Cb", "Gb", "Db", "Ab", "Eb", "Bb", "F", "C", "G", "D", "A", "E", "B", "F#", "C#", "Abm", "Ebm", "Bbm", "Fm", "Cm", "Gm", "Dm", "Am", "Em", "Bm", "F#m", "C#m", "G#m", "D#m", "A#m"]},
+    "sections": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["name", "start"], "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "start": {"type": "number", "minimum": 0}
+        }
+      }
+    },
+    "layers": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/layer"}}
+  },
+  "$defs": {
+    "note": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pitch", "start", "duration"],
+      "properties": {
+        "pitch": {"oneOf": [
+          {"type": "integer", "minimum": 0, "maximum": 127},
+          {"type": "string", "pattern": "^[A-Ga-g][#b]?-?[0-9]+$"}
+        ]},
+        "start": {"type": "number", "minimum": 0},
+        "duration": {"type": "number", "exclusiveMinimum": 0},
+        "velocity": {"type": "integer", "minimum": 1, "maximum": 127, "default": 90}
+      }
+    },
+    "clip": {
+      "type": "object", "additionalProperties": false,
+      "required": ["start", "notes"],
+      "properties": {
+        "start": {"type": "number", "minimum": 0},
+        "repeat": {"type": "integer", "minimum": 1, "maximum": 10000, "default": 1},
+        "every": {"type": "number", "exclusiveMinimum": 0},
+        "notes": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/note"}}
+      },
+      "if": {"properties": {"repeat": {"minimum": 2}}, "required": ["repeat"]},
+      "then": {"required": ["every"]}
+    },
+    "layer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "kind"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$", "maxLength": 64},
+        "name": {"type": "string", "minLength": 1, "maxLength": 200},
+        "role": {"type": "string"},
+        "kind": {"enum": ["melodic", "drums"]},
+        "program": {"type": "integer", "minimum": 0, "maximum": 127},
+        "channel": {"type": "integer", "minimum": 1, "maximum": 16},
+        "volume": {"type": "integer", "minimum": 0, "maximum": 127, "default": 100},
+        "pan": {"type": "integer", "minimum": 0, "maximum": 127, "default": 64},
+        "notes": {"type": "array", "items": {"$ref": "#/$defs/note"}},
+        "clips": {"type": "array", "items": {"$ref": "#/$defs/clip"}}
+      },
+      "anyOf": [
+        {"required": ["notes"], "properties": {"notes": {"minItems": 1}}},
+        {"required": ["clips"], "properties": {"clips": {"minItems": 1}}}
+      ],
+      "allOf": [
+        {
+          "if": {"properties": {"kind": {"const": "melodic"}}},
+          "then": {"required": ["program"], "properties": {"channel": {"not": {"const": 10}}}},
+          "else": {"properties": {"channel": {"const": 10}}, "not": {"required": ["program"]}}
+        }
+      ]
+    }
+  }
+}

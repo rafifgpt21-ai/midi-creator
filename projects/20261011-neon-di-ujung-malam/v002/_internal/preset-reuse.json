@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "presets": [
+    {
+      "file": "Presets/glass-arp.SerumPreset",
+      "origin": "../v001/Presets/glass-arp.SerumPreset",
+      "sha256": "e88b94499fbb067b67a667d5ff9969b096b3dea82f31f82e084909acc3cc05a6",
+      "unchanged": true
+    },
+    {
+      "file": "Presets/midnight-pad.SerumPreset",
+      "origin": "../v001/Presets/midnight-pad.SerumPreset",
+      "sha256": "1347a4f6675b7dec6822575ea03e27770938ba82d9ffb5271d3ffec537073d64",
+      "unchanged": true
+    },
+    {
+      "file": "Presets/neon-chords.SerumPreset",
+      "origin": "../v001/Presets/neon-chords.SerumPreset",
+      "sha256": "2bccf5b25349652c3b5ef21816e9f0e598eda840f2ec274a25319d330ba46cb2",
+      "unchanged": true
+    },
+    {
+      "file": "Presets/night-hook.SerumPreset",
+      "origin": "../v001/Presets/night-hook.SerumPreset",
+      "sha256": "06bc9430096748d51a138df71bb56b2b6471978ec593510182e9a4ca2c34cfbc",
+      "unchanged": true
+    },
+    {
+      "file": "Presets/pulse-bass.SerumPreset",
+      "origin": "../v001/Presets/pulse-bass.SerumPreset",
+      "sha256": "a7df18ae0f2352b49fd5f3760c5fd77cd04f30cf5056eaff353edf223b120eff",
+      "unchanged": true
+    },
+    {
+      "file": "Presets/radio-haze.SerumPreset",
+      "origin": "../v001/Presets/radio-haze.SerumPreset",
+      "sha256": "6d09227398055f96fa9460a2a7b3a0b48eba5eb083fe95e0b541e6997c6c66b9",
+      "unchanged": true
+    },
+    {
+      "file": "Presets/rain-keys.SerumPreset",
+      "origin": "../v001/Presets/rain-keys.SerumPreset",
+      "sha256": "e2e48588d7a6674b2886437535c14533b3367cbf8fda926fdf7f39396e03f78d",
+      "unchanged": true
+    }
+  ],
+  "structural_readback": "unchanged files; original readback evidence in preset-origin",
+  "plugin_loaded": false,
+  "auditioned": false
+}

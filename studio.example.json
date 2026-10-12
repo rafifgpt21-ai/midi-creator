@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "workspace": "C:/Music/midi-creator",
+  "serum_plugin": "C:/Program Files/Common Files/VST3/Serum2.vst3",
+  "serum_plugin_name": "Serum 2",
+  "serum_presets": "C:/Users/YOU/Documents/Xfer/Serum 2 Presets/Presets",
+  "cubase_driver_scripts": "C:/Users/YOU/Documents/Steinberg/Cubase/MIDI Remote/Driver Scripts/Local",
+  "midi_request_output": "LoopBe Internal MIDI 1",
+  "midi_response_input": "LoopBe Internal MIDI 0",
+  "cubase_input_match": "LoopBe Internal MIDI",
+  "cubase_output_match": "LoopBe Internal MIDI",
+  "drum_roots": [],
+  "drum_samples": {},
+  "template_project": null
+}

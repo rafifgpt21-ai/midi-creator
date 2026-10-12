@@ -1,0 +1,45 @@
+Preset: midnight-pad
+Description: Soft Juno-inspired harmony with a contrasting warm oscillator, slow drift and a spacious dark hall.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.33  pan=+0  wavetable=pwm  table_pos=75.0  warp=fm(0.00)  unison=3  detune=0.04
+Osc B: ON   octave=+0  volume=0.28  pan=+0  wavetable=analog_warm  table_pos=100.0  warp=fm(0.00)  unison=3  detune=0.04
+Osc C: ON   octave=+1  volume=0.08  pan=+0  wavetable=harmonic_smooth  table_pos=28.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_12  cutoff=0.33  resonance=6%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=650.0ms  decay=1.80s  sustain=0.79  release=1.70s
+Env 2: attack=1100.0ms  decay=2.70s  sustain=0.35  release=1.80s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+LFO 2: rate=0  mode=Free  mono
+LFO 3: rate=0  mode=Free  mono
+
+Macro 1 "OPEN": 0%
+Macro 2 "DRIFT": 0%
+Macro 3 "SPACE": 0%
+Macro 4 "GLOW": 0%
+
+FX chain:
+  - FXChorus (wet=22%)
+  - FXReverb (wet=21%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +9%
+  - lfo0 -> oscillator0.table_position: +5%, bipolar
+  - lfo1 -> oscillator1.table_position: +4%, bipolar
+  - lfo2 -> oscillator2.pan: +9%, bipolar
+  - lfo0 -> filter0.cutoff: +2%, bipolar
+  - lfo1 -> oscillator0.fine: +1%, bipolar
+  - velocity -> filter0.cutoff: +6%
+  - macro0 -> filter0.cutoff: +20%
+  - macro1 -> lfo0.rate: +1%
+  - macro2 -> fx1.wet: +22%
+  - macro3 -> oscillator2.volume: +14%
+
+Global: master_volume=0.32  mono=off  poly=16

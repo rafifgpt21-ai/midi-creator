@@ -1,0 +1,223 @@
+{
+  "ok": true,
+  "method": "score/specification inspection plus event analysis; no playback",
+  "auditioned": false,
+  "layer_ranges": {
+    "pulse-bass": {
+      "min": 30,
+      "max": 52,
+      "notes": 519,
+      "first_beat": 16.08,
+      "last_note_end_beat": 427.2
+    },
+    "midnight-pad": {
+      "min": 56,
+      "max": 68,
+      "notes": 222,
+      "first_beat": 0,
+      "last_note_end_beat": 427.52
+    },
+    "neon-chords": {
+      "min": 64,
+      "max": 76,
+      "notes": 888,
+      "first_beat": 32.75,
+      "last_note_end_beat": 415.806
+    },
+    "glass-arp": {
+      "min": 76,
+      "max": 88,
+      "notes": 520,
+      "first_beat": 16.125,
+      "last_note_end_beat": 423.445
+    },
+    "night-hook": {
+      "min": 66,
+      "max": 78,
+      "notes": 125,
+      "first_beat": 24,
+      "last_note_end_beat": 415.4
+    },
+    "rain-keys": {
+      "min": 64,
+      "max": 76,
+      "notes": 92,
+      "first_beat": 34.5,
+      "last_note_end_beat": 415.8
+    },
+    "radio-haze": {
+      "min": 76,
+      "max": 80,
+      "notes": 9,
+      "first_beat": 0,
+      "last_note_end_beat": 430
+    },
+    "retro-drums": {
+      "min": 36,
+      "max": 82,
+      "notes": 1474,
+      "first_beat": 25.002,
+      "last_note_end_beat": 423.60400000000004
+    }
+  },
+  "sections": [
+    {
+      "name": "Intro",
+      "first_bar": 1,
+      "last_bar": 8,
+      "note_on_counts": {
+        "pulse-bass": 2,
+        "midnight-pad": 16,
+        "neon-chords": 0,
+        "glass-arp": 16,
+        "night-hook": 3,
+        "rain-keys": 0,
+        "radio-haze": 2,
+        "retro-drums": 4
+      }
+    },
+    {
+      "name": "Verse 1",
+      "first_bar": 9,
+      "last_bar": 24,
+      "note_on_counts": {
+        "pulse-bass": 80,
+        "midnight-pad": 32,
+        "neon-chords": 96,
+        "glass-arp": 32,
+        "night-hook": 0,
+        "rain-keys": 24,
+        "radio-haze": 0,
+        "retro-drums": 216
+      }
+    },
+    {
+      "name": "Pre-chorus 1",
+      "first_bar": 25,
+      "last_bar": 32,
+      "note_on_counts": {
+        "pulse-bass": 48,
+        "midnight-pad": 16,
+        "neon-chords": 96,
+        "glass-arp": 64,
+        "night-hook": 5,
+        "rain-keys": 0,
+        "radio-haze": 1,
+        "retro-drums": 116
+      }
+    },
+    {
+      "name": "Chorus 1",
+      "first_bar": 33,
+      "last_bar": 48,
+      "note_on_counts": {
+        "pulse-bass": 126,
+        "midnight-pad": 32,
+        "neon-chords": 256,
+        "glass-arp": 128,
+        "night-hook": 52,
+        "rain-keys": 8,
+        "radio-haze": 0,
+        "retro-drums": 266
+      }
+    },
+    {
+      "name": "Interlude",
+      "first_bar": 49,
+      "last_bar": 56,
+      "note_on_counts": {
+        "pulse-bass": 4,
+        "midnight-pad": 16,
+        "neon-chords": 0,
+        "glass-arp": 32,
+        "night-hook": 3,
+        "rain-keys": 12,
+        "radio-haze": 2,
+        "retro-drums": 28
+      }
+    },
+    {
+      "name": "Verse 2",
+      "first_bar": 57,
+      "last_bar": 72,
+      "note_on_counts": {
+        "pulse-bass": 80,
+        "midnight-pad": 32,
+        "neon-chords": 96,
+        "glass-arp": 32,
+        "night-hook": 0,
+        "rain-keys": 28,
+        "radio-haze": 0,
+        "retro-drums": 280
+      }
+    },
+    {
+      "name": "Pre-chorus 2",
+      "first_bar": 73,
+      "last_bar": 80,
+      "note_on_counts": {
+        "pulse-bass": 48,
+        "midnight-pad": 16,
+        "neon-chords": 96,
+        "glass-arp": 64,
+        "night-hook": 5,
+        "rain-keys": 0,
+        "radio-haze": 1,
+        "retro-drums": 116
+      }
+    },
+    {
+      "name": "Breakdown",
+      "first_bar": 81,
+      "last_bar": 88,
+      "note_on_counts": {
+        "pulse-bass": 4,
+        "midnight-pad": 16,
+        "neon-chords": 0,
+        "glass-arp": 16,
+        "night-hook": 5,
+        "rain-keys": 12,
+        "radio-haze": 2,
+        "retro-drums": 40
+      }
+    },
+    {
+      "name": "Final chorus",
+      "first_bar": 89,
+      "last_bar": 104,
+      "note_on_counts": {
+        "pulse-bass": 126,
+        "midnight-pad": 38,
+        "neon-chords": 248,
+        "glass-arp": 128,
+        "night-hook": 52,
+        "rain-keys": 8,
+        "radio-haze": 0,
+        "retro-drums": 394
+      }
+    },
+    {
+      "name": "Outro / release",
+      "first_bar": 105,
+      "last_bar": 112,
+      "note_on_counts": {
+        "pulse-bass": 1,
+        "midnight-pad": 8,
+        "neon-chords": 0,
+        "glass-arp": 8,
+        "night-hook": 0,
+        "rain-keys": 0,
+        "radio-haze": 1,
+        "retro-drums": 14
+      }
+    }
+  ],
+  "musical_review": [
+    "Close-voiced extended minor harmony with C#7/E# dominant movement.",
+    "Bass and lead monophonic; pad and chords kept in separate registers.",
+    "Lead rests and key answers; original chorus motif with cadence variation.",
+    "Sparse intro/interlude/breakdown contrast with four-on-the-floor choruses.",
+    "Verse two/final chorus add shaker and stronger velocity; ending resolves to F# minor.",
+    "No new note in last four bars; Serum release tails have room."
+  ]
+}

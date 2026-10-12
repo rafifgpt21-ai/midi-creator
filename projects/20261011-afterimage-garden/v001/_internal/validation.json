@@ -1,0 +1,323 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/juno-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Juno Memory Pad",
+          "end_tick": 199680,
+          "note_count": 250,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 53,
+          "pitch_max": 67,
+          "peak_polyphony": 5
+        }
+      ],
+      "note_count": 250,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/phase-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Hypnotic Phase Bass",
+          "end_tick": 199680,
+          "note_count": 504,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 31,
+          "pitch_max": 53,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 504,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/prism-arp.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Prismatic Arpeggio",
+          "end_tick": 199680,
+          "note_count": 656,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 70,
+          "pitch_max": 88,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 656,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/afterimage-lead.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Afterimage Hook Lead",
+          "end_tick": 199680,
+          "note_count": 144,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 57,
+          "pitch_max": 81,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 144,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/velvet-keys.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Velvet Synth Keys",
+          "end_tick": 199680,
+          "note_count": 864,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 57,
+          "pitch_max": 67,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 864,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/halo-texture.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Halo Air Texture",
+          "end_tick": 199680,
+          "note_count": 46,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 82,
+          "pitch_max": 91,
+          "peak_polyphony": 2
+        }
+      ],
+      "note_count": 46,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/disco-kit.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Disco Funk Kit",
+          "end_tick": 199680,
+          "note_count": 1375,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 17,
+          "pitch_max": 56,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 1375,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "juno-pad",
+        "note_ons": 250,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "phase-bass",
+        "note_ons": 504,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "prism-arp",
+        "note_ons": 656,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "afterimage-lead",
+        "note_ons": 144,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "velvet-keys",
+        "note_ons": 864,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "halo-texture",
+        "note_ons": 46,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "disco-kit",
+        "note_ons": 1375,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

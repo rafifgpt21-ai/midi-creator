@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-11T14:23:04.857218+00:00",
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "bank": "MIDI Creator/20261011-neon-di-ujung-malam/v001",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false,
+  "presets": [
+    {
+      "layer": "pulse-bass",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\pulse-bass.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\pulse-bass.SerumPreset",
+      "generated_now": true,
+      "sha256": "a7df18ae0f2352b49fd5f3760c5fd77cd04f30cf5056eaff353edf223b120eff",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    },
+    {
+      "layer": "midnight-pad",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\midnight-pad.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\midnight-pad.SerumPreset",
+      "generated_now": true,
+      "sha256": "1347a4f6675b7dec6822575ea03e27770938ba82d9ffb5271d3ffec537073d64",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    },
+    {
+      "layer": "neon-chords",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\neon-chords.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\neon-chords.SerumPreset",
+      "generated_now": true,
+      "sha256": "2bccf5b25349652c3b5ef21816e9f0e598eda840f2ec274a25319d330ba46cb2",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    },
+    {
+      "layer": "glass-arp",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\glass-arp.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\glass-arp.SerumPreset",
+      "generated_now": true,
+      "sha256": "e88b94499fbb067b67a667d5ff9969b096b3dea82f31f82e084909acc3cc05a6",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    },
+    {
+      "layer": "night-hook",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\night-hook.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\night-hook.SerumPreset",
+      "generated_now": true,
+      "sha256": "06bc9430096748d51a138df71bb56b2b6471978ec593510182e9a4ca2c34cfbc",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    },
+    {
+      "layer": "rain-keys",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\rain-keys.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\rain-keys.SerumPreset",
+      "generated_now": true,
+      "sha256": "e2e48588d7a6674b2886437535c14533b3367cbf8fda926fdf7f39396e03f78d",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    },
+    {
+      "layer": "radio-haze",
+      "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261011-neon-di-ujung-malam\\v001\\Presets\\radio-haze.SerumPreset",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-neon-di-ujung-malam\\v001\\radio-haze.SerumPreset",
+      "generated_now": true,
+      "sha256": "6d09227398055f96fa9460a2a7b3a0b48eba5eb083fe95e0b541e6997c6c66b9",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "mod_routes": true,
+        "name": true
+      }
+    }
+  ],
+  "server": {
+    "name": "serum-mcp",
+    "title": null,
+    "version": "1.28.1",
+    "websiteUrl": null,
+    "icons": null
+  }
+}

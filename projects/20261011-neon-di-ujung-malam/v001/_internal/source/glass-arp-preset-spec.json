@@ -1,0 +1,160 @@
+{
+  "name": "glass-arp",
+  "description": "Small glassy pluck with a harmonic edge, single-direction timbral decay and tempo-matched eighth-note echoes.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "dying_sine",
+      "volume": 0.5,
+      "table_position": 96.0
+    },
+    {
+      "enabled": true,
+      "wavetable": "digital_fm",
+      "volume": 0.1,
+      "table_position": 36.0,
+      "octave": 1.0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.43,
+      "resonance": 9.0,
+      "drive": 0.0,
+      "stereo": 50.0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.002,
+      "decay": 0.21,
+      "sustain": 0,
+      "release": 0.095
+    },
+    {
+      "attack": 0.001,
+      "decay": 0.16,
+      "sustain": 0,
+      "release": 0.08
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.14,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "GLASS",
+      "value": 0.0
+    },
+    {
+      "name": "DECAY",
+      "value": 0.0
+    },
+    {
+      "name": "ECHO",
+      "value": 0.0
+    },
+    {
+      "name": "HALO",
+      "value": 0.0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDelay",
+      "wet": 18.0,
+      "params": {
+        "kParamBeatSync": false,
+        "kParamTimeL": 0.2542372881355932,
+        "kParamTimeR": 0.2542372881355932,
+        "kParamFeedback": 24.0,
+        "kParamFreq": 4200.0
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 13.0,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 34.0,
+        "kParamDelay": 22.0,
+        "kParamWidth": 95.0
+      }
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 14.0,
+      "bipolar": false
+    },
+    {
+      "source": "env1",
+      "destination": "oscillator0.table_position",
+      "amount": 9.0,
+      "bipolar": false
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator1.table_position",
+      "amount": 3.0,
+      "bipolar": true
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 7.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro0",
+      "destination": "oscillator1.volume",
+      "amount": 19.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro1",
+      "destination": "env0.decay",
+      "amount": 8.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro2",
+      "destination": "fx0.wet",
+      "amount": 20.0,
+      "bipolar": false
+    },
+    {
+      "source": "macro3",
+      "destination": "fx1.wet",
+      "amount": 18.0,
+      "bipolar": false
+    }
+  ],
+  "global": {
+    "master_volume": 0.4,
+    "mono": false,
+    "poly_count": 12.0,
+    "portamento_time": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "midi_files": 8,
+  "native_presets": 7,
+  "readme_links_exist": true,
+  "producer_layout_ok": true,
+  "musical_review": "specification reviewed; not auditioned",
+  "plugin_loaded": false,
+  "cubase_import_tested": false,
+  "audio_rendered": false,
+  "auditioned": false
+}

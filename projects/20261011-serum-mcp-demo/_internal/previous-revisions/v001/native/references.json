@@ -1,0 +1,37 @@
+{
+  "query": "warm pad",
+  "expanded_terms": [
+    "pad",
+    "warm"
+  ],
+  "count": 3,
+  "truncated": true,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - The Swarm.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "pad",
+        "warm"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - Warm Room.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "pad",
+        "warm"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - Ether.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "pad"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

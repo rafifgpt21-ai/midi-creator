@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/retro-drums.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "One note",
+          "end_tick": 3840,
+          "note_count": 1,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 42,
+          "pitch_max": 42,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 1,
+      "end_tick": 3840,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 508475
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  }
+}

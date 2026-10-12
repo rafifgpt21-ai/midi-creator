@@ -1,0 +1,34 @@
+{
+  "query": "808",
+  "expanded_terms": [
+    "808"
+  ],
+  "count": 3,
+  "truncated": true,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\808\\808 - Drill.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "808"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\SFX\\FX - Bouncing 808.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "808"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\808\\808 - Diesel.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "808"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

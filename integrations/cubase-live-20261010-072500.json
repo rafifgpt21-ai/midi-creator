@@ -1,0 +1,82 @@
+{
+  "status": {
+    "connected": true,
+    "ok": true,
+    "bridge_version": 1,
+    "selected_track": "Serum 2 01",
+    "playing": false,
+    "recording": false,
+    "instrument_tracks": [
+      {
+        "index": 0,
+        "name": "Serum 2 01"
+      }
+    ],
+    "plugin_assignment_available": true,
+    "note_editing_available": false,
+    "preset_file_loading_available": false,
+    "project_creation_available": false,
+    "cubase_acknowledged": true
+  },
+  "plugin": {
+    "object_id": 1800,
+    "parent_id": 1779,
+    "title": "Serum 2",
+    "unique_name": "56534558667350736572756D20320000-0",
+    "type": "",
+    "unique_id": "84E9ED308A3E48A9339C89E1122F68",
+    "parameter_count": 2623
+  },
+  "before": {
+    "tag": 4201,
+    "title": "Main Vol",
+    "raw": 0.5,
+    "display": " 50% [-9.0 dB]",
+    "units": ""
+  },
+  "parameter_write_tested": true,
+  "native_project_created": false,
+  "test_target": 0.49,
+  "write": {
+    "ok": true,
+    "verified": true,
+    "readback": [
+      {
+        "tag": 4201,
+        "requested": 0.49,
+        "actual": 0.49000000953674316,
+        "verified": true
+      }
+    ],
+    "cubase_acknowledged": true
+  },
+  "after_change": {
+    "tag": 4201,
+    "title": "Main Vol",
+    "raw": 0.49000000953674316,
+    "display": " 49% [-9.4 dB]",
+    "units": ""
+  },
+  "change_verified": true,
+  "restore": {
+    "ok": true,
+    "verified": true,
+    "readback": [
+      {
+        "tag": 4201,
+        "requested": 0.5,
+        "actual": 0.5,
+        "verified": true
+      }
+    ],
+    "cubase_acknowledged": true
+  },
+  "after_restore": {
+    "tag": 4201,
+    "title": "Main Vol",
+    "raw": 0.5,
+    "display": " 50% [-9.0 dB]",
+    "units": ""
+  },
+  "restore_verified": true
+}

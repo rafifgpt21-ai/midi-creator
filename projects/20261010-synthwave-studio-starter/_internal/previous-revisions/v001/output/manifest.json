@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Neon Workshop - Serum Synthwave Starter",
+  "combined": false,
+  "composition_sha256": "76f5c89d56de58437e0f56d61fb3d00207cd5440f880c7f2be8c8b2c279ff40e",
+  "tempo_bpm": 110,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 16,
+  "ticks_per_beat": 480,
+  "end_tick": 30720,
+  "duration_seconds": 34.90912,
+  "layers": [
+    {
+      "id": "pad",
+      "name": "Serum - Warm Neon Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 32,
+      "file": "midi/layers/pad.mid"
+    },
+    {
+      "id": "bass",
+      "name": "Serum - Night Drive Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 100,
+      "file": "midi/layers/bass.mid"
+    },
+    {
+      "id": "arp",
+      "name": "Serum - Skyline Arp",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 84,
+      "file": "midi/layers/arp.mid"
+    },
+    {
+      "id": "lead",
+      "name": "Serum - Midnight Lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 19,
+      "file": "midi/layers/lead.mid"
+    },
+    {
+      "id": "brass",
+      "name": "Serum - Retro Brass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 62,
+      "note_count": 36,
+      "file": "midi/layers/brass.mid"
+    },
+    {
+      "id": "keys",
+      "name": "Serum - Glass Keys",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 10,
+      "note_count": 18,
+      "file": "midi/layers/keys.mid"
+    },
+    {
+      "id": "kick",
+      "name": "Drums - Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 50,
+      "file": "midi/layers/kick.mid"
+    },
+    {
+      "id": "snare",
+      "name": "Drums - Snare",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 25,
+      "file": "midi/layers/snare.mid"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Drums - Closed Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 100,
+      "file": "midi/layers/closed-hat.mid"
+    },
+    {
+      "id": "open-hat",
+      "name": "Drums - Open Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 4,
+      "file": "midi/layers/open-hat.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "midi/layers/pad.mid",
+      "sha256": "449f1008861dee075d729a388901b96d3f7ea85faf1ca09203ea8a18f632ffa7"
+    },
+    {
+      "path": "midi/layers/bass.mid",
+      "sha256": "47a932e2fb8f8faca6cf116e3de3ec0c5a8bc2f7a884b3c626d0f401d0937399"
+    },
+    {
+      "path": "midi/layers/arp.mid",
+      "sha256": "794f1d23df3f45fb37aa4697a157e40499e36b35f41606ac7971315e20c070ba"
+    },
+    {
+      "path": "midi/layers/lead.mid",
+      "sha256": "60d2c0f5910aa47987b359bf091316c330fbbd3df2156ddb0c7f3cfea3b49374"
+    },
+    {
+      "path": "midi/layers/brass.mid",
+      "sha256": "59cfc9ddd60b7f2398c16b9eeb26fe0d64b47681410c003eb7680c63ddc772eb"
+    },
+    {
+      "path": "midi/layers/keys.mid",
+      "sha256": "864865841bacd4229487da329785c2bd884885b2501d5f595c62f0ba5846474e"
+    },
+    {
+      "path": "midi/layers/kick.mid",
+      "sha256": "ddb5338247c4332970b101b35ecf883209349ae497ba2319e3b655370963bd4f"
+    },
+    {
+      "path": "midi/layers/snare.mid",
+      "sha256": "62564f8b0073b60be5b03c97e74a3d73a3acfc360e11a61f29e5a71183adf499"
+    },
+    {
+      "path": "midi/layers/closed-hat.mid",
+      "sha256": "36cda1faa46517cabac49a3dee7506f69b6ece68f9e1909d21e2fc8b754ea3ac"
+    },
+    {
+      "path": "midi/layers/open-hat.mid",
+      "sha256": "d021df2f60f963d2f51d8e5cf98628db79418b7aebbb153600bbe13f2324b23c"
+    }
+  ]
+}

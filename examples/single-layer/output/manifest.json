@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Single layer - piano motif",
+  "combined": false,
+  "composition_sha256": "6333df2d84c633e650b7f37890107b807b2b65088ed8cef01df1357276493dc0",
+  "tempo_bpm": 100,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 4,
+  "ticks_per_beat": 480,
+  "end_tick": 7680,
+  "duration_seconds": 9.6,
+  "layers": [
+    {
+      "id": "piano",
+      "name": "Piano",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 12,
+      "file": "midi/layers/piano.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "midi/layers/piano.mid",
+      "sha256": "b73c6d94d457ad98969ddfb3cf6b4bdedef678bd9f75b6b234ee5eaf4d39e33a"
+    }
+  ]
+}

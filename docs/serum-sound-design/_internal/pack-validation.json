@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "skill_count": 7,
+  "reference_count": 25,
+  "markdown_count": 33,
+  "semantic_validation": {
+    "status": "pass",
+    "examples": 1,
+    "invariants": [
+      "grain milliseconds",
+      "explicit false sync retained",
+      "natural LFO y",
+      "unknown nested keys rejected",
+      "in-memory mapper writes free 5 Hz/sync false",
+      "zero LFO rate omitted",
+      "mapped plainParams wire types safe"
+    ]
+  },
+  "errors": [],
+  "scope": "Skill metadata, links, source hashes and semantic specs; no plugin load or listening"
+}

@@ -1,0 +1,38 @@
+{
+  "juno-pad": {
+    "plugin": "Serum 2",
+    "native_preset": "Presets/juno-pad.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\juno-pad.SerumPreset"
+  },
+  "phase-bass": {
+    "plugin": "Serum 2",
+    "native_preset": "Presets/phase-bass.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\phase-bass.SerumPreset"
+  },
+  "prism-arp": {
+    "plugin": "Serum 2",
+    "native_preset": "Presets/prism-arp.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\prism-arp.SerumPreset"
+  },
+  "afterimage-lead": {
+    "plugin": "Serum 2",
+    "native_preset": "Presets/afterimage-lead.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\afterimage-lead.SerumPreset"
+  },
+  "velvet-keys": {
+    "plugin": "Serum 2",
+    "native_preset": "Presets/velvet-keys.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\velvet-keys.SerumPreset"
+  },
+  "halo-texture": {
+    "plugin": "Serum 2",
+    "native_preset": "Presets/halo-texture.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\halo-texture.SerumPreset"
+  },
+  "disco-kit": {
+    "plugin": "User-selected external drum kit",
+    "midi_channel": 10,
+    "sample_selection": "pending user kit",
+    "numeric_mapping": "drum-map.json"
+  }
+}

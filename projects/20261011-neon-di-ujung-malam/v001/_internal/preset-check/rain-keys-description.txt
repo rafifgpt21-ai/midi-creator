@@ -1,0 +1,40 @@
+Preset: rain-keys
+Description: Soft electric bell keys with a warm fundamental, velocity-sensitive brightness and a longer decaying response.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.42  pan=+0  wavetable=fm_piano  table_pos=76.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.16  pan=+0  wavetable=warm_sub  table_pos=16.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_12  cutoff=0.40  resonance=5%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=6.0ms  decay=1.15s  sustain=0.00  release=0.55s
+Env 2: attack=2.0ms  decay=0.36s  sustain=0.00  release=0.19s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+
+Macro 1 "TINE": 0%
+Macro 2 "LENGTH": 0%
+Macro 3 "CHORUS": 0%
+Macro 4 "ROOM": 0%
+
+FX chain:
+  - FXChorus (wet=11%)
+  - FXReverb (wet=18%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +12%
+  - velocity -> filter0.cutoff: +17%
+  - velocity -> oscillator0.table_position: +7%
+  - lfo0 -> oscillator0.fine: +1%, bipolar
+  - macro0 -> oscillator0.table_position: +16%
+  - macro1 -> env0.decay: +12%
+  - macro2 -> fx0.wet: +19%
+  - macro3 -> fx1.wet: +18%
+
+Global: master_volume=0.41  mono=off  poly=16

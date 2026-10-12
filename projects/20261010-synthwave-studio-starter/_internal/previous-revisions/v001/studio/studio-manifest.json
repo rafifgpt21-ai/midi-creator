@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "audio/arp.wav",
+      "sha256": "1150f0c8177bdf23505f409c8853f6f3f80bff7b09daaa8c3b61a1224642e864"
+    },
+    {
+      "path": "audio/bass.wav",
+      "sha256": "184f0afb6cb2051ee00ad3cdbb8a43da5677477fef83afa5faf968a1a1908c7a"
+    },
+    {
+      "path": "audio/brass.wav",
+      "sha256": "9a0d496c3957d2b294e903a50de27fc21518ddcbbd418b426e098910339a8137"
+    },
+    {
+      "path": "audio/closed-hat.wav",
+      "sha256": "c69aba163477eaac0301de6fc035fc1d3ad3604057a9c6ff7585476d3939bcf3"
+    },
+    {
+      "path": "audio/keys.wav",
+      "sha256": "f80e38f15c7b2eb261e9f6dc671aeda7dc77e8d7966a73e9e9696c980962a258"
+    },
+    {
+      "path": "audio/kick.wav",
+      "sha256": "061816e374ad2425ab4556436ef380ff21f0b4b92036ad836d87fb66596e7823"
+    },
+    {
+      "path": "audio/lead.wav",
+      "sha256": "f8551c349e622c8eea342480783cc96e85e6187cd9849ce9dcca0696bf3482f6"
+    },
+    {
+      "path": "audio/open-hat.wav",
+      "sha256": "e2fb119cd8fb7db23cc7b82839ffd874c472b8c4853d879587282da8f4c34526"
+    },
+    {
+      "path": "audio/pad.wav",
+      "sha256": "39c8ce3f3cacd9eeb8ba518c3ee8160cff871dcf956e6d2bb335e22b15ffe519"
+    },
+    {
+      "path": "audio/snare.wav",
+      "sha256": "8037d738d557a3217a4d1d26c4ae6a4ce92da7625179bab904809539586678cd"
+    },
+    {
+      "path": "drum-kit.json",
+      "sha256": "38fa97d1eb174a44009af4f592b24bf4f36dcdf8706d38cbe942f658e2de4929"
+    },
+    {
+      "path": "performance/composition.json",
+      "sha256": "76f5c89d56de58437e0f56d61fb3d00207cd5440f880c7f2be8c8b2c279ff40e"
+    },
+    {
+      "path": "performance/manifest.json",
+      "sha256": "a54d72039e30008d7b871f39eebb8a141aa08d0571f9b710131b3a6f0eb49c0e"
+    },
+    {
+      "path": "performance/midi/layers/arp.mid",
+      "sha256": "794f1d23df3f45fb37aa4697a157e40499e36b35f41606ac7971315e20c070ba"
+    },
+    {
+      "path": "performance/midi/layers/bass.mid",
+      "sha256": "47a932e2fb8f8faca6cf116e3de3ec0c5a8bc2f7a884b3c626d0f401d0937399"
+    },
+    {
+      "path": "performance/midi/layers/brass.mid",
+      "sha256": "59cfc9ddd60b7f2398c16b9eeb26fe0d64b47681410c003eb7680c63ddc772eb"
+    },
+    {
+      "path": "performance/midi/layers/closed-hat.mid",
+      "sha256": "36cda1faa46517cabac49a3dee7506f69b6ece68f9e1909d21e2fc8b754ea3ac"
+    },
+    {
+      "path": "performance/midi/layers/keys.mid",
+      "sha256": "864865841bacd4229487da329785c2bd884885b2501d5f595c62f0ba5846474e"
+    },
+    {
+      "path": "performance/midi/layers/kick.mid",
+      "sha256": "ddb5338247c4332970b101b35ecf883209349ae497ba2319e3b655370963bd4f"
+    },
+    {
+      "path": "performance/midi/layers/lead.mid",
+      "sha256": "60d2c0f5910aa47987b359bf091316c330fbbd3df2156ddb0c7f3cfea3b49374"
+    },
+    {
+      "path": "performance/midi/layers/open-hat.mid",
+      "sha256": "d021df2f60f963d2f51d8e5cf98628db79418b7aebbb153600bbe13f2324b23c"
+    },
+    {
+      "path": "performance/midi/layers/pad.mid",
+      "sha256": "449f1008861dee075d729a388901b96d3f7ea85faf1ca09203ea8a18f632ffa7"
+    },
+    {
+      "path": "performance/midi/layers/snare.mid",
+      "sha256": "62564f8b0073b60be5b03c97e74a3d73a3acfc360e11a61f29e5a71183adf499"
+    },
+    {
+      "path": "performance/summary.md",
+      "sha256": "e54c8b239de5303a60d323f247cc63b2af9db616088902eadb03acbeef931200"
+    },
+    {
+      "path": "performance/validation.json",
+      "sha256": "ee1cf685498bd7cf985da1faef6299aa5c62ec6efe7a1857cc6be7a7e528b7fd"
+    },
+    {
+      "path": "presets/arp.vstpreset",
+      "sha256": "0a8f80d935367add7fb6c57befd7d044326c1174a4c5303d4b2036f1512149c5"
+    },
+    {
+      "path": "presets/bass.vstpreset",
+      "sha256": "0a8f80d935367add7fb6c57befd7d044326c1174a4c5303d4b2036f1512149c5"
+    },
+    {
+      "path": "presets/brass.vstpreset",
+      "sha256": "0a8f80d935367add7fb6c57befd7d044326c1174a4c5303d4b2036f1512149c5"
+    },
+    {
+      "path": "presets/keys.vstpreset",
+      "sha256": "0a8f80d935367add7fb6c57befd7d044326c1174a4c5303d4b2036f1512149c5"
+    },
+    {
+      "path": "presets/lead.vstpreset",
+      "sha256": "0a8f80d935367add7fb6c57befd7d044326c1174a4c5303d4b2036f1512149c5"
+    },
+    {
+      "path": "presets/pad.vstpreset",
+      "sha256": "0a8f80d935367add7fb6c57befd7d044326c1174a4c5303d4b2036f1512149c5"
+    },
+    {
+      "path": "samples/36-TWMG_kick_deep.wav",
+      "sha256": "a8f6ee02acd3919a7634c3f542f6a6f3f16bc4088aafef65e9d8907eda09fcce"
+    },
+    {
+      "path": "samples/38-TWMG_snare_pop.wav",
+      "sha256": "c8679cdbc960c9c3f3b7b080f3e297ef5eedaa8633c52763ccf651ce03fc692d"
+    },
+    {
+      "path": "samples/42-TWMG_hihat_minimalist.wav",
+      "sha256": "d2f633bc5ecf5e0efcfac83870671b6dbdb20b2a603777eb463d5d649b73d629"
+    },
+    {
+      "path": "samples/46-TWMG_hihat_open_rider.wav",
+      "sha256": "7ecddbf908f925ce2665e98372280043fea136f3aea0819e24d29d98e9407a91"
+    },
+    {
+      "path": "samples/kit.sfz",
+      "sha256": "ff15481caad9bb61b14bb1026921254c0cee145f59a60a4ff0aabe326558e720"
+    },
+    {
+      "path": "session.json",
+      "sha256": "025ae1b0740d70189d4831bea6181df5642e5c14fe2ebe01f0222ac61da8a3cf"
+    },
+    {
+      "path": "START-HERE.md",
+      "sha256": "53c19d57f7a3debb91a2426b7bf1808bd35d3af10b76f472ac7806753f9bd132"
+    }
+  ]
+}

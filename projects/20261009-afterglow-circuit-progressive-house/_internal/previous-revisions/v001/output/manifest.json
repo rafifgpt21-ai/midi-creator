@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Afterglow Circuit - Progressive House",
+  "combined": false,
+  "composition_sha256": "91fe168f38fe2b873fb028214f67ebfea108401c43acfbc230882dcb34b1f176",
+  "tempo_bpm": 126,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 160,
+  "ticks_per_beat": 960,
+  "end_tick": 614400,
+  "duration_seconds": 304.7616,
+  "layers": [
+    {
+      "id": "kick",
+      "name": "Electronic kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 493,
+      "file": "midi/layers/kick.mid"
+    },
+    {
+      "id": "clap",
+      "name": "Electronic clap",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 200,
+      "file": "midi/layers/clap.mid"
+    },
+    {
+      "id": "snare-roll",
+      "name": "Snare build and fills",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 264,
+      "file": "midi/layers/snare-roll.mid"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Closed hi-hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1170,
+      "file": "midi/layers/closed-hat.mid"
+    },
+    {
+      "id": "open-hat",
+      "name": "Open hi-hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 414,
+      "file": "midi/layers/open-hat.mid"
+    },
+    {
+      "id": "ride",
+      "name": "Ride cymbal",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 96,
+      "file": "midi/layers/ride.mid"
+    },
+    {
+      "id": "shaker",
+      "name": "Shaker / maracas",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 432,
+      "file": "midi/layers/shaker.mid"
+    },
+    {
+      "id": "synth-bass",
+      "name": "Deep mono synth bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 429,
+      "file": "midi/layers/synth-bass.mid"
+    },
+    {
+      "id": "poly-synth",
+      "name": "Wide saw poly synth",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 1616,
+      "file": "midi/layers/poly-synth.mid"
+    },
+    {
+      "id": "pluck-arp",
+      "name": "Plucked synth arpeggio",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 2100,
+      "file": "midi/layers/pluck-arp.mid"
+    },
+    {
+      "id": "warm-pad",
+      "name": "Warm atmospheric pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 400,
+      "file": "midi/layers/warm-pad.mid"
+    },
+    {
+      "id": "lead-synth",
+      "name": "Melodic saw lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 209,
+      "file": "midi/layers/lead-synth.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "midi/layers/kick.mid",
+      "sha256": "b0e0d44b5d5adb4561935ca64361715f2aeaedd23e7d24a5abae1be25d1b0c9d"
+    },
+    {
+      "path": "midi/layers/clap.mid",
+      "sha256": "d4eb288233a6a702d81ac3d316f908adb02690d40d0d681f6a7b9973588e4da5"
+    },
+    {
+      "path": "midi/layers/snare-roll.mid",
+      "sha256": "14cff28340d09534affacdf875f7e59f2aa43cc06c53a9576d31ac6daf18653e"
+    },
+    {
+      "path": "midi/layers/closed-hat.mid",
+      "sha256": "aad261ff68b750776386c1d3ee27c6ef05d52a98b26deab5942c4895b25b3a87"
+    },
+    {
+      "path": "midi/layers/open-hat.mid",
+      "sha256": "5c9f6640e7cc462bf00f197ef5f19a094e04db417bf53676e5329b2f35e2b3bc"
+    },
+    {
+      "path": "midi/layers/ride.mid",
+      "sha256": "d1ddfe6241bbd4239ce7a5542848f221023c8ced17acf9a4f178e9d5ef7ab89f"
+    },
+    {
+      "path": "midi/layers/shaker.mid",
+      "sha256": "4dbff89601ab826c92f2bff0e9b07ea13b1478d02b8120a41b1072346d6cf95a"
+    },
+    {
+      "path": "midi/layers/synth-bass.mid",
+      "sha256": "0a4081c8eceb8fb1bec42728bc95c5cad50dd48c1d053738828036d791a993b8"
+    },
+    {
+      "path": "midi/layers/poly-synth.mid",
+      "sha256": "83ce515be4bc981e26747e08d2c61c5b210ef8788f93170d8bdcba8b98321e94"
+    },
+    {
+      "path": "midi/layers/pluck-arp.mid",
+      "sha256": "78467bce672977d82b983759b2942fb00e23c99c802d90f46e195bec4163b5ff"
+    },
+    {
+      "path": "midi/layers/warm-pad.mid",
+      "sha256": "ba1fbb4eba71445e776bdf8d8fc10062c4cf8bd7fdea772f066b3234cbc3f659"
+    },
+    {
+      "path": "midi/layers/lead-synth.mid",
+      "sha256": "eb7d01bdf16c70926de219c60d4d96cfd219e140a3a84598cf78f6e6efb53bb4"
+    }
+  ]
+}

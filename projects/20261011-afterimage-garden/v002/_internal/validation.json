@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/disco-kit.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Disco Funk Kit",
+          "end_tick": 199680,
+          "note_count": 1375,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 88,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 1375,
+      "end_tick": 199680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "disco-kit",
+        "note_ons": 1375,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

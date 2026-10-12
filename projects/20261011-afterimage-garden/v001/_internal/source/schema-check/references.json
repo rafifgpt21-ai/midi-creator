@@ -1,0 +1,18 @@
+{
+  "query": "Juno",
+  "expanded_terms": [
+    "juno"
+  ],
+  "count": 1,
+  "truncated": false,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Bass_juno_legend.SerumPreset",
+      "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+      "matched_terms": [
+        "juno"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

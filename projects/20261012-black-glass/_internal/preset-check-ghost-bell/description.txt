@@ -1,0 +1,32 @@
+Preset: ghost-bell
+Description: Black Glass: dark sine/FM bell with a soft transient, short decay and a quiet stereo eighth-note echo at 136 BPM; sparse piano-response phrases.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.24  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.08)
+Osc B: ON   octave=+1  volume=0.06  pan=+0  wavetable=digital_fm  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_12  cutoff=0.53  resonance=3%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=5.0ms  decay=0.78s  sustain=0.05  release=0.32s
+Env 2: attack=1.0ms  decay=0.28s  sustain=0.00  release=0.08s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "GLASS": 8%
+Macro 2 "ECHO": 0%
+
+FX chain:
+  - FXDelay (wet=16%)
+  - FXReverb (wet=12%)
+
+Mod matrix (recognized routes only):
+  - env1 -> oscillator0.warp_amount: +8%
+  - velocity -> oscillator0.volume: +30%
+  - macro0 -> oscillator0.warp_amount: +10%
+  - macro1 -> fx0.wet: +24%
+
+Global: master_volume=0.37  mono=off  poly=8

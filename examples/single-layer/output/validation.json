@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "midi/layers/piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 0,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Piano",
+          "end_tick": 7680,
+          "note_count": 12,
+          "channels": [
+            1
+          ],
+          "programs": [
+            {
+              "channel": 1,
+              "program": 0
+            }
+          ],
+          "pitch_min": 60,
+          "pitch_max": 69,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 12,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 600000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "warnings": []
+    }
+  }
+}

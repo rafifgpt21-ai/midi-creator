@@ -1,0 +1,55 @@
+Preset: NW_CP_Bass_juno_legend
+Description: Neon Wave - Circuit Pulse - Synthwave for Serum 2
+Author: Michael Oakley
+
+Osc A: ON   octave=-1  volume=0.43  pan=+0  wavetable=/Analog/Jno.wav  table_pos=32.5  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.43  pan=+0  wavetable=/Analog/Jno.wav  table_pos=37.4  warp=fm(0.00)
+Osc C: ON   octave=+0  volume=0.50  pan=+0  wavetable=pwm  table_pos=0.0  warp=fm(0.00)
+Osc Noise: ON   octave=+0  volume=0.06  pan=+0  noise_type=White
+Osc Sub: ON   octave=-1  volume=0.49  pan=+0  sub_shape=square
+
+Filter 1: ON   type=moog_lowpass_24  cutoff=0.00  resonance=0%  drive=0%  stereo=50%  var=50%
+Filter 2: off  type=moog_lowpass_12  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=4.0ms  decay=1.54s  sustain=0.05  release=0.51s
+Env 2: attack=19.6ms  decay=0.38s  sustain=0.00  release=0.51s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=3  mode=Free
+LFO 9: rate=0  mode=Free  shape=random_sh
+LFO 10: rate=42  mode=Free  shape=rossler
+
+Macro 1 "BIT CRUSH": 0%
+Macro 2 "REVERB": 25%
+Macro 3 "CHORUS": 40%
+Macro 4 "DELAY": 0%
+Macro 5 "ENVELOPE": 45%
+Macro 6 "HIGH PASS": 0%
+Macro 7 "RESONANCE": 10%
+Macro 8 "DRIVE": 50%
+
+FX chain:
+  - FXDistortion (wet=48%)
+  - FXEQ (wet=100%)
+  - FXComp (wet=100%)
+  - FXChorus (wet=0%)
+  - FXConv (wet=0%)
+  - FXDelay (wet=0%)
+  - FXUtils (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +68%
+  - lfo0 -> oscillator0.fine: +13%, bipolar
+  - macro5 -> fx6.hpf: +100%
+  - macro6 -> filter0.resonance: +50%
+  - macro7 -> filter0.drive: +50%
+  - lfo0 -> oscillator2.table_position: +100%
+  - macro2 -> fx3.wet: +50%
+  - macro3 -> fx5.wet: +60%
+  - mod_wheel -> filter0.cutoff: +12%
+  - velocity -> filter0.cutoff: +20%
+  - macro4 -> env1.decay: +10%
+  - macro1 -> fx4.wet: +100%
+
+Global: master_volume=0.16  mono=on  poly=2

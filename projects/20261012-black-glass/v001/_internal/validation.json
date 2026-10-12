@@ -1,0 +1,587 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Expressive Piano",
+          "end_tick": 215040,
+          "note_count": 935,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 80,
+          "peak_polyphony": 7
+        }
+      ],
+      "note_count": 935,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/sub-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Sub Bass",
+          "end_tick": 215040,
+          "note_count": 246,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 29,
+          "pitch_max": 49,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 246,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bass-grit.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Chorus Bass Grit",
+          "end_tick": 215040,
+          "note_count": 130,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 41,
+          "pitch_max": 61,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 130,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/shadow-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Shadow Pad",
+          "end_tick": 215040,
+          "note_count": 189,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 67,
+          "pitch_max": 80,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 189,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/ghost-bell.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Ghost Bell",
+          "end_tick": 215040,
+          "note_count": 31,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 76,
+          "pitch_max": 88,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 31,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/tension-rise.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Tension Rise",
+          "end_tick": 215040,
+          "note_count": 3,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 77,
+          "pitch_max": 77,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 3,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/kick.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Kick",
+          "end_tick": 215040,
+          "note_count": 244,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 36,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 244,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/snare.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Snare",
+          "end_tick": 215040,
+          "note_count": 94,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 38,
+          "pitch_max": 38,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 94,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/rim.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Rim",
+          "end_tick": 215040,
+          "note_count": 26,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 41,
+          "pitch_max": 41,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 26,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/closed-hat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Closed Hat",
+          "end_tick": 215040,
+          "note_count": 751,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 54,
+          "pitch_max": 54,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 751,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/open-hat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Open Hat",
+          "end_tick": 215040,
+          "note_count": 32,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 57,
+          "pitch_max": 57,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 32,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/crash.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Crash",
+          "end_tick": 215040,
+          "note_count": 5,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 64,
+          "pitch_max": 64,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 5,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/floor-tom.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Floor Tom",
+          "end_tick": 215040,
+          "note_count": 24,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 47,
+          "pitch_max": 47,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 24,
+      "end_tick": 215040,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 441176
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 32,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "piano",
+        "note_ons": 935,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "sub-bass",
+        "note_ons": 246,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bass-grit",
+        "note_ons": 130,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "shadow-pad",
+        "note_ons": 189,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "ghost-bell",
+        "note_ons": 31,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "tension-rise",
+        "note_ons": 3,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "kick",
+        "note_ons": 244,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "snare",
+        "note_ons": 94,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "rim",
+        "note_ons": 26,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "closed-hat",
+        "note_ons": 751,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "open-hat",
+        "note_ons": 32,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "crash",
+        "note_ons": 5,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "floor-tom",
+        "note_ons": 24,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

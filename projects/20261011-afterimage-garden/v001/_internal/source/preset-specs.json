@@ -1,0 +1,1150 @@
+[
+  {
+    "name": "juno-pad",
+    "description": "Warm Juno-inspired saw/PWM pad, gentle drift, slow filter breathing, chorus and vintage reverb; original Afterimage Garden harmony patch.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.48,
+        "filter_routing": "filter",
+        "table_position": 45,
+        "unison": 3,
+        "detune": 0.04,
+        "fine": -2
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.26,
+        "filter_routing": "filter",
+        "table_position": 70,
+        "unison": 2,
+        "detune": 0.035,
+        "fine": 3
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.38,
+        "resonance": 8,
+        "drive": 5,
+        "stereo": 50
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.6,
+        "decay": 1.8,
+        "sustain": 0.8,
+        "release": 1.9
+      },
+      {
+        "attack": 1.6,
+        "decay": 3,
+        "sustain": 0.5,
+        "release": 2
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.09,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "rate": 0.23,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "macros": [
+      {
+        "name": "BRIGHT",
+        "value": 0
+      },
+      {
+        "name": "CHORUS",
+        "value": 0
+      },
+      {
+        "name": "SPACE",
+        "value": 0
+      },
+      {
+        "name": "PWM COLOR",
+        "value": 0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 27,
+        "params": {
+          "kParamRate": 0.35,
+          "kParamDepth": 4,
+          "kParamDelay": 5,
+          "kParamFeedback": 2,
+          "kParamFilt": 2400
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 20,
+        "params": {
+          "kParamType": "kVintage",
+          "kParamSize": 38,
+          "kParamDelay": 22,
+          "kParamWidth": 95
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 13,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "filter0.cutoff",
+        "amount": 3,
+        "bipolar": true
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.table_position",
+        "amount": 5,
+        "bipolar": true
+      },
+      {
+        "source": "lfo1",
+        "destination": "oscillator0.fine",
+        "amount": 0.3,
+        "bipolar": true
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 6,
+        "bipolar": false
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 24,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "fx0.wet",
+        "amount": 25,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx1.wet",
+        "amount": 20,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "oscillator1.table_position",
+        "amount": 15,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.25,
+      "mono": false,
+      "poly_count": 16
+    }
+  },
+  {
+    "name": "phase-bass",
+    "description": "Hypnotic mono analog bass with short filter-envelope bite, warm saturation and slow phaser; direct triangle oscillator supports the dry low end.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_mini",
+        "volume": 0.55,
+        "filter_routing": "filter",
+        "table_position": 24
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.18,
+        "filter_routing": "filter",
+        "table_position": 48,
+        "fine": 2
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": true,
+        "volume": 0.27,
+        "octave": 0,
+        "sub_shape": "triangle",
+        "filter_routing": "direct"
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "moog_lowpass_24",
+        "cutoff": 0.26,
+        "resonance": 14,
+        "drive": 12,
+        "stereo": 50
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.004,
+        "decay": 0.28,
+        "sustain": 0.65,
+        "release": 0.09
+      },
+      {
+        "attack": 0.004,
+        "decay": 0.24,
+        "sustain": 0,
+        "release": 0.1
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.075,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "macros": [
+      {
+        "name": "BITE",
+        "value": 0
+      },
+      {
+        "name": "PHASE",
+        "value": 0
+      },
+      {
+        "name": "SUB BODY",
+        "value": 0
+      },
+      {
+        "name": "SATURATION",
+        "value": 0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXDistortion",
+        "wet": 15,
+        "params": {
+          "kParamMode": "kTapeSat",
+          "kParamDrive": 13
+        }
+      },
+      {
+        "type": "FXPhaser",
+        "wet": 28,
+        "params": {
+          "kParamRate": 0.16,
+          "kParamDepth": 38,
+          "kParamFeedback": 15,
+          "kParamFreq": 650,
+          "kParamNumPoles": 4
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 28,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 8,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "filter0.cutoff",
+        "amount": 2,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 24,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "fx1.wet",
+        "amount": 32,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "oscillator4.volume",
+        "amount": 18,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx0.wet",
+        "amount": 25,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.37,
+      "mono": true,
+      "poly_count": 1,
+      "portamento_time": 0.018
+    }
+  },
+  {
+    "name": "prism-arp",
+    "description": "Bright articulated analog pluck, envelope-led lowpass, subtle color movement, eighth-note echo at 108 BPM and compact vintage space. Internal arp disabled: MIDI supplies the rhythm.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_mini",
+        "volume": 0.53,
+        "filter_routing": "filter",
+        "table_position": 38
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.15,
+        "filter_routing": "filter",
+        "table_position": 55,
+        "fine": 3
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.42,
+        "resonance": 11,
+        "drive": 5,
+        "stereo": 50
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.003,
+        "decay": 0.19,
+        "sustain": 0.06,
+        "release": 0.12
+      },
+      {
+        "attack": 0.002,
+        "decay": 0.15,
+        "sustain": 0,
+        "release": 0.12
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.13,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "macros": [
+      {
+        "name": "BRIGHT",
+        "value": 0
+      },
+      {
+        "name": "ECHO",
+        "value": 0
+      },
+      {
+        "name": "SPACE",
+        "value": 0
+      },
+      {
+        "name": "LENGTH",
+        "value": 0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXDelay",
+        "wet": 21,
+        "params": {
+          "kParamBeatSync": false,
+          "kParamTimeL": 0.2777777777777778,
+          "kParamTimeR": 0.2777777777777778,
+          "kParamFeedback": 23,
+          "kParamFreq": 4800
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 12,
+        "params": {
+          "kParamType": "kVintage",
+          "kParamSize": 28,
+          "kParamDelay": 22,
+          "kParamWidth": 95
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 28,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 13,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.table_position",
+        "amount": 3,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 20,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "fx0.wet",
+        "amount": 24,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx1.wet",
+        "amount": 18,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "env0.decay",
+        "amount": 3,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.29,
+      "mono": false,
+      "poly_count": 8
+    },
+    "arp": {
+      "enabled": false
+    }
+  },
+  {
+    "name": "afterimage-lead",
+    "description": "Singing warm analog chorus hook with restrained unison, softly delayed vibrato, eighth echo and vintage reverb; lyrical gaps are written in the MIDI.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.52,
+        "filter_routing": "filter",
+        "table_position": 48,
+        "unison": 2,
+        "detune": 0.035
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.2,
+        "filter_routing": "filter",
+        "table_position": 75,
+        "fine": 3
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.52,
+        "resonance": 9,
+        "drive": 6,
+        "stereo": 50
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.025,
+        "decay": 0.45,
+        "sustain": 0.72,
+        "release": 0.35
+      },
+      {
+        "attack": 0.02,
+        "decay": 0.45,
+        "sustain": 0.2,
+        "release": 0.3
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 4.8,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": false,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "delay": 0.25,
+        "rise": 0.3
+      }
+    ],
+    "macros": [
+      {
+        "name": "BRIGHT",
+        "value": 0
+      },
+      {
+        "name": "ECHO",
+        "value": 0
+      },
+      {
+        "name": "SPACE",
+        "value": 0
+      },
+      {
+        "name": "COLOR",
+        "value": 0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXDistortion",
+        "wet": 8,
+        "params": {
+          "kParamMode": "kTapeSat",
+          "kParamDrive": 10
+        }
+      },
+      {
+        "type": "FXDelay",
+        "wet": 18,
+        "params": {
+          "kParamBeatSync": false,
+          "kParamTimeL": 0.2777777777777778,
+          "kParamTimeR": 0.2777777777777778,
+          "kParamFeedback": 26,
+          "kParamFreq": 4800
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 14,
+        "params": {
+          "kParamType": "kVintage",
+          "kParamSize": 32,
+          "kParamDelay": 22,
+          "kParamWidth": 95
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 8,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator0.fine",
+        "amount": 1.1,
+        "bipolar": true
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.fine",
+        "amount": 1.1,
+        "bipolar": true
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 8,
+        "bipolar": false
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 22,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "fx1.wet",
+        "amount": 24,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx2.wet",
+        "amount": 20,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "oscillator1.warp_amount",
+        "amount": 4,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.3,
+      "mono": true,
+      "poly_count": 1,
+      "portamento_time": 0.024
+    }
+  },
+  {
+    "name": "velvet-keys",
+    "description": "Mellow percussive analog synth keys, soft filter pluck, chorus and small vintage space; short offbeat extended chords support the bass groove.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.45,
+        "filter_routing": "filter",
+        "table_position": 28
+      },
+      {
+        "enabled": true,
+        "wavetable": "pwm",
+        "volume": 0.2,
+        "filter_routing": "filter",
+        "table_position": 45,
+        "fine": -3
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.3,
+        "resonance": 7,
+        "drive": 5,
+        "stereo": 50
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 0.012,
+        "decay": 0.38,
+        "sustain": 0.2,
+        "release": 0.2
+      },
+      {
+        "attack": 0.003,
+        "decay": 0.23,
+        "sustain": 0,
+        "release": 0.18
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.14,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "macros": [
+      {
+        "name": "BRIGHT",
+        "value": 0
+      },
+      {
+        "name": "CHORUS",
+        "value": 0
+      },
+      {
+        "name": "SPACE",
+        "value": 0
+      },
+      {
+        "name": "DECAY",
+        "value": 0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 17,
+        "params": {
+          "kParamRate": 0.35,
+          "kParamDepth": 4,
+          "kParamDelay": 5,
+          "kParamFeedback": 2,
+          "kParamFilt": 2400
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 10,
+        "params": {
+          "kParamType": "kVintage",
+          "kParamSize": 20,
+          "kParamDelay": 22,
+          "kParamWidth": 95
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 20,
+        "bipolar": false
+      },
+      {
+        "source": "velocity",
+        "destination": "filter0.cutoff",
+        "amount": 13,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator1.table_position",
+        "amount": 2,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 23,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "fx0.wet",
+        "amount": 22,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx1.wet",
+        "amount": 18,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "env0.decay",
+        "amount": 3,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.24,
+      "mono": false,
+      "poly_count": 16
+    }
+  },
+  {
+    "name": "halo-texture",
+    "description": "Quiet high-register harmonic halo with slow spectral-color breathing, long soft envelope, subtle chorus and spacious vintage reverb.",
+    "oscillators": [
+      {
+        "enabled": true,
+        "wavetable": "harmonic_smooth",
+        "volume": 0.31,
+        "filter_routing": "filter",
+        "table_position": 55,
+        "unison": 3,
+        "detune": 0.04
+      },
+      {
+        "enabled": true,
+        "wavetable": "analog_warm",
+        "volume": 0.12,
+        "filter_routing": "filter",
+        "table_position": 20,
+        "fine": 4
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "filters": [
+      {
+        "enabled": true,
+        "type": "lowpass_12",
+        "cutoff": 0.3,
+        "resonance": 5,
+        "drive": 2,
+        "stereo": 50
+      },
+      {
+        "enabled": false
+      }
+    ],
+    "envelopes": [
+      {
+        "attack": 1.25,
+        "decay": 2.5,
+        "sustain": 0.65,
+        "release": 2.4
+      },
+      {
+        "attack": 2,
+        "decay": 3,
+        "sustain": 0.5,
+        "release": 2
+      }
+    ],
+    "lfos": [
+      {
+        "rate": 0.065,
+        "mode": "Free",
+        "beat_sync": false,
+        "mono": true,
+        "curve": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.25,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "x": 0.75,
+            "y": 0.5,
+            "tension": 0.3
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "macros": [
+      {
+        "name": "AIR",
+        "value": 0
+      },
+      {
+        "name": "COLOR",
+        "value": 0
+      },
+      {
+        "name": "SPACE",
+        "value": 0
+      },
+      {
+        "name": "CHORUS",
+        "value": 0
+      }
+    ],
+    "fx_chain": [
+      {
+        "type": "FXChorus",
+        "wet": 20,
+        "params": {
+          "kParamRate": 0.35,
+          "kParamDepth": 4,
+          "kParamDelay": 5,
+          "kParamFeedback": 2,
+          "kParamFilt": 2400
+        }
+      },
+      {
+        "type": "FXReverb",
+        "wet": 29,
+        "params": {
+          "kParamType": "kVintage",
+          "kParamSize": 42,
+          "kParamDelay": 22,
+          "kParamWidth": 95
+        }
+      }
+    ],
+    "mod_routes": [
+      {
+        "source": "env1",
+        "destination": "filter0.cutoff",
+        "amount": 8,
+        "bipolar": false
+      },
+      {
+        "source": "lfo0",
+        "destination": "oscillator0.table_position",
+        "amount": 5,
+        "bipolar": true
+      },
+      {
+        "source": "lfo0",
+        "destination": "filter0.cutoff",
+        "amount": 2,
+        "bipolar": true
+      },
+      {
+        "source": "macro0",
+        "destination": "filter0.cutoff",
+        "amount": 20,
+        "bipolar": false
+      },
+      {
+        "source": "macro1",
+        "destination": "oscillator0.table_position",
+        "amount": 12,
+        "bipolar": false
+      },
+      {
+        "source": "macro2",
+        "destination": "fx1.wet",
+        "amount": 18,
+        "bipolar": false
+      },
+      {
+        "source": "macro3",
+        "destination": "fx0.wet",
+        "amount": 20,
+        "bipolar": false
+      }
+    ],
+    "global": {
+      "master_volume": 0.2,
+      "mono": false,
+      "poly_count": 12
+    }
+  }
+]

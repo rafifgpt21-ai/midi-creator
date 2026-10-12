@@ -1,0 +1,26 @@
+{
+  "ok": false,
+  "checked_at": "2026-10-11T13:02:23.251109+00:00",
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false,
+  "server": {
+    "name": "serum-mcp",
+    "title": null,
+    "version": "1.28.1",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tools": [
+    "analyze_sample_file",
+    "describe_preset",
+    "edit_preset",
+    "find_reference_presets",
+    "generate_preset",
+    "list_parameters",
+    "list_sample_files"
+  ],
+  "error": "unhandled errors in a TaskGroup (1 sub-exception)"
+}
