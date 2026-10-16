@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "language": "English",
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "docs/serum-mcp.md",
+    "docs/serum-sound-design/README.md",
+    "skills/serum-sound-design/references/analog-retro.md"
+  ],
+  "checks": [
+    "local links",
+    "guide TOC anchors",
+    "UTF-8",
+    "preserved guide source URLs and section counts",
+    "balanced code fences"
+  ],
+  "original_attachment": "Preserved unchanged as source evidence",
+  "errors": []
+}

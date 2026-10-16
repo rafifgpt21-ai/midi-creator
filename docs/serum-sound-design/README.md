@@ -30,7 +30,7 @@ These are future task examples. This documentation task does not generate/auditi
 
 ## Handbook reading paths
 
-For analog, vintage, retro analog, or real analog gear requests, the default reference is the detailed Indonesian [analog and retro guide](../../skills/serum-sound-design/references/analog-retro.md). It expands the supplied five-technique notes into architecture choices, VCO/DCO behavior, voice calibration, continuous drift, optional noise modulation, drive/recording paths, six recipe directions, native-tool limits, and targeted verification. A maintained instrument is the starting assumption; explicit user/reference choices take precedence. The seven skill entrypoints and workspace `AGENTS.md` route to this reference automatically for matching requests.
+For analog, vintage, retro analog, or real analog gear requests, the default reference is the detailed English [analog and retro guide](../../skills/serum-sound-design/references/analog-retro.md). It expands the supplied five-technique notes into architecture choices, VCO/DCO behavior, voice calibration, continuous drift, optional noise modulation, drive/recording paths, six recipe directions, native-tool limits, and targeted verification. A maintained instrument is the starting assumption; explicit user/reference choices take precedence. The seven skill entrypoints and workspace `AGENTS.md` route to this reference automatically for matching requests.
 
 The complete [reference index](../../skills/serum-sound-design/references/index.md) links every chapter. Choose a path rather than loading the whole handbook every time.
 
@@ -92,4 +92,4 @@ The tool creates/edits native `.SerumPreset` files but does not render/load Seru
 
 ## This pack's verification
 
-All seven skills passed the bundled skill validator. The 25-reference library passed local link, source-checksum, and documented semantic-spec checks. The installer passed fresh-install, repeat-install, and modified-file protection checks; installed files were checksum-verified. Canonical and installed copies are recorded in the internal receipts. These checks validate the documentation/package and selected implementation invariants; they do not establish end-to-end sound recreation quality. No presets or audio were produced or auditioned for this documentation task.
+All seven skills passed the bundled skill validator. The 26-reference library passed local link, source-checksum, and documented semantic-spec checks. The installer passed fresh-install, repeat-install, and modified-file protection checks; installed files were checksum-verified. Canonical and installed copies are recorded in the internal receipts. These checks validate the documentation/package and selected implementation invariants; they do not establish end-to-end sound recreation quality. No presets or audio were produced or auditioned for this documentation task.

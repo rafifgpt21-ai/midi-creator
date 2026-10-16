@@ -1,62 +1,63 @@
-# Preset native Serum dengan serum-mcp
+# Native Serum presets with serum-mcp
 
-Preset native Serum 2 dibuat memakai [Celian-mrc/serum-mcp](https://github.com/Celian-mrc/serum-mcp).
-Checkout lokal ada di `integrations/serum-mcp`; commit yang dipakai dicatat di
-[`serum-mcp-source.json`](../integrations/serum-mcp-source.json). Environment upstream
-terpisah dari environment MIDI Creator. Dependensi diinstal dari `uv.lock` upstream
-menggunakan Python 3.13.3 yang sudah tersedia di komputer ini.
+Native Serum 2 presets are created with [Celian-mrc/serum-mcp](https://github.com/Celian-mrc/serum-mcp).
+The local checkout is in `integrations/serum-mcp`; its pinned commit is recorded in
+[`serum-mcp-source.json`](../integrations/serum-mcp-source.json). The upstream
+environment is separate from MIDI Creator's environment. Dependencies were installed
+from the upstream `uv.lock` using Python 3.13.3, already available on this computer.
 
-Server `serum-mcp` terdaftar di konfigurasi global Codex. Restart koneksi Codex/T3 Code
-agar tools baru tersedia di sesi berikutnya. Konfigurasi mengarah ke folder asli
-`Documents/Xfer/Serum 2 Presets` di OneDrive: `SERUM_PRESETS_PATH` menunjuk `Presets/User`,
-`SERUM_TABLES_PATH` menunjuk `Tables`, dan `SERUM_SAMPLES_PATH` menunjuk `Samples`.
-`SAMPLE_BANK_PATH` menunjuk bank sample pengguna. Salinan konfigurasi untuk client MCP
-lain ada di `integrations/mcp.local.json`.
+The `serum-mcp` server is registered in the global Codex configuration. Restart the
+Codex/T3 Code connection to make new tools available in the next session. Configuration
+points to the original `Documents/Xfer/Serum 2 Presets` folder in OneDrive:
+`SERUM_PRESETS_PATH` targets `Presets/User`, `SERUM_TABLES_PATH` targets `Tables`,
+and `SERUM_SAMPLES_PATH` targets `Samples`. `SAMPLE_BANK_PATH` targets the user's
+sample bank. A configuration copy for other MCP clients is in `integrations/mcp.local.json`.
 
-## Alur preset
+## Preset workflow
 
-1. Panggil `list_parameters()` sebelum merancang preset untuk memastikan nama field,
-   enum, rentang, satuan, dan tingkat keyakinan parameter.
-2. Gunakan `find_reference_presets(query)` dan `describe_preset(path)` jika ada referensi
-   genre, karakter, atau preset tertentu. Pencarian memakai nama/folder; hasil pencarian
-   belum membuktikan kualitas sound.
-3. Simpan brief dan `preset-spec.json` dalam `_internal/` revisi baru. Tulis oscillator,
-   filter, envelope, LFO, `fx_chain`, macro, serta `mod_routes` sesuai fungsi sound.
-   Gunakan macro dan modulasi yang berguna secara musikal.
-4. Panggil `generate_preset(spec, subfolder)` dalam subfolder baru di `Presets/User`.
-   Tool upstream bisa menimpa nama yang sama; cek tujuan lebih dahulu. Revisi memakai
-   nama/folder baru dan mempertahankan preset sebelumnya. Untuk `edit_preset`, buat
-   salinan revisi terlebih dahulu.
-5. Panggil `describe_preset` pada hasil; decode dan cocokkan parameter yang diminta.
-   Simpan preset siap pakai dalam `Presets/`, lalu spesifikasi, commit upstream,
-   checksum, dan receipt dalam `_internal/`. Lengkapi README revisi dengan mapping
-   track/preset, macro, cara membuka sound, serta status pengujian yang benar.
-6. Buka hasil melalui browser preset Serum 2 untuk memeriksa kompatibilitas dan suara.
-   Verifikasi struktur tidak sama dengan plugin berhasil memuat preset atau audio
-   benar-benar didengarkan; catat setiap status secara terpisah.
+1. Call `list_parameters()` before designing a preset to confirm field names, enums,
+   ranges, units, and parameter confidence.
+2. Use `find_reference_presets(query)` and `describe_preset(path)` for genre,
+   character, or specific-preset references. Search uses names/folders; a search result
+   does not establish sound quality.
+3. Store the brief and `preset-spec.json` in the new revision's `_internal/`.
+   Specify oscillators, filters, envelopes, LFOs, `fx_chain`, macros, and
+   `mod_routes` according to their sonic functions. Use musically useful macros and modulation.
+4. Call `generate_preset(spec, subfolder)` in a new subfolder of `Presets/User`.
+   The upstream tool can overwrite an existing name; check the destination first.
+   Revisions use new names/folders and preserve earlier presets. Before `edit_preset`,
+   create a revision copy.
+5. Call `describe_preset` on the result; decode it and compare the requested parameters.
+   Store the ready preset in `Presets/`, and specifications, upstream commit,
+   checksums, and receipts in `_internal/`. Complete the revision README with
+   track/preset mappings, macros, loading instructions, and accurate test statuses.
+6. Open the result through Serum 2's preset browser to check compatibility and sound.
+   Structural verification does not establish successful plugin loading or actual
+   listening; record each status separately.
 
-`serum-mcp` menulis `.SerumPreset` langsung dan tidak memuat plugin, merender audio,
-atau mengontrol Cubase. Alur MIDI/live Cubase yang sudah ada tetap menggunakan
-`midi-studio`. Offline host MIDI Creator saat ini menerima `.vstpreset`; untuk
-merender hasil native melalui host itu, buka di Serum/Cubase lalu simpan sebagai
-VST preset. Jangan mengganti ekstensi file untuk konversi.
+`serum-mcp` writes `.SerumPreset` files directly and does not load the plugin,
+render audio, or control Cubase. The existing MIDI/live Cubase workflow continues to
+use `midi-studio`. MIDI Creator's offline host currently accepts `.vstpreset`;
+to render a native result through that host, open it in Serum/Cubase and save it as
+a VST preset. Do not convert by renaming the file extension.
 
-Wavetable/sample tambahan yang dibuat upstream harus ikut disimpan ketika membagikan
-preset. Wavetable factory tetap bergantung pada library Serum yang terpasang.
-Bank sample asli pengguna tetap digunakan sebagai sumber baca.
+Additional wavetables/samples created by upstream must be included when sharing
+presets. Factory wavetables still depend on the installed Serum library.
+The user's original sample bank remains a read-only source.
 
-## Pemeriksaan yang dapat diulang
+## Repeatable checks
 
-Script [`check_serum_mcp.py`](../integrations/check_serum_mcp.py) membuka koneksi MCP
-stdio sungguhan, mengambil schema dan referensi, lalu opsional membuat preset dan
-mencocokkan readback struktural. Tujuan output dan preset harus baru.
+The [`check_serum_mcp.py`](../integrations/check_serum_mcp.py) script opens a real
+MCP stdio connection, retrieves the schema and references, and optionally creates a
+preset and compares structural readback. Output and preset destinations must be new.
 
 ```powershell
 & integrations/serum-mcp/.venv/Scripts/python.exe integrations/check_serum_mcp.py --out integrations/serum-mcp-check-new
 & integrations/serum-mcp/.venv/Scripts/python.exe integrations/check_serum_mcp.py --spec projects/20261011-serum-mcp-demo/v002/_internal/preset-spec.json --subfolder 'MIDI Creator/20261011-serum-mcp-demo/v003' --out projects/20261011-serum-mcp-demo/_internal/check-v003
 ```
 
-Untuk memasang ulang, clone URL pada source receipt ke `integrations/serum-mcp`, checkout
-commit tercatat, dan jalankan `uv sync --locked --no-dev --python C:/Python313/python.exe` di
-folder repo tersebut. Checkout upstream diabaikan oleh `.gitignore`; preset hasil,
-spesifikasi, panduan, dan receipt tetap merupakan artefak workspace.
+To reinstall, clone the URL in the source receipt into `integrations/serum-mcp`,
+check out the recorded commit, and run
+`uv sync --locked --no-dev --python C:/Python313/python.exe` in that repository.
+The upstream checkout is ignored by `.gitignore`; generated presets, specifications,
+guides, and receipts remain workspace artifacts.

@@ -47,5 +47,12 @@
     "render_analysis": "not performed; recipes are authored starting points",
     "listening": "not performed"
   },
-  "scope": "Documentation and default routing in workspace and installed Serum skills; no generated preset, music, or generator/schema changes"
+  "scope": "Documentation and default routing in workspace and installed Serum skills; no generated preset, music, or generator/schema changes",
+  "language": "English",
+  "translation": {
+    "status": "complete",
+    "validation": "english-translation-validation.json",
+    "preserved_original_attachment": true,
+    "installed_copies_match": true
+  }
 }

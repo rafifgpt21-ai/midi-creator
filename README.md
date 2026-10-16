@@ -1,61 +1,61 @@
 # MIDI Creator
 
-Minta lagu ke agent, lalu buka README proyek dan drag MIDI ke Cubase. Default: aransemen lengkap dari awal sampai akhir, semua instrumen melodi memakai **Serum 2**, dan drum memakai kit/sample pilihan Anda. Setiap instrumen mempunyai **satu file MIDI dengan tepat satu track**, sejajar dari bar 1 hingga akhir lagu.
+Ask the agent for a song, open the project README, and drag the MIDI into Cubase. Defaults: a complete arrangement from beginning to end, **Serum 2** for every melodic instrument, and your chosen drum kit/samples. Each instrument has **one MIDI file with exactly one track**, aligned from bar 1 through the song's end.
 
-## Proyek siap dibuka
+## Ready-to-use projects
 
-| Proyek | Tempo / key / panjang | Mulai di sini |
+| Project | Tempo / key / length | Start here |
 | --- | --- | --- |
-| Afterglow Circuit — Progressive House | 126 BPM · F minor · 160 bar · 12 track | [README](projects/20261009-afterglow-circuit-progressive-house/v002/README.md) |
-| Neon Step — New Jack Swing | 108 BPM · F# minor · 96 bar · 15 track | [README](projects/20261009-neon-step-new-jack-swing/v004/README.md) |
-| Serum Synthwave Starter | 110 BPM · A minor · 16 bar · 10 track | [README](projects/20261010-synthwave-studio-starter/v002/README.md) |
-| Neon di Ujung Malam — dark synth-pop | 118 BPM · F# minor · 112 bar · 8 track | [README](projects/20261011-neon-di-ujung-malam/v003/README.md) |
-| Warm Motion — uji preset Serum MCP | Pad native dengan chorus/reverb dan 4 macro | [README](projects/20261011-serum-mcp-demo/v002/README.md) |
+| Afterglow Circuit — Progressive House | 126 BPM · F minor · 160 bars · 12 tracks | [README](projects/20261009-afterglow-circuit-progressive-house/v002/README.md) |
+| Neon Step — New Jack Swing | 108 BPM · F# minor · 96 bars · 15 tracks | [README](projects/20261009-neon-step-new-jack-swing/v004/README.md) |
+| Serum Synthwave Starter | 110 BPM · A minor · 16 bars · 10 tracks | [README](projects/20261010-synthwave-studio-starter/v002/README.md) |
+| Neon di Ujung Malam — dark synth-pop | 118 BPM · F# minor · 112 bars · 8 tracks | [README](projects/20261011-neon-di-ujung-malam/v003/README.md) |
+| Warm Motion — Serum MCP preset test | Native pad with chorus/reverb and 4 macros | [README](projects/20261011-serum-mcp-demo/v002/README.md) |
 
-Revisi timing terbaru: Neon Step v004 mempertahankan 11 layer core dan menyelaraskan empat pelengkap ke groove 60:40; Neon di Ujung Malam v002 menghapus jitter dan offset arp. Pemeriksaan ekspor baru menolak onset off-grid yang tidak dinyatakan disengaja. [Laporan diagnosis](docs/timing-repair-20261011.md).
+Latest timing revisions: Neon Step v004 preserves 11 core layers and aligns four supporting layers to a 60:40 groove; Neon di Ujung Malam v002 removes jitter and arp offsets. New export checks reject off-grid onsets not explicitly declared intentional. See the [diagnostic report](docs/timing-repair-20261011.md).
 
-Versi sebelumnya tetap utuh dalam `_internal/previous-revisions/` di masing-masing proyek. Tiga komposisi telah diekspor ulang tanpa mengubah nada, timing, velocity, volume/pan, atau panjang lagu. Starter menyertakan enam preset VST3 dan stem yang sudah ada; demo Serum MCP menyertakan preset native `.SerumPreset`.
+Previous versions remain intact in each project's `_internal/previous-revisions/`. Three compositions were re-exported without changing notes, timing, velocity, volume/pan, or song length. The starter includes six existing VST3 presets and stems; the Serum MCP demo includes a native `.SerumPreset`.
 
-## Meminta lagu
+## Requesting a song
 
-> Buat lagu synthwave 3 menit, mood malam yang hangat, 110 BPM. Bass tebal, chord lebar, arp ringan, dan lead yang mudah diingat.
+> Create a 3-minute synthwave song with a warm nighttime mood at 110 BPM. Use a thick bass, wide chords, a light arp, and a memorable lead.
 
-Anda dapat menentukan genre, mood, tempo, key, panjang, atau sound tertentu. Detail yang belum ditentukan dipilih agent dan dijelaskan dalam README. Permintaan eksplisit satu melodi, cuplikan, atau instrumen di luar Serum tetap diikuti. File gabungan hanya dibuat jika diminta.
+You can specify genre, mood, tempo, key, length, or particular sounds. The agent chooses unspecified details and explains them in the README. Explicit requests for one melody, an excerpt, or instruments outside Serum still take precedence. Combined files are created only when requested.
 
-Setiap proyek mempunyai panduan import, tabel MIDI/preset, bentuk lagu, saran karakter drum dan mapping pitch, serta petunjuk instrumen eksternal jika diperlukan. Preset Serum native dibuat melalui [serum-mcp](https://github.com/Celian-mrc/serum-mcp).
+Every project includes import guidance, a MIDI/preset table, song form, drum-character suggestions and pitch mapping, and external-instrument instructions when needed. Native Serum presets are created through [serum-mcp](https://github.com/Celian-mrc/serum-mcp).
 
-## Folder yang digunakan produser
+## Producer-facing folders
 
 ```text
-projects/nama-proyek/
-  README.md          tautan revisi terbaru
+projects/project-name/
+  README.md          link to the latest revision
   v002/
-    README.md        keterangan lagu dan cara memakai hasil
-    MIDI/            drag file ini ke Cubase dari bar 1
-    Presets/         bila tersedia
-    Audio/           bila diminta/disertakan
-    Drums/           bila kit/sample telah dipilih
-    _internal/       data teknis; tidak diperlukan untuk import
-  _internal/         arsip revisi sebelumnya
+    README.md        song details and instructions
+    MIDI/            drag these files into Cubase from bar 1
+    Presets/         when available
+    Audio/           when requested/included
+    Drums/           when the kit/samples have been selected
+    _internal/       technical data; not needed for import
+  _internal/         previous revision archives
 ```
 
-## Import Cubase
+## Cubase import
 
-MIDI baru memakai **SMF format 1 dengan satu track**, tanpa SysEx, Program Change, atau metadata teks/key/marker tambahan. Tempo, meter, nada, velocity, volume/pan, dan panjang global tetap tersimpan. Key dan bagian lagu ada dalam README.
+New MIDI uses **SMF format 1 with one track**, without SysEx, Program Change, or extra text/key/marker metadata. Tempo, meter, notes, velocity, volume/pan, and global length are retained. The README contains the key and song sections.
 
-Untuk locator, time base dan tempo, ikuti [panduan timing impor](docs/cubase-studio.md#timing-saat-impor-cubase).
+For locators, time base, and tempo, follow the [import timing guide](docs/cubase-studio.md#timing-saat-impor-cubase).
 
-Di **Preferences > MIDI > MIDI File**, aktifkan **Import Dropped File as Single Part**. Untuk MIDI format 0 lama, nonaktifkan **Auto Dissolve Format 0**. [Panduan resmi Cubase](https://www.steinberg.help/r/cubase-pro/15.0/en/cubase_nuendo/topics/preferences/preferences_midi_midi_file_import_options_r.html) menjelaskan kedua opsi ini. Pilih preset di Serum sebelum memasukkan MIDI.
+In **Preferences > MIDI > MIDI File**, enable **Import Dropped File as Single Part**. For older format 0 MIDI, disable **Auto Dissolve Format 0**. The [official Cubase guide](https://www.steinberg.help/r/cubase-pro/15.0/en/cubase_nuendo/topics/preferences/preferences_midi_midi_file_import_options_r.html) explains both options. Select the Serum preset before importing MIDI.
 
-File lama tidak mengandung pesan SysEx. Track “SysEx Data” pada screenshot belum direproduksi otomatis dalam Cubase; format baru merupakan mitigasi impor, dan hasil drag-and-drop live masih perlu diperiksa di Cubase Anda.
+Older files contain no SysEx messages. The “SysEx Data” track shown in a screenshot has not been automatically reproduced in Cubase; the new format mitigates import issues, and live drag-and-drop behavior still needs checking in your Cubase installation.
 
-## Agent dan pengembangan
+## Agents and development
 
-[Panduan sound design Serum 2 dan tujuh skill agent](docs/serum-sound-design/README.md) mencakup teori, lima engine, modulasi, FX, keluarga sound, rekonstruksi referensi, preset native, dan verifikasi. Mulai dengan `$serum-sound-design` untuk permintaan sound lengkap.
+The [Serum 2 sound-design guide and seven agent skills](docs/serum-sound-design/README.md) cover theory, five engines, modulation, FX, sound families, reference reconstruction, native presets, and verification. Start with `$serum-sound-design` for a complete sound request.
 
-[Panduan detail analog dan retro Serum 2](skills/serum-sound-design/references/analog-retro.md) menjadi default untuk sound analog/vintage/retro analog serta pendekatan gear analog nyata. Panduan membedakan VCO/DCO, variasi voice dan drift, lima teknik karakter analog, resep instrumen, serta verifikasi.
+The [detailed Serum 2 analog and retro guide](skills/serum-sound-design/references/analog-retro.md) is the default for analog/vintage/retro analog sounds and approaches to real analog gear. It distinguishes VCO/DCO behavior, voice variation and drift, five analog-character techniques, instrument recipes, and verification.
 
-[AGENTS.md](AGENTS.md) menetapkan default dan kriteria hasil. [Struktur proyek](docs/project-layout.md), [kontrak komposisi](docs/composition-guide.md), [Serum MCP](docs/serum-mcp.md), serta [Cubase/live studio](docs/cubase-studio.md) menjelaskan pengerjaan teknis. Kode/dependency/integrasi di root adalah framework; produser cukup memakai `projects/`.
+[AGENTS.md](AGENTS.md) defines defaults and delivery criteria. [Project layout](docs/project-layout.md), the [composition contract](docs/composition-guide.md), [Serum MCP](docs/serum-mcp.md), and [Cubase/live studio](docs/cubase-studio.md) explain technical workflows. Root-level code/dependencies/integrations form the framework; producers can work from `projects/`.
 
 ```powershell
 uv sync --locked
@@ -66,4 +66,4 @@ uv run midi-creator verify projects/demo-output
 uv run python -m unittest discover -s tests -v
 ```
 
-Ekspor memakai folder baru: `MIDI/*.mid`, `README.md`, dan seluruh snapshot/manifest/validation di `_internal/`. `--combined` menambahkan `MIDI/arrangement.mid` jika diminta. Verifikasi ekspor lama tetap didukung. Kebijakan grid/swing ada di [kontrak timing](docs/composition-guide.md#pemeriksaan-grid-onset). Restart koneksi Codex/T3 Code setelah perubahan framework agar server MCP memuat implementasi terbaru.
+Exports use a new folder containing `MIDI/*.mid`, `README.md`, and all snapshots/manifests/validation under `_internal/`. `--combined` adds `MIDI/arrangement.mid` when requested. Verification of older exports remains supported. Grid/swing policy is in the [timing contract](docs/composition-guide.md#pemeriksaan-grid-onset). Restart the Codex/T3 Code connection after framework changes so the MCP server loads the latest implementation.
