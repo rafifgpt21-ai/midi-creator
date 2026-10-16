@@ -1,0 +1,44 @@
+=== shadow-pad.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: shadow-pad
+Description: Black Glass v002: restrained dark stereo veil with saw/triangle source contrast, gentle noise air, serial rumble removal and warm low-pass breathing. Slow movement leaves piano attacks clear.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.16  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)  unison=3  detune=0.04
+Osc B: ON   octave=+0  volume=0.11  pan=+0  wavetable=analog_basic  table_pos=2.0  warp=fm(0.00)  unison=2  detune=0.03
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: ON   octave=+0  volume=0.01  pan=+0  noise_type=Brown
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=highpass_12  cutoff=0.28  resonance=0%  drive=0%  stereo=50%
+Filter 2: ON   type=moog_lowpass_12  cutoff=0.43  resonance=6%  drive=4%  stereo=50%
+
+Env 1: attack=580.0ms  decay=2.10s  sustain=0.78  release=0.48s
+Env 2: attack=1550.0ms  decay=2.30s  sustain=0.32  release=0.55s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+LFO 2: rate=0  mode=Free  mono
+
+Macro 1 "SHADE": 18%
+Macro 2 "MOTION": 24%
+Macro 3 "SPACE": 12%
+
+FX chain:
+  - FXReverb (wet=18%)
+  - FXEQ (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter1.cutoff: +9%
+  - velocity -> oscillator0.volume: +12%
+  - macro0 -> filter1.cutoff: -12%
+  - lfo0 -> filter1.cutoff: +7%, bipolar
+  - lfo1 -> oscillator0.pan: +12%, bipolar
+  - lfo1 -> oscillator1.pan: -12%, bipolar
+  - macro2 -> fx0.wet: +22%
+
+Global: master_volume=0.36  mono=off  poly=16
+
+All files passed the automated scan. This does NOT confirm they work -- load them in real Serum to actually verify.

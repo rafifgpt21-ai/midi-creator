@@ -1,0 +1,763 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/layer01-sub-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "01 Sub Bass",
+          "end_tick": 7680,
+          "note_count": 4,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 24,
+          "pitch_max": 34,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 4,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer02-octave-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "02 Moroder Octave Bass",
+          "end_tick": 7680,
+          "note_count": 64,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 29,
+          "pitch_max": 48,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 64,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer03-chord-stabs.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "03 Analog Chord Stabs",
+          "end_tick": 7680,
+          "note_count": 64,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 48,
+          "pitch_max": 65,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 64,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer04-synth-brass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "04 Synth Brass Accents",
+          "end_tick": 7680,
+          "note_count": 12,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 48,
+          "pitch_max": 58,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 12,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer05-bright-arp.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "05 Bright Up Down Arp",
+          "end_tick": 7680,
+          "note_count": 64,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 82,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 64,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer06-glass-bells.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "06 Glass Bell Counter Arp",
+          "end_tick": 7680,
+          "note_count": 24,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 84,
+          "pitch_max": 96,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 24,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer07-warm-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "07 Warm Ambient Pad",
+          "end_tick": 7680,
+          "note_count": 9,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 51,
+          "pitch_max": 62,
+          "peak_polyphony": 3
+        }
+      ],
+      "note_count": 9,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer08-main-lead.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "08 Main Retro Hook",
+          "end_tick": 7680,
+          "note_count": 26,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 72,
+          "peak_polyphony": 2
+        }
+      ],
+      "note_count": 26,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer09-synth-whistle.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "09 Whistle Response",
+          "end_tick": 7680,
+          "note_count": 6,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 72,
+          "pitch_max": 80,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 6,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/layer10-transition-fx.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "10 Riser and Down Impact",
+          "end_tick": 7680,
+          "note_count": 2,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 48,
+          "pitch_max": 60,
+          "peak_polyphony": 2
+        }
+      ],
+      "note_count": 2,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-kick.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Kick",
+          "end_tick": 7680,
+          "note_count": 16,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 16,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-snare.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Snare",
+          "end_tick": 7680,
+          "note_count": 8,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 8,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-clap.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Clap",
+          "end_tick": 7680,
+          "note_count": 8,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 8,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-closed-hat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Closed Hat",
+          "end_tick": 7680,
+          "note_count": 48,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 48,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-open-hat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Open Hat",
+          "end_tick": 7680,
+          "note_count": 16,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 16,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-shaker.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Shaker",
+          "end_tick": 7680,
+          "note_count": 64,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 64,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/drum-crash.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Crash",
+          "end_tick": 7680,
+          "note_count": 1,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 1,
+      "end_tick": 7680,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 495868
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "layer01-sub-bass",
+        "note_ons": 4,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer02-octave-bass",
+        "note_ons": 64,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer03-chord-stabs",
+        "note_ons": 64,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer04-synth-brass",
+        "note_ons": 12,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer05-bright-arp",
+        "note_ons": 64,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer06-glass-bells",
+        "note_ons": 24,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer07-warm-pad",
+        "note_ons": 9,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer08-main-lead",
+        "note_ons": 26,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer09-synth-whistle",
+        "note_ons": 6,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "layer10-transition-fx",
+        "note_ons": 2,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-kick",
+        "note_ons": 16,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-snare",
+        "note_ons": 8,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-clap",
+        "note_ons": 8,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-closed-hat",
+        "note_ons": 48,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-open-hat",
+        "note_ons": 16,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-shaker",
+        "note_ons": 64,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "drum-crash",
+        "note_ons": 1,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

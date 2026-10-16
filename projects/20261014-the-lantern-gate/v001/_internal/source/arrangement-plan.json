@@ -1,0 +1,1415 @@
+{
+  "spec_version": "1.0",
+  "meta": {
+    "title": "The Lantern Gate",
+    "style_layer": "none",
+    "style_layers": [],
+    "fusion_note": "",
+    "key": "D minor",
+    "mode": "dorian",
+    "meter": "6/8",
+    "tempo": 108,
+    "target_duration": "2:40",
+    "deliverable": [
+      "midi"
+    ],
+    "upstream": {
+      "brief": "request.md",
+      "lyrics": {},
+      "picture": {}
+    }
+  },
+  "intent": {
+    "one_thing": "Turn a small Dorian lantern motif into a heroic orchestral arrival.",
+    "reference_pair": [],
+    "listener_situation": "Producer imports independent BBCSO Discover parts in Cubase.",
+    "emotional_arc": [
+      {
+        "section": "Whispering Lanterns",
+        "mood": "Harp dan viola membuka ruang; flute masuk bar 5, oboe menjawab bar 9.",
+        "value": 2
+      },
+      {
+        "section": "The Hidden Path",
+        "mood": "Tema lengkap pada flute, lalu oboe; pizzicato memberi langkah ringan.",
+        "value": 4
+      },
+      {
+        "section": "The Quest",
+        "mood": "Tema pindah ke Violins 1; ostinato masuk bertahap, horn muncul bar 39.",
+        "value": 6
+      },
+      {
+        "section": "Sanctuary",
+        "mood": "Brass, percussion, dan short strings keluar; clarinet, harp, viola, cello mengisi ruang.",
+        "value": 2
+      },
+      {
+        "section": "The Gate Awakens",
+        "mood": "Tema kembali pada strings lalu horn; tremolo, flute pendek dan roll membangun antisipasi.",
+        "value": 7
+      },
+      {
+        "section": "Banner of Dawn",
+        "mood": "Tema heroik pada violin/horn; trumpet mengambil alih paruh kedua, low brass dan drum bergabung.",
+        "value": 9
+      },
+      {
+        "section": "The Lantern Gate",
+        "mood": "Tema diperlebar; puncak B6 lalu final D minor tutti pada bar 93.",
+        "value": 10
+      },
+      {
+        "section": "Hall Release",
+        "mood": "Tidak ada serangan nada baru; ruang release sekitar 3,3 detik.",
+        "value": 0
+      }
+    ]
+  },
+  "material": {
+    "motif": "D5-E5-F5 (1.5,.5,1 quarter beats), then A5-G5-F5-E5; G5-B5-A5-G5 carries Dorian sixth.",
+    "character": "Curious ascending gesture that answers itself in descending steps.",
+    "stated_in": [
+      "The Hidden Path"
+    ],
+    "development_mode": "thematic variation"
+  },
+  "form": [
+    {
+      "id": "Whispering Lanterns",
+      "name": "Intro",
+      "bars": 12,
+      "start_bar": 1,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "middle-high",
+      "development": "fragment",
+      "energy": 2,
+      "events": [],
+      "note": "Harp dan viola membuka ruang; flute masuk bar 5, oboe menjawab bar 9."
+    },
+    {
+      "id": "The Hidden Path",
+      "name": "Instrumental",
+      "bars": 16,
+      "start_bar": 13,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "middle-high",
+      "development": "new",
+      "energy": 4,
+      "events": [],
+      "note": "Tema lengkap pada flute, lalu oboe; pizzicato memberi langkah ringan."
+    },
+    {
+      "id": "The Quest",
+      "name": "Instrumental",
+      "bars": 16,
+      "start_bar": 29,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "middle-high",
+      "development": "vary",
+      "energy": 6,
+      "events": [],
+      "note": "Tema pindah ke Violins 1; ostinato masuk bertahap, horn muncul bar 39."
+    },
+    {
+      "id": "Sanctuary",
+      "name": "Instrumental",
+      "bars": 10,
+      "start_bar": 45,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "middle",
+      "development": "vary",
+      "energy": 2,
+      "events": [],
+      "note": "Brass, percussion, dan short strings keluar; clarinet, harp, viola, cello mengisi ruang."
+    },
+    {
+      "id": "The Gate Awakens",
+      "name": "Instrumental",
+      "bars": 16,
+      "start_bar": 55,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "middle-high",
+      "development": "fragment",
+      "energy": 7,
+      "events": [],
+      "note": "Tema kembali pada strings lalu horn; tremolo, flute pendek dan roll membangun antisipasi."
+    },
+    {
+      "id": "Banner of Dawn",
+      "name": "Instrumental",
+      "bars": 16,
+      "start_bar": 71,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "high",
+      "development": "recap",
+      "energy": 9,
+      "events": [],
+      "note": "Tema heroik pada violin/horn; trumpet mengambil alih paruh kedua, low brass dan drum bergabung."
+    },
+    {
+      "id": "The Lantern Gate",
+      "name": "Outro",
+      "bars": 8,
+      "start_bar": 87,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "high",
+      "development": "extend",
+      "energy": 10,
+      "events": [],
+      "note": "Tema diperlebar; puncak B6 lalu final D minor tutti pada bar 93."
+    },
+    {
+      "id": "Hall Release",
+      "name": "Outro",
+      "bars": 2,
+      "start_bar": 95,
+      "harmony": "i / IV / bIII / bVII / v / ii in D Dorian; see harmony.json for full bar map",
+      "harmony_letters": "Dm / G / F / C / Am / Em7; Dmadd9 and Dm6; see harmony.json",
+      "melody_register": "high",
+      "development": "contract",
+      "energy": 0,
+      "events": [],
+      "note": "Tidak ada serangan nada baru; ruang release sekitar 3,3 detik."
+    }
+  ],
+  "arrangement": {
+    "roster": [
+      {
+        "id": "s01-violins1-long",
+        "instrument": "Strings: Violins 1 / Long",
+        "midi": {
+          "program": 40,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "tema utama; nada panjang pada klimaks",
+        "band": "strings",
+        "entry": "bar 29",
+        "exit": "bar 94.850",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s02-violins1-tremolo",
+        "instrument": "Strings: Violins 1 / Tremolo",
+        "midi": {
+          "program": 44,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "ketegangan menjelang gerbang",
+        "band": "strings",
+        "entry": "bar 67",
+        "exit": "bar 70.967",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s03-violins2-long",
+        "instrument": "Strings: Violins 2 / Long",
+        "midi": {
+          "program": 40,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "garis harmoni dan jawaban",
+        "band": "strings",
+        "entry": "bar 5",
+        "exit": "bar 94.850",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s04-violins2-spiccato",
+        "instrument": "Strings: Violins 2 / Spiccato",
+        "midi": {
+          "program": 45,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "ostinato eighth-note 3+3",
+        "band": "strings",
+        "entry": "bar 29",
+        "exit": "bar 92.570",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s05-violins2-pizzicato",
+        "instrument": "Strings: Violins 2 / Pizzicato",
+        "midi": {
+          "program": 45,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "langkah ringan di pembukaan",
+        "band": "strings",
+        "entry": "bar 13",
+        "exit": "bar 28.923",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s06-violas-long",
+        "instrument": "Strings: Violas / Long",
+        "midi": {
+          "program": 41,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "suara tengah yang bergerak halus",
+        "band": "strings",
+        "entry": "bar 1",
+        "exit": "bar 94.850",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s07-violas-spiccato",
+        "instrument": "Strings: Violas / Spiccato",
+        "midi": {
+          "program": 45,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "jawaban ritmis pada ostinato",
+        "band": "strings",
+        "entry": "bar 33",
+        "exit": "bar 92.580",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s08-cellos-long",
+        "instrument": "Strings: Cellos / Long",
+        "midi": {
+          "program": 42,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "akar harmoni; countermelody tenor",
+        "band": "strings",
+        "entry": "bar 29",
+        "exit": "bar 94.850",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s09-cellos-spiccato",
+        "instrument": "Strings: Cellos / Spiccato",
+        "midi": {
+          "program": 45,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "dorongan low strings",
+        "band": "strings",
+        "entry": "bar 37",
+        "exit": "bar 92.617",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s10-cellos-pizzicato",
+        "instrument": "Strings: Cellos / Pizzicato",
+        "midi": {
+          "program": 45,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "bass ringan pada bagian fantasy",
+        "band": "strings",
+        "entry": "bar 3",
+        "exit": "bar 28.627",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "s11-basses-long",
+        "instrument": "Strings: Basses / Long",
+        "midi": {
+          "program": 43,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "fondasi low bass tanpa voicing rapat",
+        "band": "strings",
+        "entry": "bar 13",
+        "exit": "bar 94.850",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "w01-flutes-long",
+        "instrument": "Woodwinds: Flutes a3 / Long",
+        "midi": {
+          "program": 73,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "tema fantasy dan puncak frase",
+        "band": "winds",
+        "entry": "bar 5",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "w02-flutes-staccatissimo",
+        "instrument": "Woodwinds: Flutes a3 / Staccatissimo",
+        "midi": {
+          "program": 73,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "kilau pendek; run transisi",
+        "band": "winds",
+        "entry": "bar 67",
+        "exit": "bar 70.907",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "w03-oboes-long",
+        "instrument": "Woodwinds: Oboes a3 / Long",
+        "midi": {
+          "program": 68,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "jawaban hangat pada tema",
+        "band": "winds",
+        "entry": "bar 9",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "w04-clarinets-long",
+        "instrument": "Woodwinds: Clarinets a3 / Long",
+        "midi": {
+          "program": 71,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "tema intim pada jeda tengah",
+        "band": "winds",
+        "entry": "bar 16.5",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "w05-bassoons-long",
+        "instrument": "Woodwinds: Bassoons a3 / Long",
+        "midi": {
+          "program": 70,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "gerak tenor dan pengikat bass",
+        "band": "winds",
+        "entry": "bar 29",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "w06-piccolo-long",
+        "instrument": "Woodwinds: Piccolo / Long",
+        "midi": {
+          "program": 72,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "kilau puncak; baru hadir saat akhir",
+        "band": "winds",
+        "entry": "bar 73",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b01-horns-long",
+        "instrument": "Brass: Horns a4 / Long",
+        "midi": {
+          "program": 60,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "tema heroik dalam register tengah",
+        "band": "brass",
+        "entry": "bar 39",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b02-horns-staccatissimo",
+        "instrument": "Brass: Horns a4 / Staccatissimo",
+        "midi": {
+          "program": 60,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "aksen fanfare sebelum klimaks",
+        "band": "brass",
+        "entry": "bar 67",
+        "exit": "bar 86.920",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b03-trumpets-long",
+        "instrument": "Brass: Trumpets a3 / Long",
+        "midi": {
+          "program": 56,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "mahkota tema saat akhir",
+        "band": "brass",
+        "entry": "bar 79",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b04-trumpets-staccatissimo",
+        "instrument": "Brass: Trumpets a3 / Staccatissimo",
+        "midi": {
+          "program": 56,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "fanfare pendek di sela tema",
+        "band": "brass",
+        "entry": "bar 74.5",
+        "exit": "bar 78.913",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b05-tenor-trombones-long",
+        "instrument": "Brass: Tenor Trombones a3 / Long",
+        "midi": {
+          "program": 57,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "isi harmoni brass",
+        "band": "brass",
+        "entry": "bar 71",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b06-bass-trombones-long",
+        "instrument": "Brass: Bass Trombones a2 / Long",
+        "midi": {
+          "program": 57,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "fifth/root rendah saat tutti",
+        "band": "brass",
+        "entry": "bar 71",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "b07-tuba-long",
+        "instrument": "Brass: Tuba / Long",
+        "midi": {
+          "program": 58,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "fondasi brass pada frase penting",
+        "band": "brass",
+        "entry": "bar 71",
+        "exit": "bar 94.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "k01-harp",
+        "instrument": "Percussion: Harp / Plucks / default",
+        "midi": {
+          "program": 46,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "arpeggio Dorian sebagai cahaya fantasy",
+        "band": "keys",
+        "entry": "bar 1",
+        "exit": "bar 94.250",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "k02-celeste",
+        "instrument": "Percussion: Celeste / Hits / default",
+        "midi": {
+          "program": 8,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "gema motif kecil dan bintang di awal",
+        "band": "keys",
+        "entry": "bar 2.5",
+        "exit": "bar 54.917",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "k03-glockenspiel",
+        "instrument": "Percussion: Glockenspiel / Hits / default",
+        "midi": {
+          "program": 9,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "titik cahaya pada nada puncak",
+        "band": "keys",
+        "entry": "bar 15",
+        "exit": "bar 93.400",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "k04-tubular-bells",
+        "instrument": "Percussion: Tubular Bells / Hits / default",
+        "midi": {
+          "program": 14,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "tanda gerbang dan resolusi",
+        "band": "keys",
+        "entry": "bar 71",
+        "exit": "bar 94.000",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p01-timpani-hits",
+        "instrument": "Percussion: Timpani / Hits",
+        "midi": {
+          "program": 47,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "pulsa bertonal D/A; roll dimainkan ulang dengan Hits",
+        "band": "percussion",
+        "entry": "bar 37",
+        "exit": "bar 93.300",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p02-bass-drum",
+        "instrument": "Percussion: Untuned Percussion / Hits",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 10
+        },
+        "role": "aksen structural; bukan kick pop",
+        "band": "percussion",
+        "entry": "bar 71",
+        "exit": "bar 93.233",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p03-snare",
+        "instrument": "Percussion: Untuned Percussion / Hits",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 10
+        },
+        "role": "aksen march 6/8 dan roll dari repeated Hits",
+        "band": "percussion",
+        "entry": "bar 68",
+        "exit": "bar 92.950",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p04-suspended-cymbal",
+        "instrument": "Percussion: Untuned Percussion / Hits",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 10
+        },
+        "role": "aksen transisi lembut",
+        "band": "percussion",
+        "entry": "bar 44.5",
+        "exit": "bar 44.767",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p05-suspended-cymbal-roll",
+        "instrument": "Percussion: Untuned Percussion / Roll trigger",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 10
+        },
+        "role": "swell ke bagian epic",
+        "band": "percussion",
+        "entry": "bar 69",
+        "exit": "bar 92.933",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p06-piatti",
+        "instrument": "Percussion: Untuned Percussion / Hits",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 10
+        },
+        "role": "crash orkestral pada klimaks",
+        "band": "percussion",
+        "entry": "bar 71",
+        "exit": "bar 93.333",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      },
+      {
+        "id": "p07-triangle",
+        "instrument": "Percussion: Untuned Percussion / Hits",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 10
+        },
+        "role": "kilau jarang pada pembukaan",
+        "band": "percussion",
+        "entry": "bar 4",
+        "exit": "bar 11.200",
+        "note": "See authoritative composition.json and bbcso-bindings.json."
+      }
+    ],
+    "depth_map": {
+      "s01-violins1-long": "foreground",
+      "s02-violins1-tremolo": "support",
+      "s03-violins2-long": "support",
+      "s04-violins2-spiccato": "support",
+      "s05-violins2-pizzicato": "support",
+      "s06-violas-long": "support",
+      "s07-violas-spiccato": "support",
+      "s08-cellos-long": "support",
+      "s09-cellos-spiccato": "support",
+      "s10-cellos-pizzicato": "support",
+      "s11-basses-long": "support",
+      "w01-flutes-long": "foreground",
+      "w02-flutes-staccatissimo": "support",
+      "w03-oboes-long": "support",
+      "w04-clarinets-long": "foreground",
+      "w05-bassoons-long": "support",
+      "w06-piccolo-long": "support",
+      "b01-horns-long": "foreground",
+      "b02-horns-staccatissimo": "support",
+      "b03-trumpets-long": "support",
+      "b04-trumpets-staccatissimo": "support",
+      "b05-tenor-trombones-long": "support",
+      "b06-bass-trombones-long": "support",
+      "b07-tuba-long": "support",
+      "k01-harp": "support",
+      "k02-celeste": "support",
+      "k03-glockenspiel": "support",
+      "k04-tubular-bells": "support",
+      "p01-timpani-hits": "support",
+      "p02-bass-drum": "support",
+      "p03-snare": "support",
+      "p04-suspended-cymbal": "support",
+      "p05-suspended-cymbal-roll": "support",
+      "p06-piatti": "support",
+      "p07-triangle": "support"
+    },
+    "bass_kick_relation": {
+      "mode": "combined accents",
+      "detail": "D/A timpani and sparse concert bass drum articulate large phrases."
+    },
+    "spectrum_budget": [],
+    "energy_curve": {
+      "Whispering Lanterns": 2,
+      "The Hidden Path": 4,
+      "The Quest": 6,
+      "Sanctuary": 2,
+      "The Gate Awakens": 7,
+      "Banner of Dawn": 9,
+      "The Lantern Gate": 10,
+      "Hall Release": 0
+    },
+    "subtraction_events": [
+      {
+        "at": {
+          "section": "Sanctuary",
+          "bar_offset": 0
+        },
+        "what": "Remove brass, short strings, basses and percussion",
+        "why": "Expose clarinet/harp and rebuild contrast."
+      }
+    ],
+    "hooks": {
+      "vocal_hook": {},
+      "arrangement_hook": {
+        "what": "D-E-F to A, answered by descending steps and natural-sixth B",
+        "first_at": "bar 5 fragment",
+        "recurs_at": [
+          13,
+          29,
+          55,
+          71,
+          87
+        ]
+      }
+    },
+    "groove": {
+      "feel": "straight",
+      "push_pull": [
+        {
+          "part": "all",
+          "offset_ms": 0,
+          "note": "Workspace requires strict on-grid."
+        }
+      ],
+      "fill_policy": {
+        "bars": [
+          68,
+          70,
+          78,
+          85,
+          92
+        ],
+        "rationale": "Phrase arrivals rather than every four bars."
+      }
+    }
+  },
+  "vocal": {},
+  "mix_intent": {
+    "mood": "Intimate lantern light opening into broad heroic arrival.",
+    "sound_stage": [
+      {
+        "id": "s01-violins1-long",
+        "pan": -19,
+        "depth": "support"
+      },
+      {
+        "id": "s02-violins1-tremolo",
+        "pan": -19,
+        "depth": "support"
+      },
+      {
+        "id": "s03-violins2-long",
+        "pan": -10,
+        "depth": "support"
+      },
+      {
+        "id": "s04-violins2-spiccato",
+        "pan": -10,
+        "depth": "support"
+      },
+      {
+        "id": "s05-violins2-pizzicato",
+        "pan": -10,
+        "depth": "support"
+      },
+      {
+        "id": "s06-violas-long",
+        "pan": 2,
+        "depth": "support"
+      },
+      {
+        "id": "s07-violas-spiccato",
+        "pan": 2,
+        "depth": "support"
+      },
+      {
+        "id": "s08-cellos-long",
+        "pan": 14,
+        "depth": "support"
+      },
+      {
+        "id": "s09-cellos-spiccato",
+        "pan": 14,
+        "depth": "support"
+      },
+      {
+        "id": "s10-cellos-pizzicato",
+        "pan": 14,
+        "depth": "support"
+      },
+      {
+        "id": "s11-basses-long",
+        "pan": 22,
+        "depth": "support"
+      },
+      {
+        "id": "w01-flutes-long",
+        "pan": -5,
+        "depth": "support"
+      },
+      {
+        "id": "w02-flutes-staccatissimo",
+        "pan": -5,
+        "depth": "support"
+      },
+      {
+        "id": "w03-oboes-long",
+        "pan": 2,
+        "depth": "support"
+      },
+      {
+        "id": "w04-clarinets-long",
+        "pan": -8,
+        "depth": "support"
+      },
+      {
+        "id": "w05-bassoons-long",
+        "pan": 8,
+        "depth": "support"
+      },
+      {
+        "id": "w06-piccolo-long",
+        "pan": -2,
+        "depth": "support"
+      },
+      {
+        "id": "b01-horns-long",
+        "pan": -11,
+        "depth": "support"
+      },
+      {
+        "id": "b02-horns-staccatissimo",
+        "pan": -11,
+        "depth": "support"
+      },
+      {
+        "id": "b03-trumpets-long",
+        "pan": 2,
+        "depth": "support"
+      },
+      {
+        "id": "b04-trumpets-staccatissimo",
+        "pan": 2,
+        "depth": "support"
+      },
+      {
+        "id": "b05-tenor-trombones-long",
+        "pan": 13,
+        "depth": "support"
+      },
+      {
+        "id": "b06-bass-trombones-long",
+        "pan": 17,
+        "depth": "support"
+      },
+      {
+        "id": "b07-tuba-long",
+        "pan": 10,
+        "depth": "support"
+      },
+      {
+        "id": "k01-harp",
+        "pan": -16,
+        "depth": "support"
+      },
+      {
+        "id": "k02-celeste",
+        "pan": 0,
+        "depth": "support"
+      },
+      {
+        "id": "k03-glockenspiel",
+        "pan": 2,
+        "depth": "support"
+      },
+      {
+        "id": "k04-tubular-bells",
+        "pan": 5,
+        "depth": "support"
+      },
+      {
+        "id": "p01-timpani-hits",
+        "pan": 3,
+        "depth": "support"
+      },
+      {
+        "id": "p02-bass-drum",
+        "pan": 0,
+        "depth": "support"
+      },
+      {
+        "id": "p03-snare",
+        "pan": 3,
+        "depth": "support"
+      },
+      {
+        "id": "p04-suspended-cymbal",
+        "pan": 5,
+        "depth": "support"
+      },
+      {
+        "id": "p05-suspended-cymbal-roll",
+        "pan": 5,
+        "depth": "support"
+      },
+      {
+        "id": "p06-piatti",
+        "pan": 8,
+        "depth": "support"
+      },
+      {
+        "id": "p07-triangle",
+        "pan": 3,
+        "depth": "support"
+      }
+    ],
+    "dynamics": {
+      "notes": [
+        "Sanctuary withdraws layers; preserve this contrast."
+      ],
+      "target_DR_dB": null
+    },
+    "width_map": {
+      "Whispering Lanterns": "small occupied stage",
+      "Banner of Dawn": "full occupied stage"
+    },
+    "loudness_target": "No audio mastering requested"
+  },
+  "render": {
+    "midi": {
+      "instrument_map": {
+        "s01-violins1-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violins 1",
+          "articulation": "Long",
+          "register": [
+            67,
+            98
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s02-violins1-tremolo": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violins 1",
+          "articulation": "Tremolo",
+          "register": [
+            67,
+            98
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s03-violins2-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violins 2",
+          "articulation": "Long",
+          "register": [
+            55,
+            96
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s04-violins2-spiccato": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violins 2",
+          "articulation": "Spiccato",
+          "register": [
+            55,
+            96
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s05-violins2-pizzicato": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violins 2",
+          "articulation": "Pizzicato",
+          "register": [
+            55,
+            96
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s06-violas-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violas",
+          "articulation": "Long",
+          "register": [
+            48,
+            84
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s07-violas-spiccato": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Violas",
+          "articulation": "Spiccato",
+          "register": [
+            48,
+            84
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s08-cellos-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Cellos",
+          "articulation": "Long",
+          "register": [
+            36,
+            72
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s09-cellos-spiccato": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Cellos",
+          "articulation": "Spiccato",
+          "register": [
+            36,
+            72
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s10-cellos-pizzicato": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Cellos",
+          "articulation": "Pizzicato",
+          "register": [
+            36,
+            72
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "s11-basses-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Strings: Basses",
+          "articulation": "Long",
+          "register": [
+            26,
+            54
+          ],
+          "family": "strings",
+          "channel": 1
+        },
+        "w01-flutes-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Woodwinds: Flutes a3",
+          "articulation": "Long",
+          "register": [
+            60,
+            96
+          ],
+          "family": "winds",
+          "channel": 1
+        },
+        "w02-flutes-staccatissimo": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Woodwinds: Flutes a3",
+          "articulation": "Staccatissimo",
+          "register": [
+            60,
+            96
+          ],
+          "family": "winds",
+          "channel": 1
+        },
+        "w03-oboes-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Woodwinds: Oboes a3",
+          "articulation": "Long",
+          "register": [
+            58,
+            84
+          ],
+          "family": "winds",
+          "channel": 1
+        },
+        "w04-clarinets-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Woodwinds: Clarinets a3",
+          "articulation": "Long",
+          "register": [
+            50,
+            86
+          ],
+          "family": "winds",
+          "channel": 1
+        },
+        "w05-bassoons-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Woodwinds: Bassoons a3",
+          "articulation": "Long",
+          "register": [
+            34,
+            74
+          ],
+          "family": "winds",
+          "channel": 1
+        },
+        "w06-piccolo-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Woodwinds: Piccolo",
+          "articulation": "Long",
+          "register": [
+            74,
+            96
+          ],
+          "family": "winds",
+          "channel": 1
+        },
+        "b01-horns-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Horns a4",
+          "articulation": "Long",
+          "register": [
+            40,
+            77
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "b02-horns-staccatissimo": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Horns a4",
+          "articulation": "Staccatissimo",
+          "register": [
+            40,
+            77
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "b03-trumpets-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Trumpets a3",
+          "articulation": "Long",
+          "register": [
+            52,
+            84
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "b04-trumpets-staccatissimo": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Trumpets a3",
+          "articulation": "Staccatissimo",
+          "register": [
+            52,
+            84
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "b05-tenor-trombones-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Tenor Trombones a3",
+          "articulation": "Long",
+          "register": [
+            43,
+            74
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "b06-bass-trombones-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Bass Trombones a2",
+          "articulation": "Long",
+          "register": [
+            34,
+            67
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "b07-tuba-long": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Brass: Tuba",
+          "articulation": "Long",
+          "register": [
+            28,
+            60
+          ],
+          "family": "brass",
+          "channel": 1
+        },
+        "k01-harp": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Harp",
+          "articulation": "Plucks / default",
+          "register": [
+            36,
+            96
+          ],
+          "family": "keys",
+          "channel": 1
+        },
+        "k02-celeste": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Celeste",
+          "articulation": "Hits / default",
+          "register": [
+            60,
+            96
+          ],
+          "family": "keys",
+          "channel": 1
+        },
+        "k03-glockenspiel": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Glockenspiel",
+          "articulation": "Hits / default",
+          "register": [
+            72,
+            96
+          ],
+          "family": "keys",
+          "channel": 1
+        },
+        "k04-tubular-bells": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Tubular Bells",
+          "articulation": "Hits / default",
+          "register": [
+            60,
+            77
+          ],
+          "family": "keys",
+          "channel": 1
+        },
+        "p01-timpani-hits": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Timpani",
+          "articulation": "Hits",
+          "register": [
+            38,
+            57
+          ],
+          "family": "percussion",
+          "channel": 1
+        },
+        "p02-bass-drum": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Untuned Percussion",
+          "articulation": "Hits",
+          "register": [
+            36,
+            36
+          ],
+          "family": "percussion",
+          "channel": 10,
+          "trigger_pitch": 36
+        },
+        "p03-snare": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Untuned Percussion",
+          "articulation": "Hits",
+          "register": [
+            40,
+            40
+          ],
+          "family": "percussion",
+          "channel": 10,
+          "trigger_pitch": 40
+        },
+        "p04-suspended-cymbal": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Untuned Percussion",
+          "articulation": "Hits",
+          "register": [
+            41,
+            41
+          ],
+          "family": "percussion",
+          "channel": 10,
+          "trigger_pitch": 41
+        },
+        "p05-suspended-cymbal-roll": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Untuned Percussion",
+          "articulation": "Roll trigger",
+          "register": [
+            43,
+            43
+          ],
+          "family": "percussion",
+          "channel": 10,
+          "trigger_pitch": 43
+        },
+        "p06-piatti": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Untuned Percussion",
+          "articulation": "Hits",
+          "register": [
+            59,
+            59
+          ],
+          "family": "percussion",
+          "channel": 10,
+          "trigger_pitch": 59
+        },
+        "p07-triangle": {
+          "plugin": "BBC Symphony Orchestra",
+          "edition": "Discover",
+          "patch": "Percussion: Untuned Percussion",
+          "articulation": "Hits",
+          "register": [
+            52,
+            52
+          ],
+          "family": "percussion",
+          "channel": 10,
+          "trigger_pitch": 52
+        }
+      }
+    }
+  },
+  "checks": {
+    "self_audit": [
+      "Dorian note inventory and final tonic checked",
+      "Unequal section lengths and subtractive sanctuary",
+      "35 fixed articulation parts",
+      "Theme recap and expanded final six-bar arc",
+      "Actual audio/listening still untested"
+    ],
+    "exemptions": [
+      "No borrowed reference works: original brief without an audio reference.",
+      "No out-of-mode chord: user specifically requests Dorian throughout.",
+      "No onset push/pull: strict timing contract; variation through gates/velocity/CC.",
+      "No vocals/Suno/audio: MIDI-only request.",
+      "Peak deliberately near the ending: user specifically requests an epic ending.",
+      "Plan is a descriptive MIDI handoff; repo composition schema remains authoritative."
+    ]
+  },
+  "messages": []
+}

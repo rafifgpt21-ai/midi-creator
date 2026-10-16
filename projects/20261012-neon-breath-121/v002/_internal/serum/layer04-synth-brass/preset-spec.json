@@ -1,0 +1,284 @@
+{
+  "name": "layer04-synth-brass",
+  "description": "Slow-35-ms brightness swell then broad saw/square brass sustain; large hall accents.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.38,
+      "pan": 0,
+      "unison": 5,
+      "detune": 0.09,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.23,
+      "pan": 0,
+      "unison": 3,
+      "detune": 0.055,
+      "wavetable": "default",
+      "table_position": 128,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0,
+      "fine": -3
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.46,
+      "resonance": 13,
+      "drive": 17,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    },
+    {
+      "enabled": false,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.5,
+      "resonance": 10,
+      "drive": 0,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.024,
+      "hold": 0,
+      "decay": 0.7,
+      "sustain": 0.66,
+      "release": 0.18
+    },
+    {
+      "attack": 0.035,
+      "hold": 0,
+      "decay": 0.48,
+      "sustain": 0.42,
+      "release": 0.14
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.3,
+      "sustain": 0,
+      "release": 0.12
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.015
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 4.7,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "delay": 0.12,
+      "rise": 0.2,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    },
+    {
+      "rate": 0,
+      "mode": "Free",
+      "beat_sync": true,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "TONE",
+      "value": 0
+    },
+    {
+      "name": "SPACE",
+      "value": 0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDistortion",
+      "wet": 22,
+      "params": {
+        "kParamMode": "kTapeSat",
+        "kParamDrive": 17
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXComp",
+      "wet": 100,
+      "params": {
+        "kParamThresh": 0.65,
+        "kParamRatio": 2.2,
+        "kParamAttack": 15,
+        "kParamRelease": 90,
+        "kParamMakeup": 1.6
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXChorus",
+      "wet": 15,
+      "params": {
+        "kParamRate": 0.18,
+        "kParamDepth": 4,
+        "kParamDelay": 7,
+        "kParamFeedback": 8,
+        "kParamFilt": 3000
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 31,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 75,
+        "kParamDelay": 22,
+        "kParamWidth": 100
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXUtils",
+      "wet": 100,
+      "params": {
+        "kParamHPF": 150,
+        "kParamLPF": 12000,
+        "kParamWidth": 100
+      },
+      "rack": 0
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 38
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 8
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator0.fine",
+      "amount": 1.5,
+      "bipolar": true
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "fx3.wet",
+      "amount": 12
+    }
+  ],
+  "arp": {
+    "enabled": false
+  },
+  "global": {
+    "master_volume": 0.38,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "porta_always": false,
+    "swing": 0
+  }
+}

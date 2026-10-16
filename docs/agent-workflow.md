@@ -10,7 +10,7 @@ Jika detail belum ada, pilih nilai yang sesuai dengan gaya dan jelaskan asumsi. 
 
 Tentukan fungsi setiap instrumen: harmony, bass, melody, countermelody, texture, atau percussion. Gunakan satu program dan satu instrumen per layer. Dua piano dengan fungsi berbeda boleh menjadi dua layer instrumen piano. Nama layer menerangkan instrumennya; `role` menerangkan fungsinya.
 
-Drum mengikuti permintaan: satu track kit dengan beberapa pitch percussion, atau track terpisah per bagian (kick, snare, closed hi-hat, shaker, dll.). Untuk pemisahan per bagian, isi nada track tersebut dengan pitch bagian itu; semua tetap channel 10. Program drum tidak disetel, karena pemetaan kit dipilih di DAW. Volume dan pan tiap file boleh independen. Jika pengguna juga meminta gabungan, percussion yang berbagi channel 10 harus memakai volume/pan sama dan pitch yang tidak tumpang tindih.
+Drum mengikuti permintaan: satu track kit dengan beberapa pitch percussion, atau track terpisah per bagian (kick, snare, closed hi-hat, shaker, dll.). Pilih mapping sesuai layout dalam [mapping drum default](default-drum-map.md), termasuk root Cubase Sampler untuk drum per layer dan mapping terpisah bila gabungan diminta. Semua drum tetap channel 10. Program drum tidak disetel, karena pemetaan kit dipilih di DAW. Volume dan pan tiap file boleh independen. Jika pengguna juga meminta gabungan, percussion yang berbagi channel 10 harus memakai volume/pan sama dan pitch yang tidak tumpang tindih.
 
 Program GM adalah petunjuk praktis untuk sound awal. Untuk instrumen VST di luar GM, pilih program representatif, jelaskan target sound/plugin di brief, lalu gunakan pitch, velocity, dan register yang sesuai. Nama plugin dan preset tidak tersimpan otomatis sebagai sound MIDI.
 

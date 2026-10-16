@@ -5,6 +5,8 @@ description: Shape Serum 2 envelopes, LFO movement, modulation routes, macros, v
 
 # Articulation, motion, and expression
 
+For analog/retro analog, use [analog and retro](../serum-sound-design/references/analog-retro.md) by default. Separate voice calibration offsets, phase randomness, continuous drift, and performance vibrato; calibrate total pitch depth in cents. Choose shared versus per-voice/per-oscillator motion and DCO stability deliberately; preserve the target's envelope/legato/expression behavior.
+
 Read [modulation and performance](../serum-sound-design/references/modulation-and-performance.md). For rhythmic note generation read [arp and clips](../serum-sound-design/references/arp-and-clips.md). For exact controls consult [Serum control map](../serum-sound-design/references/serum-control-map.md).
 
 1. Convert the requested behavior into note-level events, cyclic motion, phrase-level automation, and performance gestures. Keep amplitude, brightness, and pitch contours separate unless coupling is intentional.

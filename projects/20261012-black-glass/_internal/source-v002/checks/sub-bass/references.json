@@ -1,0 +1,34 @@
+{
+  "query": "dark",
+  "expanded_terms": [
+    "dark"
+  ],
+  "count": 3,
+  "truncated": true,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Lead\\LD - Darkness.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "dark"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - Dark Space.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "dark"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pluck\\PL - Dark Room.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "dark"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

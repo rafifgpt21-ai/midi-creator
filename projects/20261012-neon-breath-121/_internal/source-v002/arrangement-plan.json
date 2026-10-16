@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Intro",
+    "first_bar": 1,
+    "last_bar": 16,
+    "kind": "intro",
+    "intensity": 0.62
+  },
+  {
+    "name": "Verse 1",
+    "first_bar": 17,
+    "last_bar": 32,
+    "kind": "verse",
+    "intensity": 0.76
+  },
+  {
+    "name": "Pre-Chorus 1",
+    "first_bar": 33,
+    "last_bar": 40,
+    "kind": "pre",
+    "intensity": 0.88
+  },
+  {
+    "name": "Chorus 1",
+    "first_bar": 41,
+    "last_bar": 56,
+    "kind": "chorus",
+    "intensity": 1.0
+  },
+  {
+    "name": "Post-Chorus",
+    "first_bar": 57,
+    "last_bar": 64,
+    "kind": "post",
+    "intensity": 0.84
+  },
+  {
+    "name": "Verse 2",
+    "first_bar": 65,
+    "last_bar": 80,
+    "kind": "verse2",
+    "intensity": 0.82
+  },
+  {
+    "name": "Pre-Chorus 2",
+    "first_bar": 81,
+    "last_bar": 88,
+    "kind": "pre2",
+    "intensity": 0.94
+  },
+  {
+    "name": "Chorus 2",
+    "first_bar": 89,
+    "last_bar": 104,
+    "kind": "chorus2",
+    "intensity": 1.03
+  },
+  {
+    "name": "Breakdown",
+    "first_bar": 105,
+    "last_bar": 120,
+    "kind": "break",
+    "intensity": 0.63
+  },
+  {
+    "name": "Build",
+    "first_bar": 121,
+    "last_bar": 128,
+    "kind": "build",
+    "intensity": 0.9
+  },
+  {
+    "name": "Final Chorus",
+    "first_bar": 129,
+    "last_bar": 152,
+    "kind": "final",
+    "intensity": 1.06
+  },
+  {
+    "name": "Outro",
+    "first_bar": 153,
+    "last_bar": 168,
+    "kind": "outro",
+    "intensity": 0.68
+  }
+]

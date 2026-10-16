@@ -5,6 +5,8 @@ description: Generate or safely revise native Serum 2 .SerumPreset files using s
 
 # Build and deliver a native preset
 
+For analog/retro analog builds, use [analog and retro](../serum-sound-design/references/analog-retro.md), especially its implementation boundaries. Voice Control sequence length, polyphony, and unison are separate; detune units, phase options, FM source/tap, key tracking, and remap curves require explicit calibration or verified template/UI evidence. Never treat a generic FM enum or schema-accepted voice count as proof of the intended behavior.
+
 Read [native build](../serum-sound-design/references/native-build.md), [capability boundaries](../serum-sound-design/references/tool-capabilities.md), and [templates](../serum-sound-design/references/templates.md). In `midi-creator`, read `docs/serum-mcp.md` before creating/editing presets and respect `AGENTS.md`.
 
 1. Discover `serum-mcp` tools or its local checkout. Call `list_parameters()` before translating the design; inspect the current semantic `PresetSpec` when available. Record version/commit and field confidence. The manual specifies UI behavior, not a public file-format API.

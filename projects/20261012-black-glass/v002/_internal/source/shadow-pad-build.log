@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-12T05:51:01.204316+00:00",
+  "repository": "https://github.com/Celian-mrc/serum-mcp",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false,
+  "server": {
+    "name": "serum-mcp",
+    "title": null,
+    "version": "1.28.1",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tools": [
+    "analyze_sample_file",
+    "describe_preset",
+    "edit_preset",
+    "find_reference_presets",
+    "generate_preset",
+    "list_parameters",
+    "list_sample_files"
+  ],
+  "preset": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-black-glass\\_internal\\source-v002\\checks\\shadow-pad\\shadow-pad.SerumPreset",
+    "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-black-glass\\v002\\shadow-pad.SerumPreset",
+    "sha256": "1d033dce5685ebe72e107e80665093547f80331e2443f1f22e26aaf164d218f2",
+    "structural_readback": {
+      "oscillators": true,
+      "filters": true,
+      "envelopes": true,
+      "lfos": true,
+      "macros": true,
+      "fx_chain": true,
+      "global": true,
+      "mod_routes": true,
+      "name": true
+    },
+    "dependency_note": []
+  }
+}
+
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest

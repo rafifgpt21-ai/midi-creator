@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "checks": {
+    "validate": {
+      "exit_code": 0,
+      "ok": true
+    },
+    "verify": {
+      "exit_code": 0,
+      "ok": true
+    },
+    "verify_previous": {
+      "exit_code": 0,
+      "ok": true
+    }
+  },
+  "source_equals_export_snapshot": true,
+  "readme_links": [
+    {
+      "document": "v002\\README.md",
+      "target": "../v001/README.md",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "../_internal/references/yey.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/piano.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/bbc-basses.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/bbc-celli.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/bbc-violas.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/bbc-violins-1.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/bbc-flutes.mid",
+      "exists": true
+    },
+    {
+      "document": "v002\\README.md",
+      "target": "MIDI/bbc-clarinets.mid",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "v002/README.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "v001/README.md",
+      "exists": true
+    }
+  ],
+  "midi_sha256": {
+    "MIDI\\bbc-basses.mid": "3eaed3d6bbdd1eb63fd082774694abd8c4ba4dde608e68749e18bbcdd20ab6bf",
+    "MIDI\\bbc-celli.mid": "0577900ddf9ac35857e0fb1f774ac13f06bf46efe92fc781abac74eaa2cae71c",
+    "MIDI\\bbc-clarinets.mid": "7c619e7d54da3c446a3b6afe5e164e3904c19898b2b23934b450da15f9c2af30",
+    "MIDI\\bbc-flutes.mid": "f49064fdd2fe7db32e20949fa3357957a682fb87ea92644785ceca954123dcc5",
+    "MIDI\\bbc-violas.mid": "7831fdb308625af946c2b16bf359e268aa04e60c15201c19580ec6165753c7ed",
+    "MIDI\\bbc-violins-1.mid": "36588505064e6fba26b490e74cd32d0c9c44a537763087d2d5eb8f2ad4ee8851",
+    "MIDI\\piano.mid": "0e14fad3e8700f08a9628f05461f9ec0b64a14c0077296df79e478cfb673bd46"
+  },
+  "live_import_tested": false,
+  "requested_patch_loading_tested": false,
+  "audio_rendered": false,
+  "audio_listened": false
+}

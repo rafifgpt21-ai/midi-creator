@@ -1,0 +1,29 @@
+{
+  "resources": [
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/Basic Mini.wav",
+      "exists": true,
+      "sha256": "9648f6b5beb4d914236816322e5f3ff53151d771bef2c07e3c28c335bbcc5507"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/Basic Shapes.wav",
+      "exists": true,
+      "sha256": "73b8641a9d61427e5f39313bffa8652a5f3f4367fe53be7589fe45fa36b50edc"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/PWM Juno.wav",
+      "exists": true,
+      "sha256": "39996d11cd5c5b39e371691d72db42cc815ec58ae6943fbdcdf1314aed9f31ad"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true,
+      "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f"
+    }
+  ],
+  "custom_dependencies": []
+}

@@ -1,0 +1,258 @@
+{
+  "name": "layer02-octave-bass",
+  "description": "Tight saw octave sequencer; short filter decay; high-pass after saturation separates the sub.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.55,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "analog_mini",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.2,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0,
+      "fine": 3
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.37,
+      "resonance": 19,
+      "drive": 16,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    },
+    {
+      "enabled": false,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.5,
+      "resonance": 10,
+      "drive": 0,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.002,
+      "hold": 0,
+      "decay": 0.13,
+      "sustain": 0.06,
+      "release": 0.025
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.072,
+      "sustain": 0,
+      "release": 0.022
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.3,
+      "sustain": 0,
+      "release": 0.12
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.015
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0,
+      "mode": "Free",
+      "beat_sync": true,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    },
+    {
+      "rate": 0,
+      "mode": "Free",
+      "beat_sync": true,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "TONE",
+      "value": 0
+    },
+    {
+      "name": "GRIT",
+      "value": 0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDistortion",
+      "wet": 38,
+      "params": {
+        "kParamMode": "kSoftClip",
+        "kParamDrive": 25
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXComp",
+      "wet": 100,
+      "params": {
+        "kParamThresh": 0.65,
+        "kParamRatio": 2.5,
+        "kParamAttack": 15,
+        "kParamRelease": 90,
+        "kParamMakeup": 1.7
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXUtils",
+      "wet": 100,
+      "params": {
+        "kParamHPF": 95,
+        "kParamLPF": 6500,
+        "kParamWidth": 0
+      },
+      "rack": 0
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 33
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 7
+    },
+    {
+      "source": "velocity",
+      "destination": "global.voice_amp",
+      "amount": 12
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 13
+    },
+    {
+      "source": "macro1",
+      "destination": "filter0.drive",
+      "amount": 12
+    }
+  ],
+  "arp": {
+    "enabled": false
+  },
+  "global": {
+    "master_volume": 0.48,
+    "mono": true,
+    "poly_count": 8,
+    "portamento_time": 0,
+    "legato": false,
+    "porta_always": false,
+    "swing": 0
+  }
+}

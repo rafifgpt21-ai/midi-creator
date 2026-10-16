@@ -1,0 +1,167 @@
+{
+  "name": "bass-grit",
+  "description": "Black Glass v002: saw/square mid-bass with a faster opening color envelope, high-pass into low-pass serial shaping, tape saturation and dark post EQ. Mono octave layer complements the clean sub.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 1,
+      "volume": 0.16,
+      "unison": 1,
+      "detune": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 3,
+      "volume": 0.075,
+      "fine": 3,
+      "unison": 1,
+      "detune": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "highpass_12",
+      "cutoff": 0.24,
+      "resonance": 0,
+      "drive": 0,
+      "stereo": 50,
+      "output_routing": "series",
+      "wet": 100
+    },
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.48,
+      "resonance": 7,
+      "drive": 8,
+      "stereo": 50,
+      "output_routing": "parallel",
+      "wet": 100
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.006,
+      "decay": 1.1,
+      "sustain": 0.79,
+      "release": 0.045
+    },
+    {
+      "attack": 0.001,
+      "decay": 0.43,
+      "sustain": 0.2,
+      "release": 0.045
+    }
+  ],
+  "macros": [
+    {
+      "name": "BITE",
+      "value": 18
+    },
+    {
+      "name": "TONE",
+      "value": 25
+    },
+    {
+      "name": "ATTACK",
+      "value": 35
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 33
+    },
+    {
+      "source": "velocity",
+      "destination": "oscillator1.volume",
+      "amount": 17
+    },
+    {
+      "source": "env1",
+      "destination": "filter1.cutoff",
+      "amount": 14
+    },
+    {
+      "source": "velocity",
+      "destination": "filter1.cutoff",
+      "amount": 5
+    },
+    {
+      "source": "macro0",
+      "destination": "fx0.wet",
+      "amount": 25
+    },
+    {
+      "source": "macro1",
+      "destination": "filter1.cutoff",
+      "amount": 8
+    },
+    {
+      "source": "env1",
+      "destination": "filter1.cutoff",
+      "amount": 9,
+      "aux_source": "macro2"
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDistortion",
+      "wet": 62,
+      "params": {
+        "kParamMode": "kTapeSat",
+        "kParamDrive": 49
+      }
+    },
+    {
+      "type": "FXComp",
+      "wet": 40,
+      "params": {
+        "kParamThresh": 0.6,
+        "kParamRatio": 2.5,
+        "kParamAttack": 22,
+        "kParamRelease": 96,
+        "kParamMakeup": 1
+      }
+    },
+    {
+      "type": "FXEQ",
+      "wet": 100,
+      "params": {
+        "kParamFreq1": 180,
+        "kParamGain1": -2,
+        "kParamReso1": 5,
+        "kParamFreq2": 3100,
+        "kParamGain2": -4,
+        "kParamReso2": 7
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.27,
+    "mono": true,
+    "poly_count": 1,
+    "portamento_time": 0,
+    "legato": false
+  },
+  "arp": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,1765 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/s01-violins1-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "01 Violins 1 - Long",
+          "end_tick": 276480,
+          "note_count": 139,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 74,
+          "pitch_max": 95,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 191,
+            "11": 387
+          }
+        }
+      ],
+      "note_count": 139,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s02-violins1-tremolo.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "02 Violins 1 - Tremolo",
+          "end_tick": 276480,
+          "note_count": 4,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 79,
+          "pitch_max": 79,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 21,
+            "11": 35
+          }
+        }
+      ],
+      "note_count": 4,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s03-violins2-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "03 Violins 2 - Long",
+          "end_tick": 276480,
+          "note_count": 75,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 67,
+          "pitch_max": 81,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 293,
+            "11": 644
+          }
+        }
+      ],
+      "note_count": 75,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s04-violins2-spiccato.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "04 Violins 2 - Spiccato",
+          "end_tick": 276480,
+          "note_count": 310,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 62,
+          "pitch_max": 79,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 84,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 310,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s05-violins2-pizzicato.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "05 Violins 2 - Pizzicato",
+          "end_tick": 276480,
+          "note_count": 64,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 65,
+          "pitch_max": 74,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 14,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 64,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s06-violas-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "06 Violas - Long",
+          "end_tick": 276480,
+          "note_count": 82,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 50,
+          "pitch_max": 65,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 343,
+            "11": 752
+          }
+        }
+      ],
+      "note_count": 82,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s07-violas-spiccato.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "07 Violas - Spiccato",
+          "end_tick": 276480,
+          "note_count": 262,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 53,
+          "pitch_max": 62,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 81,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 262,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s08-cellos-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "08 Cellos - Long",
+          "end_tick": 276480,
+          "note_count": 36,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 48,
+          "pitch_max": 57,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 149,
+            "11": 340
+          }
+        }
+      ],
+      "note_count": 36,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s09-cellos-spiccato.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "09 Cellos - Spiccato",
+          "end_tick": 276480,
+          "note_count": 115,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 47,
+          "pitch_max": 62,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 76,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 115,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s10-cellos-pizzicato.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "10 Cellos - Pizzicato",
+          "end_tick": 276480,
+          "note_count": 52,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 48,
+          "pitch_max": 57,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 25,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 52,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/s11-basses-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "11 Double Basses - Long",
+          "end_tick": 276480,
+          "note_count": 71,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 26,
+          "pitch_max": 38,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 276,
+            "11": 577
+          }
+        }
+      ],
+      "note_count": 71,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/w01-flutes-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "12 Flutes a3 - Long",
+          "end_tick": 276480,
+          "note_count": 39,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 74,
+          "pitch_max": 95,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 78,
+            "11": 135
+          }
+        }
+      ],
+      "note_count": 39,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/w02-flutes-staccatissimo.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "13 Flutes a3 - Staccatissimo",
+          "end_tick": 276480,
+          "note_count": 24,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 74,
+          "pitch_max": 93,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 20,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 24,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/w03-oboes-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "14 Oboes a3 - Long",
+          "end_tick": 276480,
+          "note_count": 33,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 62,
+          "pitch_max": 77,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 66,
+            "11": 109
+          }
+        }
+      ],
+      "note_count": 33,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/w04-clarinets-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "15 Clarinets a3 - Long",
+          "end_tick": 276480,
+          "note_count": 34,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 62,
+          "pitch_max": 71,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 79,
+            "11": 104
+          }
+        }
+      ],
+      "note_count": 34,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/w05-bassoons-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "16 Bassoons a3 - Long",
+          "end_tick": 276480,
+          "note_count": 25,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 48,
+          "pitch_max": 62,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 107,
+            "11": 178
+          }
+        }
+      ],
+      "note_count": 25,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/w06-piccolo-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "17 Piccolo - Long",
+          "end_tick": 276480,
+          "note_count": 8,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 86,
+          "pitch_max": 95,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 49,
+            "11": 82
+          }
+        }
+      ],
+      "note_count": 8,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b01-horns-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "18 Horns a4 - Long",
+          "end_tick": 276480,
+          "note_count": 61,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 71,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 132,
+            "11": 265
+          }
+        }
+      ],
+      "note_count": 61,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b02-horns-staccatissimo.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "19 Horns a4 - Staccatissimo",
+          "end_tick": 276480,
+          "note_count": 22,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 69,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 23,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 22,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b03-trumpets-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "20 Trumpets a3 - Long",
+          "end_tick": 276480,
+          "note_count": 35,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 62,
+          "pitch_max": 83,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 61,
+            "11": 129
+          }
+        }
+      ],
+      "note_count": 35,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b04-trumpets-staccatissimo.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "21 Trumpets a3 - Staccatissimo",
+          "end_tick": 276480,
+          "note_count": 6,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 69,
+          "pitch_max": 74,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 4,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 6,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b05-tenor-trombones-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "22 Tenor Trombones a3 - Long",
+          "end_tick": 276480,
+          "note_count": 23,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 55,
+          "pitch_max": 65,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 85,
+            "11": 193
+          }
+        }
+      ],
+      "note_count": 23,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b06-bass-trombones-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "23 Bass Trombones a2 - Long",
+          "end_tick": 276480,
+          "note_count": 23,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 43,
+          "pitch_max": 53,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 84,
+            "11": 192
+          }
+        }
+      ],
+      "note_count": 23,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/b07-tuba-long.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "24 Tuba - Long",
+          "end_tick": 276480,
+          "note_count": 14,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 29,
+          "pitch_max": 38,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 59,
+            "11": 111
+          }
+        }
+      ],
+      "note_count": 14,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/k01-harp.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "25 Harp - Plucks",
+          "end_tick": 276480,
+          "note_count": 186,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 50,
+          "pitch_max": 84,
+          "peak_polyphony": 8,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 64,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 186,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/k02-celeste.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "26 Celeste - Hits",
+          "end_tick": 276480,
+          "note_count": 9,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 81,
+          "pitch_max": 88,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 24,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 9,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/k03-glockenspiel.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "27 Glockenspiel - Hits",
+          "end_tick": 276480,
+          "note_count": 10,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 83,
+          "pitch_max": 95,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 16,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 10,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/k04-tubular-bells.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "28 Tubular Bells - Hits",
+          "end_tick": 276480,
+          "note_count": 3,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 62,
+          "pitch_max": 62,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 13,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 3,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p01-timpani-hits.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "29 Timpani - Hits",
+          "end_tick": 276480,
+          "note_count": 64,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 38,
+          "pitch_max": 45,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 57,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 64,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p02-bass-drum.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "30 Bass Drum - Hits",
+          "end_tick": 276480,
+          "note_count": 12,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 36,
+          "pitch_max": 36,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 19,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 12,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p03-snare.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "31 Snare Drum - Hits",
+          "end_tick": 276480,
+          "note_count": 116,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 40,
+          "pitch_max": 40,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 32,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 116,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p04-suspended-cymbal.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "32 Suspended Cymbal - Hits",
+          "end_tick": 276480,
+          "note_count": 1,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 41,
+          "pitch_max": 41,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 11,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 1,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p05-suspended-cymbal-roll.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "33 Suspended Cymbal - Roll",
+          "end_tick": 276480,
+          "note_count": 2,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 43,
+          "pitch_max": 43,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 98,
+            "11": 28
+          }
+        }
+      ],
+      "note_count": 2,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p06-piatti.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "34 Piatti - Hits",
+          "end_tick": 276480,
+          "note_count": 4,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 59,
+          "pitch_max": 59,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 8,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 4,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/p07-triangle.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "35 Triangle - Hits",
+          "end_tick": 276480,
+          "note_count": 2,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 52,
+          "pitch_max": 52,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 3,
+            "11": 1
+          }
+        }
+      ],
+      "note_count": 2,
+      "end_tick": 276480,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 555556
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 6,
+          "denominator": 8
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 16,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "s01-violins1-long",
+        "note_ons": 139,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s02-violins1-tremolo",
+        "note_ons": 4,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s03-violins2-long",
+        "note_ons": 75,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s04-violins2-spiccato",
+        "note_ons": 310,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s05-violins2-pizzicato",
+        "note_ons": 64,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s06-violas-long",
+        "note_ons": 82,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s07-violas-spiccato",
+        "note_ons": 262,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s08-cellos-long",
+        "note_ons": 36,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s09-cellos-spiccato",
+        "note_ons": 115,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s10-cellos-pizzicato",
+        "note_ons": 52,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "s11-basses-long",
+        "note_ons": 71,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "w01-flutes-long",
+        "note_ons": 39,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "w02-flutes-staccatissimo",
+        "note_ons": 24,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "w03-oboes-long",
+        "note_ons": 33,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "w04-clarinets-long",
+        "note_ons": 34,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "w05-bassoons-long",
+        "note_ons": 25,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "w06-piccolo-long",
+        "note_ons": 8,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b01-horns-long",
+        "note_ons": 61,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b02-horns-staccatissimo",
+        "note_ons": 22,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b03-trumpets-long",
+        "note_ons": 35,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b04-trumpets-staccatissimo",
+        "note_ons": 6,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b05-tenor-trombones-long",
+        "note_ons": 23,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b06-bass-trombones-long",
+        "note_ons": 23,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "b07-tuba-long",
+        "note_ons": 14,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "k01-harp",
+        "note_ons": 186,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "k02-celeste",
+        "note_ons": 9,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "k03-glockenspiel",
+        "note_ons": 10,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "k04-tubular-bells",
+        "note_ons": 3,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p01-timpani-hits",
+        "note_ons": 64,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p02-bass-drum",
+        "note_ons": 12,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p03-snare",
+        "note_ons": 116,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p04-suspended-cymbal",
+        "note_ons": 1,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p05-suspended-cymbal-roll",
+        "note_ons": 2,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p06-piatti",
+        "note_ons": 4,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "p07-triangle",
+        "note_ons": 2,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

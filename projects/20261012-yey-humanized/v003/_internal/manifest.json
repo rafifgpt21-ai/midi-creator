@@ -1,0 +1,141 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Yey — Three Stereo Pianos and BBC Discover",
+  "combined": false,
+  "composition_sha256": "c1966848035a042f45d79347bc1a026bdbdd1dda92bb6d2bc92a21e23d103028",
+  "tempo_bpm": 120,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 76,
+  "ticks_per_beat": 480,
+  "end_tick": 145920,
+  "duration_seconds": 152.0,
+  "layers": [
+    {
+      "id": "piano-center",
+      "name": "Piano Center",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 302,
+      "file": "MIDI/piano-center.mid"
+    },
+    {
+      "id": "piano-left",
+      "name": "Piano Left",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 213,
+      "file": "MIDI/piano-left.mid"
+    },
+    {
+      "id": "piano-right",
+      "name": "Piano Right",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 111,
+      "file": "MIDI/piano-right.mid"
+    },
+    {
+      "id": "bbc-basses",
+      "name": "BBC Basses",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 43,
+      "note_count": 68,
+      "file": "MIDI/bbc-basses.mid"
+    },
+    {
+      "id": "bbc-celli",
+      "name": "BBC Celli theme",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 42,
+      "note_count": 71,
+      "file": "MIDI/bbc-celli.mid"
+    },
+    {
+      "id": "bbc-violas",
+      "name": "BBC Violas inner voice",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 41,
+      "note_count": 26,
+      "file": "MIDI/bbc-violas.mid"
+    },
+    {
+      "id": "bbc-violins-1",
+      "name": "BBC 1st Violins upper voice",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 40,
+      "note_count": 52,
+      "file": "MIDI/bbc-violins-1.mid"
+    },
+    {
+      "id": "bbc-flutes",
+      "name": "BBC Flutes answers",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 73,
+      "note_count": 12,
+      "file": "MIDI/bbc-flutes.mid"
+    },
+    {
+      "id": "bbc-clarinets",
+      "name": "BBC Clarinets warm responses",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 71,
+      "note_count": 12,
+      "file": "MIDI/bbc-clarinets.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/piano-center.mid",
+      "sha256": "845ac7bad489e975a9f218a720187d2dcfda17623828dc0ea75d89019f0b85c8"
+    },
+    {
+      "path": "MIDI/piano-left.mid",
+      "sha256": "fe90af6cb13b4884b04c9e65226cd8ef09d4990cadaa3577775fdd1ed93117d8"
+    },
+    {
+      "path": "MIDI/piano-right.mid",
+      "sha256": "f8cf40a81014fa5c8d4ca5f78c4e09b83dd85f1c717be91d2dfaa8b248ea2dbe"
+    },
+    {
+      "path": "MIDI/bbc-basses.mid",
+      "sha256": "3eaed3d6bbdd1eb63fd082774694abd8c4ba4dde608e68749e18bbcdd20ab6bf"
+    },
+    {
+      "path": "MIDI/bbc-celli.mid",
+      "sha256": "0577900ddf9ac35857e0fb1f774ac13f06bf46efe92fc781abac74eaa2cae71c"
+    },
+    {
+      "path": "MIDI/bbc-violas.mid",
+      "sha256": "7831fdb308625af946c2b16bf359e268aa04e60c15201c19580ec6165753c7ed"
+    },
+    {
+      "path": "MIDI/bbc-violins-1.mid",
+      "sha256": "36588505064e6fba26b490e74cd32d0c9c44a537763087d2d5eb8f2ad4ee8851"
+    },
+    {
+      "path": "MIDI/bbc-flutes.mid",
+      "sha256": "f49064fdd2fe7db32e20949fa3357957a682fb87ea92644785ceca954123dcc5"
+    },
+    {
+      "path": "MIDI/bbc-clarinets.mid",
+      "sha256": "7c619e7d54da3c446a3b6afe5e164e3904c19898b2b23934b450da15f9c2af30"
+    }
+  ]
+}

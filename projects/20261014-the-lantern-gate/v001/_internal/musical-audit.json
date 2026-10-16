@@ -1,0 +1,848 @@
+{
+  "structural": true,
+  "on_grid": true,
+  "mode": "D Dorian",
+  "all_pitched_notes_in_mode": true,
+  "final_tonic": "D minor",
+  "all_final_downbeat_pitched_notes_in_tonic": true,
+  "seed": 20261014,
+  "layers": [
+    {
+      "id": "s01-violins1-long",
+      "patch": "Strings: Violins 1",
+      "articulation": "Long",
+      "first_bar": 29.0,
+      "last_note_off_bar": 94.85000000000001,
+      "pitch_min": 74,
+      "pitch_max": 95,
+      "velocity_min": 67,
+      "velocity_max": 106,
+      "cc1_range": [
+        49,
+        122
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 139,
+      "cc_events": 578
+    },
+    {
+      "id": "s02-violins1-tremolo",
+      "patch": "Strings: Violins 1",
+      "articulation": "Tremolo",
+      "first_bar": 67.0,
+      "last_note_off_bar": 70.96666666666667,
+      "pitch_min": 79,
+      "pitch_max": 79,
+      "velocity_min": 81,
+      "velocity_max": 91,
+      "cc1_range": [
+        51,
+        103
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 4,
+      "cc_events": 56
+    },
+    {
+      "id": "s03-violins2-long",
+      "patch": "Strings: Violins 2",
+      "articulation": "Long",
+      "first_bar": 5.0,
+      "last_note_off_bar": 94.85000000000001,
+      "pitch_min": 67,
+      "pitch_max": 81,
+      "velocity_min": 48,
+      "velocity_max": 95,
+      "cc1_range": [
+        50,
+        123
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 75,
+      "cc_events": 937
+    },
+    {
+      "id": "s04-violins2-spiccato",
+      "patch": "Strings: Violins 2",
+      "articulation": "Spiccato",
+      "first_bar": 29.0,
+      "last_note_off_bar": 92.57013888888889,
+      "pitch_min": 62,
+      "pitch_max": 79,
+      "velocity_min": 55,
+      "velocity_max": 97,
+      "cc1_range": [
+        50,
+        121
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 310,
+      "cc_events": 85
+    },
+    {
+      "id": "s05-violins2-pizzicato",
+      "patch": "Strings: Violins 2",
+      "articulation": "Pizzicato",
+      "first_bar": 13.0,
+      "last_note_off_bar": 28.923263888888886,
+      "pitch_min": 65,
+      "pitch_max": 74,
+      "velocity_min": 48,
+      "velocity_max": 63,
+      "cc1_range": [
+        50,
+        76
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 64,
+      "cc_events": 15
+    },
+    {
+      "id": "s06-violas-long",
+      "patch": "Strings: Violas",
+      "articulation": "Long",
+      "first_bar": 1.0,
+      "last_note_off_bar": 94.85000000000001,
+      "pitch_min": 50,
+      "pitch_max": 65,
+      "velocity_min": 46,
+      "velocity_max": 91,
+      "cc1_range": [
+        47,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 82,
+      "cc_events": 1095
+    },
+    {
+      "id": "s07-violas-spiccato",
+      "patch": "Strings: Violas",
+      "articulation": "Spiccato",
+      "first_bar": 33.0,
+      "last_note_off_bar": 92.5798611111111,
+      "pitch_min": 53,
+      "pitch_max": 62,
+      "velocity_min": 56,
+      "velocity_max": 88,
+      "cc1_range": [
+        50,
+        121
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 262,
+      "cc_events": 82
+    },
+    {
+      "id": "s08-cellos-long",
+      "patch": "Strings: Cellos",
+      "articulation": "Long",
+      "first_bar": 29.0,
+      "last_note_off_bar": 94.85000000000001,
+      "pitch_min": 48,
+      "pitch_max": 57,
+      "velocity_min": 45,
+      "velocity_max": 95,
+      "cc1_range": [
+        47,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 36,
+      "cc_events": 489
+    },
+    {
+      "id": "s09-cellos-spiccato",
+      "patch": "Strings: Cellos",
+      "articulation": "Spiccato",
+      "first_bar": 37.0,
+      "last_note_off_bar": 92.61666666666667,
+      "pitch_min": 47,
+      "pitch_max": 62,
+      "velocity_min": 54,
+      "velocity_max": 93,
+      "cc1_range": [
+        50,
+        121
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 115,
+      "cc_events": 77
+    },
+    {
+      "id": "s10-cellos-pizzicato",
+      "patch": "Strings: Cellos",
+      "articulation": "Pizzicato",
+      "first_bar": 3.0,
+      "last_note_off_bar": 28.62673611111111,
+      "pitch_min": 48,
+      "pitch_max": 57,
+      "velocity_min": 46,
+      "velocity_max": 65,
+      "cc1_range": [
+        50,
+        75
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 52,
+      "cc_events": 26
+    },
+    {
+      "id": "s11-basses-long",
+      "patch": "Strings: Basses",
+      "articulation": "Long",
+      "first_bar": 13.0,
+      "last_note_off_bar": 94.85000000000001,
+      "pitch_min": 26,
+      "pitch_max": 38,
+      "velocity_min": 49,
+      "velocity_max": 89,
+      "cc1_range": [
+        52,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 71,
+      "cc_events": 853
+    },
+    {
+      "id": "w01-flutes-long",
+      "patch": "Woodwinds: Flutes a3",
+      "articulation": "Long",
+      "first_bar": 5.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 74,
+      "pitch_max": 95,
+      "velocity_min": 62,
+      "velocity_max": 92,
+      "cc1_range": [
+        52,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 39,
+      "cc_events": 213
+    },
+    {
+      "id": "w02-flutes-staccatissimo",
+      "patch": "Woodwinds: Flutes a3",
+      "articulation": "Staccatissimo",
+      "first_bar": 67.0,
+      "last_note_off_bar": 70.90659722222223,
+      "pitch_min": 74,
+      "pitch_max": 93,
+      "velocity_min": 70,
+      "velocity_max": 86,
+      "cc1_range": [
+        50,
+        103
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 24,
+      "cc_events": 21
+    },
+    {
+      "id": "w03-oboes-long",
+      "patch": "Woodwinds: Oboes a3",
+      "articulation": "Long",
+      "first_bar": 9.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 62,
+      "pitch_max": 77,
+      "velocity_min": 59,
+      "velocity_max": 82,
+      "cc1_range": [
+        52,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 33,
+      "cc_events": 175
+    },
+    {
+      "id": "w04-clarinets-long",
+      "patch": "Woodwinds: Clarinets a3",
+      "articulation": "Long",
+      "first_bar": 16.5,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 62,
+      "pitch_max": 71,
+      "velocity_min": 52,
+      "velocity_max": 86,
+      "cc1_range": [
+        46,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 34,
+      "cc_events": 183
+    },
+    {
+      "id": "w05-bassoons-long",
+      "patch": "Woodwinds: Bassoons a3",
+      "articulation": "Long",
+      "first_bar": 29.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 48,
+      "pitch_max": 62,
+      "velocity_min": 60,
+      "velocity_max": 86,
+      "cc1_range": [
+        52,
+        124
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 25,
+      "cc_events": 285
+    },
+    {
+      "id": "w06-piccolo-long",
+      "patch": "Woodwinds: Piccolo",
+      "articulation": "Long",
+      "first_bar": 73.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 86,
+      "pitch_max": 95,
+      "velocity_min": 76,
+      "velocity_max": 85,
+      "cc1_range": [
+        51,
+        123
+      ],
+      "cc11_range": [
+        100,
+        114
+      ],
+      "note_count": 8,
+      "cc_events": 131
+    },
+    {
+      "id": "b01-horns-long",
+      "patch": "Brass: Horns a4",
+      "articulation": "Long",
+      "first_bar": 39.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 60,
+      "pitch_max": 71,
+      "velocity_min": 71,
+      "velocity_max": 100,
+      "cc1_range": [
+        51,
+        123
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 61,
+      "cc_events": 397
+    },
+    {
+      "id": "b02-horns-staccatissimo",
+      "patch": "Brass: Horns a4",
+      "articulation": "Staccatissimo",
+      "first_bar": 67.0,
+      "last_note_off_bar": 86.9201388888889,
+      "pitch_min": 60,
+      "pitch_max": 69,
+      "velocity_min": 73,
+      "velocity_max": 90,
+      "cc1_range": [
+        50,
+        114
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 22,
+      "cc_events": 24
+    },
+    {
+      "id": "b03-trumpets-long",
+      "patch": "Brass: Trumpets a3",
+      "articulation": "Long",
+      "first_bar": 79.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 62,
+      "pitch_max": 83,
+      "velocity_min": 81,
+      "velocity_max": 100,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 35,
+      "cc_events": 190
+    },
+    {
+      "id": "b04-trumpets-staccatissimo",
+      "patch": "Brass: Trumpets a3",
+      "articulation": "Staccatissimo",
+      "first_bar": 74.5,
+      "last_note_off_bar": 78.91319444444444,
+      "pitch_min": 69,
+      "pitch_max": 74,
+      "velocity_min": 84,
+      "velocity_max": 89,
+      "cc1_range": [
+        50,
+        109
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 6,
+      "cc_events": 5
+    },
+    {
+      "id": "b05-tenor-trombones-long",
+      "patch": "Brass: Tenor Trombones a3",
+      "articulation": "Long",
+      "first_bar": 71.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 55,
+      "pitch_max": 65,
+      "velocity_min": 81,
+      "velocity_max": 97,
+      "cc1_range": [
+        49,
+        122
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 23,
+      "cc_events": 278
+    },
+    {
+      "id": "b06-bass-trombones-long",
+      "patch": "Brass: Bass Trombones a2",
+      "articulation": "Long",
+      "first_bar": 71.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 43,
+      "pitch_max": 53,
+      "velocity_min": 78,
+      "velocity_max": 98,
+      "cc1_range": [
+        48,
+        122
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 23,
+      "cc_events": 276
+    },
+    {
+      "id": "b07-tuba-long",
+      "patch": "Brass: Tuba",
+      "articulation": "Long",
+      "first_bar": 71.0,
+      "last_note_off_bar": 94.76666666666667,
+      "pitch_min": 29,
+      "pitch_max": 38,
+      "velocity_min": 79,
+      "velocity_max": 96,
+      "cc1_range": [
+        48,
+        122
+      ],
+      "cc11_range": [
+        100,
+        116
+      ],
+      "note_count": 14,
+      "cc_events": 170
+    },
+    {
+      "id": "k01-harp",
+      "patch": "Percussion: Harp",
+      "articulation": "Plucks / default",
+      "first_bar": 1.0,
+      "last_note_off_bar": 94.25,
+      "pitch_min": 50,
+      "pitch_max": 84,
+      "velocity_min": 40,
+      "velocity_max": 78,
+      "cc1_range": [
+        49,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 186,
+      "cc_events": 65
+    },
+    {
+      "id": "k02-celeste",
+      "patch": "Percussion: Celeste",
+      "articulation": "Hits / default",
+      "first_bar": 2.5,
+      "last_note_off_bar": 54.916666666666664,
+      "pitch_min": 81,
+      "pitch_max": 88,
+      "velocity_min": 40,
+      "velocity_max": 46,
+      "cc1_range": [
+        49,
+        66
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 9,
+      "cc_events": 25
+    },
+    {
+      "id": "k03-glockenspiel",
+      "patch": "Percussion: Glockenspiel",
+      "articulation": "Hits / default",
+      "first_bar": 15.0,
+      "last_note_off_bar": 93.39999999999999,
+      "pitch_min": 83,
+      "pitch_max": 95,
+      "velocity_min": 42,
+      "velocity_max": 80,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 10,
+      "cc_events": 17
+    },
+    {
+      "id": "k04-tubular-bells",
+      "patch": "Percussion: Tubular Bells",
+      "articulation": "Hits / default",
+      "first_bar": 71.0,
+      "last_note_off_bar": 94.0,
+      "pitch_min": 62,
+      "pitch_max": 62,
+      "velocity_min": 78,
+      "velocity_max": 91,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 3,
+      "cc_events": 14
+    },
+    {
+      "id": "p01-timpani-hits",
+      "patch": "Percussion: Timpani",
+      "articulation": "Hits",
+      "first_bar": 37.0,
+      "last_note_off_bar": 93.3,
+      "pitch_min": 38,
+      "pitch_max": 45,
+      "velocity_min": 62,
+      "velocity_max": 106,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 64,
+      "cc_events": 58
+    },
+    {
+      "id": "p02-bass-drum",
+      "patch": "Percussion: Untuned Percussion",
+      "articulation": "Hits",
+      "first_bar": 71.0,
+      "last_note_off_bar": 93.23333333333333,
+      "pitch_min": 36,
+      "pitch_max": 36,
+      "velocity_min": 75,
+      "velocity_max": 112,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 12,
+      "cc_events": 20
+    },
+    {
+      "id": "p03-snare",
+      "patch": "Percussion: Untuned Percussion",
+      "articulation": "Hits",
+      "first_bar": 68.0,
+      "last_note_off_bar": 92.95,
+      "pitch_min": 40,
+      "pitch_max": 40,
+      "velocity_min": 43,
+      "velocity_max": 86,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 116,
+      "cc_events": 33
+    },
+    {
+      "id": "p04-suspended-cymbal",
+      "patch": "Percussion: Untuned Percussion",
+      "articulation": "Hits",
+      "first_bar": 44.5,
+      "last_note_off_bar": 44.76666666666667,
+      "pitch_min": 41,
+      "pitch_max": 41,
+      "velocity_min": 56,
+      "velocity_max": 56,
+      "cc1_range": [
+        50,
+        62
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 1,
+      "cc_events": 12
+    },
+    {
+      "id": "p05-suspended-cymbal-roll",
+      "patch": "Percussion: Untuned Percussion",
+      "articulation": "Roll trigger",
+      "first_bar": 69.0,
+      "last_note_off_bar": 92.93333333333334,
+      "pitch_min": 43,
+      "pitch_max": 43,
+      "velocity_min": 62,
+      "velocity_max": 75,
+      "cc1_range": [
+        45,
+        115
+      ],
+      "cc11_range": [
+        102,
+        114
+      ],
+      "note_count": 2,
+      "cc_events": 126
+    },
+    {
+      "id": "p06-piatti",
+      "patch": "Percussion: Untuned Percussion",
+      "articulation": "Hits",
+      "first_bar": 71.0,
+      "last_note_off_bar": 93.33333333333333,
+      "pitch_min": 59,
+      "pitch_max": 59,
+      "velocity_min": 81,
+      "velocity_max": 107,
+      "cc1_range": [
+        50,
+        122
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 4,
+      "cc_events": 9
+    },
+    {
+      "id": "p07-triangle",
+      "patch": "Percussion: Untuned Percussion",
+      "articulation": "Hits",
+      "first_bar": 4.0,
+      "last_note_off_bar": 11.200000000000001,
+      "pitch_min": 52,
+      "pitch_max": 52,
+      "velocity_min": 39,
+      "velocity_max": 40,
+      "cc1_range": [
+        50,
+        60
+      ],
+      "cc11_range": [
+        116,
+        116
+      ],
+      "note_count": 2,
+      "cc_events": 4
+    }
+  ],
+  "sections": [
+    {
+      "section": "Whispering Lanterns",
+      "start_bar": 1,
+      "bars": 12,
+      "development": "fragment",
+      "intended_energy": 2,
+      "note_on_count": 111,
+      "active_layers": 8,
+      "median_velocity": 48
+    },
+    {
+      "section": "The Hidden Path",
+      "start_bar": 13,
+      "bars": 16,
+      "development": "new",
+      "intended_energy": 4,
+      "note_on_count": 251,
+      "active_layers": 10,
+      "median_velocity": 57
+    },
+    {
+      "section": "The Quest",
+      "start_bar": 29,
+      "bars": 16,
+      "development": "vary",
+      "intended_energy": 6,
+      "note_on_count": 315,
+      "active_layers": 12,
+      "median_velocity": 64
+    },
+    {
+      "section": "Sanctuary",
+      "start_bar": 45,
+      "bars": 10,
+      "development": "vary",
+      "intended_energy": 2,
+      "note_on_count": 83,
+      "active_layers": 5,
+      "median_velocity": 46
+    },
+    {
+      "section": "The Gate Awakens",
+      "start_bar": 55,
+      "bars": 16,
+      "development": "fragment",
+      "intended_energy": 7,
+      "note_on_count": 380,
+      "active_layers": 16,
+      "median_velocity": 68
+    },
+    {
+      "section": "Banner of Dawn",
+      "start_bar": 71,
+      "bars": 16,
+      "development": "recap",
+      "intended_energy": 9,
+      "note_on_count": 594,
+      "active_layers": 23,
+      "median_velocity": 80
+    },
+    {
+      "section": "The Lantern Gate",
+      "start_bar": 87,
+      "bars": 8,
+      "development": "extend",
+      "intended_energy": 10,
+      "note_on_count": 232,
+      "active_layers": 26,
+      "median_velocity": 81
+    },
+    {
+      "section": "Hall Release",
+      "start_bar": 95,
+      "bars": 2,
+      "development": "contract",
+      "intended_energy": 0,
+      "note_on_count": 0,
+      "active_layers": 0,
+      "median_velocity": null
+    }
+  ],
+  "musical_review": {
+    "motif": "D-E-F / A-G-F-E; G-B-A-G emphasizes the natural sixth. Variants preserve this contour.",
+    "register": "Written pitches are concert/sounding MIDI pitches; no transposition applied to winds, brass, piccolo or basses.",
+    "voice_leading": "Long inner voices use nearby chord tones; open low voicing; no dense low triads. D pedal retains modal centre.",
+    "phrasing": "Long melodic pitches are connected with short note-off gaps. Breaths at phrase ends; no claim of sampled legato.",
+    "articulation": "35 fixed-articulation instances. String Long plus short layers can imply divisi; mix down the supporting layers.",
+    "dynamic_arc": "Quiet opening, growing quest, 10-bar retreat, rebuild, heroic recap, expanded final arrival.",
+    "percussion": "Phrased 6/8 accents, irregular fills at 68/70/78/85/92; no persistent pop backbeat; sparse piatti.",
+    "timing": "Strict 1/16 note-on grid, CC sampling at 1/32; velocity/gate shaping instead of timing jitter.",
+    "library_limits": "Discover has one dynamic sample layer and no true legato/round robins. CC dynamics adjust level; realism is constrained by the library."
+  },
+  "verification_status": {
+    "midi_structure": "passed",
+    "cc_readback": "passed",
+    "bbcso_patch_loading": "not tested",
+    "percussion_plugin_trigger": "not tested live; documented map and local C4 preference used",
+    "cubase_import": "not tested live",
+    "audio_render": "not requested/not performed",
+    "actual_listening": "not performed"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "ok": true,
   "skill_count": 7,
-  "reference_count": 25,
-  "markdown_count": 33,
+  "reference_count": 26,
+  "markdown_count": 34,
   "semantic_validation": {
     "status": "pass",
     "examples": 1,

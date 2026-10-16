@@ -1,0 +1,363 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Piano",
+          "end_tick": 145920,
+          "note_count": 489,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 30,
+          "pitch_max": 83,
+          "peak_polyphony": 5,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 489,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bbc-basses.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "BBC Basses",
+          "end_tick": 145920,
+          "note_count": 68,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 30,
+          "pitch_max": 45,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 1,
+            "11": 269
+          }
+        }
+      ],
+      "note_count": 68,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bbc-celli.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "BBC Celli theme",
+          "end_tick": 145920,
+          "note_count": 71,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 49,
+          "pitch_max": 69,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 1,
+            "11": 416
+          }
+        }
+      ],
+      "note_count": 71,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bbc-violas.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "BBC Violas inner voice",
+          "end_tick": 145920,
+          "note_count": 26,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 64,
+          "pitch_max": 66,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 1,
+            "11": 269
+          }
+        }
+      ],
+      "note_count": 26,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bbc-violins-1.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "BBC 1st Violins upper voice",
+          "end_tick": 145920,
+          "note_count": 52,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 71,
+          "pitch_max": 73,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 1,
+            "11": 269
+          }
+        }
+      ],
+      "note_count": 52,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bbc-flutes.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "BBC Flutes answers",
+          "end_tick": 145920,
+          "note_count": 12,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 75,
+          "pitch_max": 81,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 1,
+            "11": 280
+          }
+        }
+      ],
+      "note_count": 12,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/bbc-clarinets.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "BBC Clarinets warm responses",
+          "end_tick": 145920,
+          "note_count": 12,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 63,
+          "pitch_max": 73,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 1,
+            "11": 293
+          }
+        }
+      ],
+      "note_count": 12,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 32,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "piano",
+        "note_ons": 489,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bbc-basses",
+        "note_ons": 68,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bbc-celli",
+        "note_ons": 71,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bbc-violas",
+        "note_ons": 26,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bbc-violins-1",
+        "note_ons": 52,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bbc-flutes",
+        "note_ons": 12,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "bbc-clarinets",
+        "note_ons": 12,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

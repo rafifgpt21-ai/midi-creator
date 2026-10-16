@@ -1,0 +1,245 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Neon Breath — Full Song",
+  "combined": false,
+  "composition_sha256": "e7a2eb9d31db12379159f876cffe609552ae3f290dc4f79b77366fc7a17f59ff",
+  "tempo_bpm": 121,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 168,
+  "ticks_per_beat": 480,
+  "end_tick": 322560,
+  "duration_seconds": 333.223296,
+  "layers": [
+    {
+      "id": "layer01-sub-bass",
+      "name": "01 Sub Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 153,
+      "file": "MIDI/layer01-sub-bass.mid"
+    },
+    {
+      "id": "layer02-octave-bass",
+      "name": "02 Moroder Octave Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 2112,
+      "file": "MIDI/layer02-octave-bass.mid"
+    },
+    {
+      "id": "layer03-chord-stabs",
+      "name": "03 Analog Chord Stabs",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 1860,
+      "file": "MIDI/layer03-chord-stabs.mid"
+    },
+    {
+      "id": "layer04-synth-brass",
+      "name": "04 Synth Brass Accents",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 204,
+      "file": "MIDI/layer04-synth-brass.mid"
+    },
+    {
+      "id": "layer05-bright-arp",
+      "name": "05 Bright Up Down Arp",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 1632,
+      "file": "MIDI/layer05-bright-arp.mid"
+    },
+    {
+      "id": "layer06-glass-bells",
+      "name": "06 Glass Bell Counter Arp",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 284,
+      "file": "MIDI/layer06-glass-bells.mid"
+    },
+    {
+      "id": "layer07-warm-pad",
+      "name": "07 Warm Ambient Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 389,
+      "file": "MIDI/layer07-warm-pad.mid"
+    },
+    {
+      "id": "layer08-main-lead",
+      "name": "08 Main Retro Hook",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 493,
+      "file": "MIDI/layer08-main-lead.mid"
+    },
+    {
+      "id": "layer09-synth-whistle",
+      "name": "09 Whistle Response",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 162,
+      "file": "MIDI/layer09-synth-whistle.mid"
+    },
+    {
+      "id": "layer10-transition-fx",
+      "name": "10 Riser and Down Impact",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 15,
+      "file": "MIDI/layer10-transition-fx.mid"
+    },
+    {
+      "id": "drum-kick",
+      "name": "Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 592,
+      "file": "MIDI/drum-kick.mid"
+    },
+    {
+      "id": "drum-snare",
+      "name": "Snare",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 330,
+      "file": "MIDI/drum-snare.mid"
+    },
+    {
+      "id": "drum-clap",
+      "name": "Clap",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 268,
+      "file": "MIDI/drum-clap.mid"
+    },
+    {
+      "id": "drum-closed-hat",
+      "name": "Closed Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1360,
+      "file": "MIDI/drum-closed-hat.mid"
+    },
+    {
+      "id": "drum-open-hat",
+      "name": "Open Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 528,
+      "file": "MIDI/drum-open-hat.mid"
+    },
+    {
+      "id": "drum-shaker",
+      "name": "Shaker",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1536,
+      "file": "MIDI/drum-shaker.mid"
+    },
+    {
+      "id": "drum-crash",
+      "name": "Crash",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 9,
+      "file": "MIDI/drum-crash.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/layer01-sub-bass.mid",
+      "sha256": "9495c11c7425f36db8348b62f34fa04d384a0dbe831c5f3f7900481e3a621925"
+    },
+    {
+      "path": "MIDI/layer02-octave-bass.mid",
+      "sha256": "39b94932afa84fd9176afd7bee47de17c6f7f84fdc9e923e5f38b3a3d43bfecb"
+    },
+    {
+      "path": "MIDI/layer03-chord-stabs.mid",
+      "sha256": "8d6ae2de3f7b489b257db4f9bb8a1f81ce2fc4abe5c2244f693191760b31d953"
+    },
+    {
+      "path": "MIDI/layer04-synth-brass.mid",
+      "sha256": "83b066d4ebadb4503a5f6e344112b69299e55c329b21e63620b2138b01f681e8"
+    },
+    {
+      "path": "MIDI/layer05-bright-arp.mid",
+      "sha256": "61f2e6921b03ceacbf88ba062e0cf04e21ae5f78c668537cd0dc50960aa1be29"
+    },
+    {
+      "path": "MIDI/layer06-glass-bells.mid",
+      "sha256": "e2c110e8d5e053b77b2d21bf3db99b9cd894253adfb6cf92c936c30bdb6ff589"
+    },
+    {
+      "path": "MIDI/layer07-warm-pad.mid",
+      "sha256": "1dd0b214bb19853ecd4fba7d2b88fb07640875a1b78edb9e047d75cd61c2a997"
+    },
+    {
+      "path": "MIDI/layer08-main-lead.mid",
+      "sha256": "bf13a10d2223639849631d62c42b3d628151158846733869b59a4a7ca7860f2c"
+    },
+    {
+      "path": "MIDI/layer09-synth-whistle.mid",
+      "sha256": "bc47710088b8434f1b6547aa710e7d8d25fc5fdfbf7eb68913f7fce9ce8ac073"
+    },
+    {
+      "path": "MIDI/layer10-transition-fx.mid",
+      "sha256": "556de100f17b9712b1555c5560f6b67d852dfb1ba515c2b107c81dc18fc630b6"
+    },
+    {
+      "path": "MIDI/drum-kick.mid",
+      "sha256": "ae0c1ba458c153d5e200caeaf6d562b2fbeebcb863ef1bf27ddc1a9d60baa911"
+    },
+    {
+      "path": "MIDI/drum-snare.mid",
+      "sha256": "bc691c00211e9c7c9038360ecaf416d5d80b87947b26b771fe8660ccdeb910d0"
+    },
+    {
+      "path": "MIDI/drum-clap.mid",
+      "sha256": "95b9aeb0d62b6fda1e971f7574afecbf2421580edade39ec5cbf693ffe9c996e"
+    },
+    {
+      "path": "MIDI/drum-closed-hat.mid",
+      "sha256": "95fba1c95e0a420101241d1be00adab57503d063812733467ed7fbd116f75120"
+    },
+    {
+      "path": "MIDI/drum-open-hat.mid",
+      "sha256": "d9f915a69754370a6d5011e11f96973f27124c59d10071a6b2c6987ca1e58bdf"
+    },
+    {
+      "path": "MIDI/drum-shaker.mid",
+      "sha256": "3fc4d43b3a74e5a0a82b9b1b4f02625274c5e0ef9b9cec1c8299c7b9eb66f480"
+    },
+    {
+      "path": "MIDI/drum-crash.mid",
+      "sha256": "7feaf3a704fcae4875d058a98beb0ec920dc7b32248b84523c7018fb97abb323"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-14",
+  "scope": "Read-only bridge status; no plugin assignment, patch loading, import or playback performed",
+  "cubase": {
+    "connected": true,
+    "ok": true,
+    "bridge_version": 1,
+    "selected_track": "",
+    "selected_track_available": false,
+    "playing": false,
+    "recording": false,
+    "instrument_tracks": [
+      {
+        "index": 0,
+        "name": "Piano 1"
+      },
+      {
+        "index": 1,
+        "name": "LABS 01"
+      },
+      {
+        "index": 2,
+        "name": "LABS 02"
+      },
+      {
+        "index": 3,
+        "name": "BBC Symphony Orchestra 01"
+      },
+      {
+        "index": 4,
+        "name": "BBC Symphony Orchestra 01 (D)"
+      },
+      {
+        "index": 5,
+        "name": "Flute"
+      },
+      {
+        "index": 6,
+        "name": "Bass"
+      }
+    ],
+    "plugin_assignment_available": true,
+    "note_editing_available": false,
+    "preset_file_loading_available": false,
+    "project_creation_available": false,
+    "cubase_acknowledged": true
+  }
+}

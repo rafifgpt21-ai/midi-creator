@@ -1,0 +1,221 @@
+{
+  "name": "shadow-pad",
+  "description": "Black Glass v002: restrained dark stereo veil with saw/triangle source contrast, gentle noise air, serial rumble removal and warm low-pass breathing. Slow movement leaves piano attacks clear.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "table_position": 0,
+      "volume": 0.16,
+      "unison": 3,
+      "detune": 0.045,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 2,
+      "volume": 0.11,
+      "fine": -3,
+      "unison": 2,
+      "detune": 0.025,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": true,
+      "noise_type": "Brown",
+      "volume": 0.008,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "highpass_12",
+      "cutoff": 0.28,
+      "resonance": 0,
+      "drive": 0,
+      "stereo": 50,
+      "output_routing": "series"
+    },
+    {
+      "enabled": true,
+      "type": "moog_lowpass_12",
+      "cutoff": 0.43,
+      "resonance": 6,
+      "drive": 4,
+      "stereo": 50,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.58,
+      "decay": 2.1,
+      "sustain": 0.78,
+      "release": 0.48
+    },
+    {
+      "attack": 1.55,
+      "decay": 2.3,
+      "sustain": 0.32,
+      "release": 0.55
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.085,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0.5
+        },
+        {
+          "x": 0.25,
+          "y": 1
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": 0.75,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0.5
+        }
+      ]
+    },
+    {
+      "rate": 0.11,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0.5
+        },
+        {
+          "x": 0.25,
+          "y": 1
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": 0.75,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "SHADE",
+      "value": 18
+    },
+    {
+      "name": "MOTION",
+      "value": 24
+    },
+    {
+      "name": "SPACE",
+      "value": 12
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter1.cutoff",
+      "amount": 9
+    },
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 12
+    },
+    {
+      "source": "macro0",
+      "destination": "filter1.cutoff",
+      "amount": -12
+    },
+    {
+      "source": "lfo0",
+      "destination": "filter1.cutoff",
+      "amount": 7,
+      "bipolar": true,
+      "aux_source": "macro1"
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator0.pan",
+      "amount": 12,
+      "bipolar": true,
+      "aux_source": "macro1"
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator1.pan",
+      "amount": -12,
+      "bipolar": true,
+      "aux_source": "macro1"
+    },
+    {
+      "source": "macro2",
+      "destination": "fx0.wet",
+      "amount": 22
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXReverb",
+      "wet": 18,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 42,
+        "kParamDelay": 34,
+        "kParamWidth": 94
+      }
+    },
+    {
+      "type": "FXEQ",
+      "wet": 100,
+      "params": {
+        "kParamFreq1": 260,
+        "kParamGain1": -2,
+        "kParamReso1": 5,
+        "kParamFreq2": 4400,
+        "kParamGain2": -3,
+        "kParamReso2": 4
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.36,
+    "mono": false,
+    "poly_count": 16
+  },
+  "arp": {
+    "enabled": false
+  }
+}

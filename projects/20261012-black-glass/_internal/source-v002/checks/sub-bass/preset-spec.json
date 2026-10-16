@@ -1,0 +1,90 @@
+{
+  "name": "sub-bass",
+  "description": "Black Glass v002: clean centered sine foundation with velocity-led verse/chorus contrast and a short controllable attack lift. No distortion, filter, width or glide in the low body.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 0,
+      "warp_amount": 0,
+      "unison": 1,
+      "detune": 0,
+      "pan": 0,
+      "volume": 0.18,
+      "filter_routing": "master"
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.005,
+      "decay": 3.4,
+      "sustain": 0.93,
+      "release": 0.048
+    },
+    {
+      "attack": 0.001,
+      "decay": 0.13,
+      "sustain": 0,
+      "release": 0.018
+    }
+  ],
+  "macros": [
+    {
+      "name": "BODY",
+      "value": 15
+    },
+    {
+      "name": "PUNCH",
+      "value": 28
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 52
+    },
+    {
+      "source": "macro0",
+      "destination": "oscillator0.volume",
+      "amount": 8
+    },
+    {
+      "source": "env1",
+      "destination": "oscillator0.volume",
+      "amount": 10,
+      "aux_source": "macro1"
+    }
+  ],
+  "fx_chain": [],
+  "global": {
+    "master_volume": 0.47,
+    "mono": true,
+    "poly_count": 1,
+    "portamento_time": 0,
+    "legato": false
+  },
+  "arp": {
+    "enabled": false
+  }
+}

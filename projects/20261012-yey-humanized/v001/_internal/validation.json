@@ -1,0 +1,271 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/piano.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Piano - Humanized",
+          "end_tick": 145920,
+          "note_count": 475,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 40,
+          "pitch_max": 88,
+          "peak_polyphony": 8
+        }
+      ],
+      "note_count": 475,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/strings-chord.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Strings - Chord",
+          "end_tick": 145920,
+          "note_count": 162,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 51,
+          "pitch_max": 69,
+          "peak_polyphony": 4
+        }
+      ],
+      "note_count": 162,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/strings-solo.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Strings - Solo",
+          "end_tick": 145920,
+          "note_count": 71,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 61,
+          "pitch_max": 78,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 71,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/precision-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Precision Bass - Fender",
+          "end_tick": 145920,
+          "note_count": 148,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 28,
+          "pitch_max": 47,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 148,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/flute-counter.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 480,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Flute - Counter Melody Accents",
+          "end_tick": 145920,
+          "note_count": 28,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 73,
+          "pitch_max": 83,
+          "peak_polyphony": 1
+        }
+      ],
+      "note_count": 28,
+      "end_tick": 145920,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 500000
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "free",
+    "grid_division": 32,
+    "on_grid": false,
+    "off_grid_note_ons": 46,
+    "layers": [
+      {
+        "id": "piano",
+        "note_ons": 475,
+        "off_grid_note_ons": 46,
+        "examples": [
+          {
+            "pitch": 78,
+            "tick": 7692,
+            "beat": 16.025,
+            "nearest_grid_tick": 7680,
+            "offset_ticks": 12
+          },
+          {
+            "pitch": 66,
+            "tick": 7699,
+            "beat": 16.039583333333333,
+            "nearest_grid_tick": 7680,
+            "offset_ticks": 19
+          },
+          {
+            "pitch": 57,
+            "tick": 7705,
+            "beat": 16.052083333333332,
+            "nearest_grid_tick": 7680,
+            "offset_ticks": 25
+          },
+          {
+            "pitch": 61,
+            "tick": 7728,
+            "beat": 16.1,
+            "nearest_grid_tick": 7740,
+            "offset_ticks": -12
+          },
+          {
+            "pitch": 54,
+            "tick": 9637,
+            "beat": 20.077083333333334,
+            "nearest_grid_tick": 9660,
+            "offset_ticks": -23
+          }
+        ]
+      },
+      {
+        "id": "strings-chord",
+        "note_ons": 162,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "strings-solo",
+        "note_ons": 71,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "precision-bass",
+        "note_ons": 148,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "flute-counter",
+        "note_ons": 28,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

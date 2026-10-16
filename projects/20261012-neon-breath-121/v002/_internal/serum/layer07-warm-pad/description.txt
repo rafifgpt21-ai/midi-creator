@@ -1,0 +1,38 @@
+Preset: layer07-warm-pad
+Description: Soft analog pad, common-tone ties across Cm/Fm/Ab/Bb; gentle independent brightness/PWM movement.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.24  pan=+0  wavetable=analog_mini  table_pos=0.0  warp=fm(0.00)  unison=5  detune=0.07
+Osc B: ON   octave=+0  volume=0.20  pan=+0  wavetable=pwm  table_pos=150.0  warp=fm(0.00)  unison=3  detune=0.04
+Osc C: off  octave=+0  volume=0.00  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.00  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.00  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_12  cutoff=0.54  resonance=7%  drive=5%  stereo=50%
+Filter 2: off  type=moog_lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=620.0ms  decay=1.40s  sustain=0.85  release=0.65s
+Env 2: attack=850.0ms  decay=1.80s  sustain=0.62  release=0.60s
+Env 3: attack=1.0ms  decay=0.30s  sustain=0.00  release=0.12s
+Env 4: attack=1.0ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+LFO 2: rate=0  mode=Free  mono
+
+Macro 1 "TONE": 0%
+Macro 2 "SPACE": 0%
+
+FX chain:
+  - FXChorus (wet=37%)
+  - FXReverb (wet=22%)
+  - FXUtils (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +12%
+  - lfo0 -> filter0.cutoff: +4%, bipolar
+  - lfo1 -> oscillator1.table_position: +5%, bipolar
+  - lfo1 -> oscillator0.pan: +5%, bipolar
+  - macro0 -> filter0.cutoff: +9%
+  - macro1 -> fx1.wet: +14%
+
+Global: master_volume=0.38  mono=off  poly=16

@@ -1,0 +1,38 @@
+Preset: layer04-synth-brass
+Description: Slow-35-ms brightness swell then broad saw/square brass sustain; large hall accents.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.38  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)  unison=5  detune=0.09
+Osc B: ON   octave=+0  volume=0.23  pan=+0  wavetable=default  table_pos=128.0  warp=fm(0.00)  unison=3  detune=0.06
+Osc C: off  octave=+0  volume=0.00  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.00  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.00  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_24  cutoff=0.46  resonance=13%  drive=17%  stereo=50%
+Filter 2: off  type=moog_lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=24.0ms  decay=0.70s  sustain=0.66  release=0.18s
+Env 2: attack=35.0ms  decay=0.48s  sustain=0.42  release=0.14s
+Env 3: attack=1.0ms  decay=0.30s  sustain=0.00  release=0.12s
+Env 4: attack=1.0ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=5  mode=Free  delay=0.12s  mono
+
+Macro 1 "TONE": 0%
+Macro 2 "SPACE": 0%
+
+FX chain:
+  - FXDistortion (wet=22%)
+  - FXComp (wet=100%)
+  - FXChorus (wet=15%)
+  - FXReverb (wet=31%)
+  - FXUtils (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +38%
+  - velocity -> filter0.cutoff: +8%
+  - lfo0 -> oscillator0.fine: +2%, bipolar
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> fx3.wet: +12%
+
+Global: master_volume=0.38  mono=off  poly=16

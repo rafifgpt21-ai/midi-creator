@@ -1,0 +1,39 @@
+{
+  "query": "disco analog bass",
+  "expanded_terms": [
+    "analog",
+    "bass",
+    "disco"
+  ],
+  "count": 3,
+  "truncated": true,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\Synth\\BA - Disconnect.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "bass",
+        "disco"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\Retro Analog\\BA - Fonk.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "analog",
+        "bass"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\Retro Analog\\BA - Eighty.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "analog",
+        "bass"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

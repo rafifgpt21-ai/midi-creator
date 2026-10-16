@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "validate_ok": true,
+  "export_verify_ok": true,
+  "original_piano_pitch_onsets_preserved": 445,
+  "source_melody_notes_preserved": 71,
+  "progression_and_slash_bass_preserved": true,
+  "source_sha256": "58bfb64592e25302525b04cc62e5c2019b9a19374f67004fd9903f27c09744a9",
+  "initial_four_silent_bars_preserved": true,
+  "flute_rearranged": true,
+  "flute_counter_notes": 28,
+  "flute_plays_in_solo_rests": true,
+  "files": {
+    "piano": {
+      "file": "MIDI\\piano.mid",
+      "sha256": "2890a8572ee199f181b4f211be9b324e6b08eae6a767879c9329e8c44e1e6435",
+      "notes": 475,
+      "tracks": 1,
+      "end_tick": 145920,
+      "format": 1
+    },
+    "strings-chord": {
+      "file": "MIDI\\strings-chord.mid",
+      "sha256": "e196e43ec84acdda997efd42ef8f80b8c0e21afbd56453d106d3037c78926c09",
+      "notes": 162,
+      "tracks": 1,
+      "end_tick": 145920,
+      "format": 1
+    },
+    "strings-solo": {
+      "file": "MIDI\\strings-solo.mid",
+      "sha256": "befc60c6e0f6205d7d8769493a832c79340a56f723b86c976ab556e1f54c42a3",
+      "notes": 71,
+      "tracks": 1,
+      "end_tick": 145920,
+      "format": 1
+    },
+    "precision-bass": {
+      "file": "MIDI\\precision-bass.mid",
+      "sha256": "ef4887dc1fc3b49dd4a1767601967ab40be33084b179181c502402b1a1f8955c",
+      "notes": 148,
+      "tracks": 1,
+      "end_tick": 145920,
+      "format": 1
+    },
+    "flute-counter": {
+      "file": "MIDI\\flute-counter.mid",
+      "sha256": "c65b709e9462ed1b5d6103afb071b80c03b8dae19c18dfa2df8c67d3f0f8c15c",
+      "notes": 28,
+      "tracks": 1,
+      "end_tick": 145920,
+      "format": 1
+    }
+  },
+  "readme_links_checked": [
+    "MIDI/piano.mid",
+    "MIDI/strings-chord.mid",
+    "MIDI/strings-solo.mid",
+    "MIDI/precision-bass.mid",
+    "MIDI/flute-counter.mid",
+    "../_internal/references/yey.mid",
+    "v001/README.md"
+  ],
+  "plugin_loading_tested": false,
+  "cubase_import_tested": false,
+  "rendered": false,
+  "listened": false
+}

@@ -76,6 +76,10 @@ The manual's FX module catalog on pp. 161-182 does not provide a separate Delay 
 
 ## Supplemental and implementation knowledge
 
+### Analog/retro extension
+
+[Analog and retro](analog-retro.md) expands the user's supplied `panduan_analog_sound_serum_2.md`, preserved byte-for-byte under `docs/serum-sound-design/_internal/sources/` in the workspace. The attachment attributes five techniques and timestamps to [Undulae Music's video](https://www.youtube.com/watch?v=EWrwVgzyu6U); video/transcript access was throttled during this work, so those attributions/timestamps remain attachment-supplied rather than independently watched/verified. UI corrections use the local S2 manual, especially pp. 41–44, 49–55, 191–193, 208–214 and 316–318. Numeric starting ranges, physical-target examples, recipes and decision rules are authored guidance, not measured hardware data or auditioned presets. Primary hardware references are linked next to their claims in the chapter. `analog-guide-receipt.json` in the workspace internal documentation folder records the source hash, runtime schema capture, scope and verification limits.
+
 Equations for ideal wave harmonics, FM/AM sidebands, Q/order, digital aliasing/Nyquist, detailed envelope choices, descriptor mappings, instrument analogies, recipes, test strategy, and workflow templates are authored supplemental guidance. They are not attributed to absent pages of T. Exact Serum behavior uses S2 when provided; exact file/tool semantics use local implementation.
 
 Implementation inspected: `integrations/serum-mcp/src/serum_mcp/generation/spec.py`, `preset/schema.py`, `preset/mapping.py`, `preset/packer.py`, `preset/safety.py`, tool create/edit code, `docs/PARAMETER_SCHEMA.md`, runtime `list_parameters()`, and workspace `docs/serum-mcp.md`. Snapshot commit is documented in [tool capabilities](tool-capabilities.md). Refresh schemas rather than relying on version-specific remembered values.

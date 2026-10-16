@@ -5,6 +5,8 @@ description: Analyze an audio excerpt, recording, or existing preset and recreat
 
 # Match a reference in Serum 2
 
+For analog/retro analog gear references, use [analog and retro](../serum-sound-design/references/analog-retro.md) by default. Separate the dry instrument architecture and condition from recording-chain effects. Preserve observed DCO/VCO stability and voice behavior; identify model/revision uncertainty and avoid claiming circuit equivalence from a similar sound.
+
 Read [brief and analysis](../serum-sound-design/references/brief-and-analysis.md) and [reference matching](../serum-sound-design/references/reference-matching.md). For existing presets also read [native build](../serum-sound-design/references/native-build.md).
 
 1. Preserve the source and identify the precise event/time range. Establish whether it is isolated, layered, or mixed with other instruments. Record pitch/register, note/gate timing, tempo when motion is synced, and any reference gain adjustment.

@@ -1,0 +1,43 @@
+{
+  "layer": "layer10-transition-fx",
+  "ok": true,
+  "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v002\\Presets\\layer10-transition-fx.SerumPreset",
+  "reused_from": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v001\\Presets\\layer10-transition-fx.SerumPreset",
+  "sha256": "922e24c25d542766a3ed45b88c4f3d028399d340d8a0b4dd8781644df6a18f33",
+  "unchanged_from_v001": true,
+  "structural_readback": {
+    "oscillators": true,
+    "filters": true,
+    "envelopes": true,
+    "lfos": true,
+    "macros": true,
+    "fx_chain": true,
+    "global": true,
+    "mod_routes": true,
+    "arp_disabled": true,
+    "name": true
+  },
+  "wire_type_issues": [],
+  "dependencies": [
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/Basic Shapes.wav",
+      "exists": true,
+      "sha256": "73b8641a9d61427e5f39313bffa8652a5f3f4367fe53be7589fe45fa36b50edc"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true,
+      "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true,
+      "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f"
+    }
+  ],
+  "plugin_loaded": false,
+  "auditioned": false
+}

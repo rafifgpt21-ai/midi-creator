@@ -1,0 +1,41 @@
+{
+  "layer": "layer07-warm-pad",
+  "ok": true,
+  "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v001\\Presets\\layer07-warm-pad.SerumPreset",
+  "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-neon-breath-121\\v001\\layer07-warm-pad.SerumPreset",
+  "sha256": "5c6b050876dda7a75eae3675b130cbee6e8eb54093ad6132ce0ed06b9a9b7578",
+  "copy_hash_matches": true,
+  "structural_readback": {
+    "oscillators": true,
+    "filters": true,
+    "envelopes": true,
+    "lfos": true,
+    "macros": true,
+    "fx_chain": true,
+    "global": true,
+    "arp": true,
+    "mod_routes": true,
+    "name": true
+  },
+  "wire_type_issues": [],
+  "dependencies": [
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/Basic Mini.wav",
+      "exists": true
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/PWM Juno.wav",
+      "exists": true
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true
+    }
+  ],
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false
+}

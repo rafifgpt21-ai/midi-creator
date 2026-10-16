@@ -1,0 +1,31 @@
+Preset: tension-rise
+Description: Black Glass v002: darker pink-noise swell growing into a bright edge with serial high-pass/low-pass shaping and a late resonance lift. Seven beats at 136 BPM then a short release, no FX tail.
+Author: serum-mcp
+
+Osc A: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: ON   octave=+0  volume=0.34  pan=+0  noise_type=Pink
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=highpass_12  cutoff=0.33  resonance=0%  drive=0%  stereo=50%
+Filter 2: ON   type=lowpass_12  cutoff=0.43  resonance=7%  drive=0%  stereo=50%
+
+Env 1: attack=3000.0ms  decay=0.15s  sustain=1.00  release=0.02s
+Env 2: attack=2750.0ms  decay=0.10s  sustain=1.00  release=0.02s
+Env 3: attack=1950.0ms  decay=0.10s  sustain=1.00  release=0.02s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "AIR": 15%
+Macro 2 "TENSION": 22%
+Macro 3 "LIFT": 15%
+
+FX chain: (empty)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter1.cutoff: +37%
+  - macro0 -> filter1.cutoff: +7%
+  - env2 -> filter1.resonance: +12%
+  - macro2 -> oscillator3.volume: +12%
+
+Global: master_volume=0.28  mono=on  poly=1

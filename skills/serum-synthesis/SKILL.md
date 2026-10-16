@@ -5,6 +5,8 @@ description: Design Serum 2 oscillator, wavetable, FM, sample, multisample, gran
 
 # Design the source and signal path
 
+For analog/retro analog or hardware emulation, use [analog and retro](../serum-sound-design/references/analog-retro.md) by default: select the gear architecture, VCO/DCO relationship, phase behavior, filter topology, and gain stages before adding drift or FX. Distinguish oscillator unison, polyphony, and Voice Control sequence length.
+
 Read [architecture](../serum-sound-design/references/architecture.md) and the relevant foundations in [theory](../serum-sound-design/references/theory.md). Select conditional references from [index](../serum-sound-design/references/index.md): wavetable/FM, sample engines, granular/spectral, filters/routing, and the requested sound family.
 
 1. Separate the desired excitation (periodic tone, noise, impulse, recorded attack) from resonant body, time evolution, and processing. Identify which components must be independently shaped.

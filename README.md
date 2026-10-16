@@ -53,6 +53,8 @@ File lama tidak mengandung pesan SysEx. Track “SysEx Data” pada screenshot b
 
 [Panduan sound design Serum 2 dan tujuh skill agent](docs/serum-sound-design/README.md) mencakup teori, lima engine, modulasi, FX, keluarga sound, rekonstruksi referensi, preset native, dan verifikasi. Mulai dengan `$serum-sound-design` untuk permintaan sound lengkap.
 
+[Panduan detail analog dan retro Serum 2](skills/serum-sound-design/references/analog-retro.md) menjadi default untuk sound analog/vintage/retro analog serta pendekatan gear analog nyata. Panduan membedakan VCO/DCO, variasi voice dan drift, lima teknik karakter analog, resep instrumen, serta verifikasi.
+
 [AGENTS.md](AGENTS.md) menetapkan default dan kriteria hasil. [Struktur proyek](docs/project-layout.md), [kontrak komposisi](docs/composition-guide.md), [Serum MCP](docs/serum-mcp.md), serta [Cubase/live studio](docs/cubase-studio.md) menjelaskan pengerjaan teknis. Kode/dependency/integrasi di root adalah framework; produser cukup memakai `projects/`.
 
 ```powershell

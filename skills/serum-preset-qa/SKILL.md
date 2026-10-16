@@ -5,6 +5,8 @@ description: Verify, audition, troubleshoot, and iteratively improve Serum 2 sou
 
 # Verify the sound and its artifact
 
+For analog/retro analog, use the targeted tests in [analog and retro](../serum-sound-design/references/analog-retro.md): repeated notes, long holds, chords/release overlap, mono/legato, cents/rate calibration, isolated technique bypass, and matched-level dry comparison. Verify architecture and DCO/VCO behavior before describing the result as a gear emulation; report plugin, render, and actual listening separately.
+
 Read [verification](../serum-sound-design/references/verification.md) and [troubleshooting](../serum-sound-design/references/troubleshooting.md). Use the evidence template in [templates](../serum-sound-design/references/templates.md).
 
 1. Turn the brief into observable acceptance checks. Prioritize identity/articulation over incidental polish. Confirm the exact revision and file hashes being evaluated.

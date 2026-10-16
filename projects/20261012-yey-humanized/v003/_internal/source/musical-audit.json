@@ -1,0 +1,829 @@
+{
+  "ok": true,
+  "base": "v002",
+  "preserved_non_piano_specs": [
+    "bbc-basses",
+    "bbc-celli",
+    "bbc-violas",
+    "bbc-violins-1",
+    "bbc-flutes",
+    "bbc-clarinets"
+  ],
+  "global_properties_identical": true,
+  "chord_bars": [
+    {
+      "bar": 5,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 30
+    },
+    {
+      "bar": 6,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 39
+    },
+    {
+      "bar": 7,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 30
+    },
+    {
+      "bar": 8,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 39
+    },
+    {
+      "bar": 9,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 10,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 11,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 12,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 13,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 14,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 15,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 16,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 17,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 18,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 19,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 20,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 21,
+      "chord": "D6",
+      "pitch_classes": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "lowest_pitch": 50
+    },
+    {
+      "bar": 22,
+      "chord": "E",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 52
+    },
+    {
+      "bar": 23,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 24,
+      "chord": "E/G#",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 44
+    },
+    {
+      "bar": 25,
+      "chord": "A",
+      "pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "lowest_pitch": 45
+    },
+    {
+      "bar": 26,
+      "chord": "E",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 52
+    },
+    {
+      "bar": 27,
+      "chord": "B",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 47
+    },
+    {
+      "bar": 28,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 29,
+      "chord": "A",
+      "pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "lowest_pitch": 45
+    },
+    {
+      "bar": 30,
+      "chord": "E",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 52
+    },
+    {
+      "bar": 31,
+      "chord": "B",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 47
+    },
+    {
+      "bar": 32,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 33,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 34,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 35,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 36,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 37,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 38,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 39,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 40,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 41,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 42,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 43,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 44,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 45,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 46,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 47,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 48,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 49,
+      "chord": "D6",
+      "pitch_classes": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "lowest_pitch": 50
+    },
+    {
+      "bar": 50,
+      "chord": "E",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 52
+    },
+    {
+      "bar": 51,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 52,
+      "chord": "E/G#",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 44
+    },
+    {
+      "bar": 53,
+      "chord": "A",
+      "pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "lowest_pitch": 45
+    },
+    {
+      "bar": 54,
+      "chord": "E",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 52
+    },
+    {
+      "bar": 55,
+      "chord": "B",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 47
+    },
+    {
+      "bar": 56,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 57,
+      "chord": "A",
+      "pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "lowest_pitch": 45
+    },
+    {
+      "bar": 58,
+      "chord": "E",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "lowest_pitch": 52
+    },
+    {
+      "bar": 59,
+      "chord": "B",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 47
+    },
+    {
+      "bar": 60,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 61,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 62,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 63,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 64,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 65,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 66,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 67,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 68,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 69,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 70,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 71,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 72,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 73,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 74,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    },
+    {
+      "bar": 75,
+      "chord": "F#m",
+      "pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "lowest_pitch": 42
+    },
+    {
+      "bar": 76,
+      "chord": "B/D#",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "lowest_pitch": 51
+    }
+  ],
+  "all_piano_gates_chord_supported": true,
+  "strict_eighth_note_onsets": true,
+  "simultaneous_left_right_attack_times": 0,
+  "right_piano_silent_in_wind_bars": true,
+  "piano_stats": {
+    "piano-center": {
+      "notes": 302,
+      "pitch_range": [
+        30,
+        78
+      ],
+      "velocity_range": [
+        33,
+        83
+      ],
+      "pan_cc10": 64,
+      "volume_cc7": 94,
+      "first_beat": 16,
+      "sections": {
+        "silence": 0,
+        "a1": 28,
+        "held": 14,
+        "a2": 14,
+        "t1": 24,
+        "b1": 35,
+        "lead": 64,
+        "t2": 24,
+        "b2": 35,
+        "final": 64
+      }
+    },
+    "piano-left": {
+      "notes": 213,
+      "pitch_range": [
+        54,
+        66
+      ],
+      "velocity_range": [
+        29,
+        60
+      ],
+      "pan_cc10": 20,
+      "volume_cc7": 82,
+      "first_beat": 16.5,
+      "sections": {
+        "silence": 0,
+        "a1": 28,
+        "held": 8,
+        "a2": 16,
+        "t1": 16,
+        "b1": 32,
+        "lead": 32,
+        "t2": 16,
+        "b2": 32,
+        "final": 33
+      }
+    },
+    "piano-right": {
+      "notes": 111,
+      "pitch_range": [
+        78,
+        88
+      ],
+      "velocity_range": [
+        36,
+        64
+      ],
+      "pan_cc10": 108,
+      "volume_cc7": 84,
+      "first_beat": 17.5,
+      "sections": {
+        "silence": 0,
+        "a1": 16,
+        "held": 8,
+        "a2": 8,
+        "t1": 12,
+        "b1": 10,
+        "lead": 16,
+        "t2": 12,
+        "b2": 12,
+        "final": 17
+      }
+    }
+  },
+  "center_anchor_max_span": 9,
+  "center_anchor_max_voice_travel": 4,
+  "left_voicing_max_voice_travel": 3,
+  "right_anchor_max_travel": 3,
+  "source_spec_sha256": "ede522be1d0a754093a3f1a2e64bc7668f038636785f9419203323e8cef05dd5",
+  "audio_render": false,
+  "actual_listening": false,
+  "live_import_tested": false
+}

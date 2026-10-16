@@ -1,0 +1,42 @@
+{
+  "layer01-sub-bass": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer01-sub-bass.SerumPreset"
+  },
+  "layer02-octave-bass": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer02-octave-bass.SerumPreset"
+  },
+  "layer03-chord-stabs": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer03-chord-stabs.SerumPreset"
+  },
+  "layer04-synth-brass": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer04-synth-brass.SerumPreset"
+  },
+  "layer05-bright-arp": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer05-bright-arp.SerumPreset"
+  },
+  "layer06-glass-bells": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer06-glass-bells.SerumPreset"
+  },
+  "layer07-warm-pad": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer07-warm-pad.SerumPreset"
+  },
+  "layer08-main-lead": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer08-main-lead.SerumPreset"
+  },
+  "layer09-synth-whistle": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer09-synth-whistle.SerumPreset"
+  },
+  "layer10-transition-fx": {
+    "plugin": "Serum 2",
+    "preset": "Presets/layer10-transition-fx.SerumPreset"
+  }
+}

@@ -43,6 +43,9 @@ def layer_track(layer: Layer, end_tick: int, *, send_program: bool = True) -> mi
         (0, 2, mido.Message("control_change", channel=channel, control=7, value=layer.volume)),
         (0, 3, mido.Message("control_change", channel=channel, control=10, value=layer.pan)),
     ])
+    for control in layer.control_changes:
+        events.append((control.start, 4, mido.Message("control_change", channel=channel,
+                                                    control=control.control, value=control.value)))
     for note in layer.notes:
         # Release before retrigger when the same pitch ends and starts on one tick.
         events.append((note.end, 4, mido.Message("note_off", channel=channel, note=note.pitch, velocity=0)))
@@ -105,6 +108,7 @@ def inspect_midi(path: Path) -> dict:
         programs = []
         end_markers = 0
         peak_polyphony = 0
+        control_counts = {}
         for message in track:
             if not isinstance(message.time, int) or message.time < 0:
                 errors.append(f"Track {index}: invalid delta time")
@@ -119,6 +123,9 @@ def inspect_midi(path: Path) -> dict:
                 programs.append({"channel": message.channel + 1, "program": message.program})
             elif message.type == "sysex":
                 sysex_count += 1
+            elif message.type == "control_change":
+                key = str(message.control)
+                control_counts[key] = control_counts.get(key, 0) + 1
             if not message.is_meta and hasattr(message, "channel"):
                 channels.add(message.channel + 1)
             if message.type in ("note_on", "note_off"):
@@ -145,6 +152,7 @@ def inspect_midi(path: Path) -> dict:
             "pitch_min": min(notes) if notes else None,
             "pitch_max": max(notes) if notes else None,
             "peak_polyphony": peak_polyphony,
+            "control_counts": control_counts,
         })
     if not tracks:
         errors.append("MIDI has no tracks")
@@ -183,6 +191,19 @@ def check_rendered(path: Path, composition: Composition, layers: tuple[Layer, ..
     if report["time_signatures"] != [{"tick": 0, "numerator": numerator, "denominator": denominator}]:
         errors.append("Time signature differs from the composition")
     instrument_tracks = report["tracks"] if single_track else report["tracks"][1:]
+    midi = mido.MidiFile(path, charset="utf-8", clip=False)
+    raw_tracks = midi.tracks if single_track else midi.tracks[1:]
+    for raw_track, layer in zip(raw_tracks, layers):
+        absolute = 0
+        actual_controls = []
+        for message in raw_track:
+            absolute += message.time
+            if message.type == "control_change":
+                actual_controls.append((absolute, message.channel + 1, message.control, message.value))
+        expected_controls = [(0, layer.channel, 7, layer.volume), (0, layer.channel, 10, layer.pan)]
+        expected_controls.extend((c.start, layer.channel, c.control, c.value) for c in layer.control_changes)
+        if actual_controls != expected_controls:
+            errors.append(f"{layer.id}: controller automation differs from the composition")
     for track, layer in zip(instrument_tracks, layers):
         if track["name"] != layer.name:
             errors.append(f"{layer.id}: unexpected track name")

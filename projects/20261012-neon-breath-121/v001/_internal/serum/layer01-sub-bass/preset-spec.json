@@ -1,0 +1,223 @@
+{
+  "name": "layer01-sub-bass",
+  "description": "Clean triangle Sub Direct. Mandatory host LP 80 Hz; quarter-note pump. C0 F0 Ab0 Bb0 (Cubase).",
+  "oscillators": [
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.72,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "direct",
+      "filter_balance": 0,
+      "sub_shape": "triangle"
+    }
+  ],
+  "filters": [
+    {
+      "enabled": false,
+      "type": "lowpass_24",
+      "cutoff": 0.28,
+      "resonance": 0,
+      "drive": 0,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    },
+    {
+      "enabled": false,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.5,
+      "resonance": 10,
+      "drive": 0,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.005,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.045
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.12,
+      "sustain": 0,
+      "release": 0.03
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.3,
+      "sustain": 0,
+      "release": 0.12
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.015
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0,
+      "mode": "Free",
+      "beat_sync": true,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 0.075,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 0.45,
+          "y": 0.1,
+          "tension": 0.3
+        },
+        {
+          "x": 0.75,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    },
+    {
+      "rate": 0,
+      "mode": "Free",
+      "beat_sync": true,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "PUMP",
+      "value": 100
+    },
+    {
+      "name": "LEVEL",
+      "value": 0
+    }
+  ],
+  "fx_chain": [],
+  "mod_routes": [
+    {
+      "source": "lfo0",
+      "destination": "oscillator4.volume",
+      "amount": -65,
+      "aux_source": "macro0"
+    },
+    {
+      "source": "macro1",
+      "destination": "oscillator4.volume",
+      "amount": -20
+    }
+  ],
+  "arp": {
+    "enabled": false
+  },
+  "global": {
+    "master_volume": 0.55,
+    "mono": true,
+    "poly_count": 8,
+    "portamento_time": 0,
+    "legato": false,
+    "porta_always": false,
+    "swing": 0,
+    "direct_volume": 1
+  }
+}

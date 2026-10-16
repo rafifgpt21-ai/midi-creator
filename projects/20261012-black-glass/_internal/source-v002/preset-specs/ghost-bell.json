@@ -1,0 +1,144 @@
+{
+  "name": "ghost-bell",
+  "description": "Black Glass v002: softly struck sine body with a short independent inharmonic upper partial (4.49x), dark filter and subdued eighth-note echoes at 136 BPM. No ambiguous FM-source dependency.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 0,
+      "warp_amount": 0,
+      "unison": 1,
+      "detune": 0,
+      "pan": 0,
+      "volume": 0.15,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 0,
+      "warp_amount": 0,
+      "unison": 1,
+      "detune": 0,
+      "pan": 0,
+      "volume": 0.012,
+      "octave": 2,
+      "semitone": 2,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.5,
+      "resonance": 3,
+      "drive": 0,
+      "stereo": 50
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.011,
+      "decay": 1.2,
+      "sustain": 0,
+      "release": 0.62
+    },
+    {
+      "attack": 0.001,
+      "decay": 0.13,
+      "sustain": 0,
+      "release": 0.055
+    }
+  ],
+  "macros": [
+    {
+      "name": "GLASS",
+      "value": 28
+    },
+    {
+      "name": "ECHO",
+      "value": 10
+    },
+    {
+      "name": "SPACE",
+      "value": 15
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "velocity",
+      "destination": "oscillator0.volume",
+      "amount": 26
+    },
+    {
+      "source": "env1",
+      "destination": "oscillator1.volume",
+      "amount": 20,
+      "aux_source": "macro0"
+    },
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    },
+    {
+      "source": "macro1",
+      "destination": "fx0.wet",
+      "amount": 22
+    },
+    {
+      "source": "macro2",
+      "destination": "fx1.wet",
+      "amount": 14
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDelay",
+      "wet": 13,
+      "params": {
+        "kParamBeatSync": false,
+        "kParamTimeL": 0.22058823529411764,
+        "kParamTimeR": 0.22058823529411764,
+        "kParamFeedback": 16,
+        "kParamFreq": 2200
+      }
+    },
+    {
+      "type": "FXReverb",
+      "wet": 9,
+      "params": {
+        "kParamType": "kHall",
+        "kParamSize": 30,
+        "kParamDelay": 22,
+        "kParamWidth": 92
+      }
+    }
+  ],
+  "global": {
+    "master_volume": 0.36,
+    "mono": false,
+    "poly_count": 8
+  },
+  "arp": {
+    "enabled": false
+  }
+}

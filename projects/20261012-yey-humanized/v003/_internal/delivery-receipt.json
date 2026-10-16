@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "global_timeline_identical": true,
+  "bbc_specs_and_midi_bytes_identical": [
+    "bbc-basses",
+    "bbc-celli",
+    "bbc-violas",
+    "bbc-violins-1",
+    "bbc-flutes",
+    "bbc-clarinets"
+  ],
+  "midi_files": [
+    {
+      "layer": "piano-center",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 64,
+      "sha256": "845ac7bad489e975a9f218a720187d2dcfda17623828dc0ea75d89019f0b85c8",
+      "notes": 302
+    },
+    {
+      "layer": "piano-left",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 20,
+      "sha256": "fe90af6cb13b4884b04c9e65226cd8ef09d4990cadaa3577775fdd1ed93117d8",
+      "notes": 213
+    },
+    {
+      "layer": "piano-right",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 108,
+      "sha256": "f8cf40a81014fa5c8d4ca5f78c4e09b83dd85f1c717be91d2dfaa8b248ea2dbe",
+      "notes": 111
+    },
+    {
+      "layer": "bbc-basses",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 68,
+      "sha256": "3eaed3d6bbdd1eb63fd082774694abd8c4ba4dde608e68749e18bbcdd20ab6bf",
+      "notes": 68
+    },
+    {
+      "layer": "bbc-celli",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 66,
+      "sha256": "0577900ddf9ac35857e0fb1f774ac13f06bf46efe92fc781abac74eaa2cae71c",
+      "notes": 71
+    },
+    {
+      "layer": "bbc-violas",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 64,
+      "sha256": "7831fdb308625af946c2b16bf359e268aa04e60c15201c19580ec6165753c7ed",
+      "notes": 26
+    },
+    {
+      "layer": "bbc-violins-1",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 60,
+      "sha256": "36588505064e6fba26b490e74cd32d0c9c44a537763087d2d5eb8f2ad4ee8851",
+      "notes": 52
+    },
+    {
+      "layer": "bbc-flutes",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 61,
+      "sha256": "f49064fdd2fe7db32e20949fa3357957a682fb87ea92644785ceca954123dcc5",
+      "notes": 12
+    },
+    {
+      "layer": "bbc-clarinets",
+      "tracks": 1,
+      "end_tick": 145920,
+      "pan": 67,
+      "sha256": "7c619e7d54da3c446a3b6afe5e164e3904c19898b2b23934b450da15f9c2af30",
+      "notes": 12
+    }
+  ],
+  "readme_links_checked": [
+    "../v002/README.md",
+    "../_internal/references/yey.mid",
+    "MIDI/piano-center.mid",
+    "MIDI/piano-left.mid",
+    "MIDI/piano-right.mid",
+    "MIDI/bbc-basses.mid",
+    "MIDI/bbc-celli.mid",
+    "MIDI/bbc-violas.mid",
+    "MIDI/bbc-violins-1.mid",
+    "MIDI/bbc-flutes.mid",
+    "MIDI/bbc-clarinets.mid",
+    "../v002/README.md",
+    "v003/README.md",
+    "v003/README.md",
+    "v002/README.md",
+    "v001/README.md",
+    "_internal/references/yey.mid"
+  ],
+  "center_max_gate_beats": 7.960416666666666,
+  "right_above_center_upper_voice": true,
+  "piano_cello_adjacent_semitone_overlaps": 0,
+  "plugin_loading_tested": false,
+  "live_cubase_import_tested": false,
+  "audio_rendered": false,
+  "actual_listening": false
+}

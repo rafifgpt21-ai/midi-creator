@@ -1,0 +1,94 @@
+{
+  "layer01-sub-bass": {
+    "role": "sub",
+    "register": "Cubase C0/F0/Ab0/Bb0 = MIDI 24/29/32/34",
+    "acceptance": [
+      "Fundamentals 32.70/43.65/51.91/58.27 Hz",
+      "Mono centered Direct Sub triangle",
+      "Quarter-note pump with macro depth",
+      "Host LP80 mandatory because Direct bypasses Serum filters"
+    ]
+  },
+  "layer02-octave-bass": {
+    "role": "bass",
+    "register": "MIDI 29-48",
+    "acceptance": [
+      "64 straight 16th onsets, alternating octaves",
+      "72% step gates",
+      "No stereo processing; post-distortion highpass 95 Hz"
+    ]
+  },
+  "layer03-chord-stabs": {
+    "role": "chords",
+    "register": "MIDI 48-65",
+    "acceptance": [
+      "Four syncopated chords per bar",
+      "Cm7/Fm7/Abmaj7/Bb upper voicing",
+      "Polyphony supports chords and releases"
+    ]
+  },
+  "layer04-synth-brass": {
+    "role": "brass",
+    "register": "MIDI 48-58",
+    "acceptance": [
+      "Downbeat half-bar accents",
+      "35-ms filter opening swell",
+      "Saw/square body and hall space"
+    ]
+  },
+  "layer05-bright-arp": {
+    "role": "arp",
+    "register": "MIDI 60-82",
+    "acceptance": [
+      "64 external MIDI 16ths, internal arp disabled",
+      "Up/down triads",
+      "Stereo eighth/sixteenth echoes"
+    ]
+  },
+  "layer06-glass-bells": {
+    "role": "bell",
+    "register": "Cubase C5-C6 = MIDI 84-96",
+    "acceptance": [
+      "24 spaced eighth-grid events",
+      "A sine FM from silent enabled B",
+      "Space reverb; long ring tail"
+    ]
+  },
+  "layer07-warm-pad": {
+    "role": "pad",
+    "register": "MIDI 51-62",
+    "acceptance": [
+      "Harmony changes every bar",
+      "Common tones tied across bars",
+      "Slow envelopes and restrained low mids"
+    ]
+  },
+  "layer08-main-lead": {
+    "role": "lead",
+    "register": "MIDI 60-72",
+    "acceptance": [
+      "Original C-minor melody",
+      "50-ms portamento with 35-ms overlaps",
+      "Silence for responses after beat 3 of bars 2/4"
+    ]
+  },
+  "layer09-synth-whistle": {
+    "role": "counter lead",
+    "register": "MIDI 72-80",
+    "acceptance": [
+      "Only bars 2 and 4, beats 3-and/4/4-and",
+      "Delayed vibrato",
+      "No overlap with main lead MIDI"
+    ]
+  },
+  "layer10-transition-fx": {
+    "role": "fx",
+    "register": "MIDI 48 impact; MIDI60 riser",
+    "acceptance": [
+      "Two voices, one preset/instrument",
+      "Riser velocity1, impact127",
+      "7.933884-second Env2 rise",
+      "No claim of hard split or auditioned pitch sweep"
+    ]
+  }
+}

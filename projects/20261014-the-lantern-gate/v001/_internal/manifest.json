@@ -1,0 +1,479 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "The Lantern Gate",
+  "combined": false,
+  "composition_sha256": "94f8e4098ab7ca69014c84352b044f2ed0fa7dff4a1f6516de206402830bca02",
+  "tempo_bpm": 108,
+  "time_signature": [
+    6,
+    8
+  ],
+  "bars": 96,
+  "ticks_per_beat": 960,
+  "end_tick": 276480,
+  "duration_seconds": 160.000128,
+  "layers": [
+    {
+      "id": "s01-violins1-long",
+      "name": "01 Violins 1 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 40,
+      "note_count": 139,
+      "file": "MIDI/s01-violins1-long.mid"
+    },
+    {
+      "id": "s02-violins1-tremolo",
+      "name": "02 Violins 1 - Tremolo",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 44,
+      "note_count": 4,
+      "file": "MIDI/s02-violins1-tremolo.mid"
+    },
+    {
+      "id": "s03-violins2-long",
+      "name": "03 Violins 2 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 40,
+      "note_count": 75,
+      "file": "MIDI/s03-violins2-long.mid"
+    },
+    {
+      "id": "s04-violins2-spiccato",
+      "name": "04 Violins 2 - Spiccato",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 45,
+      "note_count": 310,
+      "file": "MIDI/s04-violins2-spiccato.mid"
+    },
+    {
+      "id": "s05-violins2-pizzicato",
+      "name": "05 Violins 2 - Pizzicato",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 45,
+      "note_count": 64,
+      "file": "MIDI/s05-violins2-pizzicato.mid"
+    },
+    {
+      "id": "s06-violas-long",
+      "name": "06 Violas - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 41,
+      "note_count": 82,
+      "file": "MIDI/s06-violas-long.mid"
+    },
+    {
+      "id": "s07-violas-spiccato",
+      "name": "07 Violas - Spiccato",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 45,
+      "note_count": 262,
+      "file": "MIDI/s07-violas-spiccato.mid"
+    },
+    {
+      "id": "s08-cellos-long",
+      "name": "08 Cellos - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 42,
+      "note_count": 36,
+      "file": "MIDI/s08-cellos-long.mid"
+    },
+    {
+      "id": "s09-cellos-spiccato",
+      "name": "09 Cellos - Spiccato",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 45,
+      "note_count": 115,
+      "file": "MIDI/s09-cellos-spiccato.mid"
+    },
+    {
+      "id": "s10-cellos-pizzicato",
+      "name": "10 Cellos - Pizzicato",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 45,
+      "note_count": 52,
+      "file": "MIDI/s10-cellos-pizzicato.mid"
+    },
+    {
+      "id": "s11-basses-long",
+      "name": "11 Double Basses - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 43,
+      "note_count": 71,
+      "file": "MIDI/s11-basses-long.mid"
+    },
+    {
+      "id": "w01-flutes-long",
+      "name": "12 Flutes a3 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 73,
+      "note_count": 39,
+      "file": "MIDI/w01-flutes-long.mid"
+    },
+    {
+      "id": "w02-flutes-staccatissimo",
+      "name": "13 Flutes a3 - Staccatissimo",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 73,
+      "note_count": 24,
+      "file": "MIDI/w02-flutes-staccatissimo.mid"
+    },
+    {
+      "id": "w03-oboes-long",
+      "name": "14 Oboes a3 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 68,
+      "note_count": 33,
+      "file": "MIDI/w03-oboes-long.mid"
+    },
+    {
+      "id": "w04-clarinets-long",
+      "name": "15 Clarinets a3 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 71,
+      "note_count": 34,
+      "file": "MIDI/w04-clarinets-long.mid"
+    },
+    {
+      "id": "w05-bassoons-long",
+      "name": "16 Bassoons a3 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 70,
+      "note_count": 25,
+      "file": "MIDI/w05-bassoons-long.mid"
+    },
+    {
+      "id": "w06-piccolo-long",
+      "name": "17 Piccolo - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 72,
+      "note_count": 8,
+      "file": "MIDI/w06-piccolo-long.mid"
+    },
+    {
+      "id": "b01-horns-long",
+      "name": "18 Horns a4 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 60,
+      "note_count": 61,
+      "file": "MIDI/b01-horns-long.mid"
+    },
+    {
+      "id": "b02-horns-staccatissimo",
+      "name": "19 Horns a4 - Staccatissimo",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 60,
+      "note_count": 22,
+      "file": "MIDI/b02-horns-staccatissimo.mid"
+    },
+    {
+      "id": "b03-trumpets-long",
+      "name": "20 Trumpets a3 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 56,
+      "note_count": 35,
+      "file": "MIDI/b03-trumpets-long.mid"
+    },
+    {
+      "id": "b04-trumpets-staccatissimo",
+      "name": "21 Trumpets a3 - Staccatissimo",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 56,
+      "note_count": 6,
+      "file": "MIDI/b04-trumpets-staccatissimo.mid"
+    },
+    {
+      "id": "b05-tenor-trombones-long",
+      "name": "22 Tenor Trombones a3 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 57,
+      "note_count": 23,
+      "file": "MIDI/b05-tenor-trombones-long.mid"
+    },
+    {
+      "id": "b06-bass-trombones-long",
+      "name": "23 Bass Trombones a2 - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 57,
+      "note_count": 23,
+      "file": "MIDI/b06-bass-trombones-long.mid"
+    },
+    {
+      "id": "b07-tuba-long",
+      "name": "24 Tuba - Long",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 58,
+      "note_count": 14,
+      "file": "MIDI/b07-tuba-long.mid"
+    },
+    {
+      "id": "k01-harp",
+      "name": "25 Harp - Plucks",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 46,
+      "note_count": 186,
+      "file": "MIDI/k01-harp.mid"
+    },
+    {
+      "id": "k02-celeste",
+      "name": "26 Celeste - Hits",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 8,
+      "note_count": 9,
+      "file": "MIDI/k02-celeste.mid"
+    },
+    {
+      "id": "k03-glockenspiel",
+      "name": "27 Glockenspiel - Hits",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 9,
+      "note_count": 10,
+      "file": "MIDI/k03-glockenspiel.mid"
+    },
+    {
+      "id": "k04-tubular-bells",
+      "name": "28 Tubular Bells - Hits",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 14,
+      "note_count": 3,
+      "file": "MIDI/k04-tubular-bells.mid"
+    },
+    {
+      "id": "p01-timpani-hits",
+      "name": "29 Timpani - Hits",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 47,
+      "note_count": 64,
+      "file": "MIDI/p01-timpani-hits.mid"
+    },
+    {
+      "id": "p02-bass-drum",
+      "name": "30 Bass Drum - Hits",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 12,
+      "file": "MIDI/p02-bass-drum.mid"
+    },
+    {
+      "id": "p03-snare",
+      "name": "31 Snare Drum - Hits",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 116,
+      "file": "MIDI/p03-snare.mid"
+    },
+    {
+      "id": "p04-suspended-cymbal",
+      "name": "32 Suspended Cymbal - Hits",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 1,
+      "file": "MIDI/p04-suspended-cymbal.mid"
+    },
+    {
+      "id": "p05-suspended-cymbal-roll",
+      "name": "33 Suspended Cymbal - Roll",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 2,
+      "file": "MIDI/p05-suspended-cymbal-roll.mid"
+    },
+    {
+      "id": "p06-piatti",
+      "name": "34 Piatti - Hits",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 4,
+      "file": "MIDI/p06-piatti.mid"
+    },
+    {
+      "id": "p07-triangle",
+      "name": "35 Triangle - Hits",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 2,
+      "file": "MIDI/p07-triangle.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/s01-violins1-long.mid",
+      "sha256": "2b3d99f9db339faf7ee200ac9acc445151ae96b0b36aba25588d96fd1fac2d63"
+    },
+    {
+      "path": "MIDI/s02-violins1-tremolo.mid",
+      "sha256": "5c73e98edd561f2568e540be47d27c4a60ba008960665452eb86e604186ac948"
+    },
+    {
+      "path": "MIDI/s03-violins2-long.mid",
+      "sha256": "228b9cbe15c97b6d3949f937594ff5c7090fcfa26ba561cc440f2d86bde7d7c1"
+    },
+    {
+      "path": "MIDI/s04-violins2-spiccato.mid",
+      "sha256": "024dbaeece0b0d3f4d4c358d9ed7dc74b860e11e22ceb4680cc6a865202a5144"
+    },
+    {
+      "path": "MIDI/s05-violins2-pizzicato.mid",
+      "sha256": "a4adb27041eeb2ffed96de258abcd26f1d03fff566ef8f16ba363ef457c85d42"
+    },
+    {
+      "path": "MIDI/s06-violas-long.mid",
+      "sha256": "62c625e2fee05b51ce49ff066526c84b05246ed4d6ab4f942f5255638655cb87"
+    },
+    {
+      "path": "MIDI/s07-violas-spiccato.mid",
+      "sha256": "4a3c9a7b5c7b9cd496b1a3049844d5fe739303cca6ce2315d6aaebfe4ec4b08f"
+    },
+    {
+      "path": "MIDI/s08-cellos-long.mid",
+      "sha256": "b2fc5cf49eb0a9b9b31a92776fdba6d1443ef72a4bf255b2cd5c900e507589a9"
+    },
+    {
+      "path": "MIDI/s09-cellos-spiccato.mid",
+      "sha256": "5f5bc0b3705746fe07a07eb44803629076839ecd242a376c2353c38ac356c62a"
+    },
+    {
+      "path": "MIDI/s10-cellos-pizzicato.mid",
+      "sha256": "e00e558eb1c20abea1a47b163db876a03e58c206d130a40aa764f051af39b63c"
+    },
+    {
+      "path": "MIDI/s11-basses-long.mid",
+      "sha256": "e97ce36b42541b91ca871c013e98b777f4739635e0f4252dc4bdf34c19bb9e68"
+    },
+    {
+      "path": "MIDI/w01-flutes-long.mid",
+      "sha256": "77d345d3e26dc2e0069a975950a25fb9edc31245db27534191c4d8d18cd2f1fb"
+    },
+    {
+      "path": "MIDI/w02-flutes-staccatissimo.mid",
+      "sha256": "0b9533f04e4978031411b0e95eb40fbfc423120e3a89b2b013f00770d8aa559e"
+    },
+    {
+      "path": "MIDI/w03-oboes-long.mid",
+      "sha256": "90759e7c6971501bdcc6f7fb07ae67c94ff8ed621f3ba770bc96857ebc01b6ea"
+    },
+    {
+      "path": "MIDI/w04-clarinets-long.mid",
+      "sha256": "49715626aff5bc9fbf47589ea2d2fef75bd4567f1674fe7646bdaa39e37ed7d1"
+    },
+    {
+      "path": "MIDI/w05-bassoons-long.mid",
+      "sha256": "69620fb53bb6d974683b4d056cbcc987f9107f4d5729b6cdc47dbc6c0535a0f7"
+    },
+    {
+      "path": "MIDI/w06-piccolo-long.mid",
+      "sha256": "665c9003bc1036448433b6977562ec88c2b5d948d99ee3221b5c65aa5af9b233"
+    },
+    {
+      "path": "MIDI/b01-horns-long.mid",
+      "sha256": "59b71fabd0f38a35bfc7e69ab00b8e30a9a1e91c477346d79c2c32d5988bc173"
+    },
+    {
+      "path": "MIDI/b02-horns-staccatissimo.mid",
+      "sha256": "7ae87947afe85d97657bfd5d331090a8bf3ff4901c264309512550acf08a66cd"
+    },
+    {
+      "path": "MIDI/b03-trumpets-long.mid",
+      "sha256": "b34a03f7f4867668d62ad8f9ab92b76c332008c41b2becc9b308e45ba5eb136f"
+    },
+    {
+      "path": "MIDI/b04-trumpets-staccatissimo.mid",
+      "sha256": "b59303cda8d6810eec8becb1a928d4b5140f1acb5ce0703c63af322914df4039"
+    },
+    {
+      "path": "MIDI/b05-tenor-trombones-long.mid",
+      "sha256": "1b506a51881af1749cf37cb6cac455484396b8cba5f50f429b97636fa73bff68"
+    },
+    {
+      "path": "MIDI/b06-bass-trombones-long.mid",
+      "sha256": "67cd8e21eed6250683e8a13420e50efabcf5f3a9f3df2752cb44e19bdaad31d4"
+    },
+    {
+      "path": "MIDI/b07-tuba-long.mid",
+      "sha256": "02d4cb985b50a427de4dbf10cc4dcd50c15b4aae554d902a15b4a3e2f4a6557f"
+    },
+    {
+      "path": "MIDI/k01-harp.mid",
+      "sha256": "c4105dd3861653149d7127d41266313b5aed73d795656a6c7fea61cbb5bf48b6"
+    },
+    {
+      "path": "MIDI/k02-celeste.mid",
+      "sha256": "44200346608453755871e8a61d346a055b9194fa261a768a08d0a84986477494"
+    },
+    {
+      "path": "MIDI/k03-glockenspiel.mid",
+      "sha256": "e430f0066865eb132f202671ba900673577740167441dff86153597f595f41b9"
+    },
+    {
+      "path": "MIDI/k04-tubular-bells.mid",
+      "sha256": "80009c9a1c8b3d5694ebd6cd566fb9d662f6f17bdf8d508a50fc2fbd613ba261"
+    },
+    {
+      "path": "MIDI/p01-timpani-hits.mid",
+      "sha256": "6c1ef85b634f97e9f07216b9874946700ff9e9e0864b1d897597c1f9fa7a548d"
+    },
+    {
+      "path": "MIDI/p02-bass-drum.mid",
+      "sha256": "798277bb52faebd77eaa00c13dec52ab1d4be828eb0023ca86ac2d6d61899519"
+    },
+    {
+      "path": "MIDI/p03-snare.mid",
+      "sha256": "265a572c0c598a479de02724f86f8b21f410182580138e46659e105887ba5afd"
+    },
+    {
+      "path": "MIDI/p04-suspended-cymbal.mid",
+      "sha256": "5c5b74228207912cebc5dea375c313994f897bc00fef649079c11d7f57070756"
+    },
+    {
+      "path": "MIDI/p05-suspended-cymbal-roll.mid",
+      "sha256": "b08d2cc6b0e9fc8dc5202b37897dabe5706f30f3a8beed2ecc76cbbf3eb162df"
+    },
+    {
+      "path": "MIDI/p06-piatti.mid",
+      "sha256": "d125c30105865641f803c53b69cf88897f34d87183db6c94f4d2c898b9575996"
+    },
+    {
+      "path": "MIDI/p07-triangle.mid",
+      "sha256": "aaeb8a03553f647a19d04e53852b9fe5d71a47d1562c29fa19fc0fb1d688613a"
+    }
+  ]
+}

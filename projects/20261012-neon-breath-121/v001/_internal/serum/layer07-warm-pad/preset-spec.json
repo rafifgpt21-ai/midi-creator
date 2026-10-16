@@ -1,0 +1,268 @@
+{
+  "name": "layer07-warm-pad",
+  "description": "Soft analog pad, common-tone ties across Cm/Fm/Ab/Bb; gentle independent brightness/PWM movement.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.24,
+      "pan": 0,
+      "unison": 5,
+      "detune": 0.065,
+      "wavetable": "analog_mini",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0.2,
+      "pan": 0,
+      "unison": 3,
+      "detune": 0.045,
+      "wavetable": "pwm",
+      "table_position": 150,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0,
+      "fine": -3
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_12",
+      "cutoff": 0.54,
+      "resonance": 7,
+      "drive": 5,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    },
+    {
+      "enabled": false,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.5,
+      "resonance": 10,
+      "drive": 0,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.62,
+      "hold": 0,
+      "decay": 1.4,
+      "sustain": 0.85,
+      "release": 0.65
+    },
+    {
+      "attack": 0.85,
+      "hold": 0,
+      "decay": 1.8,
+      "sustain": 0.62,
+      "release": 0.6
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.3,
+      "sustain": 0,
+      "release": 0.12
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.015
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.125,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    },
+    {
+      "rate": 0.08,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "TONE",
+      "value": 0
+    },
+    {
+      "name": "SPACE",
+      "value": 0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 37,
+      "params": {
+        "kParamRate": 0.19,
+        "kParamDepth": 7,
+        "kParamDelay": 7,
+        "kParamFeedback": 8,
+        "kParamFilt": 3000
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 22,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 55,
+        "kParamDelay": 22,
+        "kParamWidth": 100
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXUtils",
+      "wet": 100,
+      "params": {
+        "kParamHPF": 230,
+        "kParamLPF": 7500,
+        "kParamWidth": 115
+      },
+      "rack": 0
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 12
+    },
+    {
+      "source": "lfo0",
+      "destination": "filter0.cutoff",
+      "amount": 4,
+      "bipolar": true
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator1.table_position",
+      "amount": 5,
+      "bipolar": true
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator0.pan",
+      "amount": 5,
+      "bipolar": true
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 9
+    },
+    {
+      "source": "macro1",
+      "destination": "fx1.wet",
+      "amount": 14
+    }
+  ],
+  "arp": {
+    "enabled": false
+  },
+  "global": {
+    "master_volume": 0.38,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "porta_always": false,
+    "swing": 0
+  }
+}

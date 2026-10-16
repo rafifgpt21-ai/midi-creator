@@ -38,5 +38,12 @@
       "encryption": null
     },
     "preserved_path": "docs/serum-sound-design/_internal/sources/Electronic_Music_and_Sound_Design_Theory.pdf"
+  },
+  {
+    "id": "analog-guide-attachment",
+    "path": "C:\\Users\\rafif\\.t3\\userdata\\attachments\\990111b8-e185-4a0b-bc50-0354e9bbaabc-5a39ea6f-1223-4b10-88fc-0af946305412-md.md",
+    "preserved_path": "docs/serum-sound-design/_internal/sources/panduan_analog_sound_serum_2.md",
+    "sha256": "29a11164be665b85f6dc649fba6f4a6da1aee540b44dc5874b95912a465590ce",
+    "mime_type": "text/markdown"
   }
 ]

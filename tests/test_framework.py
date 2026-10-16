@@ -11,7 +11,7 @@ import unittest
 import mido
 
 from midi_creator.export import generate_export, verify_export
-from midi_creator.midi import inspect_midi, render_midi
+from midi_creator.midi import check_rendered, inspect_midi, render_midi
 from midi_creator.spec import CompositionError, compile_composition, load_json, pitch_number
 
 
@@ -35,6 +35,33 @@ def absolute_messages(track):
 
 
 class ExportTests(unittest.TestCase):
+    def test_orchestral_controls_survive_export_and_precede_note_attack(self):
+        source = basic()
+        source['layers'][0]['control_changes'] = [
+            {'start': 0, 'control': 11, 'value': 90},
+            {'start': 2, 'control': 1, 'value': 45},
+            {'start': 2.01, 'control': 11, 'value': 105},
+            {'start': 8, 'control': 1, 'value': 0},
+        ]
+        output = self.export(source)
+        path = output / 'MIDI/piano.mid'
+        midi = mido.MidiFile(path)
+        events = list(absolute_messages(midi.tracks[0]))
+        controls = [(t, m.control, m.value) for t, m in events if m.type == 'control_change']
+        self.assertEqual(controls, [(0, 7, 100), (0, 10, 64), (0, 11, 90),
+                                    (960, 1, 45), (965, 11, 105), (3840, 1, 0)])
+        self.assertEqual([m.type for t, m in events if t == 960], ['control_change', 'note_on'])
+        self.assertTrue(verify_export(output)['ok'])
+        for message in midi.tracks[0]:
+            if message.type == 'control_change' and message.control == 1:
+                message.value += 1
+                break
+        midi.save(path)
+        composition = compile_composition(source)
+        report = check_rendered(path, composition, composition.layers, single_track=True)
+        self.assertFalse(report['ok'])
+        self.assertTrue(any('controller automation' in e for e in report['errors']))
+
     def setUp(self):
         self.temporary = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary.cleanup)
@@ -317,6 +344,39 @@ class ExportTests(unittest.TestCase):
 
 
 class ContractTests(unittest.TestCase):
+    def test_controller_bounds_reserved_controls_and_tick_collisions(self):
+        for event in [
+            {'start': 8.01, 'control': 1, 'value': 90},
+            {'start': -1, 'control': 1, 'value': 90},
+            {'start': 0, 'control': 32, 'value': 90},
+            {'start': 0, 'control': 7, 'value': 90},
+            {'start': 0, 'control': 11, 'value': 128},
+        ]:
+            source = basic()
+            source['layers'][0]['control_changes'] = [event]
+            with self.subTest(event=event), self.assertRaises(CompositionError):
+                compile_composition(source)
+        source = basic()
+        source['layers'][0]['control_changes'] = [
+            {'start': 2, 'control': 1, 'value': 40},
+            {'start': 2.0001, 'control': 1, 'value': 60},
+        ]
+        with self.assertRaisesRegex(CompositionError, 'duplicate controller'):
+            compile_composition(source)
+
+    def test_combined_drums_reject_conflicting_controller_curves(self):
+        source = basic()
+        source['layers'] = [
+            {'id': 'bass-drum', 'name': 'Bass drum', 'kind': 'drums',
+             'notes': [{'pitch': 36, 'start': 0, 'duration': .1}]},
+            {'id': 'snare', 'name': 'Snare', 'kind': 'drums',
+             'notes': [{'pitch': 40, 'start': 0, 'duration': .1}],
+             'control_changes': [{'start': 0, 'control': 11, 'value': 90}]},
+        ]
+        compile_composition(source)
+        with self.assertRaisesRegex(CompositionError, 'same control automation'):
+            compile_composition(source, combined=True)
+
     def test_pitch_names_and_boundaries(self):
         for name, number in [("C4", 60), ("A4", 69), ("Bb2", 46), ("C-1", 0), ("G9", 127)]:
             self.assertEqual(pitch_number(name), number)

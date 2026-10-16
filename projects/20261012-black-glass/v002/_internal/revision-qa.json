@@ -1,0 +1,90 @@
+{
+  "ok": true,
+  "revision": "v002",
+  "origin": "v001",
+  "checked_at": "2026-10-12T05:55:31.014682+00:00",
+  "preset_count": 5,
+  "midi_count": 13,
+  "all_midi_unchanged": true,
+  "midi": {
+    "bass-grit.mid": {
+      "sha256": "b8e8cfa89ee7d23cd19534e2e5254f7b37ca2dbb1cf4d0d7458678ebf243488a",
+      "unchanged_from_v001": true
+    },
+    "closed-hat.mid": {
+      "sha256": "b9d806669c868a42c7745d406850808d733d3cd46e918a02ad59612d5f8b7efa",
+      "unchanged_from_v001": true
+    },
+    "crash.mid": {
+      "sha256": "7256e13f1d40c57dc1373df23f87e356af29d5e4a346157f90177dbe2f4bd4db",
+      "unchanged_from_v001": true
+    },
+    "floor-tom.mid": {
+      "sha256": "3670608815b882f0fec1941e39ad46ddc93814326cfb0d5b5874b004478b7968",
+      "unchanged_from_v001": true
+    },
+    "ghost-bell.mid": {
+      "sha256": "c3a91b6413818bdc9f434778339ad1bbd27c74af9a480076777c375c04912664",
+      "unchanged_from_v001": true
+    },
+    "kick.mid": {
+      "sha256": "16bb41aef0a78e53354aaf548ae3799bbb39fb10fea4a4e3aa5725990455ec17",
+      "unchanged_from_v001": true
+    },
+    "open-hat.mid": {
+      "sha256": "55a1f2817ed495940104184300215c3ca2a132e6681c1c2828677b611413761d",
+      "unchanged_from_v001": true
+    },
+    "piano.mid": {
+      "sha256": "6c25db944700ac8f954f9601f3691cfce20af3a272ab547b2b86150264939917",
+      "unchanged_from_v001": true
+    },
+    "rim.mid": {
+      "sha256": "075f3b2518280e7b4dd270ddd19723ab0d8487db4d089649a4c053a0eeb11381",
+      "unchanged_from_v001": true
+    },
+    "shadow-pad.mid": {
+      "sha256": "f7fd0c7e289b6704fb508a44ed1d53be26fbe08afca79326294dc6165eaf7300",
+      "unchanged_from_v001": true
+    },
+    "snare.mid": {
+      "sha256": "c3576ccb9fcbaca811cf4073f3324314dcaaf4497309c13ab0103af99bffe446",
+      "unchanged_from_v001": true
+    },
+    "sub-bass.mid": {
+      "sha256": "a0246e8ae7ca40155d4b6f573c2f145617718068ea2ca26ce5fdf43fa3b83680",
+      "unchanged_from_v001": true
+    },
+    "tension-rise.mid": {
+      "sha256": "73c35c93f859eafb59c13073937fac10cf592f426208db4bce8a19377dba97fe",
+      "unchanged_from_v001": true
+    }
+  },
+  "structural": {
+    "status": "pass",
+    "full_requested_readback": true,
+    "wire_type_scan": true,
+    "arp_off": true,
+    "resource_resolution": true,
+    "factory_waveform_analysis": true,
+    "copied_hash_match": true
+  },
+  "plugin_load": {
+    "status": "untested",
+    "installed_plugin_version": "2.0.23",
+    "reason": "Current studio tools report native_preset_loading=false."
+  },
+  "render_analysis": {
+    "status": "untested",
+    "audio_rendered": false
+  },
+  "listening": {
+    "status": "untested",
+    "auditioned": false
+  },
+  "uncertain_controls": [
+    "source phase/randomness uses tool/default state; no general semantic setter",
+    "two-filter balance exact scale and audible isolation untested",
+    "macro endpoints, actual gain/peaks, filter Hz and stereo behavior require audio checks"
+  ]
+}

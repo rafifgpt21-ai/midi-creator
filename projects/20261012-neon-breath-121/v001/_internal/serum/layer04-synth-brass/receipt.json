@@ -1,0 +1,41 @@
+{
+  "layer": "layer04-synth-brass",
+  "ok": true,
+  "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v001\\Presets\\layer04-synth-brass.SerumPreset",
+  "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-neon-breath-121\\v001\\layer04-synth-brass.SerumPreset",
+  "sha256": "a109292839855bbe11b79552761f55ae59735f2e00ba12643c903b200853d7d6",
+  "copy_hash_matches": true,
+  "structural_readback": {
+    "oscillators": true,
+    "filters": true,
+    "envelopes": true,
+    "lfos": true,
+    "macros": true,
+    "fx_chain": true,
+    "global": true,
+    "arp": true,
+    "mod_routes": true,
+    "name": true
+  },
+  "wire_type_issues": [],
+  "dependencies": [
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true
+    }
+  ],
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false
+}

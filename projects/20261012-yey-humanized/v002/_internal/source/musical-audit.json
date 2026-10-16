@@ -1,0 +1,870 @@
+{
+  "ok": true,
+  "reference_sha256": "58bfb64592e25302525b04cc62e5c2019b9a19374f67004fd9903f27c09744a9",
+  "preserved_progression_bars": 72,
+  "preserved_initial_silence_bars": 4,
+  "bar_checks": [
+    {
+      "bar": 5,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 6,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 7,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 8,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 9,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 10,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 11,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 12,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 13,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 14,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 15,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 16,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 17,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 18,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 19,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 20,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 21,
+      "chord": "D6",
+      "piano_pitch_classes": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "bass_pc": 2,
+      "ok": true
+    },
+    {
+      "bar": 22,
+      "chord": "E",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 4,
+      "ok": true
+    },
+    {
+      "bar": 23,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 24,
+      "chord": "E/G#",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 8,
+      "ok": true
+    },
+    {
+      "bar": 25,
+      "chord": "A",
+      "piano_pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "bass_pc": 9,
+      "ok": true
+    },
+    {
+      "bar": 26,
+      "chord": "E",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 4,
+      "ok": true
+    },
+    {
+      "bar": 27,
+      "chord": "B",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 11,
+      "ok": true
+    },
+    {
+      "bar": 28,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 29,
+      "chord": "A",
+      "piano_pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "bass_pc": 9,
+      "ok": true
+    },
+    {
+      "bar": 30,
+      "chord": "E",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 4,
+      "ok": true
+    },
+    {
+      "bar": 31,
+      "chord": "B",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 11,
+      "ok": true
+    },
+    {
+      "bar": 32,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 33,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 34,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 35,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 36,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 37,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 38,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 39,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 40,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 41,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 42,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 43,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 44,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 45,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 46,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 47,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 48,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 49,
+      "chord": "D6",
+      "piano_pitch_classes": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "bass_pc": 2,
+      "ok": true
+    },
+    {
+      "bar": 50,
+      "chord": "E",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 4,
+      "ok": true
+    },
+    {
+      "bar": 51,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 52,
+      "chord": "E/G#",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 8,
+      "ok": true
+    },
+    {
+      "bar": 53,
+      "chord": "A",
+      "piano_pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "bass_pc": 9,
+      "ok": true
+    },
+    {
+      "bar": 54,
+      "chord": "E",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 4,
+      "ok": true
+    },
+    {
+      "bar": 55,
+      "chord": "B",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 11,
+      "ok": true
+    },
+    {
+      "bar": 56,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 57,
+      "chord": "A",
+      "piano_pitch_classes": [
+        1,
+        4,
+        9
+      ],
+      "bass_pc": 9,
+      "ok": true
+    },
+    {
+      "bar": 58,
+      "chord": "E",
+      "piano_pitch_classes": [
+        4,
+        8,
+        11
+      ],
+      "bass_pc": 4,
+      "ok": true
+    },
+    {
+      "bar": 59,
+      "chord": "B",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 11,
+      "ok": true
+    },
+    {
+      "bar": 60,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 61,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 62,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 63,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 64,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 65,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 66,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 67,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 68,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 69,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 70,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 71,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 72,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 73,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 74,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    },
+    {
+      "bar": 75,
+      "chord": "F#m",
+      "piano_pitch_classes": [
+        1,
+        6,
+        9
+      ],
+      "bass_pc": 6,
+      "ok": true
+    },
+    {
+      "bar": 76,
+      "chord": "B/D#",
+      "piano_pitch_classes": [
+        3,
+        6,
+        11
+      ],
+      "bass_pc": 3,
+      "ok": true
+    }
+  ],
+  "layers": {
+    "piano": {
+      "midi_min": 30,
+      "midi_max": 83,
+      "notes": 489,
+      "first_bar": 5.0,
+      "last_note_end_bar": 76.987
+    },
+    "bbc-basses": {
+      "midi_min": 30,
+      "midi_max": 45,
+      "notes": 68,
+      "first_bar": 9.0,
+      "last_note_end_bar": 76.93
+    },
+    "bbc-celli": {
+      "midi_min": 49,
+      "midi_max": 69,
+      "notes": 71,
+      "first_bar": 33.5,
+      "last_note_end_bar": 76.853
+    },
+    "bbc-violas": {
+      "midi_min": 64,
+      "midi_max": 66,
+      "notes": 26,
+      "first_bar": 13.0,
+      "last_note_end_bar": 76.93
+    },
+    "bbc-violins-1": {
+      "midi_min": 71,
+      "midi_max": 73,
+      "notes": 52,
+      "first_bar": 17.0,
+      "last_note_end_bar": 76.93
+    },
+    "bbc-flutes": {
+      "midi_min": 75,
+      "midi_max": 81,
+      "notes": 12,
+      "first_bar": 36.688,
+      "last_note_end_bar": 72.182
+    },
+    "bbc-clarinets": {
+      "midi_min": 63,
+      "midi_max": 73,
+      "notes": 12,
+      "first_bar": 26.25,
+      "last_note_end_bar": 59.938
+    }
+  },
+  "piano_rh_anchor_travel": {
+    "max_semitones": 4,
+    "mean_semitones": 1.296,
+    "common_voice_transitions": 71,
+    "total_voice_transitions": 213,
+    "max_hand_span_semitones": 9
+  },
+  "piano_upper_anchor_comparison": {
+    "source_max_travel": 19,
+    "source_mean_travel": 4.408,
+    "v002_max_travel": 3,
+    "v002_mean_travel": 1.254,
+    "scope": "Bar upper anchors; not an audio-quality score or every melodic note."
+  },
+  "cello_melody_pitch_class_preservation": true,
+  "flute_overlaps_cello": false,
+  "verification_scope": "Symbolic musical and MIDI design; no playback/listening inference."
+}

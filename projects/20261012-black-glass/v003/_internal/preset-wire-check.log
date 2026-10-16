@@ -1,0 +1,192 @@
+=== bass-grit.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: bass-grit
+Description: Black Glass v002: saw/square mid-bass with a faster opening color envelope, high-pass into low-pass serial shaping, tape saturation and dark post EQ. Mono octave layer complements the clean sub.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.16  pan=+0  wavetable=analog_basic  table_pos=1.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.07  pan=+0  wavetable=analog_basic  table_pos=3.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=highpass_12  cutoff=0.24  resonance=0%  drive=0%  stereo=50%
+Filter 2: ON   type=lowpass_12  cutoff=0.48  resonance=7%  drive=8%  stereo=50%
+
+Env 1: attack=6.0ms  decay=1.10s  sustain=0.79  release=0.04s
+Env 2: attack=1.0ms  decay=0.43s  sustain=0.20  release=0.04s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "BITE": 18%
+Macro 2 "TONE": 25%
+Macro 3 "ATTACK": 35%
+
+FX chain:
+  - FXDistortion (wet=62%)
+  - FXComp (wet=40%)
+  - FXEQ (wet=100%)
+
+Mod matrix (recognized routes only):
+  - velocity -> oscillator0.volume: +33%
+  - velocity -> oscillator1.volume: +17%
+  - env1 -> filter1.cutoff: +14%
+  - velocity -> filter1.cutoff: +5%
+  - macro0 -> fx0.wet: +25%
+  - macro1 -> filter1.cutoff: +8%
+  - env1 -> filter1.cutoff: +9%
+
+Global: master_volume=0.27  mono=on  poly=1
+
+=== ghost-bell.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: ghost-bell
+Description: Black Glass v002: softly struck sine body with a short independent inharmonic upper partial (4.49x), dark filter and subdued eighth-note echoes at 136 BPM. No ambiguous FM-source dependency.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.15  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.00)
+Osc B: ON   octave=+2  volume=0.01  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_12  cutoff=0.50  resonance=3%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=11.0ms  decay=1.20s  sustain=0.00  release=0.62s
+Env 2: attack=1.0ms  decay=0.13s  sustain=0.00  release=0.06s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "GLASS": 28%
+Macro 2 "ECHO": 10%
+Macro 3 "SPACE": 15%
+
+FX chain:
+  - FXDelay (wet=13%)
+  - FXReverb (wet=9%)
+
+Mod matrix (recognized routes only):
+  - velocity -> oscillator0.volume: +26%
+  - env1 -> oscillator1.volume: +20%
+  - env1 -> filter0.cutoff: +10%
+  - velocity -> filter0.cutoff: +4%
+  - macro1 -> fx0.wet: +22%
+  - macro2 -> fx1.wet: +14%
+
+Global: master_volume=0.36  mono=off  poly=8
+
+=== shadow-pad.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: shadow-pad
+Description: Black Glass v002: restrained dark stereo veil with saw/triangle source contrast, gentle noise air, serial rumble removal and warm low-pass breathing. Slow movement leaves piano attacks clear.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.16  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)  unison=3  detune=0.04
+Osc B: ON   octave=+0  volume=0.11  pan=+0  wavetable=analog_basic  table_pos=2.0  warp=fm(0.00)  unison=2  detune=0.03
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: ON   octave=+0  volume=0.01  pan=+0  noise_type=Brown
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=highpass_12  cutoff=0.28  resonance=0%  drive=0%  stereo=50%
+Filter 2: ON   type=moog_lowpass_12  cutoff=0.43  resonance=6%  drive=4%  stereo=50%
+
+Env 1: attack=580.0ms  decay=2.10s  sustain=0.78  release=0.48s
+Env 2: attack=1550.0ms  decay=2.30s  sustain=0.32  release=0.55s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+LFO 2: rate=0  mode=Free  mono
+
+Macro 1 "SHADE": 18%
+Macro 2 "MOTION": 24%
+Macro 3 "SPACE": 12%
+
+FX chain:
+  - FXReverb (wet=18%)
+  - FXEQ (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter1.cutoff: +9%
+  - velocity -> oscillator0.volume: +12%
+  - macro0 -> filter1.cutoff: -12%
+  - lfo0 -> filter1.cutoff: +7%, bipolar
+  - lfo1 -> oscillator0.pan: +12%, bipolar
+  - lfo1 -> oscillator1.pan: -12%, bipolar
+  - macro2 -> fx0.wet: +22%
+
+Global: master_volume=0.36  mono=off  poly=16
+
+=== sub-bass.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: sub-bass
+Description: Black Glass v002: clean centered sine foundation with velocity-led verse/chorus contrast and a short controllable attack lift. No distortion, filter, width or glide in the low body.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.18  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=5.0ms  decay=3.40s  sustain=0.93  release=0.05s
+Env 2: attack=1.0ms  decay=0.13s  sustain=0.00  release=0.02s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "BODY": 15%
+Macro 2 "PUNCH": 28%
+
+FX chain: (empty)
+
+Mod matrix (recognized routes only):
+  - velocity -> oscillator0.volume: +52%
+  - macro0 -> oscillator0.volume: +8%
+  - env1 -> oscillator0.volume: +10%
+
+Global: master_volume=0.47  mono=on  poly=1
+
+=== tension-rise.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: tension-rise
+Description: Black Glass v002: darker pink-noise swell growing into a bright edge with serial high-pass/low-pass shaping and a late resonance lift. Seven beats at 136 BPM then a short release, no FX tail.
+Author: serum-mcp
+
+Osc A: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: ON   octave=+0  volume=0.34  pan=+0  noise_type=Pink
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=highpass_12  cutoff=0.33  resonance=0%  drive=0%  stereo=50%
+Filter 2: ON   type=lowpass_12  cutoff=0.43  resonance=7%  drive=0%  stereo=50%
+
+Env 1: attack=3000.0ms  decay=0.15s  sustain=1.00  release=0.02s
+Env 2: attack=2750.0ms  decay=0.10s  sustain=1.00  release=0.02s
+Env 3: attack=1950.0ms  decay=0.10s  sustain=1.00  release=0.02s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "AIR": 15%
+Macro 2 "TENSION": 22%
+Macro 3 "LIFT": 15%
+
+FX chain: (empty)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter1.cutoff: +37%
+  - macro0 -> filter1.cutoff: +7%
+  - env2 -> filter1.resonance: +12%
+  - macro2 -> oscillator3.volume: +12%
+
+Global: master_volume=0.28  mono=on  poly=1
+
+All files passed the automated scan. This does NOT confirm they work -- load them in real Serum to actually verify.

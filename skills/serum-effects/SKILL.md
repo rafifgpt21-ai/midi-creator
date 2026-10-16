@@ -5,6 +5,8 @@ description: Design or revise Serum 2 effects chains, multibus routing, distorti
 
 # Process the sound in Serum 2
 
+For analog/retro analog, use [analog and retro](../serum-sound-design/references/analog-retro.md) by default. Distinguish source/voice-filter nonlinearity from summed bus processing and recording coloration. Level-match comparisons; chorus, fast compression, stereo noise, tape, and external reverb are target-dependent choices, not mandatory analog processing.
+
 Read [effects](../serum-sound-design/references/effects.md) and [filters and routing](../serum-sound-design/references/filters-and-routing.md). Consult the module-specific manual pages in [sources](../serum-sound-design/references/sources.md) when a control is uncertain.
 
 1. Identify the required outcome for each processor: harmonic generation, transient/dynamic shaping, spectral balance, motion, width, distance, or a special transformation. Processing order and sends are part of the sound design.

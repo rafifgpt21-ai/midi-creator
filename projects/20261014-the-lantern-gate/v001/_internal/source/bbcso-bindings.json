@@ -1,0 +1,428 @@
+{
+  "s01-violins1-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violins 1",
+    "articulation": "Long",
+    "register": [
+      67,
+      98
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s02-violins1-tremolo": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violins 1",
+    "articulation": "Tremolo",
+    "register": [
+      67,
+      98
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s03-violins2-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violins 2",
+    "articulation": "Long",
+    "register": [
+      55,
+      96
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s04-violins2-spiccato": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violins 2",
+    "articulation": "Spiccato",
+    "register": [
+      55,
+      96
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s05-violins2-pizzicato": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violins 2",
+    "articulation": "Pizzicato",
+    "register": [
+      55,
+      96
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s06-violas-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violas",
+    "articulation": "Long",
+    "register": [
+      48,
+      84
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s07-violas-spiccato": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Violas",
+    "articulation": "Spiccato",
+    "register": [
+      48,
+      84
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s08-cellos-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Cellos",
+    "articulation": "Long",
+    "register": [
+      36,
+      72
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s09-cellos-spiccato": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Cellos",
+    "articulation": "Spiccato",
+    "register": [
+      36,
+      72
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s10-cellos-pizzicato": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Cellos",
+    "articulation": "Pizzicato",
+    "register": [
+      36,
+      72
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "s11-basses-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Strings: Basses",
+    "articulation": "Long",
+    "register": [
+      26,
+      54
+    ],
+    "family": "strings",
+    "channel": 1
+  },
+  "w01-flutes-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Woodwinds: Flutes a3",
+    "articulation": "Long",
+    "register": [
+      60,
+      96
+    ],
+    "family": "winds",
+    "channel": 1
+  },
+  "w02-flutes-staccatissimo": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Woodwinds: Flutes a3",
+    "articulation": "Staccatissimo",
+    "register": [
+      60,
+      96
+    ],
+    "family": "winds",
+    "channel": 1
+  },
+  "w03-oboes-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Woodwinds: Oboes a3",
+    "articulation": "Long",
+    "register": [
+      58,
+      84
+    ],
+    "family": "winds",
+    "channel": 1
+  },
+  "w04-clarinets-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Woodwinds: Clarinets a3",
+    "articulation": "Long",
+    "register": [
+      50,
+      86
+    ],
+    "family": "winds",
+    "channel": 1
+  },
+  "w05-bassoons-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Woodwinds: Bassoons a3",
+    "articulation": "Long",
+    "register": [
+      34,
+      74
+    ],
+    "family": "winds",
+    "channel": 1
+  },
+  "w06-piccolo-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Woodwinds: Piccolo",
+    "articulation": "Long",
+    "register": [
+      74,
+      96
+    ],
+    "family": "winds",
+    "channel": 1
+  },
+  "b01-horns-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Horns a4",
+    "articulation": "Long",
+    "register": [
+      40,
+      77
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "b02-horns-staccatissimo": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Horns a4",
+    "articulation": "Staccatissimo",
+    "register": [
+      40,
+      77
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "b03-trumpets-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Trumpets a3",
+    "articulation": "Long",
+    "register": [
+      52,
+      84
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "b04-trumpets-staccatissimo": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Trumpets a3",
+    "articulation": "Staccatissimo",
+    "register": [
+      52,
+      84
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "b05-tenor-trombones-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Tenor Trombones a3",
+    "articulation": "Long",
+    "register": [
+      43,
+      74
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "b06-bass-trombones-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Bass Trombones a2",
+    "articulation": "Long",
+    "register": [
+      34,
+      67
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "b07-tuba-long": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Brass: Tuba",
+    "articulation": "Long",
+    "register": [
+      28,
+      60
+    ],
+    "family": "brass",
+    "channel": 1
+  },
+  "k01-harp": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Harp",
+    "articulation": "Plucks / default",
+    "register": [
+      36,
+      96
+    ],
+    "family": "keys",
+    "channel": 1
+  },
+  "k02-celeste": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Celeste",
+    "articulation": "Hits / default",
+    "register": [
+      60,
+      96
+    ],
+    "family": "keys",
+    "channel": 1
+  },
+  "k03-glockenspiel": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Glockenspiel",
+    "articulation": "Hits / default",
+    "register": [
+      72,
+      96
+    ],
+    "family": "keys",
+    "channel": 1
+  },
+  "k04-tubular-bells": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Tubular Bells",
+    "articulation": "Hits / default",
+    "register": [
+      60,
+      77
+    ],
+    "family": "keys",
+    "channel": 1
+  },
+  "p01-timpani-hits": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Timpani",
+    "articulation": "Hits",
+    "register": [
+      38,
+      57
+    ],
+    "family": "percussion",
+    "channel": 1
+  },
+  "p02-bass-drum": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Untuned Percussion",
+    "articulation": "Hits",
+    "register": [
+      36,
+      36
+    ],
+    "family": "percussion",
+    "channel": 10,
+    "trigger_pitch": 36
+  },
+  "p03-snare": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Untuned Percussion",
+    "articulation": "Hits",
+    "register": [
+      40,
+      40
+    ],
+    "family": "percussion",
+    "channel": 10,
+    "trigger_pitch": 40
+  },
+  "p04-suspended-cymbal": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Untuned Percussion",
+    "articulation": "Hits",
+    "register": [
+      41,
+      41
+    ],
+    "family": "percussion",
+    "channel": 10,
+    "trigger_pitch": 41
+  },
+  "p05-suspended-cymbal-roll": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Untuned Percussion",
+    "articulation": "Roll trigger",
+    "register": [
+      43,
+      43
+    ],
+    "family": "percussion",
+    "channel": 10,
+    "trigger_pitch": 43
+  },
+  "p06-piatti": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Untuned Percussion",
+    "articulation": "Hits",
+    "register": [
+      59,
+      59
+    ],
+    "family": "percussion",
+    "channel": 10,
+    "trigger_pitch": 59
+  },
+  "p07-triangle": {
+    "plugin": "BBC Symphony Orchestra",
+    "edition": "Discover",
+    "patch": "Percussion: Untuned Percussion",
+    "articulation": "Hits",
+    "register": [
+      52,
+      52
+    ],
+    "family": "percussion",
+    "channel": 10,
+    "trigger_pitch": 52
+  }
+}

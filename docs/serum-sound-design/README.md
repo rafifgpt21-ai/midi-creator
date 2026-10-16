@@ -30,12 +30,15 @@ These are future task examples. This documentation task does not generate/auditi
 
 ## Handbook reading paths
 
+For analog, vintage, retro analog, or real analog gear requests, the default reference is the detailed Indonesian [analog and retro guide](../../skills/serum-sound-design/references/analog-retro.md). It expands the supplied five-technique notes into architecture choices, VCO/DCO behavior, voice calibration, continuous drift, optional noise modulation, drive/recording paths, six recipe directions, native-tool limits, and targeted verification. A maintained instrument is the starting assumption; explicit user/reference choices take precedence. The seven skill entrypoints and workspace `AGENTS.md` route to this reference automatically for matching requests.
+
 The complete [reference index](../../skills/serum-sound-design/references/index.md) links every chapter. Choose a path rather than loading the whole handbook every time.
 
 | Task | Reading path |
 |---|---|
 | New sound from words | Brief -> Architecture -> relevant engine/family -> Modulation/Effects -> Native build -> Verification |
 | Reference recreation | Reference matching -> selected source/engine -> controlled revisions -> Verification |
+| Analog/retro analog or hardware character | Analog and retro -> target engine/family -> selected techniques -> calibrated native build -> analog test matrix |
 | Understand a technique | Theory -> relevant engine -> Serum control map/source pages -> recipe experiment |
 | Make a playable patch | Modulation/performance -> Arp/clips if needed -> macro endpoint tests |
 | Generate a native file | Native build -> current tool schema -> capability gaps -> resource/readback checks |

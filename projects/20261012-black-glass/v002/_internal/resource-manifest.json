@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "custom_dependencies": [],
+  "resources": [
+    {
+      "kind": "factory_wavetable",
+      "factory": true,
+      "relative_install_path": "Analog/Basic Shapes.wav",
+      "resolved_path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\Basic Shapes.wav",
+      "sha256": "73b8641a9d61427e5f39313bffa8652a5f3f4367fe53be7589fe45fa36b50edc",
+      "included_custom_file": null,
+      "referenced_by": [
+        "sub-bass",
+        "bass-grit",
+        "shadow-pad",
+        "ghost-bell"
+      ]
+    },
+    {
+      "kind": "factory_wavetable",
+      "factory": true,
+      "relative_install_path": "S2 Tables/Default Shapes.wav",
+      "resolved_path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Default Shapes.wav",
+      "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f",
+      "included_custom_file": null,
+      "referenced_by": [
+        "sub-bass",
+        "bass-grit",
+        "shadow-pad",
+        "ghost-bell",
+        "tension-rise"
+      ]
+    },
+    {
+      "kind": "factory_wavetable",
+      "factory": true,
+      "relative_install_path": "S2 Tables/Analog/DM - OSCAR.wav",
+      "resolved_path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Analog\\DM - OSCAR.wav",
+      "sha256": "0e7eea510978c130e7a69b8970100a79907ddbacf7c6144811bfd68e2fbd5572",
+      "included_custom_file": null,
+      "referenced_by": [
+        "shadow-pad"
+      ]
+    }
+  ],
+  "install_instruction": "Installed Serum 2 factory tables are required; no custom tables/samples/IRs to install."
+}

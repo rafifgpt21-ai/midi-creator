@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "skills": [
+    {
+      "skill": "serum-sound-design",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "serum-reference-match",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "serum-synthesis",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "serum-modulation",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "serum-effects",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "serum-preset-build",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "serum-preset-qa",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    }
+  ]
+}

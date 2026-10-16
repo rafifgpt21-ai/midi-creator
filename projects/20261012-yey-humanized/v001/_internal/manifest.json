@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Yey - Humanized Reference Arrangement",
+  "combined": false,
+  "composition_sha256": "98ee9453e6761e0d607beff7953e928ce169c15ea8f733dc56b3e267e765b8f8",
+  "tempo_bpm": 120,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 76,
+  "ticks_per_beat": 480,
+  "end_tick": 145920,
+  "duration_seconds": 152.0,
+  "layers": [
+    {
+      "id": "piano",
+      "name": "Piano - Humanized",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 475,
+      "file": "MIDI/piano.mid"
+    },
+    {
+      "id": "strings-chord",
+      "name": "Strings - Chord",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 48,
+      "note_count": 162,
+      "file": "MIDI/strings-chord.mid"
+    },
+    {
+      "id": "strings-solo",
+      "name": "Strings - Solo",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 40,
+      "note_count": 71,
+      "file": "MIDI/strings-solo.mid"
+    },
+    {
+      "id": "precision-bass",
+      "name": "Precision Bass - Fender",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 33,
+      "note_count": 148,
+      "file": "MIDI/precision-bass.mid"
+    },
+    {
+      "id": "flute-counter",
+      "name": "Flute - Counter Melody Accents",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 73,
+      "note_count": 28,
+      "file": "MIDI/flute-counter.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/piano.mid",
+      "sha256": "2890a8572ee199f181b4f211be9b324e6b08eae6a767879c9329e8c44e1e6435"
+    },
+    {
+      "path": "MIDI/strings-chord.mid",
+      "sha256": "e196e43ec84acdda997efd42ef8f80b8c0e21afbd56453d106d3037c78926c09"
+    },
+    {
+      "path": "MIDI/strings-solo.mid",
+      "sha256": "befc60c6e0f6205d7d8769493a832c79340a56f723b86c976ab556e1f54c42a3"
+    },
+    {
+      "path": "MIDI/precision-bass.mid",
+      "sha256": "ef4887dc1fc3b49dd4a1767601967ab40be33084b179181c502402b1a1f8955c"
+    },
+    {
+      "path": "MIDI/flute-counter.mid",
+      "sha256": "c65b709e9462ed1b5d6103afb071b80c03b8dae19c18dfa2df8c67d3f0f8c15c"
+    }
+  ]
+}

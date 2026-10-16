@@ -1,0 +1,87 @@
+{
+  "piano": {
+    "instrument": "User-selected piano",
+    "preset": null,
+    "pitch_range": [
+      36,
+      80
+    ]
+  },
+  "sub-bass": {
+    "instrument": "Serum 2",
+    "preset": "Presets/sub-bass.SerumPreset",
+    "plugin_loaded": false,
+    "auditioned": false,
+    "revision": "v002"
+  },
+  "bass-grit": {
+    "instrument": "Serum 2",
+    "preset": "Presets/bass-grit.SerumPreset",
+    "plugin_loaded": false,
+    "auditioned": false,
+    "revision": "v002"
+  },
+  "shadow-pad": {
+    "instrument": "Serum 2",
+    "preset": "Presets/shadow-pad.SerumPreset",
+    "plugin_loaded": false,
+    "auditioned": false,
+    "revision": "v002"
+  },
+  "ghost-bell": {
+    "instrument": "Serum 2",
+    "preset": "Presets/ghost-bell.SerumPreset",
+    "plugin_loaded": false,
+    "auditioned": false,
+    "revision": "v002"
+  },
+  "tension-rise": {
+    "instrument": "Serum 2",
+    "preset": "Presets/tension-rise.SerumPreset",
+    "plugin_loaded": false,
+    "auditioned": false,
+    "revision": "v002"
+  },
+  "kick": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 36,
+    "channel": 10,
+    "sample": null
+  },
+  "snare": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 38,
+    "channel": 10,
+    "sample": null
+  },
+  "rim": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 41,
+    "channel": 10,
+    "sample": null
+  },
+  "closed-hat": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 54,
+    "channel": 10,
+    "sample": null
+  },
+  "open-hat": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 57,
+    "channel": 10,
+    "sample": null
+  },
+  "crash": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 64,
+    "channel": 10,
+    "sample": null
+  },
+  "floor-tom": {
+    "instrument": "User-selected drum sampler",
+    "pitch": 47,
+    "channel": 10,
+    "sample": null
+  }
+}

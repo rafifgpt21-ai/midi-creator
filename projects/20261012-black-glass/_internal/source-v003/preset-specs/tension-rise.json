@@ -1,0 +1,112 @@
+{
+  "name": "tension-rise",
+  "description": "Black Glass v002: darker pink-noise swell growing into a bright edge with serial high-pass/low-pass shaping and a late resonance lift. Seven beats at 136 BPM then a short release, no FX tail.",
+  "oscillators": [
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": true,
+      "noise_type": "Pink",
+      "volume": 0.34,
+      "filter_routing": "filter",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "highpass_12",
+      "cutoff": 0.33,
+      "resonance": 0,
+      "drive": 0,
+      "stereo": 50,
+      "output_routing": "series"
+    },
+    {
+      "enabled": true,
+      "type": "lowpass_12",
+      "cutoff": 0.43,
+      "resonance": 7,
+      "drive": 0,
+      "stereo": 50,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 3,
+      "decay": 0.15,
+      "sustain": 1,
+      "release": 0.02
+    },
+    {
+      "attack": 2.75,
+      "decay": 0.1,
+      "sustain": 1,
+      "release": 0.02
+    },
+    {
+      "attack": 1.95,
+      "decay": 0.1,
+      "sustain": 1,
+      "release": 0.02
+    }
+  ],
+  "macros": [
+    {
+      "name": "AIR",
+      "value": 15
+    },
+    {
+      "name": "TENSION",
+      "value": 22
+    },
+    {
+      "name": "LIFT",
+      "value": 15
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter1.cutoff",
+      "amount": 37
+    },
+    {
+      "source": "macro0",
+      "destination": "filter1.cutoff",
+      "amount": 7
+    },
+    {
+      "source": "env2",
+      "destination": "filter1.resonance",
+      "amount": 12,
+      "aux_source": "macro1"
+    },
+    {
+      "source": "macro2",
+      "destination": "oscillator3.volume",
+      "amount": 12
+    }
+  ],
+  "fx_chain": [],
+  "global": {
+    "master_volume": 0.28,
+    "mono": true,
+    "poly_count": 1,
+    "portamento_time": 0
+  },
+  "arp": {
+    "enabled": false
+  }
+}

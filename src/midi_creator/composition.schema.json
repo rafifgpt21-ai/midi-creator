@@ -40,6 +40,15 @@
     "layers": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/layer"}}
   },
   "$defs": {
+    "control_change": {
+      "type": "object", "additionalProperties": false,
+      "required": ["start", "control", "value"],
+      "properties": {
+        "start": {"type": "number", "minimum": 0},
+        "control": {"enum": [1, 11]},
+        "value": {"type": "integer", "minimum": 0, "maximum": 127}
+      }
+    },
     "note": {
       "type": "object", "additionalProperties": false,
       "required": ["pitch", "start", "duration"],
@@ -77,6 +86,7 @@
         "channel": {"type": "integer", "minimum": 1, "maximum": 16},
         "volume": {"type": "integer", "minimum": 0, "maximum": 127, "default": 100},
         "pan": {"type": "integer", "minimum": 0, "maximum": 127, "default": 64},
+        "control_changes": {"type": "array", "maxItems": 1000000, "items": {"$ref": "#/$defs/control_change"}},
         "notes": {"type": "array", "items": {"$ref": "#/$defs/note"}},
         "clips": {"type": "array", "items": {"$ref": "#/$defs/clip"}}
       },

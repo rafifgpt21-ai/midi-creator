@@ -2,7 +2,24 @@
 
 ## Sound design Serum 2
 
-Saat merancang, mencocokkan referensi, membuat preset, atau memperbaiki sound Serum 2, baca [panduan dan skill sound design](docs/serum-sound-design/README.md), lalu [skill utama](skills/serum-sound-design/SKILL.md). Pilih referensi engine/teori/family sesuai brief; untuk build native tetap baca `docs/serum-mcp.md`. Permintaan sound/preset saja tetap mengikuti scope itu. Bedakan verifikasi struktur, pemuatan plugin, render audio, dan listening aktual.
+- Saat membuat sound baru atau menentukan sound setiap layer komposisi, gunakan [serum-sound-design](skills/serum-sound-design/SKILL.md). [Panduan utama](docs/serum-sound-design/README.md) dan [indeks referensi](skills/serum-sound-design/references/index.md) menyediakan teori, engine, keluarga sound, resep, dan template; baca hanya cabang yang relevan.
+- Permintaan satu sound/preset menghasilkan sound/preset itu. Default aransemen lengkap di bawah berlaku untuk permintaan komposisi musik; permintaan penjelasan atau dokumentasi mengikuti hasil yang diminta pengguna.
+- Untuk sound analog/vintage/retro analog atau emulasi gear analog nyata, wajib gunakan [panduan analog dan retro Serum 2](skills/serum-sound-design/references/analog-retro.md) sebagai default, termasuk saat menentukan sound tiap layer. Mulai dari arsitektur gear dan kondisi terawat; bedakan VCO/DCO, variasi antar voice, drift kontinu, serta warna rekaman. Terapkan lima teknik sesuai kebutuhan, bukan semuanya otomatis. Pilihan eksplisit pengguna diutamakan; catat asumsi, batas implementasi, dan bukti verifikasi. Istilah retro saja tidak otomatis berarti analog.
+- Pilih skill khusus berdasarkan pekerjaan berikut. Skill tersedia dalam `skills/` workspace dan salinan terpasang di skill home; salinan workspace menjadi sumber pemeliharaan.
+
+| Pekerjaan | Skill |
+|---|---|
+| Merancang sound lengkap dari brief | [serum-sound-design](skills/serum-sound-design/SKILL.md) |
+| Mencocokkan audio atau preset referensi | [serum-reference-match](skills/serum-reference-match/SKILL.md) |
+| Memilih oscillator/engine, wavetable, FM/AM, filter, dan routing | [serum-synthesis](skills/serum-synthesis/SKILL.md) |
+| Membentuk envelope, LFO, macro, expression, glide, arp, dan clip | [serum-modulation](skills/serum-modulation/SKILL.md) |
+| Merancang FX, dinamika, stereo, ruang, dan bus | [serum-effects](skills/serum-effects/SKILL.md) |
+| Membuat atau merevisi preset native dan dependency | [serum-preset-build](skills/serum-preset-build/SKILL.md) |
+| Memeriksa, mendengarkan, atau memperbaiki hasil sound | [serum-preset-qa](skills/serum-preset-qa/SKILL.md) |
+
+- Dasarkan pilihan musikal pada brief dan teori; gunakan manual Serum untuk perilaku UI serta schema/runtime tool terkini untuk parameter implementasi. [Indeks sumber](skills/serum-sound-design/references/sources.md) membedakan isi PDF yang tersedia, bagian demo teori yang tidak disertakan, dan panduan tambahan. Resep adalah titik awal yang perlu dinilai terhadap brief.
+- Sebelum build native, baca [Serum MCP](docs/serum-mcp.md) dan panggil `list_parameters()`. Untuk kontrol yang belum didukung tool, baca [batas kemampuan](skills/serum-sound-design/references/tool-capabilities.md), gunakan template/UI yang terverifikasi bila tersedia, atau catat kebutuhan yang belum terpenuhi. Simpan spec, resource manifest, readback, dan receipt di `_internal/`; dependency custom ikut paket preset dengan petunjuk instalasi.
+- Nilai sound terhadap register, artikulasi, spektrum, gerakan, stereo, dan gesture yang diminta memakai [panduan verifikasi](skills/serum-sound-design/references/verification.md). Laporkan verifikasi struktur, pemuatan plugin, render/analisis audio, dan listening aktual secara terpisah. Jika akses live/audio belum tersedia, selesaikan pemeriksaan offline dan tandai pemeriksaan musikal terkait sebagai belum diuji.
 
 ## Kontrak hasil
 
@@ -12,7 +29,7 @@ Saat merancang, mencocokkan referensi, membuat preset, atau memperbaiki sound Se
 - Default MIDI on-grid dengan `timing.mode: "strict"` dan tanpa swing; swing hanya jika diminta pengguna. Dotted note dan meter selain 4/4 tetap diizinkan sesuai kebutuhan musik. Baca [panduan timing MIDI](docs/midi-timing-guide.md) saat membuat musik, memakai referensi, atau merevisi ritme.
 - Semua layer dalam satu komposisi menggunakan tempo, meter, resolusi, titik awal, dan panjang total yang sama. Keheningan tetap berada pada posisi aslinya agar file sejajar saat diimpor ke DAW.
 - Drum memakai kit/sample yang dipilih pengguna. Buat performa MIDI drum bila aransemen membutuhkannya, lalu jelaskan karakter drum yang cocok dan mapping pitch di README. Pemilihan atau penyalinan sample konkret dilakukan setelah pengguna menentukan pilihan atau meminta agent memilihkan.
-- Saat membuat atau merevisi drum MIDI, baca [mapping drum default](docs/default-drum-map.md). Gunakan angka pitch di sana kecuali pengguna memberikan mapping lain; pilihan kit/sample tetap mengikuti pengguna.
+- Saat membuat atau merevisi drum MIDI, baca [mapping drum default](docs/default-drum-map.md) dan pilih cabang drum per layer atau satu kit. Drum per layer mengikuti default root Cubase Sampler di panduan itu, kecuali pengguna memberikan mapping lain; pilihan kit/sample tetap mengikuti pengguna.
 - Gaya musik, instrumen, jumlah layer, dan aransemen mengikuti pengguna. File gabungan hanya dibuat jika diminta, dengan `--combined`.
 - Setiap revisi mempunyai `README.md` untuk produser: tempo/key/meter/panjang, bentuk lagu, tabel track/MIDI/preset, cara import Cubase dari bar 1, saran drum khusus lagu, mapping, asumsi, dan status verifikasi/listening. Jika instrumen di luar Serum diperlukan atau diminta, cantumkan alasan, plugin/library, cara memuatnya, rentang nada, artikulasi, dan mapping di README itu.
 - Area hasil yang dibuka produser hanya berisi `README.md`, `MIDI/`, `Presets/`, serta `Audio/` atau `Drums/` bila diminta. Semua bahan kerja agent (brief, spesifikasi, script, binding, schema, manifest, receipt, log, output antara, dan arsip revisi lama) berada dalam satu folder `_internal/`. Baca `docs/project-layout.md` saat membuat, merevisi, atau merapikan proyek.

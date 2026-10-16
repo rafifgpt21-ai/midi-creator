@@ -1,0 +1,73 @@
+{
+  "exit_code": 0,
+  "result": {
+    "ok": true,
+    "layers": 9,
+    "end_tick": 145920,
+    "duration_seconds": 152.0,
+    "note_count": 867,
+    "timing": {
+      "mode": "strict",
+      "grid_division": 32,
+      "on_grid": true,
+      "off_grid_note_ons": 0,
+      "layers": [
+        {
+          "id": "piano-center",
+          "note_ons": 302,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "piano-left",
+          "note_ons": 213,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "piano-right",
+          "note_ons": 111,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "bbc-basses",
+          "note_ons": 68,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "bbc-celli",
+          "note_ons": 71,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "bbc-violas",
+          "note_ons": 26,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "bbc-violins-1",
+          "note_ons": 52,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "bbc-flutes",
+          "note_ons": 12,
+          "off_grid_note_ons": 0,
+          "examples": []
+        },
+        {
+          "id": "bbc-clarinets",
+          "note_ons": 12,
+          "off_grid_note_ons": 0,
+          "examples": []
+        }
+      ],
+      "scope": "note-on positions; note-off gates may be shorter than the grid"
+    }
+  }
+}

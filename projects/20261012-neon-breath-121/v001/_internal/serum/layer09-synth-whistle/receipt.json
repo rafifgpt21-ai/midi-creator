@@ -1,0 +1,41 @@
+{
+  "layer": "layer09-synth-whistle",
+  "ok": true,
+  "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v001\\Presets\\layer09-synth-whistle.SerumPreset",
+  "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-neon-breath-121\\v001\\layer09-synth-whistle.SerumPreset",
+  "sha256": "2a1fc256a213f1268a53b92bbbaea2200b3ea7e1a277c15a036b5b6b0f02be99",
+  "copy_hash_matches": true,
+  "structural_readback": {
+    "oscillators": true,
+    "filters": true,
+    "envelopes": true,
+    "lfos": true,
+    "macros": true,
+    "fx_chain": true,
+    "global": true,
+    "arp": true,
+    "mod_routes": true,
+    "name": true
+  },
+  "wire_type_issues": [],
+  "dependencies": [
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/Basic Shapes.wav",
+      "exists": true
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true
+    }
+  ],
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "auditioned": false
+}

@@ -1,0 +1,43 @@
+{
+  "layer": "layer05-bright-arp",
+  "ok": true,
+  "file": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v002\\Presets\\layer05-bright-arp.SerumPreset",
+  "reused_from": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261012-neon-breath-121\\v001\\Presets\\layer05-bright-arp.SerumPreset",
+  "sha256": "099bbf61cc77c74c310013f424d4bc914335f3bb7efdfb82e375b0222ec172b9",
+  "unchanged_from_v001": true,
+  "structural_readback": {
+    "oscillators": true,
+    "filters": true,
+    "envelopes": true,
+    "lfos": true,
+    "macros": true,
+    "fx_chain": true,
+    "global": true,
+    "mod_routes": true,
+    "arp_disabled": true,
+    "name": true
+  },
+  "wire_type_issues": [],
+  "dependencies": [
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true,
+      "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "Analog/PWM Juno.wav",
+      "exists": true,
+      "sha256": "39996d11cd5c5b39e371691d72db42cc815ec58ae6943fbdcdf1314aed9f31ad"
+    },
+    {
+      "kind": "factory_wavetable",
+      "relative_path": "S2 Tables/Default Shapes.wav",
+      "exists": true,
+      "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f"
+    }
+  ],
+  "plugin_loaded": false,
+  "auditioned": false
+}

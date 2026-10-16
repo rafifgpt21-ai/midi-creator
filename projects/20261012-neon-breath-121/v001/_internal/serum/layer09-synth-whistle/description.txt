@@ -1,0 +1,39 @@
+Preset: layer09-synth-whistle
+Description: Sine plus soft square disco whistle; delayed vibrato. Answers only at the end of bars 2 and 4.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.49  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.11  pan=+0  wavetable=default  table_pos=128.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.00  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.00  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.00  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_12  cutoff=0.66  resonance=12%  drive=0%  stereo=50%  key_track
+Filter 2: off  type=moog_lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=15.0ms  decay=0.34s  sustain=0.67  release=0.09s
+Env 2: attack=18.0ms  decay=0.24s  sustain=0.28  release=0.09s
+Env 3: attack=1.0ms  decay=0.30s  sustain=0.00  release=0.12s
+Env 4: attack=1.0ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=6  mode=Free  delay=0.11s  mono
+LFO 2: rate=0  mode=Free  mono
+
+Macro 1 "TONE": 0%
+Macro 2 "SPACE": 0%
+
+FX chain:
+  - FXChorus (wet=12%)
+  - FXDelay (wet=14%)
+  - FXReverb (wet=19%)
+  - FXUtils (wet=100%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +12%
+  - lfo0 -> oscillator0.fine: +3%, bipolar
+  - lfo0 -> oscillator1.fine: +3%, bipolar
+  - lfo1 -> oscillator0.pan: +3%, bipolar
+  - macro0 -> filter0.cutoff: +8%
+  - macro1 -> fx2.wet: +13%
+
+Global: master_volume=0.46  mono=on  poly=8

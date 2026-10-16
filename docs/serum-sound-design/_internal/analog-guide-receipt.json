@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-16",
+  "request": "Expand the supplied guide and make it the default for analog/retro analog Serum 2 design, especially real analog gear approaches.",
+  "canonical_guide": "skills/serum-sound-design/references/analog-retro.md",
+  "source": {
+    "id": "analog-guide-attachment",
+    "path": "C:\\Users\\rafif\\.t3\\userdata\\attachments\\990111b8-e185-4a0b-bc50-0354e9bbaabc-5a39ea6f-1223-4b10-88fc-0af946305412-md.md",
+    "preserved_path": "docs/serum-sound-design/_internal/sources/panduan_analog_sound_serum_2.md",
+    "sha256": "29a11164be665b85f6dc649fba6f4a6da1aee540b44dc5874b95912a465590ce",
+    "mime_type": "text/markdown"
+  },
+  "runtime_schema": {
+    "tool": "mcp__serum_mcp__list_parameters",
+    "status": "success",
+    "snapshot": "docs/serum-sound-design/_internal/analog-runtime-parameters.json",
+    "sha256": "531cad9fe6eeaa56325b2e41753488c1cf84388ba81c21d75363b8dd7af73fd2",
+    "semantic_schema_source": "integrations/serum-mcp/src/serum_mcp/generation/spec.py",
+    "semantic_schema_sha256": "df8df3d2b73e703fa7473c1d2d4fd9fd071bcc03d4f6f08ff5ad6d194b6d548a",
+    "upstream_commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8"
+  },
+  "evidence": {
+    "manual": "Local Serum 2 User Guide 2.0.18 / manual 1.0.3; selected extracted pages checked",
+    "video": "Fetch throttled; video/transcript not watched or verified; timestamps supplied by attachment",
+    "hardware": "Primary Roland, Sequential and Moog references linked in guide"
+  },
+  "validation": {
+    "documentation": {
+      "status": "pass",
+      "evidence": [
+        "pack-validation.json",
+        "analog-skill-validation.json"
+      ],
+      "additional_checks": [
+        "README and AGENTS local links",
+        "guide TOC anchors",
+        "UTF-8",
+        "git diff --check"
+      ]
+    },
+    "installation": {
+      "status": "pass",
+      "destination": "C:\\Users\\rafif\\.codex\\skills",
+      "canonical_and_installed_files_match": true,
+      "evidence": "install-receipt.json"
+    },
+    "plugin_load": "not performed; documentation task",
+    "render_analysis": "not performed; recipes are authored starting points",
+    "listening": "not performed"
+  },
+  "scope": "Documentation and default routing in workspace and installed Serum skills; no generated preset, music, or generator/schema changes"
+}

@@ -1,0 +1,297 @@
+{
+  "name": "layer10-transition-fx",
+  "description": "Velocity-1 four-bar noise rise; velocity-127 sine impact with falling pitch/level. Two simultaneous voices, no hard key split.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "octave": -1,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "analog_basic",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "master",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    },
+    {
+      "enabled": true,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "filter",
+      "filter_balance": 0,
+      "noise_type": "White"
+    },
+    {
+      "enabled": false,
+      "octave": 0,
+      "volume": 0,
+      "pan": 0,
+      "unison": 1,
+      "detune": 0,
+      "wavetable": "default",
+      "table_position": 0,
+      "warp_amount": 0,
+      "filter_routing": "none",
+      "filter_balance": 0
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_24",
+      "cutoff": 0.24,
+      "resonance": 30,
+      "drive": 3,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    },
+    {
+      "enabled": false,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.5,
+      "resonance": 10,
+      "drive": 0,
+      "stereo": 50,
+      "wet": 100,
+      "level_out": 0.5,
+      "key_track": false,
+      "output_routing": "parallel"
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.22
+    },
+    {
+      "attack": 7.933884297520661,
+      "hold": 0,
+      "decay": 0.01,
+      "sustain": 1,
+      "release": 0.2
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 0.38,
+      "sustain": 0,
+      "release": 0.22
+    },
+    {
+      "attack": 0.001,
+      "hold": 0,
+      "decay": 1,
+      "sustain": 1,
+      "release": 0.015
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.25,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    },
+    {
+      "rate": 3,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0,
+          "tension": 0.5
+        },
+        {
+          "x": 0.5,
+          "y": 1,
+          "tension": 0.5
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "tension": 0.5
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "RISE BRIGHT",
+      "value": 0
+    },
+    {
+      "name": "SPACE",
+      "value": 0
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXDistortion",
+      "wet": 18,
+      "params": {
+        "kParamMode": "kTapeSat",
+        "kParamDrive": 12
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXDelay",
+      "wet": 28,
+      "params": {
+        "kParamTimeL": 0.24793388429752067,
+        "kParamTimeR": 0.12396694214876033,
+        "kParamBeatSync": 0.0,
+        "kParamMode": 1.0,
+        "kParamFeedback": 37,
+        "kParamFreq": 4800
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 38,
+      "params": {
+        "kParamType": "kSpace",
+        "kParamSize": 78,
+        "kParamDelay": 22,
+        "kParamWidth": 100
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXUtils",
+      "wet": 100,
+      "params": {
+        "kParamHPF": 45,
+        "kParamLPF": 15000,
+        "kParamWidth": 100
+      },
+      "rack": 0
+    }
+  ],
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "oscillator3.volume",
+      "amount": 70,
+      "aux_source": "velocity",
+      "aux_inverted": true
+    },
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 66,
+      "aux_source": "velocity",
+      "aux_inverted": true
+    },
+    {
+      "source": "env2",
+      "destination": "oscillator0.volume",
+      "amount": 65,
+      "aux_source": "velocity"
+    },
+    {
+      "source": "env2",
+      "destination": "oscillator0.pitch",
+      "amount": 50,
+      "aux_source": "velocity"
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator3.pan",
+      "amount": 8,
+      "bipolar": true,
+      "aux_source": "velocity",
+      "aux_inverted": true
+    },
+    {
+      "source": "lfo1",
+      "destination": "oscillator3.noise_color",
+      "amount": 5,
+      "bipolar": true,
+      "aux_source": "velocity",
+      "aux_inverted": true
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 5
+    },
+    {
+      "source": "macro1",
+      "destination": "fx2.wet",
+      "amount": 10
+    }
+  ],
+  "arp": {
+    "enabled": false
+  },
+  "global": {
+    "master_volume": 0.42,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "porta_always": false,
+    "swing": 0
+  }
+}

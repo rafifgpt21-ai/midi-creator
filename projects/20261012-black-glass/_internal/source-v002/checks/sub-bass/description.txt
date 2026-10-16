@@ -1,0 +1,29 @@
+Preset: sub-bass
+Description: Black Glass v002: clean centered sine foundation with velocity-led verse/chorus contrast and a short controllable attack lift. No distortion, filter, width or glide in the low body.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.18  pan=+0  wavetable=analog_basic  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=5.0ms  decay=3.40s  sustain=0.93  release=0.05s
+Env 2: attack=1.0ms  decay=0.13s  sustain=0.00  release=0.02s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "BODY": 15%
+Macro 2 "PUNCH": 28%
+
+FX chain: (empty)
+
+Mod matrix (recognized routes only):
+  - velocity -> oscillator0.volume: +52%
+  - macro0 -> oscillator0.volume: +8%
+  - env1 -> oscillator0.volume: +10%
+
+Global: master_volume=0.47  mono=on  poly=1

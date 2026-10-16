@@ -1,0 +1,3900 @@
+{
+  "seed": 20261014,
+  "harmony": [
+    null,
+    null,
+    null,
+    null,
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "D6",
+    "E",
+    "F#m",
+    "E/G#",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "D6",
+    "E",
+    "F#m",
+    "E/G#",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#",
+    "F#m",
+    "B/D#"
+  ],
+  "piano_rh_anchors": [
+    null,
+    null,
+    null,
+    null,
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      71,
+      75,
+      78
+    ],
+    [
+      69,
+      71,
+      78
+    ],
+    [
+      68,
+      71,
+      76
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      68,
+      71,
+      76
+    ],
+    [
+      69,
+      73,
+      76
+    ],
+    [
+      68,
+      71,
+      76
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      64,
+      69,
+      73
+    ],
+    [
+      64,
+      68,
+      71
+    ],
+    [
+      63,
+      66,
+      71
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      69,
+      71,
+      78
+    ],
+    [
+      68,
+      71,
+      76
+    ],
+    [
+      69,
+      73,
+      78
+    ],
+    [
+      68,
+      71,
+      76
+    ],
+    [
+      69,
+      73,
+      76
+    ],
+    [
+      68,
+      71,
+      76
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      64,
+      69,
+      73
+    ],
+    [
+      64,
+      68,
+      71
+    ],
+    [
+      63,
+      66,
+      71
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ],
+    [
+      66,
+      69,
+      73
+    ],
+    [
+      66,
+      71,
+      75
+    ]
+  ],
+  "piano_role_events": [
+    {
+      "role": "left-root",
+      "bar": 5,
+      "pitch": 30,
+      "start": 16
+    },
+    {
+      "role": "inner",
+      "bar": 5,
+      "pitch": 69,
+      "start": 16
+    },
+    {
+      "role": "inner",
+      "bar": 5,
+      "pitch": 73,
+      "start": 16
+    },
+    {
+      "role": "top",
+      "bar": 5,
+      "pitch": 78,
+      "start": 16
+    },
+    {
+      "role": "inner",
+      "bar": 5,
+      "pitch": 69,
+      "start": 17.0
+    },
+    {
+      "role": "inner",
+      "bar": 5,
+      "pitch": 73,
+      "start": 17.5
+    },
+    {
+      "role": "inner",
+      "bar": 5,
+      "pitch": 69,
+      "start": 18.5
+    },
+    {
+      "role": "inner",
+      "bar": 5,
+      "pitch": 73,
+      "start": 19.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 5,
+      "pitch": 42,
+      "start": 18
+    },
+    {
+      "role": "left-root",
+      "bar": 6,
+      "pitch": 39,
+      "start": 20
+    },
+    {
+      "role": "inner",
+      "bar": 6,
+      "pitch": 71,
+      "start": 20
+    },
+    {
+      "role": "inner",
+      "bar": 6,
+      "pitch": 75,
+      "start": 20
+    },
+    {
+      "role": "top-tie",
+      "bar": 6,
+      "pitch": 78,
+      "start": 20
+    },
+    {
+      "role": "inner",
+      "bar": 6,
+      "pitch": 71,
+      "start": 21.0
+    },
+    {
+      "role": "inner",
+      "bar": 6,
+      "pitch": 75,
+      "start": 21.5
+    },
+    {
+      "role": "inner",
+      "bar": 6,
+      "pitch": 71,
+      "start": 22.5
+    },
+    {
+      "role": "inner",
+      "bar": 6,
+      "pitch": 75,
+      "start": 23.0
+    },
+    {
+      "role": "left-root",
+      "bar": 7,
+      "pitch": 30,
+      "start": 24
+    },
+    {
+      "role": "inner",
+      "bar": 7,
+      "pitch": 69,
+      "start": 24
+    },
+    {
+      "role": "inner",
+      "bar": 7,
+      "pitch": 73,
+      "start": 24
+    },
+    {
+      "role": "top-tie",
+      "bar": 7,
+      "pitch": 78,
+      "start": 24
+    },
+    {
+      "role": "inner",
+      "bar": 7,
+      "pitch": 69,
+      "start": 25.0
+    },
+    {
+      "role": "inner",
+      "bar": 7,
+      "pitch": 73,
+      "start": 25.5
+    },
+    {
+      "role": "inner",
+      "bar": 7,
+      "pitch": 69,
+      "start": 26.5
+    },
+    {
+      "role": "inner",
+      "bar": 7,
+      "pitch": 73,
+      "start": 27.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 7,
+      "pitch": 42,
+      "start": 26
+    },
+    {
+      "role": "left-root",
+      "bar": 8,
+      "pitch": 39,
+      "start": 28
+    },
+    {
+      "role": "inner",
+      "bar": 8,
+      "pitch": 71,
+      "start": 28
+    },
+    {
+      "role": "inner",
+      "bar": 8,
+      "pitch": 75,
+      "start": 28
+    },
+    {
+      "role": "top-tie",
+      "bar": 8,
+      "pitch": 78,
+      "start": 28
+    },
+    {
+      "role": "inner",
+      "bar": 8,
+      "pitch": 71,
+      "start": 29.0
+    },
+    {
+      "role": "inner",
+      "bar": 8,
+      "pitch": 75,
+      "start": 29.5
+    },
+    {
+      "role": "inner",
+      "bar": 8,
+      "pitch": 71,
+      "start": 30.5
+    },
+    {
+      "role": "inner",
+      "bar": 8,
+      "pitch": 75,
+      "start": 31.0
+    },
+    {
+      "role": "left-root",
+      "bar": 9,
+      "pitch": 42,
+      "start": 32
+    },
+    {
+      "role": "inner",
+      "bar": 9,
+      "pitch": 69,
+      "start": 32
+    },
+    {
+      "role": "inner",
+      "bar": 9,
+      "pitch": 73,
+      "start": 32
+    },
+    {
+      "role": "top-tie",
+      "bar": 9,
+      "pitch": 78,
+      "start": 32
+    },
+    {
+      "role": "inner",
+      "bar": 9,
+      "pitch": 69,
+      "start": 33.0
+    },
+    {
+      "role": "inner",
+      "bar": 9,
+      "pitch": 73,
+      "start": 33.5
+    },
+    {
+      "role": "inner",
+      "bar": 9,
+      "pitch": 69,
+      "start": 34.5
+    },
+    {
+      "role": "inner",
+      "bar": 9,
+      "pitch": 73,
+      "start": 35.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 9,
+      "pitch": 54,
+      "start": 34
+    },
+    {
+      "role": "left-root",
+      "bar": 10,
+      "pitch": 51,
+      "start": 36
+    },
+    {
+      "role": "inner",
+      "bar": 10,
+      "pitch": 71,
+      "start": 36
+    },
+    {
+      "role": "inner",
+      "bar": 10,
+      "pitch": 75,
+      "start": 36
+    },
+    {
+      "role": "top-tie",
+      "bar": 10,
+      "pitch": 78,
+      "start": 36
+    },
+    {
+      "role": "inner",
+      "bar": 10,
+      "pitch": 71,
+      "start": 37.0
+    },
+    {
+      "role": "inner",
+      "bar": 10,
+      "pitch": 75,
+      "start": 37.5
+    },
+    {
+      "role": "inner",
+      "bar": 10,
+      "pitch": 71,
+      "start": 38.5
+    },
+    {
+      "role": "inner",
+      "bar": 10,
+      "pitch": 75,
+      "start": 39.0
+    },
+    {
+      "role": "left-root",
+      "bar": 11,
+      "pitch": 42,
+      "start": 40
+    },
+    {
+      "role": "inner",
+      "bar": 11,
+      "pitch": 69,
+      "start": 40
+    },
+    {
+      "role": "inner",
+      "bar": 11,
+      "pitch": 73,
+      "start": 40
+    },
+    {
+      "role": "top-tie",
+      "bar": 11,
+      "pitch": 78,
+      "start": 40
+    },
+    {
+      "role": "inner",
+      "bar": 11,
+      "pitch": 69,
+      "start": 41.0
+    },
+    {
+      "role": "inner",
+      "bar": 11,
+      "pitch": 73,
+      "start": 41.5
+    },
+    {
+      "role": "inner",
+      "bar": 11,
+      "pitch": 69,
+      "start": 42.5
+    },
+    {
+      "role": "inner",
+      "bar": 11,
+      "pitch": 73,
+      "start": 43.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 11,
+      "pitch": 54,
+      "start": 42
+    },
+    {
+      "role": "left-root",
+      "bar": 12,
+      "pitch": 51,
+      "start": 44
+    },
+    {
+      "role": "inner",
+      "bar": 12,
+      "pitch": 71,
+      "start": 44
+    },
+    {
+      "role": "inner",
+      "bar": 12,
+      "pitch": 75,
+      "start": 44
+    },
+    {
+      "role": "top-tie",
+      "bar": 12,
+      "pitch": 78,
+      "start": 44
+    },
+    {
+      "role": "inner",
+      "bar": 12,
+      "pitch": 71,
+      "start": 45.0
+    },
+    {
+      "role": "inner",
+      "bar": 12,
+      "pitch": 75,
+      "start": 45.5
+    },
+    {
+      "role": "inner",
+      "bar": 12,
+      "pitch": 71,
+      "start": 46.5
+    },
+    {
+      "role": "inner",
+      "bar": 12,
+      "pitch": 75,
+      "start": 47.0
+    },
+    {
+      "role": "left-root",
+      "bar": 13,
+      "pitch": 42,
+      "start": 48
+    },
+    {
+      "role": "inner",
+      "bar": 13,
+      "pitch": 69,
+      "start": 48
+    },
+    {
+      "role": "inner",
+      "bar": 13,
+      "pitch": 73,
+      "start": 48
+    },
+    {
+      "role": "top-tie",
+      "bar": 13,
+      "pitch": 78,
+      "start": 48
+    },
+    {
+      "role": "left-root",
+      "bar": 14,
+      "pitch": 51,
+      "start": 52
+    },
+    {
+      "role": "inner",
+      "bar": 14,
+      "pitch": 71,
+      "start": 52
+    },
+    {
+      "role": "inner",
+      "bar": 14,
+      "pitch": 75,
+      "start": 52
+    },
+    {
+      "role": "top-tie",
+      "bar": 14,
+      "pitch": 78,
+      "start": 52
+    },
+    {
+      "role": "left-root",
+      "bar": 15,
+      "pitch": 42,
+      "start": 56
+    },
+    {
+      "role": "inner",
+      "bar": 15,
+      "pitch": 69,
+      "start": 56
+    },
+    {
+      "role": "inner",
+      "bar": 15,
+      "pitch": 73,
+      "start": 56
+    },
+    {
+      "role": "top-tie",
+      "bar": 15,
+      "pitch": 78,
+      "start": 56
+    },
+    {
+      "role": "left-root",
+      "bar": 16,
+      "pitch": 51,
+      "start": 60
+    },
+    {
+      "role": "inner",
+      "bar": 16,
+      "pitch": 71,
+      "start": 60
+    },
+    {
+      "role": "inner",
+      "bar": 16,
+      "pitch": 75,
+      "start": 60
+    },
+    {
+      "role": "top-tie",
+      "bar": 16,
+      "pitch": 78,
+      "start": 60
+    },
+    {
+      "role": "left-root",
+      "bar": 17,
+      "pitch": 42,
+      "start": 64
+    },
+    {
+      "role": "inner",
+      "bar": 17,
+      "pitch": 69,
+      "start": 64
+    },
+    {
+      "role": "inner",
+      "bar": 17,
+      "pitch": 73,
+      "start": 64
+    },
+    {
+      "role": "top-tie",
+      "bar": 17,
+      "pitch": 78,
+      "start": 64
+    },
+    {
+      "role": "inner",
+      "bar": 17,
+      "pitch": 69,
+      "start": 65.0
+    },
+    {
+      "role": "inner",
+      "bar": 17,
+      "pitch": 73,
+      "start": 65.5
+    },
+    {
+      "role": "inner",
+      "bar": 17,
+      "pitch": 69,
+      "start": 66.5
+    },
+    {
+      "role": "inner",
+      "bar": 17,
+      "pitch": 73,
+      "start": 67.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 17,
+      "pitch": 54,
+      "start": 66
+    },
+    {
+      "role": "left-root",
+      "bar": 18,
+      "pitch": 51,
+      "start": 68
+    },
+    {
+      "role": "inner",
+      "bar": 18,
+      "pitch": 71,
+      "start": 68
+    },
+    {
+      "role": "inner",
+      "bar": 18,
+      "pitch": 75,
+      "start": 68
+    },
+    {
+      "role": "top-tie",
+      "bar": 18,
+      "pitch": 78,
+      "start": 68
+    },
+    {
+      "role": "inner",
+      "bar": 18,
+      "pitch": 71,
+      "start": 69.0
+    },
+    {
+      "role": "inner",
+      "bar": 18,
+      "pitch": 75,
+      "start": 69.5
+    },
+    {
+      "role": "inner",
+      "bar": 18,
+      "pitch": 71,
+      "start": 70.5
+    },
+    {
+      "role": "inner",
+      "bar": 18,
+      "pitch": 75,
+      "start": 71.0
+    },
+    {
+      "role": "left-root",
+      "bar": 19,
+      "pitch": 42,
+      "start": 72
+    },
+    {
+      "role": "inner",
+      "bar": 19,
+      "pitch": 69,
+      "start": 72
+    },
+    {
+      "role": "inner",
+      "bar": 19,
+      "pitch": 73,
+      "start": 72
+    },
+    {
+      "role": "top-tie",
+      "bar": 19,
+      "pitch": 78,
+      "start": 72
+    },
+    {
+      "role": "inner",
+      "bar": 19,
+      "pitch": 69,
+      "start": 73.0
+    },
+    {
+      "role": "inner",
+      "bar": 19,
+      "pitch": 73,
+      "start": 73.5
+    },
+    {
+      "role": "inner",
+      "bar": 19,
+      "pitch": 69,
+      "start": 74.5
+    },
+    {
+      "role": "inner",
+      "bar": 19,
+      "pitch": 73,
+      "start": 75.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 19,
+      "pitch": 54,
+      "start": 74
+    },
+    {
+      "role": "left-root",
+      "bar": 20,
+      "pitch": 51,
+      "start": 76
+    },
+    {
+      "role": "inner",
+      "bar": 20,
+      "pitch": 71,
+      "start": 76
+    },
+    {
+      "role": "inner",
+      "bar": 20,
+      "pitch": 75,
+      "start": 76
+    },
+    {
+      "role": "top-tie",
+      "bar": 20,
+      "pitch": 78,
+      "start": 76
+    },
+    {
+      "role": "inner",
+      "bar": 20,
+      "pitch": 71,
+      "start": 77.0
+    },
+    {
+      "role": "inner",
+      "bar": 20,
+      "pitch": 75,
+      "start": 77.5
+    },
+    {
+      "role": "inner",
+      "bar": 20,
+      "pitch": 71,
+      "start": 78.5
+    },
+    {
+      "role": "inner",
+      "bar": 20,
+      "pitch": 75,
+      "start": 79.0
+    },
+    {
+      "role": "connector",
+      "bar": 20,
+      "pitch": 83,
+      "start": 79.5
+    },
+    {
+      "role": "left-root",
+      "bar": 21,
+      "pitch": 50,
+      "start": 80
+    },
+    {
+      "role": "inner",
+      "bar": 21,
+      "pitch": 69,
+      "start": 80
+    },
+    {
+      "role": "inner",
+      "bar": 21,
+      "pitch": 71,
+      "start": 80
+    },
+    {
+      "role": "top",
+      "bar": 21,
+      "pitch": 78,
+      "start": 80
+    },
+    {
+      "role": "inner",
+      "bar": 21,
+      "pitch": 69,
+      "start": 81.0
+    },
+    {
+      "role": "inner",
+      "bar": 21,
+      "pitch": 71,
+      "start": 81.5
+    },
+    {
+      "role": "inner",
+      "bar": 21,
+      "pitch": 69,
+      "start": 82.5
+    },
+    {
+      "role": "inner",
+      "bar": 21,
+      "pitch": 71,
+      "start": 83.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 21,
+      "pitch": 57,
+      "start": 82
+    },
+    {
+      "role": "left-root",
+      "bar": 22,
+      "pitch": 52,
+      "start": 84
+    },
+    {
+      "role": "inner",
+      "bar": 22,
+      "pitch": 68,
+      "start": 84
+    },
+    {
+      "role": "inner",
+      "bar": 22,
+      "pitch": 71,
+      "start": 84
+    },
+    {
+      "role": "top",
+      "bar": 22,
+      "pitch": 76,
+      "start": 84
+    },
+    {
+      "role": "inner",
+      "bar": 22,
+      "pitch": 68,
+      "start": 85.0
+    },
+    {
+      "role": "inner",
+      "bar": 22,
+      "pitch": 71,
+      "start": 85.5
+    },
+    {
+      "role": "inner",
+      "bar": 22,
+      "pitch": 68,
+      "start": 86.5
+    },
+    {
+      "role": "inner",
+      "bar": 22,
+      "pitch": 71,
+      "start": 87.0
+    },
+    {
+      "role": "left-root",
+      "bar": 23,
+      "pitch": 42,
+      "start": 88
+    },
+    {
+      "role": "inner",
+      "bar": 23,
+      "pitch": 69,
+      "start": 88
+    },
+    {
+      "role": "inner",
+      "bar": 23,
+      "pitch": 73,
+      "start": 88
+    },
+    {
+      "role": "top",
+      "bar": 23,
+      "pitch": 78,
+      "start": 88
+    },
+    {
+      "role": "inner",
+      "bar": 23,
+      "pitch": 69,
+      "start": 89.0
+    },
+    {
+      "role": "inner",
+      "bar": 23,
+      "pitch": 73,
+      "start": 89.5
+    },
+    {
+      "role": "inner",
+      "bar": 23,
+      "pitch": 69,
+      "start": 90.5
+    },
+    {
+      "role": "inner",
+      "bar": 23,
+      "pitch": 73,
+      "start": 91.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 23,
+      "pitch": 54,
+      "start": 90
+    },
+    {
+      "role": "left-root",
+      "bar": 24,
+      "pitch": 44,
+      "start": 92
+    },
+    {
+      "role": "inner",
+      "bar": 24,
+      "pitch": 68,
+      "start": 92
+    },
+    {
+      "role": "inner",
+      "bar": 24,
+      "pitch": 71,
+      "start": 92
+    },
+    {
+      "role": "top",
+      "bar": 24,
+      "pitch": 76,
+      "start": 92
+    },
+    {
+      "role": "inner",
+      "bar": 24,
+      "pitch": 68,
+      "start": 93.0
+    },
+    {
+      "role": "inner",
+      "bar": 24,
+      "pitch": 71,
+      "start": 93.5
+    },
+    {
+      "role": "inner",
+      "bar": 24,
+      "pitch": 68,
+      "start": 94.5
+    },
+    {
+      "role": "inner",
+      "bar": 24,
+      "pitch": 71,
+      "start": 95.0
+    },
+    {
+      "role": "connector",
+      "bar": 24,
+      "pitch": 80,
+      "start": 95.5
+    },
+    {
+      "role": "left-root",
+      "bar": 25,
+      "pitch": 45,
+      "start": 96
+    },
+    {
+      "role": "inner",
+      "bar": 25,
+      "pitch": 69,
+      "start": 96
+    },
+    {
+      "role": "inner",
+      "bar": 25,
+      "pitch": 73,
+      "start": 96
+    },
+    {
+      "role": "top",
+      "bar": 25,
+      "pitch": 76,
+      "start": 96
+    },
+    {
+      "role": "inner",
+      "bar": 25,
+      "pitch": 69,
+      "start": 97.0
+    },
+    {
+      "role": "inner",
+      "bar": 25,
+      "pitch": 73,
+      "start": 97.5
+    },
+    {
+      "role": "inner",
+      "bar": 25,
+      "pitch": 69,
+      "start": 98.5
+    },
+    {
+      "role": "inner",
+      "bar": 25,
+      "pitch": 73,
+      "start": 99.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 25,
+      "pitch": 57,
+      "start": 98
+    },
+    {
+      "role": "left-root",
+      "bar": 26,
+      "pitch": 52,
+      "start": 100
+    },
+    {
+      "role": "inner",
+      "bar": 26,
+      "pitch": 68,
+      "start": 100
+    },
+    {
+      "role": "inner",
+      "bar": 26,
+      "pitch": 71,
+      "start": 100
+    },
+    {
+      "role": "top-tie",
+      "bar": 26,
+      "pitch": 76,
+      "start": 100
+    },
+    {
+      "role": "inner",
+      "bar": 26,
+      "pitch": 68,
+      "start": 101.0
+    },
+    {
+      "role": "inner",
+      "bar": 26,
+      "pitch": 71,
+      "start": 101.5
+    },
+    {
+      "role": "inner",
+      "bar": 26,
+      "pitch": 68,
+      "start": 102.5
+    },
+    {
+      "role": "inner",
+      "bar": 26,
+      "pitch": 71,
+      "start": 103.0
+    },
+    {
+      "role": "left-root",
+      "bar": 27,
+      "pitch": 47,
+      "start": 104
+    },
+    {
+      "role": "inner",
+      "bar": 27,
+      "pitch": 66,
+      "start": 104
+    },
+    {
+      "role": "inner",
+      "bar": 27,
+      "pitch": 71,
+      "start": 104
+    },
+    {
+      "role": "top",
+      "bar": 27,
+      "pitch": 75,
+      "start": 104
+    },
+    {
+      "role": "inner",
+      "bar": 27,
+      "pitch": 66,
+      "start": 105.0
+    },
+    {
+      "role": "inner",
+      "bar": 27,
+      "pitch": 71,
+      "start": 105.5
+    },
+    {
+      "role": "inner",
+      "bar": 27,
+      "pitch": 66,
+      "start": 106.5
+    },
+    {
+      "role": "inner",
+      "bar": 27,
+      "pitch": 71,
+      "start": 107.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 27,
+      "pitch": 54,
+      "start": 106
+    },
+    {
+      "role": "left-root",
+      "bar": 28,
+      "pitch": 42,
+      "start": 108
+    },
+    {
+      "role": "inner",
+      "bar": 28,
+      "pitch": 66,
+      "start": 108
+    },
+    {
+      "role": "inner",
+      "bar": 28,
+      "pitch": 69,
+      "start": 108
+    },
+    {
+      "role": "top",
+      "bar": 28,
+      "pitch": 73,
+      "start": 108
+    },
+    {
+      "role": "inner",
+      "bar": 28,
+      "pitch": 66,
+      "start": 109.0
+    },
+    {
+      "role": "inner",
+      "bar": 28,
+      "pitch": 69,
+      "start": 109.5
+    },
+    {
+      "role": "inner",
+      "bar": 28,
+      "pitch": 66,
+      "start": 110.5
+    },
+    {
+      "role": "inner",
+      "bar": 28,
+      "pitch": 69,
+      "start": 111.0
+    },
+    {
+      "role": "left-root",
+      "bar": 29,
+      "pitch": 45,
+      "start": 112
+    },
+    {
+      "role": "inner",
+      "bar": 29,
+      "pitch": 64,
+      "start": 112
+    },
+    {
+      "role": "inner",
+      "bar": 29,
+      "pitch": 69,
+      "start": 112
+    },
+    {
+      "role": "top-tie",
+      "bar": 29,
+      "pitch": 73,
+      "start": 112
+    },
+    {
+      "role": "inner",
+      "bar": 29,
+      "pitch": 64,
+      "start": 113.0
+    },
+    {
+      "role": "inner",
+      "bar": 29,
+      "pitch": 69,
+      "start": 113.5
+    },
+    {
+      "role": "inner",
+      "bar": 29,
+      "pitch": 64,
+      "start": 114.5
+    },
+    {
+      "role": "inner",
+      "bar": 29,
+      "pitch": 69,
+      "start": 115.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 29,
+      "pitch": 57,
+      "start": 114
+    },
+    {
+      "role": "left-root",
+      "bar": 30,
+      "pitch": 52,
+      "start": 116
+    },
+    {
+      "role": "inner",
+      "bar": 30,
+      "pitch": 64,
+      "start": 116
+    },
+    {
+      "role": "inner",
+      "bar": 30,
+      "pitch": 68,
+      "start": 116
+    },
+    {
+      "role": "top",
+      "bar": 30,
+      "pitch": 71,
+      "start": 116
+    },
+    {
+      "role": "inner",
+      "bar": 30,
+      "pitch": 64,
+      "start": 117.0
+    },
+    {
+      "role": "inner",
+      "bar": 30,
+      "pitch": 68,
+      "start": 117.5
+    },
+    {
+      "role": "inner",
+      "bar": 30,
+      "pitch": 64,
+      "start": 118.5
+    },
+    {
+      "role": "inner",
+      "bar": 30,
+      "pitch": 68,
+      "start": 119.0
+    },
+    {
+      "role": "left-root",
+      "bar": 31,
+      "pitch": 47,
+      "start": 120
+    },
+    {
+      "role": "inner",
+      "bar": 31,
+      "pitch": 63,
+      "start": 120
+    },
+    {
+      "role": "inner",
+      "bar": 31,
+      "pitch": 66,
+      "start": 120
+    },
+    {
+      "role": "top-tie",
+      "bar": 31,
+      "pitch": 71,
+      "start": 120
+    },
+    {
+      "role": "inner",
+      "bar": 31,
+      "pitch": 63,
+      "start": 121.0
+    },
+    {
+      "role": "inner",
+      "bar": 31,
+      "pitch": 66,
+      "start": 121.5
+    },
+    {
+      "role": "inner",
+      "bar": 31,
+      "pitch": 63,
+      "start": 122.5
+    },
+    {
+      "role": "inner",
+      "bar": 31,
+      "pitch": 66,
+      "start": 123.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 31,
+      "pitch": 54,
+      "start": 122
+    },
+    {
+      "role": "left-root",
+      "bar": 32,
+      "pitch": 42,
+      "start": 124
+    },
+    {
+      "role": "inner",
+      "bar": 32,
+      "pitch": 66,
+      "start": 124
+    },
+    {
+      "role": "inner",
+      "bar": 32,
+      "pitch": 69,
+      "start": 124
+    },
+    {
+      "role": "top",
+      "bar": 32,
+      "pitch": 73,
+      "start": 124
+    },
+    {
+      "role": "inner",
+      "bar": 32,
+      "pitch": 66,
+      "start": 125.0
+    },
+    {
+      "role": "inner",
+      "bar": 32,
+      "pitch": 69,
+      "start": 125.5
+    },
+    {
+      "role": "inner",
+      "bar": 32,
+      "pitch": 66,
+      "start": 126.5
+    },
+    {
+      "role": "inner",
+      "bar": 32,
+      "pitch": 69,
+      "start": 127.0
+    },
+    {
+      "role": "left-root",
+      "bar": 33,
+      "pitch": 42,
+      "start": 128
+    },
+    {
+      "role": "inner",
+      "bar": 33,
+      "pitch": 66,
+      "start": 128
+    },
+    {
+      "role": "inner",
+      "bar": 33,
+      "pitch": 69,
+      "start": 128
+    },
+    {
+      "role": "top-tie",
+      "bar": 33,
+      "pitch": 73,
+      "start": 128
+    },
+    {
+      "role": "inner",
+      "bar": 33,
+      "pitch": 66,
+      "start": 129.5
+    },
+    {
+      "role": "inner",
+      "bar": 33,
+      "pitch": 69,
+      "start": 131.0
+    },
+    {
+      "role": "left-root",
+      "bar": 34,
+      "pitch": 51,
+      "start": 132
+    },
+    {
+      "role": "inner",
+      "bar": 34,
+      "pitch": 66,
+      "start": 132
+    },
+    {
+      "role": "inner",
+      "bar": 34,
+      "pitch": 71,
+      "start": 132
+    },
+    {
+      "role": "top",
+      "bar": 34,
+      "pitch": 75,
+      "start": 132
+    },
+    {
+      "role": "inner",
+      "bar": 34,
+      "pitch": 66,
+      "start": 133.5
+    },
+    {
+      "role": "inner",
+      "bar": 34,
+      "pitch": 71,
+      "start": 135.0
+    },
+    {
+      "role": "left-root",
+      "bar": 35,
+      "pitch": 42,
+      "start": 136
+    },
+    {
+      "role": "inner",
+      "bar": 35,
+      "pitch": 66,
+      "start": 136
+    },
+    {
+      "role": "inner",
+      "bar": 35,
+      "pitch": 69,
+      "start": 136
+    },
+    {
+      "role": "top",
+      "bar": 35,
+      "pitch": 73,
+      "start": 136
+    },
+    {
+      "role": "inner",
+      "bar": 35,
+      "pitch": 66,
+      "start": 137.5
+    },
+    {
+      "role": "inner",
+      "bar": 35,
+      "pitch": 69,
+      "start": 139.0
+    },
+    {
+      "role": "left-root",
+      "bar": 36,
+      "pitch": 51,
+      "start": 140
+    },
+    {
+      "role": "inner",
+      "bar": 36,
+      "pitch": 66,
+      "start": 140
+    },
+    {
+      "role": "inner",
+      "bar": 36,
+      "pitch": 71,
+      "start": 140
+    },
+    {
+      "role": "top",
+      "bar": 36,
+      "pitch": 75,
+      "start": 140
+    },
+    {
+      "role": "inner",
+      "bar": 36,
+      "pitch": 66,
+      "start": 141.5
+    },
+    {
+      "role": "inner",
+      "bar": 36,
+      "pitch": 71,
+      "start": 143.0
+    },
+    {
+      "role": "left-root",
+      "bar": 37,
+      "pitch": 42,
+      "start": 144
+    },
+    {
+      "role": "inner",
+      "bar": 37,
+      "pitch": 66,
+      "start": 144
+    },
+    {
+      "role": "inner",
+      "bar": 37,
+      "pitch": 69,
+      "start": 144
+    },
+    {
+      "role": "top",
+      "bar": 37,
+      "pitch": 73,
+      "start": 144
+    },
+    {
+      "role": "inner",
+      "bar": 37,
+      "pitch": 66,
+      "start": 145.5
+    },
+    {
+      "role": "inner",
+      "bar": 37,
+      "pitch": 69,
+      "start": 147.0
+    },
+    {
+      "role": "left-root",
+      "bar": 38,
+      "pitch": 51,
+      "start": 148
+    },
+    {
+      "role": "inner",
+      "bar": 38,
+      "pitch": 66,
+      "start": 148
+    },
+    {
+      "role": "inner",
+      "bar": 38,
+      "pitch": 71,
+      "start": 148
+    },
+    {
+      "role": "top",
+      "bar": 38,
+      "pitch": 75,
+      "start": 148
+    },
+    {
+      "role": "inner",
+      "bar": 38,
+      "pitch": 66,
+      "start": 149.5
+    },
+    {
+      "role": "inner",
+      "bar": 38,
+      "pitch": 71,
+      "start": 151.0
+    },
+    {
+      "role": "left-root",
+      "bar": 39,
+      "pitch": 42,
+      "start": 152
+    },
+    {
+      "role": "inner",
+      "bar": 39,
+      "pitch": 66,
+      "start": 152
+    },
+    {
+      "role": "inner",
+      "bar": 39,
+      "pitch": 69,
+      "start": 152
+    },
+    {
+      "role": "top",
+      "bar": 39,
+      "pitch": 73,
+      "start": 152
+    },
+    {
+      "role": "inner",
+      "bar": 39,
+      "pitch": 66,
+      "start": 153.5
+    },
+    {
+      "role": "inner",
+      "bar": 39,
+      "pitch": 69,
+      "start": 155.0
+    },
+    {
+      "role": "left-root",
+      "bar": 40,
+      "pitch": 51,
+      "start": 156
+    },
+    {
+      "role": "inner",
+      "bar": 40,
+      "pitch": 66,
+      "start": 156
+    },
+    {
+      "role": "inner",
+      "bar": 40,
+      "pitch": 71,
+      "start": 156
+    },
+    {
+      "role": "top",
+      "bar": 40,
+      "pitch": 75,
+      "start": 156
+    },
+    {
+      "role": "inner",
+      "bar": 40,
+      "pitch": 66,
+      "start": 157.5
+    },
+    {
+      "role": "inner",
+      "bar": 40,
+      "pitch": 71,
+      "start": 159.0
+    },
+    {
+      "role": "left-root",
+      "bar": 41,
+      "pitch": 42,
+      "start": 160
+    },
+    {
+      "role": "inner",
+      "bar": 41,
+      "pitch": 66,
+      "start": 160
+    },
+    {
+      "role": "inner",
+      "bar": 41,
+      "pitch": 69,
+      "start": 160
+    },
+    {
+      "role": "top",
+      "bar": 41,
+      "pitch": 73,
+      "start": 160
+    },
+    {
+      "role": "inner",
+      "bar": 41,
+      "pitch": 66,
+      "start": 161.5
+    },
+    {
+      "role": "inner",
+      "bar": 41,
+      "pitch": 69,
+      "start": 163.0
+    },
+    {
+      "role": "left-root",
+      "bar": 42,
+      "pitch": 51,
+      "start": 164
+    },
+    {
+      "role": "inner",
+      "bar": 42,
+      "pitch": 66,
+      "start": 164
+    },
+    {
+      "role": "inner",
+      "bar": 42,
+      "pitch": 71,
+      "start": 164
+    },
+    {
+      "role": "top",
+      "bar": 42,
+      "pitch": 75,
+      "start": 164
+    },
+    {
+      "role": "inner",
+      "bar": 42,
+      "pitch": 66,
+      "start": 165.5
+    },
+    {
+      "role": "inner",
+      "bar": 42,
+      "pitch": 71,
+      "start": 167.0
+    },
+    {
+      "role": "left-root",
+      "bar": 43,
+      "pitch": 42,
+      "start": 168
+    },
+    {
+      "role": "inner",
+      "bar": 43,
+      "pitch": 66,
+      "start": 168
+    },
+    {
+      "role": "inner",
+      "bar": 43,
+      "pitch": 69,
+      "start": 168
+    },
+    {
+      "role": "top",
+      "bar": 43,
+      "pitch": 73,
+      "start": 168
+    },
+    {
+      "role": "inner",
+      "bar": 43,
+      "pitch": 66,
+      "start": 169.5
+    },
+    {
+      "role": "inner",
+      "bar": 43,
+      "pitch": 69,
+      "start": 171.0
+    },
+    {
+      "role": "left-root",
+      "bar": 44,
+      "pitch": 51,
+      "start": 172
+    },
+    {
+      "role": "inner",
+      "bar": 44,
+      "pitch": 66,
+      "start": 172
+    },
+    {
+      "role": "inner",
+      "bar": 44,
+      "pitch": 71,
+      "start": 172
+    },
+    {
+      "role": "top",
+      "bar": 44,
+      "pitch": 75,
+      "start": 172
+    },
+    {
+      "role": "inner",
+      "bar": 44,
+      "pitch": 66,
+      "start": 173.5
+    },
+    {
+      "role": "inner",
+      "bar": 44,
+      "pitch": 71,
+      "start": 175.0
+    },
+    {
+      "role": "left-root",
+      "bar": 45,
+      "pitch": 42,
+      "start": 176
+    },
+    {
+      "role": "inner",
+      "bar": 45,
+      "pitch": 66,
+      "start": 176
+    },
+    {
+      "role": "inner",
+      "bar": 45,
+      "pitch": 69,
+      "start": 176
+    },
+    {
+      "role": "top",
+      "bar": 45,
+      "pitch": 73,
+      "start": 176
+    },
+    {
+      "role": "inner",
+      "bar": 45,
+      "pitch": 66,
+      "start": 177.5
+    },
+    {
+      "role": "inner",
+      "bar": 45,
+      "pitch": 69,
+      "start": 179.0
+    },
+    {
+      "role": "left-root",
+      "bar": 46,
+      "pitch": 51,
+      "start": 180
+    },
+    {
+      "role": "inner",
+      "bar": 46,
+      "pitch": 66,
+      "start": 180
+    },
+    {
+      "role": "inner",
+      "bar": 46,
+      "pitch": 71,
+      "start": 180
+    },
+    {
+      "role": "top",
+      "bar": 46,
+      "pitch": 75,
+      "start": 180
+    },
+    {
+      "role": "inner",
+      "bar": 46,
+      "pitch": 66,
+      "start": 181.5
+    },
+    {
+      "role": "inner",
+      "bar": 46,
+      "pitch": 71,
+      "start": 183.0
+    },
+    {
+      "role": "left-root",
+      "bar": 47,
+      "pitch": 42,
+      "start": 184
+    },
+    {
+      "role": "inner",
+      "bar": 47,
+      "pitch": 66,
+      "start": 184
+    },
+    {
+      "role": "inner",
+      "bar": 47,
+      "pitch": 69,
+      "start": 184
+    },
+    {
+      "role": "top",
+      "bar": 47,
+      "pitch": 73,
+      "start": 184
+    },
+    {
+      "role": "inner",
+      "bar": 47,
+      "pitch": 66,
+      "start": 185.5
+    },
+    {
+      "role": "inner",
+      "bar": 47,
+      "pitch": 69,
+      "start": 187.0
+    },
+    {
+      "role": "left-root",
+      "bar": 48,
+      "pitch": 51,
+      "start": 188
+    },
+    {
+      "role": "inner",
+      "bar": 48,
+      "pitch": 66,
+      "start": 188
+    },
+    {
+      "role": "inner",
+      "bar": 48,
+      "pitch": 71,
+      "start": 188
+    },
+    {
+      "role": "top",
+      "bar": 48,
+      "pitch": 75,
+      "start": 188
+    },
+    {
+      "role": "inner",
+      "bar": 48,
+      "pitch": 66,
+      "start": 189.5
+    },
+    {
+      "role": "inner",
+      "bar": 48,
+      "pitch": 71,
+      "start": 191.0
+    },
+    {
+      "role": "left-root",
+      "bar": 49,
+      "pitch": 50,
+      "start": 192
+    },
+    {
+      "role": "inner",
+      "bar": 49,
+      "pitch": 69,
+      "start": 192
+    },
+    {
+      "role": "inner",
+      "bar": 49,
+      "pitch": 71,
+      "start": 192
+    },
+    {
+      "role": "top",
+      "bar": 49,
+      "pitch": 78,
+      "start": 192
+    },
+    {
+      "role": "inner",
+      "bar": 49,
+      "pitch": 69,
+      "start": 193.0
+    },
+    {
+      "role": "inner",
+      "bar": 49,
+      "pitch": 71,
+      "start": 193.5
+    },
+    {
+      "role": "inner",
+      "bar": 49,
+      "pitch": 69,
+      "start": 194.5
+    },
+    {
+      "role": "inner",
+      "bar": 49,
+      "pitch": 71,
+      "start": 195.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 49,
+      "pitch": 57,
+      "start": 194
+    },
+    {
+      "role": "left-root",
+      "bar": 50,
+      "pitch": 52,
+      "start": 196
+    },
+    {
+      "role": "inner",
+      "bar": 50,
+      "pitch": 68,
+      "start": 196
+    },
+    {
+      "role": "inner",
+      "bar": 50,
+      "pitch": 71,
+      "start": 196
+    },
+    {
+      "role": "top",
+      "bar": 50,
+      "pitch": 76,
+      "start": 196
+    },
+    {
+      "role": "inner",
+      "bar": 50,
+      "pitch": 68,
+      "start": 197.0
+    },
+    {
+      "role": "inner",
+      "bar": 50,
+      "pitch": 71,
+      "start": 197.5
+    },
+    {
+      "role": "inner",
+      "bar": 50,
+      "pitch": 68,
+      "start": 198.5
+    },
+    {
+      "role": "inner",
+      "bar": 50,
+      "pitch": 71,
+      "start": 199.0
+    },
+    {
+      "role": "left-root",
+      "bar": 51,
+      "pitch": 42,
+      "start": 200
+    },
+    {
+      "role": "inner",
+      "bar": 51,
+      "pitch": 69,
+      "start": 200
+    },
+    {
+      "role": "inner",
+      "bar": 51,
+      "pitch": 73,
+      "start": 200
+    },
+    {
+      "role": "top",
+      "bar": 51,
+      "pitch": 78,
+      "start": 200
+    },
+    {
+      "role": "inner",
+      "bar": 51,
+      "pitch": 69,
+      "start": 201.0
+    },
+    {
+      "role": "inner",
+      "bar": 51,
+      "pitch": 73,
+      "start": 201.5
+    },
+    {
+      "role": "inner",
+      "bar": 51,
+      "pitch": 69,
+      "start": 202.5
+    },
+    {
+      "role": "inner",
+      "bar": 51,
+      "pitch": 73,
+      "start": 203.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 51,
+      "pitch": 54,
+      "start": 202
+    },
+    {
+      "role": "left-root",
+      "bar": 52,
+      "pitch": 44,
+      "start": 204
+    },
+    {
+      "role": "inner",
+      "bar": 52,
+      "pitch": 68,
+      "start": 204
+    },
+    {
+      "role": "inner",
+      "bar": 52,
+      "pitch": 71,
+      "start": 204
+    },
+    {
+      "role": "top",
+      "bar": 52,
+      "pitch": 76,
+      "start": 204
+    },
+    {
+      "role": "inner",
+      "bar": 52,
+      "pitch": 68,
+      "start": 205.0
+    },
+    {
+      "role": "inner",
+      "bar": 52,
+      "pitch": 71,
+      "start": 205.5
+    },
+    {
+      "role": "inner",
+      "bar": 52,
+      "pitch": 68,
+      "start": 206.5
+    },
+    {
+      "role": "inner",
+      "bar": 52,
+      "pitch": 71,
+      "start": 207.0
+    },
+    {
+      "role": "connector",
+      "bar": 52,
+      "pitch": 80,
+      "start": 207.5
+    },
+    {
+      "role": "left-root",
+      "bar": 53,
+      "pitch": 45,
+      "start": 208
+    },
+    {
+      "role": "inner",
+      "bar": 53,
+      "pitch": 69,
+      "start": 208
+    },
+    {
+      "role": "inner",
+      "bar": 53,
+      "pitch": 73,
+      "start": 208
+    },
+    {
+      "role": "top",
+      "bar": 53,
+      "pitch": 76,
+      "start": 208
+    },
+    {
+      "role": "inner",
+      "bar": 53,
+      "pitch": 69,
+      "start": 209.0
+    },
+    {
+      "role": "inner",
+      "bar": 53,
+      "pitch": 73,
+      "start": 209.5
+    },
+    {
+      "role": "inner",
+      "bar": 53,
+      "pitch": 69,
+      "start": 210.5
+    },
+    {
+      "role": "inner",
+      "bar": 53,
+      "pitch": 73,
+      "start": 211.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 53,
+      "pitch": 57,
+      "start": 210
+    },
+    {
+      "role": "left-root",
+      "bar": 54,
+      "pitch": 52,
+      "start": 212
+    },
+    {
+      "role": "inner",
+      "bar": 54,
+      "pitch": 68,
+      "start": 212
+    },
+    {
+      "role": "inner",
+      "bar": 54,
+      "pitch": 71,
+      "start": 212
+    },
+    {
+      "role": "top-tie",
+      "bar": 54,
+      "pitch": 76,
+      "start": 212
+    },
+    {
+      "role": "inner",
+      "bar": 54,
+      "pitch": 68,
+      "start": 213.0
+    },
+    {
+      "role": "inner",
+      "bar": 54,
+      "pitch": 71,
+      "start": 213.5
+    },
+    {
+      "role": "inner",
+      "bar": 54,
+      "pitch": 68,
+      "start": 214.5
+    },
+    {
+      "role": "inner",
+      "bar": 54,
+      "pitch": 71,
+      "start": 215.0
+    },
+    {
+      "role": "left-root",
+      "bar": 55,
+      "pitch": 47,
+      "start": 216
+    },
+    {
+      "role": "inner",
+      "bar": 55,
+      "pitch": 66,
+      "start": 216
+    },
+    {
+      "role": "inner",
+      "bar": 55,
+      "pitch": 71,
+      "start": 216
+    },
+    {
+      "role": "top",
+      "bar": 55,
+      "pitch": 75,
+      "start": 216
+    },
+    {
+      "role": "inner",
+      "bar": 55,
+      "pitch": 66,
+      "start": 217.0
+    },
+    {
+      "role": "inner",
+      "bar": 55,
+      "pitch": 71,
+      "start": 217.5
+    },
+    {
+      "role": "inner",
+      "bar": 55,
+      "pitch": 66,
+      "start": 218.5
+    },
+    {
+      "role": "inner",
+      "bar": 55,
+      "pitch": 71,
+      "start": 219.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 55,
+      "pitch": 54,
+      "start": 218
+    },
+    {
+      "role": "left-root",
+      "bar": 56,
+      "pitch": 42,
+      "start": 220
+    },
+    {
+      "role": "inner",
+      "bar": 56,
+      "pitch": 66,
+      "start": 220
+    },
+    {
+      "role": "inner",
+      "bar": 56,
+      "pitch": 69,
+      "start": 220
+    },
+    {
+      "role": "top",
+      "bar": 56,
+      "pitch": 73,
+      "start": 220
+    },
+    {
+      "role": "inner",
+      "bar": 56,
+      "pitch": 66,
+      "start": 221.0
+    },
+    {
+      "role": "inner",
+      "bar": 56,
+      "pitch": 69,
+      "start": 221.5
+    },
+    {
+      "role": "inner",
+      "bar": 56,
+      "pitch": 66,
+      "start": 222.5
+    },
+    {
+      "role": "inner",
+      "bar": 56,
+      "pitch": 69,
+      "start": 223.0
+    },
+    {
+      "role": "left-root",
+      "bar": 57,
+      "pitch": 45,
+      "start": 224
+    },
+    {
+      "role": "inner",
+      "bar": 57,
+      "pitch": 64,
+      "start": 224
+    },
+    {
+      "role": "inner",
+      "bar": 57,
+      "pitch": 69,
+      "start": 224
+    },
+    {
+      "role": "top-tie",
+      "bar": 57,
+      "pitch": 73,
+      "start": 224
+    },
+    {
+      "role": "inner",
+      "bar": 57,
+      "pitch": 64,
+      "start": 225.0
+    },
+    {
+      "role": "inner",
+      "bar": 57,
+      "pitch": 69,
+      "start": 225.5
+    },
+    {
+      "role": "inner",
+      "bar": 57,
+      "pitch": 64,
+      "start": 226.5
+    },
+    {
+      "role": "inner",
+      "bar": 57,
+      "pitch": 69,
+      "start": 227.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 57,
+      "pitch": 57,
+      "start": 226
+    },
+    {
+      "role": "left-root",
+      "bar": 58,
+      "pitch": 52,
+      "start": 228
+    },
+    {
+      "role": "inner",
+      "bar": 58,
+      "pitch": 64,
+      "start": 228
+    },
+    {
+      "role": "inner",
+      "bar": 58,
+      "pitch": 68,
+      "start": 228
+    },
+    {
+      "role": "top",
+      "bar": 58,
+      "pitch": 71,
+      "start": 228
+    },
+    {
+      "role": "inner",
+      "bar": 58,
+      "pitch": 64,
+      "start": 229.0
+    },
+    {
+      "role": "inner",
+      "bar": 58,
+      "pitch": 68,
+      "start": 229.5
+    },
+    {
+      "role": "inner",
+      "bar": 58,
+      "pitch": 64,
+      "start": 230.5
+    },
+    {
+      "role": "inner",
+      "bar": 58,
+      "pitch": 68,
+      "start": 231.0
+    },
+    {
+      "role": "left-root",
+      "bar": 59,
+      "pitch": 47,
+      "start": 232
+    },
+    {
+      "role": "inner",
+      "bar": 59,
+      "pitch": 63,
+      "start": 232
+    },
+    {
+      "role": "inner",
+      "bar": 59,
+      "pitch": 66,
+      "start": 232
+    },
+    {
+      "role": "top-tie",
+      "bar": 59,
+      "pitch": 71,
+      "start": 232
+    },
+    {
+      "role": "inner",
+      "bar": 59,
+      "pitch": 63,
+      "start": 233.0
+    },
+    {
+      "role": "inner",
+      "bar": 59,
+      "pitch": 66,
+      "start": 233.5
+    },
+    {
+      "role": "inner",
+      "bar": 59,
+      "pitch": 63,
+      "start": 234.5
+    },
+    {
+      "role": "inner",
+      "bar": 59,
+      "pitch": 66,
+      "start": 235.0
+    },
+    {
+      "role": "left-upper",
+      "bar": 59,
+      "pitch": 54,
+      "start": 234
+    },
+    {
+      "role": "left-root",
+      "bar": 60,
+      "pitch": 42,
+      "start": 236
+    },
+    {
+      "role": "inner",
+      "bar": 60,
+      "pitch": 66,
+      "start": 236
+    },
+    {
+      "role": "inner",
+      "bar": 60,
+      "pitch": 69,
+      "start": 236
+    },
+    {
+      "role": "top",
+      "bar": 60,
+      "pitch": 73,
+      "start": 236
+    },
+    {
+      "role": "inner",
+      "bar": 60,
+      "pitch": 66,
+      "start": 237.0
+    },
+    {
+      "role": "inner",
+      "bar": 60,
+      "pitch": 69,
+      "start": 237.5
+    },
+    {
+      "role": "inner",
+      "bar": 60,
+      "pitch": 66,
+      "start": 238.5
+    },
+    {
+      "role": "inner",
+      "bar": 60,
+      "pitch": 69,
+      "start": 239.0
+    },
+    {
+      "role": "connector",
+      "bar": 60,
+      "pitch": 78,
+      "start": 239.5
+    },
+    {
+      "role": "left-root",
+      "bar": 61,
+      "pitch": 42,
+      "start": 240
+    },
+    {
+      "role": "inner",
+      "bar": 61,
+      "pitch": 66,
+      "start": 240
+    },
+    {
+      "role": "inner",
+      "bar": 61,
+      "pitch": 69,
+      "start": 240
+    },
+    {
+      "role": "top",
+      "bar": 61,
+      "pitch": 73,
+      "start": 240
+    },
+    {
+      "role": "inner",
+      "bar": 61,
+      "pitch": 66,
+      "start": 241.5
+    },
+    {
+      "role": "inner",
+      "bar": 61,
+      "pitch": 69,
+      "start": 243.0
+    },
+    {
+      "role": "left-root",
+      "bar": 62,
+      "pitch": 51,
+      "start": 244
+    },
+    {
+      "role": "inner",
+      "bar": 62,
+      "pitch": 66,
+      "start": 244
+    },
+    {
+      "role": "inner",
+      "bar": 62,
+      "pitch": 71,
+      "start": 244
+    },
+    {
+      "role": "top",
+      "bar": 62,
+      "pitch": 75,
+      "start": 244
+    },
+    {
+      "role": "inner",
+      "bar": 62,
+      "pitch": 66,
+      "start": 245.5
+    },
+    {
+      "role": "inner",
+      "bar": 62,
+      "pitch": 71,
+      "start": 247.0
+    },
+    {
+      "role": "left-root",
+      "bar": 63,
+      "pitch": 42,
+      "start": 248
+    },
+    {
+      "role": "inner",
+      "bar": 63,
+      "pitch": 66,
+      "start": 248
+    },
+    {
+      "role": "inner",
+      "bar": 63,
+      "pitch": 69,
+      "start": 248
+    },
+    {
+      "role": "top",
+      "bar": 63,
+      "pitch": 73,
+      "start": 248
+    },
+    {
+      "role": "inner",
+      "bar": 63,
+      "pitch": 66,
+      "start": 249.5
+    },
+    {
+      "role": "inner",
+      "bar": 63,
+      "pitch": 69,
+      "start": 251.0
+    },
+    {
+      "role": "left-root",
+      "bar": 64,
+      "pitch": 51,
+      "start": 252
+    },
+    {
+      "role": "inner",
+      "bar": 64,
+      "pitch": 66,
+      "start": 252
+    },
+    {
+      "role": "inner",
+      "bar": 64,
+      "pitch": 71,
+      "start": 252
+    },
+    {
+      "role": "top",
+      "bar": 64,
+      "pitch": 75,
+      "start": 252
+    },
+    {
+      "role": "inner",
+      "bar": 64,
+      "pitch": 66,
+      "start": 253.5
+    },
+    {
+      "role": "inner",
+      "bar": 64,
+      "pitch": 71,
+      "start": 255.0
+    },
+    {
+      "role": "left-root",
+      "bar": 65,
+      "pitch": 42,
+      "start": 256
+    },
+    {
+      "role": "inner",
+      "bar": 65,
+      "pitch": 66,
+      "start": 256
+    },
+    {
+      "role": "inner",
+      "bar": 65,
+      "pitch": 69,
+      "start": 256
+    },
+    {
+      "role": "top",
+      "bar": 65,
+      "pitch": 73,
+      "start": 256
+    },
+    {
+      "role": "inner",
+      "bar": 65,
+      "pitch": 66,
+      "start": 257.5
+    },
+    {
+      "role": "inner",
+      "bar": 65,
+      "pitch": 69,
+      "start": 259.0
+    },
+    {
+      "role": "left-root",
+      "bar": 66,
+      "pitch": 51,
+      "start": 260
+    },
+    {
+      "role": "inner",
+      "bar": 66,
+      "pitch": 66,
+      "start": 260
+    },
+    {
+      "role": "inner",
+      "bar": 66,
+      "pitch": 71,
+      "start": 260
+    },
+    {
+      "role": "top",
+      "bar": 66,
+      "pitch": 75,
+      "start": 260
+    },
+    {
+      "role": "inner",
+      "bar": 66,
+      "pitch": 66,
+      "start": 261.5
+    },
+    {
+      "role": "inner",
+      "bar": 66,
+      "pitch": 71,
+      "start": 263.0
+    },
+    {
+      "role": "left-root",
+      "bar": 67,
+      "pitch": 42,
+      "start": 264
+    },
+    {
+      "role": "inner",
+      "bar": 67,
+      "pitch": 66,
+      "start": 264
+    },
+    {
+      "role": "inner",
+      "bar": 67,
+      "pitch": 69,
+      "start": 264
+    },
+    {
+      "role": "top",
+      "bar": 67,
+      "pitch": 73,
+      "start": 264
+    },
+    {
+      "role": "inner",
+      "bar": 67,
+      "pitch": 66,
+      "start": 265.5
+    },
+    {
+      "role": "inner",
+      "bar": 67,
+      "pitch": 69,
+      "start": 267.0
+    },
+    {
+      "role": "left-root",
+      "bar": 68,
+      "pitch": 51,
+      "start": 268
+    },
+    {
+      "role": "inner",
+      "bar": 68,
+      "pitch": 66,
+      "start": 268
+    },
+    {
+      "role": "inner",
+      "bar": 68,
+      "pitch": 71,
+      "start": 268
+    },
+    {
+      "role": "top",
+      "bar": 68,
+      "pitch": 75,
+      "start": 268
+    },
+    {
+      "role": "inner",
+      "bar": 68,
+      "pitch": 66,
+      "start": 269.5
+    },
+    {
+      "role": "inner",
+      "bar": 68,
+      "pitch": 71,
+      "start": 271.0
+    },
+    {
+      "role": "left-root",
+      "bar": 69,
+      "pitch": 42,
+      "start": 272
+    },
+    {
+      "role": "inner",
+      "bar": 69,
+      "pitch": 66,
+      "start": 272
+    },
+    {
+      "role": "inner",
+      "bar": 69,
+      "pitch": 69,
+      "start": 272
+    },
+    {
+      "role": "top",
+      "bar": 69,
+      "pitch": 73,
+      "start": 272
+    },
+    {
+      "role": "inner",
+      "bar": 69,
+      "pitch": 66,
+      "start": 273.5
+    },
+    {
+      "role": "inner",
+      "bar": 69,
+      "pitch": 69,
+      "start": 275.0
+    },
+    {
+      "role": "left-root",
+      "bar": 70,
+      "pitch": 51,
+      "start": 276
+    },
+    {
+      "role": "inner",
+      "bar": 70,
+      "pitch": 66,
+      "start": 276
+    },
+    {
+      "role": "inner",
+      "bar": 70,
+      "pitch": 71,
+      "start": 276
+    },
+    {
+      "role": "top",
+      "bar": 70,
+      "pitch": 75,
+      "start": 276
+    },
+    {
+      "role": "inner",
+      "bar": 70,
+      "pitch": 66,
+      "start": 277.5
+    },
+    {
+      "role": "inner",
+      "bar": 70,
+      "pitch": 71,
+      "start": 279.0
+    },
+    {
+      "role": "left-root",
+      "bar": 71,
+      "pitch": 42,
+      "start": 280
+    },
+    {
+      "role": "inner",
+      "bar": 71,
+      "pitch": 66,
+      "start": 280
+    },
+    {
+      "role": "inner",
+      "bar": 71,
+      "pitch": 69,
+      "start": 280
+    },
+    {
+      "role": "top",
+      "bar": 71,
+      "pitch": 73,
+      "start": 280
+    },
+    {
+      "role": "inner",
+      "bar": 71,
+      "pitch": 66,
+      "start": 281.5
+    },
+    {
+      "role": "inner",
+      "bar": 71,
+      "pitch": 69,
+      "start": 283.0
+    },
+    {
+      "role": "connector",
+      "bar": 71,
+      "pitch": 78,
+      "start": 283.5
+    },
+    {
+      "role": "left-root",
+      "bar": 72,
+      "pitch": 51,
+      "start": 284
+    },
+    {
+      "role": "inner",
+      "bar": 72,
+      "pitch": 66,
+      "start": 284
+    },
+    {
+      "role": "inner",
+      "bar": 72,
+      "pitch": 71,
+      "start": 284
+    },
+    {
+      "role": "top",
+      "bar": 72,
+      "pitch": 75,
+      "start": 284
+    },
+    {
+      "role": "inner",
+      "bar": 72,
+      "pitch": 66,
+      "start": 285.5
+    },
+    {
+      "role": "inner",
+      "bar": 72,
+      "pitch": 71,
+      "start": 287.0
+    },
+    {
+      "role": "left-root",
+      "bar": 73,
+      "pitch": 42,
+      "start": 288
+    },
+    {
+      "role": "inner",
+      "bar": 73,
+      "pitch": 66,
+      "start": 288
+    },
+    {
+      "role": "inner",
+      "bar": 73,
+      "pitch": 69,
+      "start": 288
+    },
+    {
+      "role": "top",
+      "bar": 73,
+      "pitch": 73,
+      "start": 288
+    },
+    {
+      "role": "left-root",
+      "bar": 74,
+      "pitch": 51,
+      "start": 292
+    },
+    {
+      "role": "inner",
+      "bar": 74,
+      "pitch": 66,
+      "start": 292
+    },
+    {
+      "role": "inner",
+      "bar": 74,
+      "pitch": 71,
+      "start": 292
+    },
+    {
+      "role": "top",
+      "bar": 74,
+      "pitch": 75,
+      "start": 292
+    },
+    {
+      "role": "left-root",
+      "bar": 75,
+      "pitch": 42,
+      "start": 296
+    },
+    {
+      "role": "inner",
+      "bar": 75,
+      "pitch": 66,
+      "start": 296
+    },
+    {
+      "role": "inner",
+      "bar": 75,
+      "pitch": 69,
+      "start": 296
+    },
+    {
+      "role": "top",
+      "bar": 75,
+      "pitch": 73,
+      "start": 296
+    },
+    {
+      "role": "left-root",
+      "bar": 76,
+      "pitch": 51,
+      "start": 300
+    },
+    {
+      "role": "inner",
+      "bar": 76,
+      "pitch": 66,
+      "start": 300
+    },
+    {
+      "role": "inner",
+      "bar": 76,
+      "pitch": 71,
+      "start": 300
+    },
+    {
+      "role": "top",
+      "bar": 76,
+      "pitch": 75,
+      "start": 300
+    }
+  ],
+  "bass_pitch_by_bar": [
+    null,
+    null,
+    null,
+    null,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    38,
+    40,
+    42,
+    44,
+    45,
+    40,
+    35,
+    30,
+    33,
+    40,
+    35,
+    42,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    38,
+    40,
+    42,
+    44,
+    45,
+    40,
+    35,
+    30,
+    33,
+    40,
+    35,
+    42,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39,
+    42,
+    39
+  ],
+  "string_anchors": [
+    null,
+    null,
+    null,
+    null,
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      64,
+      73
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      64,
+      73
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      64,
+      73
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      64,
+      73
+    ],
+    [
+      64,
+      71
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      66,
+      71
+    ]
+  ],
+  "cello_phrase_ends": [
+    143.41,
+    159.41,
+    175.41,
+    191.41,
+    207.41,
+    209.4437,
+    255.41,
+    271.41,
+    287.41,
+    303.41
+  ],
+  "original_midi_sha256": "58bfb64592e25302525b04cc62e5c2019b9a19374f67004fd9903f27c09744a9"
+}

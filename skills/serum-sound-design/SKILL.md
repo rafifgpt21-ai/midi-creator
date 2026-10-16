@@ -1,6 +1,6 @@
 ---
 name: serum-sound-design
-description: Design requested sounds in Serum 2 from descriptive briefs or references, choosing synthesis, modulation, effects, and a native preset delivery workflow. Use for end-to-end sound creation; focused stages have companion Serum skills.
+description: Design requested sounds in Serum 2 from briefs or references, including analog and retro hardware character, synthesis, modulation, effects, and native presets. Use for end-to-end sound creation; focused stages have companion Serum skills.
 ---
 
 # Serum sound design
@@ -8,6 +8,8 @@ description: Design requested sounds in Serum 2 from descriptive briefs or refer
 Turn the user's requested sonic behavior into a playable Serum 2 sound. Use the supplied manual for control behavior, theory for causal decisions, and the current tool schema for implementation. The shared reference library lives in this skill's `references/`; install the seven sibling skills together.
 
 ## Workflow
+
+For analog, vintage, retro analog, or real analog gear requests (including composition layer choices), read [analog and retro](references/analog-retro.md) as the default design reference. Start from the target architecture and a maintained instrument unless the brief says otherwise. Distinguish VCO/DCO, voice offsets, continuous drift, and recording coloration; select the five techniques by need. Specific user/reference constraints take precedence. Retro alone does not imply analog synthesis.
 
 1. Read [brief-and-analysis.md](references/brief-and-analysis.md). Record role, register, note duration, amplitude contour, harmonic/noise balance, spectral movement, stereo behavior, expression, and the user's constraints. Resolve ordinary musical details yourself. Ask only for missing information that blocks an important choice, such as an unavailable reference or required sample.
 2. For an audio/preset reference, use [serum-reference-match](../serum-reference-match/SKILL.md). Distinguish observed properties from inferred architecture. For words alone, translate the descriptors into testable behaviors.

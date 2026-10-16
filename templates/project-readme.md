@@ -27,6 +27,10 @@ panjang tail, tuning bila perlu, groove, serta ruang yang harus disisakan untuk 
 Rekomendasi karakter tidak berarti sample sudah dipilih. Cantumkan nama/pitch MIDI
 numerik setiap bagian dan status pilihan pengguna. Jelaskan CC7/CC10 jika satu kit
 dipakai bersama.
+Untuk drum per layer, cantumkan root sample dan pitch pemicu sesuai
+`docs/default-drum-map.md`, serta cara memuat setiap sample
+ke Sampler Track terpisah. Jika file gabungan memakai mapping berbeda, tuliskan
+mapping gabungan secara terpisah.
 
 ## Instrumen di luar Serum
 

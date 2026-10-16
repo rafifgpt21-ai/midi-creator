@@ -1,0 +1,569 @@
+{
+  "spec_version": "1.0",
+  "meta": {
+    "title": "Yey — Piano and BBC Discover",
+    "style_layer": "none",
+    "style_layers": [],
+    "key": "F# minor",
+    "mode": "dorian",
+    "meter": "4/4",
+    "tempo": 120,
+    "target_duration": "2:32",
+    "deliverable": [
+      "midi"
+    ],
+    "upstream": {
+      "brief": "request.md; v001 and original yey.mid",
+      "lyrics": {},
+      "picture": {}
+    }
+  },
+  "intent": {
+    "one_thing": "Let the original Yey progression unfold like a pianist telling a quiet story.",
+    "reference_pair": [
+      {
+        "track": "Original yey.mid / piano",
+        "borrow": "All chord pitch classes, slash basses, harmonic change bars and four-bar opening silence."
+      },
+      {
+        "track": "Original yey.mid / flute theme",
+        "borrow": "Recognizable pitch-class contour, recast in cello register with phrase breathing."
+      }
+    ],
+    "listener_situation": "Close listening at home, piano foreground and orchestra behind it.",
+    "emotional_arc": [
+      {
+        "section": "silence",
+        "mood": "unfold",
+        "value": 0.0
+      },
+      {
+        "section": "a1",
+        "mood": "unfold",
+        "value": 3.0
+      },
+      {
+        "section": "held",
+        "mood": "recede",
+        "value": 2.2
+      },
+      {
+        "section": "a2",
+        "mood": "unfold",
+        "value": 3.7
+      },
+      {
+        "section": "t1",
+        "mood": "unfold",
+        "value": 4.6
+      },
+      {
+        "section": "b1",
+        "mood": "unfold",
+        "value": 5.2
+      },
+      {
+        "section": "lead",
+        "mood": "unfold",
+        "value": 4.8
+      },
+      {
+        "section": "t2",
+        "mood": "unfold",
+        "value": 6.0
+      },
+      {
+        "section": "b2",
+        "mood": "unfold",
+        "value": 5.5
+      },
+      {
+        "section": "final",
+        "mood": "recede",
+        "value": 4.0
+      }
+    ]
+  },
+  "material": {
+    "motif": "Two-bar minor-to-major-IV response, held upper note over gently alternating eighth-note inner voices; the cello recalls the source long-note theme.",
+    "character": "Reflective and unhurried",
+    "stated_in": [
+      "a1",
+      "lead"
+    ],
+    "development_mode": "加工处理"
+  },
+  "form": [
+    {
+      "id": "silence",
+      "name": "Intro",
+      "start_bar": 1,
+      "bars": 4,
+      "harmony": "- | - | - | -",
+      "harmony_letters": "- | - | - | -",
+      "melody_register": "mid",
+      "development": "repeat",
+      "energy": 0.0,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "a1",
+      "name": "Verse",
+      "start_bar": 5,
+      "bars": 8,
+      "harmony": "i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6",
+      "harmony_letters": "F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D#",
+      "melody_register": "mid-high",
+      "development": "repeat",
+      "energy": 3.0,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "held",
+      "name": "Breakdown",
+      "start_bar": 13,
+      "bars": 4,
+      "harmony": "i | IV/6 | i | IV/6",
+      "harmony_letters": "F#m | B/D# | F#m | B/D#",
+      "melody_register": "mid",
+      "development": "vary",
+      "energy": 2.2,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "a2",
+      "name": "Verse",
+      "start_bar": 17,
+      "bars": 4,
+      "harmony": "i | IV/6 | i | IV/6",
+      "harmony_letters": "F#m | B/D# | F#m | B/D#",
+      "melody_register": "mid",
+      "development": "vary",
+      "energy": 3.7,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "t1",
+      "name": "Pre-Chorus",
+      "start_bar": 21,
+      "bars": 4,
+      "harmony": "bVI6 | bVII | i | bVII/3",
+      "harmony_letters": "D6 | E | F#m | E/G#",
+      "melody_register": "mid",
+      "development": "fragment",
+      "energy": 4.6,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "b1",
+      "name": "Chorus",
+      "start_bar": 25,
+      "bars": 8,
+      "harmony": "bIII | bVII | IV | i | bIII | bVII | IV | i",
+      "harmony_letters": "A | E | B | F#m | A | E | B | F#m",
+      "melody_register": "mid-high",
+      "development": "vary",
+      "energy": 5.2,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "lead",
+      "name": "Instrumental",
+      "start_bar": 33,
+      "bars": 16,
+      "harmony": "i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6",
+      "harmony_letters": "F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D#",
+      "melody_register": "mid",
+      "development": "vary",
+      "energy": 4.8,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "t2",
+      "name": "Pre-Chorus",
+      "start_bar": 49,
+      "bars": 4,
+      "harmony": "bVI6 | bVII | i | bVII/3",
+      "harmony_letters": "D6 | E | F#m | E/G#",
+      "melody_register": "mid",
+      "development": "recap",
+      "energy": 6.0,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "b2",
+      "name": "Chorus",
+      "start_bar": 53,
+      "bars": 8,
+      "harmony": "bIII | bVII | IV | i | bIII | bVII | IV | i",
+      "harmony_letters": "A | E | B | F#m | A | E | B | F#m",
+      "melody_register": "mid-high",
+      "development": "recap",
+      "energy": 5.5,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    },
+    {
+      "id": "final",
+      "name": "Outro",
+      "start_bar": 61,
+      "bars": 16,
+      "harmony": "i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6 | i | IV/6",
+      "harmony_letters": "F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D# | F#m | B/D#",
+      "melody_register": "mid",
+      "development": "recap",
+      "energy": 4.0,
+      "events": [],
+      "note": "Original harmonic timeline locked; recap varies touch, density and phrasing without new chords."
+    }
+  ],
+  "arrangement": {
+    "roster": [
+      {
+        "id": "piano",
+        "instrument": "User-selected acoustic piano / Velocity-sensitive piano",
+        "midi": {
+          "program": 0,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "harmony",
+        "band": "mid-high",
+        "entry": "a1",
+        "exit": "end",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      },
+      {
+        "id": "bbc-basses",
+        "instrument": "BBCSO Discover / Strings / Basses / Long (vib)",
+        "midi": {
+          "program": 43,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "bass",
+        "band": "low",
+        "entry": "a1",
+        "exit": "end",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      },
+      {
+        "id": "bbc-celli",
+        "instrument": "BBCSO Discover / Strings / Celli / Long (vib)",
+        "midi": {
+          "program": 42,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "melody",
+        "band": "mid-high",
+        "entry": "lead",
+        "exit": "end",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      },
+      {
+        "id": "bbc-violas",
+        "instrument": "BBCSO Discover / Strings / Violas / Long (vib)",
+        "midi": {
+          "program": 41,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "harmony",
+        "band": "mid-high",
+        "entry": "held",
+        "exit": "end",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      },
+      {
+        "id": "bbc-violins-1",
+        "instrument": "BBCSO Discover / Strings / 1st Violins / Long (vib)",
+        "midi": {
+          "program": 40,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "harmony",
+        "band": "mid-high",
+        "entry": "a2",
+        "exit": "end",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      },
+      {
+        "id": "bbc-flutes",
+        "instrument": "BBCSO Discover / Woodwinds / Flutes a3 / Long",
+        "midi": {
+          "program": 73,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "countermelody",
+        "band": "mid-high",
+        "entry": "lead",
+        "exit": "final bar 72",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      },
+      {
+        "id": "bbc-clarinets",
+        "instrument": "BBCSO Discover / Woodwinds / Clarinets a3 / Long",
+        "midi": {
+          "program": 71,
+          "bank": 0,
+          "channel": 1
+        },
+        "role": "countermelody",
+        "band": "mid-high",
+        "entry": "b1",
+        "exit": "b2 bar 60",
+        "note": "Concert pitch, one independent section line; BBC uses CC1=100 and shaped CC11."
+      }
+    ],
+    "depth_map": {
+      "piano": "foreground",
+      "bbc-celli": "midground",
+      "bbc-basses": "background",
+      "bbc-violas": "background",
+      "bbc-violins-1": "background",
+      "bbc-flutes": "midground",
+      "bbc-clarinets": "midground"
+    },
+    "bass_kick_relation": {},
+    "spectrum_budget": [
+      {
+        "band": "low",
+        "owner": "bbc-basses",
+        "competitors": [
+          "piano"
+        ],
+        "resolution": "Piano left hand moves up an octave when bowed bass enters."
+      },
+      {
+        "band": "mid",
+        "owner": "bbc-celli",
+        "competitors": [
+          "piano",
+          "bbc-violas"
+        ],
+        "resolution": "Piano density drops under theme; viola sits above the cello line."
+      },
+      {
+        "band": "high",
+        "owner": "piano",
+        "competitors": [
+          "bbc-flutes"
+        ],
+        "resolution": "Flute answers only in cello gaps and is restrained behind piano."
+      }
+    ],
+    "energy_curve": {
+      "silence": 0.0,
+      "a1": 3.0,
+      "held": 2.2,
+      "a2": 3.7,
+      "t1": 4.6,
+      "b1": 5.2,
+      "lead": 4.8,
+      "t2": 6.0,
+      "b2": 5.5,
+      "final": 4.0
+    },
+    "subtraction_events": [
+      {
+        "at": {
+          "section": "held",
+          "bar_offset": 0
+        },
+        "what": "Remove moving piano inner pattern",
+        "why": "Four-bar breath before rebuilding."
+      },
+      {
+        "at": {
+          "section": "lead",
+          "bar_offset": 0
+        },
+        "what": "Reduce piano rhythm density",
+        "why": "Let cello theme emerge."
+      },
+      {
+        "at": {
+          "section": "final",
+          "bar_offset": 12
+        },
+        "what": "Woodwinds have already exited; thin piano and strings",
+        "why": "Soft open-ended final B/D#."
+      }
+    ],
+    "hooks": {
+      "vocal_hook": {},
+      "arrangement_hook": {
+        "what": "Connected piano inversions answered later by the original theme in cellos.",
+        "first_at": "a1",
+        "recurs_at": [
+          "a2",
+          "lead",
+          "final"
+        ]
+      }
+    },
+    "groove": {
+      "feel": "straight",
+      "push_pull": [
+        {
+          "part": "all",
+          "offset_ms": 0,
+          "note": "Workspace strict onset policy; touch/gate/CC provide phrase variation."
+        }
+      ],
+      "fill_policy": {
+        "bars": [
+          20,
+          24,
+          52,
+          60,
+          71
+        ],
+        "rationale": "Short chord-tone links at structural seams, with one late-theme variation."
+      }
+    }
+  },
+  "vocal": {},
+  "mix_intent": {
+    "mood": "Close piano with a warm, lightly voiced orchestra behind it.",
+    "sound_stage": [
+      {
+        "id": "piano",
+        "pan": 0,
+        "depth": "foreground"
+      },
+      {
+        "id": "bbc-basses",
+        "pan": 6,
+        "depth": "background"
+      },
+      {
+        "id": "bbc-celli",
+        "pan": 3,
+        "depth": "background"
+      },
+      {
+        "id": "bbc-violas",
+        "pan": 0,
+        "depth": "background"
+      },
+      {
+        "id": "bbc-violins-1",
+        "pan": -6,
+        "depth": "background"
+      },
+      {
+        "id": "bbc-flutes",
+        "pan": -5,
+        "depth": "background"
+      },
+      {
+        "id": "bbc-clarinets",
+        "pan": 5,
+        "depth": "background"
+      }
+    ],
+    "ducking_map": [],
+    "dynamics": {
+      "target_DR_dB": 0,
+      "notes": [
+        "No mastering target: MIDI delivery. Preserve quieter held section and final retreat."
+      ]
+    },
+    "width_map": {
+      "a1": "mostly piano",
+      "b1": "strings and clarinet spread",
+      "final": "gradually narrows as winds exit"
+    },
+    "loudness_target": ""
+  },
+  "render": {
+    "midi": {
+      "instrument_map": {
+        "piano": {
+          "name": "User-selected acoustic piano",
+          "program": 0,
+          "bank": 0,
+          "channel": 1
+        },
+        "bbc-basses": {
+          "name": "BBCSO Discover / Strings / Basses",
+          "program": 43,
+          "bank": 0,
+          "channel": 1
+        },
+        "bbc-celli": {
+          "name": "BBCSO Discover / Strings / Celli",
+          "program": 42,
+          "bank": 0,
+          "channel": 1
+        },
+        "bbc-violas": {
+          "name": "BBCSO Discover / Strings / Violas",
+          "program": 41,
+          "bank": 0,
+          "channel": 1
+        },
+        "bbc-violins-1": {
+          "name": "BBCSO Discover / Strings / 1st Violins",
+          "program": 40,
+          "bank": 0,
+          "channel": 1
+        },
+        "bbc-flutes": {
+          "name": "BBCSO Discover / Woodwinds / Flutes a3",
+          "program": 73,
+          "bank": 0,
+          "channel": 1
+        },
+        "bbc-clarinets": {
+          "name": "BBCSO Discover / Woodwinds / Clarinets a3",
+          "program": 71,
+          "bank": 0,
+          "channel": 1
+        }
+      }
+    }
+  },
+  "checks": {
+    "self_audit": [
+      "1: Intent complete, two separate source-track references.",
+      "2: Sections contiguous 1–76.",
+      "3: Four-bar sections preserve source.",
+      "4: Energy map matches all section ids.",
+      "5: Drops at held, lead, b2 and final.",
+      "6: Three subtraction events.",
+      "7: Winds exit early.",
+      "8: Piano/cello hook specified.",
+      "9: D6 retains borrowed natural D.",
+      "10: Five non-periodic fill bars.",
+      "11: Exempt strict timing.",
+      "12: Instrumental width changes.",
+      "13: Exempt non-Suno delivery.",
+      "14: 76*4/120*60=152 seconds.",
+      "15-16: Instrumental, no vocals.",
+      "17: No style fusion.",
+      "18: Recognizable repeat/vary/recap; no new sections.",
+      "19: ASCII chord names.",
+      "20: Dorian meta, closed section names, structured subtraction positions."
+    ],
+    "exemptions": [
+      "Strict grid takes precedence over skill push/pull preference; no timing offset requested.",
+      "One chord per bar and last B/D# locked by source; no added tonic cadence.",
+      "No Suno/YuE prompt, vocal design, extra score or audio requested.",
+      "Piano is user-selected from v001; BBC orchestral instruments explicitly requested, so Serum default does not apply."
+    ]
+  },
+  "messages": []
+}

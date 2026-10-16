@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "snapshot_equals_source": true,
+  "scale_ok": true,
+  "lead_response_midi_overlap": false,
+  "sub_root_hz": [
+    32.7032,
+    43.6535,
+    51.9131,
+    58.2705
+  ],
+  "pad_harmony_ok": true,
+  "kick_four_on_floor": true,
+  "drums_pitch60": true,
+  "strict_sixteenth_onsets": true,
+  "auditioned": false
+}

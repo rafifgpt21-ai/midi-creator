@@ -23,6 +23,13 @@ class Note:
 
 
 @dataclass(frozen=True)
+class ControlChange:
+    start: int
+    control: int
+    value: int
+
+
+@dataclass(frozen=True)
 class Layer:
     id: str
     name: str
@@ -32,6 +39,7 @@ class Layer:
     volume: int
     pan: int
     notes: tuple[Note, ...]
+    control_changes: tuple[ControlChange, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -169,13 +177,27 @@ def compile_composition(source: dict, *, combined: bool = False, strict_timing: 
                 for event in clip["notes"]:
                     add_note(event, offset)
         check_overlaps(notes, identifier)
+        controls = []
+        control_ticks = set()
+        for event in raw.get("control_changes", []):
+            if decimal(event["start"]) > total:
+                raise CompositionError(f"{identifier}: control change beyond composition end")
+            tick = ticks(event["start"], ppqn)
+            control = int(event["control"])
+            if (tick, control) in control_ticks:
+                raise CompositionError(f"{identifier}: duplicate controller {control} at tick {tick}")
+            control_ticks.add((tick, control))
+            controls.append(ControlChange(tick, control, int(event["value"])))
         program = int(raw["program"]) if "program" in raw else None
         layers.append(Layer(identifier, raw["name"], raw["kind"], channel, program,
                             int(raw.get("volume", 100)), int(raw.get("pan", 64)),
-                            tuple(sorted(notes, key=lambda n: (n.start, n.pitch, n.end, n.velocity)))))
+                            tuple(sorted(notes, key=lambda n: (n.start, n.pitch, n.end, n.velocity))),
+                            tuple(sorted(controls, key=lambda c: (c.start, c.control)))))
 
     drums = [layer for layer in layers if layer.kind == "drums"]
     if combined and len(drums) > 1:
+        if len({layer.control_changes for layer in drums}) > 1:
+            raise CompositionError("Combined drum layers share channel 10: use the same control automation or generate without --combined")
         if len({(layer.volume, layer.pan) for layer in drums}) > 1:
             raise CompositionError("Combined drum layers share channel 10: use the same volume/pan or generate without --combined")
         check_overlaps([note for layer in drums for note in layer.notes], "Combined drum layers")

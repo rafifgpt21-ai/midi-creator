@@ -1,0 +1,193 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Black Glass",
+  "combined": false,
+  "composition_sha256": "0295a775e8d0d5c151b3d1e9fade57d32a53e57b8ac62644d0e1b8baf5493b7a",
+  "tempo_bpm": 136,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 112,
+  "ticks_per_beat": 480,
+  "end_tick": 215040,
+  "duration_seconds": 197.646848,
+  "layers": [
+    {
+      "id": "piano",
+      "name": "Expressive Piano",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 0,
+      "note_count": 935,
+      "file": "MIDI/piano.mid"
+    },
+    {
+      "id": "sub-bass",
+      "name": "Sub Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 246,
+      "file": "MIDI/sub-bass.mid"
+    },
+    {
+      "id": "bass-grit",
+      "name": "Chorus Bass Grit",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 130,
+      "file": "MIDI/bass-grit.mid"
+    },
+    {
+      "id": "shadow-pad",
+      "name": "Shadow Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 189,
+      "file": "MIDI/shadow-pad.mid"
+    },
+    {
+      "id": "ghost-bell",
+      "name": "Ghost Bell",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 98,
+      "note_count": 31,
+      "file": "MIDI/ghost-bell.mid"
+    },
+    {
+      "id": "tension-rise",
+      "name": "Tension Rise",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 97,
+      "note_count": 3,
+      "file": "MIDI/tension-rise.mid"
+    },
+    {
+      "id": "kick",
+      "name": "Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 244,
+      "file": "MIDI/kick.mid"
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 94,
+      "file": "MIDI/snare.mid"
+    },
+    {
+      "id": "rim",
+      "name": "Rim",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 26,
+      "file": "MIDI/rim.mid"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Closed Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 751,
+      "file": "MIDI/closed-hat.mid"
+    },
+    {
+      "id": "open-hat",
+      "name": "Open Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 32,
+      "file": "MIDI/open-hat.mid"
+    },
+    {
+      "id": "crash",
+      "name": "Crash",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 5,
+      "file": "MIDI/crash.mid"
+    },
+    {
+      "id": "floor-tom",
+      "name": "Floor Tom",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 24,
+      "file": "MIDI/floor-tom.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/piano.mid",
+      "sha256": "6c25db944700ac8f954f9601f3691cfce20af3a272ab547b2b86150264939917"
+    },
+    {
+      "path": "MIDI/sub-bass.mid",
+      "sha256": "a0246e8ae7ca40155d4b6f573c2f145617718068ea2ca26ce5fdf43fa3b83680"
+    },
+    {
+      "path": "MIDI/bass-grit.mid",
+      "sha256": "b8e8cfa89ee7d23cd19534e2e5254f7b37ca2dbb1cf4d0d7458678ebf243488a"
+    },
+    {
+      "path": "MIDI/shadow-pad.mid",
+      "sha256": "f7fd0c7e289b6704fb508a44ed1d53be26fbe08afca79326294dc6165eaf7300"
+    },
+    {
+      "path": "MIDI/ghost-bell.mid",
+      "sha256": "c3a91b6413818bdc9f434778339ad1bbd27c74af9a480076777c375c04912664"
+    },
+    {
+      "path": "MIDI/tension-rise.mid",
+      "sha256": "73c35c93f859eafb59c13073937fac10cf592f426208db4bce8a19377dba97fe"
+    },
+    {
+      "path": "MIDI/kick.mid",
+      "sha256": "16bb41aef0a78e53354aaf548ae3799bbb39fb10fea4a4e3aa5725990455ec17"
+    },
+    {
+      "path": "MIDI/snare.mid",
+      "sha256": "c3576ccb9fcbaca811cf4073f3324314dcaaf4497309c13ab0103af99bffe446"
+    },
+    {
+      "path": "MIDI/rim.mid",
+      "sha256": "075f3b2518280e7b4dd270ddd19723ab0d8487db4d089649a4c053a0eeb11381"
+    },
+    {
+      "path": "MIDI/closed-hat.mid",
+      "sha256": "b9d806669c868a42c7745d406850808d733d3cd46e918a02ad59612d5f8b7efa"
+    },
+    {
+      "path": "MIDI/open-hat.mid",
+      "sha256": "55a1f2817ed495940104184300215c3ca2a132e6681c1c2828677b611413761d"
+    },
+    {
+      "path": "MIDI/crash.mid",
+      "sha256": "7256e13f1d40c57dc1373df23f87e356af29d5e4a346157f90177dbe2f4bd4db"
+    },
+    {
+      "path": "MIDI/floor-tom.mid",
+      "sha256": "3670608815b882f0fec1941e39ad46ddc93814326cfb0d5b5874b004478b7968"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "query": "analog brass pad pluck",
+  "expanded_terms": [
+    "analog",
+    "brass",
+    "pad",
+    "pluck"
+  ],
+  "count": 3,
+  "truncated": true,
+  "results": [
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - Brass 'n' Plucks.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "brass",
+        "pad",
+        "pluck"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - Analogous.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "analog",
+        "pad"
+      ],
+      "is_serum_mcp_generated": false
+    },
+    {
+      "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pad\\PD - Analog Butter.SerumPreset",
+      "source": "Factory",
+      "matched_terms": [
+        "analog",
+        "pad"
+      ],
+      "is_serum_mcp_generated": false
+    }
+  ]
+}

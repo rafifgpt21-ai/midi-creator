@@ -8,6 +8,7 @@ Read only the branches relevant to the current task. These are original working 
 | Match a recording or preset | [Reference matching](reference-matching.md) |
 | Explain why a design works | [Theory](theory.md), [glossary](glossary.md) |
 | Choose a source/engine or hybrid | [Architecture](architecture.md) |
+| Analog/vintage/retro analog or real analog gear (default for these briefs) | [Analog and retro](analog-retro.md) |
 | Wavetable, additive tables, FM/AM, warp | [Wavetable and FM](wavetable-and-fm.md) |
 | Samples, multisamples, looping | [Sample engines](sample-engines.md) |
 | Grain clouds, spectral transformations | [Granular and spectral](granular-and-spectral.md) |

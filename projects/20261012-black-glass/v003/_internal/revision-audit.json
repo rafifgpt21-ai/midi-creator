@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "revision": "v003",
+  "origin_revision": "v002",
+  "changed_layers": [
+    "piano"
+  ],
+  "preserved_layers": [
+    "sub-bass",
+    "bass-grit",
+    "shadow-pad",
+    "ghost-bell",
+    "tension-rise",
+    "kick",
+    "snare",
+    "rim",
+    "closed-hat",
+    "open-hat",
+    "crash",
+    "floor-tom"
+  ],
+  "midi": {
+    "bass-grit.mid": {
+      "sha256": "b8e8cfa89ee7d23cd19534e2e5254f7b37ca2dbb1cf4d0d7458678ebf243488a",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "closed-hat.mid": {
+      "sha256": "b9d806669c868a42c7745d406850808d733d3cd46e918a02ad59612d5f8b7efa",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "crash.mid": {
+      "sha256": "7256e13f1d40c57dc1373df23f87e356af29d5e4a346157f90177dbe2f4bd4db",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "floor-tom.mid": {
+      "sha256": "3670608815b882f0fec1941e39ad46ddc93814326cfb0d5b5874b004478b7968",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "ghost-bell.mid": {
+      "sha256": "c3a91b6413818bdc9f434778339ad1bbd27c74af9a480076777c375c04912664",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "kick.mid": {
+      "sha256": "16bb41aef0a78e53354aaf548ae3799bbb39fb10fea4a4e3aa5725990455ec17",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "open-hat.mid": {
+      "sha256": "55a1f2817ed495940104184300215c3ca2a132e6681c1c2828677b611413761d",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "piano.mid": {
+      "sha256": "6eda4f38807451adc0bf6d9e1b10eff9315bba2bfa23b251b89a37a0b6dab75f",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": false
+    },
+    "rim.mid": {
+      "sha256": "075f3b2518280e7b4dd270ddd19723ab0d8487db4d089649a4c053a0eeb11381",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "shadow-pad.mid": {
+      "sha256": "f7fd0c7e289b6704fb508a44ed1d53be26fbe08afca79326294dc6165eaf7300",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "snare.mid": {
+      "sha256": "c3576ccb9fcbaca811cf4073f3324314dcaaf4497309c13ab0103af99bffe446",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "sub-bass.mid": {
+      "sha256": "a0246e8ae7ca40155d4b6f573c2f145617718068ea2ca26ce5fdf43fa3b83680",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    },
+    "tension-rise.mid": {
+      "sha256": "73c35c93f859eafb59c13073937fac10cf592f426208db4bce8a19377dba97fe",
+      "tracks": 1,
+      "end_tick": 215040,
+      "preserved_from_v002": true
+    }
+  },
+  "piano": {
+    "seed": 2026101203,
+    "notes": 958,
+    "chord_strikes": 170,
+    "improvised_phrase_count": 19,
+    "fill_bars": [
+      4,
+      12,
+      20,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      68,
+      80,
+      84,
+      88,
+      92,
+      96,
+      104,
+      108
+    ],
+    "pitches": [
+      36,
+      75
+    ],
+    "velocity_range": [
+      26,
+      104
+    ],
+    "notes_on_chord_attacks_fraction": 0.9436,
+    "unique_velocities": 78,
+    "unique_gates": 924
+  },
+  "presets_identical_to_v002": true,
+  "native_wire_scan": "pass",
+  "pre_drop_gaps_preserved": true,
+  "plugin_loaded": false,
+  "cubase_import_tested": false,
+  "rendered_audio_analyzed": false,
+  "listened": false
+}

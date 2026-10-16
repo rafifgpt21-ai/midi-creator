@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "mapping": [
+    {
+      "layer": "piano",
+      "plugin": "User-selected acoustic piano",
+      "articulation": "Velocity-sensitive piano",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": null,
+      "cc11": null,
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    },
+    {
+      "layer": "bbc-basses",
+      "plugin": "BBCSO Discover / Strings / Basses",
+      "articulation": "Long (vib)",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": 100,
+      "cc11": "written in MIDI",
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    },
+    {
+      "layer": "bbc-celli",
+      "plugin": "BBCSO Discover / Strings / Celli",
+      "articulation": "Long (vib)",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": 100,
+      "cc11": "written in MIDI",
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    },
+    {
+      "layer": "bbc-violas",
+      "plugin": "BBCSO Discover / Strings / Violas",
+      "articulation": "Long (vib)",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": 100,
+      "cc11": "written in MIDI",
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    },
+    {
+      "layer": "bbc-violins-1",
+      "plugin": "BBCSO Discover / Strings / 1st Violins",
+      "articulation": "Long (vib)",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": 100,
+      "cc11": "written in MIDI",
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    },
+    {
+      "layer": "bbc-flutes",
+      "plugin": "BBCSO Discover / Woodwinds / Flutes a3",
+      "articulation": "Long",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": 100,
+      "cc11": "written in MIDI",
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    },
+    {
+      "layer": "bbc-clarinets",
+      "plugin": "BBCSO Discover / Woodwinds / Clarinets a3",
+      "articulation": "Long",
+      "channel": 1,
+      "transpose_semitones": 0,
+      "midi_pitch_convention": "C4=60, sounding/concert pitch",
+      "cc1": 100,
+      "cc11": "written in MIDI",
+      "keyswitches": [],
+      "status": "manual patch loading required"
+    }
+  ]
+}
