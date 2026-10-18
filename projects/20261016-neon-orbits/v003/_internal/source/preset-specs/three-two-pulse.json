@@ -1,0 +1,122 @@
+{
+  "name": "three-two-pulse",
+  "description": "Hollow square/triangle electronic pulse, three attacks over two beats in external MIDI; compact tail and narrow image. v003: compact articulation and reduced space for arrangement coherence; no extra note-generating echo.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 3,
+      "volume": 0.47,
+      "unison": 1.0,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": true,
+      "wavetable": "default",
+      "table_position": 2,
+      "volume": 0.29,
+      "unison": 1.0,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_24",
+      "cutoff": 0.43,
+      "resonance": 8,
+      "drive": 8,
+      "stereo": 50,
+      "level_out": 0.5
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.006,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.055
+    },
+    {
+      "attack": 0.003,
+      "decay": 0.25,
+      "sustain": 0,
+      "release": 0.12
+    }
+  ],
+  "macros": [
+    {
+      "name": "Tone",
+      "value": 15
+    },
+    {
+      "name": "Contour",
+      "value": 20
+    }
+  ],
+  "lfos": [],
+  "fx_chain": [
+    {
+      "type": "FXReverb",
+      "wet": 4,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 36,
+        "kParamDelay": 22,
+        "kParamWidth": 90
+      },
+      "rack": 0
+    }
+  ],
+  "global": {
+    "master_volume": 0.4,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "limit_same_note_polyphony": true,
+    "swing": 0
+  },
+  "arp": {
+    "enabled": false
+  },
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 16
+    },
+    {
+      "source": "mod_wheel",
+      "destination": "filter0.cutoff",
+      "amount": 24
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "env1.decay",
+      "amount": 12
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    }
+  ]
+}

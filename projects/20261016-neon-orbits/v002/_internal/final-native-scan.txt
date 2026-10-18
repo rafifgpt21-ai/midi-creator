@@ -1,0 +1,260 @@
+=== analog-lead.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: analog-lead
+Description: Maintained dual-VCO-inspired lead: saw and pulse offset -2/+2 cents, articulated rather than legato; filtered stereo echo.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.43  pan=+0  wavetable=analog_mini  table_pos=0.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.29  pan=+0  wavetable=analog_basic  table_pos=3.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_24  cutoff=0.37  resonance=12%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=8.0ms  decay=0.40s  sustain=0.67  release=0.17s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXDelay (wet=18%)
+  - FXReverb (wet=10%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +22%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.48  mono=on  poly=1
+
+=== glass-keys.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: glass-keys
+Description: Digital glass-synth keys, not acoustic piano: OPL harmonic frame plus Dying Sine body, declining brightness and spacious but bounded tail.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.43  pan=+0  wavetable=digital_fm  table_pos=1.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.30  pan=+0  wavetable=dying_sine  table_pos=48.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.56  resonance=7%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=5.0ms  decay=1.20s  sustain=0.08  release=0.65s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXDelay (wet=12%)
+  - FXReverb (wet=22%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +12%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.40  mono=off  poly=16
+
+=== juno-pad.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: juno-pad
+Description: DCO-family approximation: single Juno PWM-table source, no detuned second VCO or pitch drift; slow spectral scan and chorus.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.55  pan=+0  wavetable=pwm  table_pos=56.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.37  resonance=12%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=550.0ms  decay=1.10s  sustain=0.78  release=1.45s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+LFO 1: rate=0  mode=Free  mono
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXChorus (wet=28%)
+  - FXReverb (wet=16%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +12%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+  - lfo0 -> oscillator0.table_position: +2%, bipolar
+
+Global: master_volume=0.40  mono=off  poly=16
+
+=== mono-bass.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: mono-bass
+Description: Maintained VCO-mono-inspired bass: Mini saw plus rounded low reinforcement, centered, no chorus or long FX.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.59  pan=+0  wavetable=analog_mini  table_pos=0.0  warp=fm(0.00)
+Osc B: ON   octave=-1  volume=0.34  pan=+0  wavetable=analog_basic  table_pos=2.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=moog_lowpass_24  cutoff=0.24  resonance=17%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=4.0ms  decay=0.24s  sustain=0.56  release=0.07s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain: (empty)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +27%
+  - mod_wheel -> filter0.cutoff: +18%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.48  mono=on  poly=1
+
+=== phase-seven-pluck.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: phase-seven-pluck
+Description: Seven-eighth-note ostinato voice: dry transient from rounded saw, short filter decay, limited tempo echo; external MIDI owns the 7/8 cycle.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.52  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.29  resonance=19%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=3.0ms  decay=0.36s  sustain=0.00  release=0.12s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXDelay (wet=12%)
+  - FXReverb (wet=8%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +30%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.40  mono=off  poly=16
+
+=== poly-brass.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: poly-brass
+Description: Prophet-family approximation, two distinct saw tables offset -3/+3 cents, brass-like filter swell; phrase-gap answers, modest chorus.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.38  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.28  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.35  resonance=10%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=28.0ms  decay=0.48s  sustain=0.48  release=0.19s
+Env 2: attack=40.0ms  decay=0.42s  sustain=0.25  release=0.18s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXChorus (wet=15%)
+  - FXReverb (wet=10%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +23%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.40  mono=off  poly=16
+
+=== three-two-pulse.SerumPreset ===
+OK -- no CBOR wire-type issues found (bool/int leaks into plainParams).
+
+Preset: three-two-pulse
+Description: Hollow square/triangle electronic pulse, three attacks over two beats in external MIDI; compact tail and narrow image.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.47  pan=+0  wavetable=analog_basic  table_pos=3.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.29  pan=+0  wavetable=default  table_pos=2.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.43  resonance=8%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=6.0ms  decay=0.30s  sustain=0.10  release=0.10s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXReverb (wet=9%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +16%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.40  mono=off  poly=16
+
+All files passed the automated scan. This does NOT confirm they work -- load them in real Serum to actually verify.

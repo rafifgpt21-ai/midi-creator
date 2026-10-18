@@ -1,0 +1,160 @@
+{
+  "name": "juno-pad",
+  "description": "DCO-family approximation: single Juno PWM-table source, no detuned second VCO or pitch drift; slow spectral scan and chorus. v003: compact articulation and reduced space for arrangement coherence; no extra note-generating echo.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "pwm",
+      "table_position": 56,
+      "volume": 0.55,
+      "unison": 1.0,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_24",
+      "cutoff": 0.37,
+      "resonance": 12,
+      "drive": 8,
+      "stereo": 50,
+      "level_out": 0.5
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.35,
+      "decay": 1.1,
+      "sustain": 0.78,
+      "release": 0.22
+    },
+    {
+      "attack": 0.003,
+      "decay": 0.25,
+      "sustain": 0,
+      "release": 0.12
+    }
+  ],
+  "macros": [
+    {
+      "name": "Tone",
+      "value": 15
+    },
+    {
+      "name": "Contour",
+      "value": 20
+    }
+  ],
+  "lfos": [
+    {
+      "rate": 0.12,
+      "mode": "Free",
+      "beat_sync": false,
+      "mono": true,
+      "curve": [
+        {
+          "x": 0,
+          "y": 0.5
+        },
+        {
+          "x": 0.25,
+          "y": 1
+        },
+        {
+          "x": 0.75,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0.5
+        }
+      ]
+    }
+  ],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 28,
+      "params": {
+        "kParamRate": 0.3,
+        "kParamDepth": 3.8,
+        "kParamDelay": 7.0,
+        "kParamFeedback": 2,
+        "kParamFilt": 4500
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 6,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 36,
+        "kParamDelay": 22,
+        "kParamWidth": 90
+      },
+      "rack": 0
+    }
+  ],
+  "global": {
+    "master_volume": 0.4,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "limit_same_note_polyphony": true,
+    "swing": 0
+  },
+  "arp": {
+    "enabled": false
+  },
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 12
+    },
+    {
+      "source": "mod_wheel",
+      "destination": "filter0.cutoff",
+      "amount": 24
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "env1.decay",
+      "amount": 12
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    },
+    {
+      "source": "lfo0",
+      "destination": "oscillator0.table_position",
+      "amount": 2.0,
+      "bipolar": true
+    }
+  ]
+}

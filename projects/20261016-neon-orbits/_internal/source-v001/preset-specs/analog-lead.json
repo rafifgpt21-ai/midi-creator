@@ -1,0 +1,136 @@
+{
+  "name": "analog-lead",
+  "description": "Maintained dual-VCO-inspired lead: saw and pulse offset -2/+2 cents, articulated rather than legato; filtered stereo echo.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_mini",
+      "table_position": 0,
+      "volume": 0.43,
+      "unison": 1.0,
+      "filter_routing": "filter",
+      "fine": -2
+    },
+    {
+      "enabled": true,
+      "wavetable": "analog_basic",
+      "table_position": 3,
+      "volume": 0.29,
+      "unison": 1.0,
+      "filter_routing": "filter",
+      "fine": 2
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "moog_lowpass_24",
+      "cutoff": 0.37,
+      "resonance": 12,
+      "drive": 8,
+      "stereo": 50,
+      "level_out": 0.5
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.008,
+      "decay": 0.4,
+      "sustain": 0.67,
+      "release": 0.17
+    },
+    {
+      "attack": 0.003,
+      "decay": 0.25,
+      "sustain": 0,
+      "release": 0.12
+    }
+  ],
+  "macros": [
+    {
+      "name": "Tone",
+      "value": 15
+    },
+    {
+      "name": "Contour",
+      "value": 20
+    }
+  ],
+  "lfos": [],
+  "fx_chain": [
+    {
+      "type": "FXDelay",
+      "wet": 18,
+      "params": {
+        "kParamTimeL": 0.24193548387096775,
+        "kParamTimeR": 0.24193548387096775,
+        "kParamBeatSync": 0.0,
+        "kParamFeedback": 23,
+        "kParamFreq": 5500
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 10,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 36,
+        "kParamDelay": 22,
+        "kParamWidth": 90
+      },
+      "rack": 0
+    }
+  ],
+  "global": {
+    "master_volume": 0.48,
+    "mono": true,
+    "poly_count": 1,
+    "portamento_time": 0,
+    "legato": false,
+    "limit_same_note_polyphony": true,
+    "swing": 0
+  },
+  "arp": {
+    "enabled": false
+  },
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 22
+    },
+    {
+      "source": "mod_wheel",
+      "destination": "filter0.cutoff",
+      "amount": 24
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "env1.decay",
+      "amount": 12
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    }
+  ]
+}

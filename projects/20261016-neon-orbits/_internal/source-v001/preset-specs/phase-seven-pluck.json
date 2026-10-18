@@ -1,0 +1,129 @@
+{
+  "name": "phase-seven-pluck",
+  "description": "Seven-eighth-note ostinato voice: dry transient from rounded saw, short filter decay, limited tempo echo; external MIDI owns the 7/8 cycle.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "table_position": 0,
+      "volume": 0.52,
+      "unison": 1.0,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_24",
+      "cutoff": 0.29,
+      "resonance": 19,
+      "drive": 8,
+      "stereo": 50,
+      "level_out": 0.5
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.003,
+      "decay": 0.36,
+      "sustain": 0,
+      "release": 0.12
+    },
+    {
+      "attack": 0.003,
+      "decay": 0.25,
+      "sustain": 0,
+      "release": 0.12
+    }
+  ],
+  "macros": [
+    {
+      "name": "Tone",
+      "value": 15
+    },
+    {
+      "name": "Contour",
+      "value": 20
+    }
+  ],
+  "lfos": [],
+  "fx_chain": [
+    {
+      "type": "FXDelay",
+      "wet": 12,
+      "params": {
+        "kParamTimeL": 0.24193548387096775,
+        "kParamTimeR": 0.24193548387096775,
+        "kParamBeatSync": 0.0,
+        "kParamFeedback": 23,
+        "kParamFreq": 5500
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 8,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 36,
+        "kParamDelay": 22,
+        "kParamWidth": 90
+      },
+      "rack": 0
+    }
+  ],
+  "global": {
+    "master_volume": 0.4,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "limit_same_note_polyphony": true,
+    "swing": 0
+  },
+  "arp": {
+    "enabled": false
+  },
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 30
+    },
+    {
+      "source": "mod_wheel",
+      "destination": "filter0.cutoff",
+      "amount": 24
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "env1.decay",
+      "amount": 12
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    }
+  ]
+}

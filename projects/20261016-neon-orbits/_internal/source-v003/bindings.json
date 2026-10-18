@@ -1,0 +1,9 @@
+{
+  "analog-lead": "Presets/analog-lead.SerumPreset",
+  "glass-keys": "Presets/glass-keys.SerumPreset",
+  "juno-pad": "Presets/juno-pad.SerumPreset",
+  "mono-bass": "Presets/mono-bass.SerumPreset",
+  "phase-seven-pluck": "Presets/phase-seven-pluck.SerumPreset",
+  "poly-brass": "Presets/poly-brass.SerumPreset",
+  "three-two-pulse": "Presets/three-two-pulse.SerumPreset"
+}

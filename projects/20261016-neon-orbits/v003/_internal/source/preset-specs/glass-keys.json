@@ -1,0 +1,122 @@
+{
+  "name": "glass-keys",
+  "description": "Digital glass-synth keys, not acoustic piano: OPL harmonic frame plus Dying Sine body, declining brightness and spacious but bounded tail. v003: compact articulation and reduced space for arrangement coherence; no extra note-generating echo.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "digital_fm",
+      "table_position": 1,
+      "volume": 0.43,
+      "unison": 1.0,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": true,
+      "wavetable": "dying_sine",
+      "table_position": 48,
+      "volume": 0.3,
+      "unison": 1.0,
+      "filter_routing": "filter"
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_24",
+      "cutoff": 0.56,
+      "resonance": 7,
+      "drive": 8,
+      "stereo": 50,
+      "level_out": 0.5
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.005,
+      "decay": 1.2,
+      "sustain": 0.08,
+      "release": 0.25
+    },
+    {
+      "attack": 0.003,
+      "decay": 0.25,
+      "sustain": 0,
+      "release": 0.12
+    }
+  ],
+  "macros": [
+    {
+      "name": "Tone",
+      "value": 15
+    },
+    {
+      "name": "Contour",
+      "value": 20
+    }
+  ],
+  "lfos": [],
+  "fx_chain": [
+    {
+      "type": "FXReverb",
+      "wet": 12,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 36,
+        "kParamDelay": 22,
+        "kParamWidth": 90
+      },
+      "rack": 0
+    }
+  ],
+  "global": {
+    "master_volume": 0.4,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "limit_same_note_polyphony": true,
+    "swing": 0
+  },
+  "arp": {
+    "enabled": false
+  },
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 12
+    },
+    {
+      "source": "mod_wheel",
+      "destination": "filter0.cutoff",
+      "amount": 24
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "env1.decay",
+      "amount": 12
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    }
+  ]
+}

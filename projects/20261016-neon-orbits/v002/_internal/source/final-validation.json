@@ -1,0 +1,94 @@
+﻿{
+  "ok": true,
+  "layers": 13,
+  "end_tick": 629760,
+  "duration_seconds": 317.419376,
+  "note_count": 4182,
+  "timing": {
+    "mode": "strict",
+    "grid_division": 48,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "mono-bass",
+        "note_ons": 488,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "juno-pad",
+        "note_ons": 228,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "phase-seven-pluck",
+        "note_ons": 1020,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "three-two-pulse",
+        "note_ons": 192,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "analog-lead",
+        "note_ons": 200,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "poly-brass",
+        "note_ons": 96,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "glass-keys",
+        "note_ons": 37,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "kick",
+        "note_ons": 495,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "snare-clap",
+        "note_ons": 246,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "closed-hat",
+        "note_ons": 733,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "open-hat",
+        "note_ons": 399,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "synth-tom",
+        "note_ons": 42,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "crash",
+        "note_ons": 6,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

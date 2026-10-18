@@ -1,0 +1,12 @@
+{
+  "oscillators": true,
+  "filters": true,
+  "envelopes": true,
+  "lfos": true,
+  "macros": true,
+  "fx_chain": true,
+  "global": true,
+  "arp": false,
+  "mod_routes": true,
+  "name": true
+}

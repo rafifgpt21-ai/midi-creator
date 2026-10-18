@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "created_at": "2026-10-16T14:45:45.786814+00:00",
+  "commit": "7299f2eea1acd2ae5a863965f5bd4beedf107ee8",
+  "bank": "MIDI Creator/20261016-neon-orbits/v003",
+  "plugin_loaded": false,
+  "audio_rendered": false,
+  "listened": false,
+  "presets": [
+    {
+      "id": "analog-lead",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\analog-lead.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\analog-lead.SerumPreset",
+      "sha256": "fe14c842604a2854a4a0c0221694b2ab3b49166d0c7678a20b3658b99a1c1a2b",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    },
+    {
+      "id": "glass-keys",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\glass-keys.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\glass-keys.SerumPreset",
+      "sha256": "842c4bab1b54130ef2309f8d98d164bf2f06feed2d2ef3c8be57419df82dfef4",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    },
+    {
+      "id": "juno-pad",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\juno-pad.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\juno-pad.SerumPreset",
+      "sha256": "413eed27b5ec78e33269d84a7939add64b4feb3de1b8c9b6b4edc7fffa781255",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    },
+    {
+      "id": "mono-bass",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\mono-bass.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\mono-bass.SerumPreset",
+      "sha256": "ff86f1329b15b1a5e7d42307633840a80b2732c1ae82d78607c2ee25bbfc602e",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    },
+    {
+      "id": "phase-seven-pluck",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\phase-seven-pluck.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\phase-seven-pluck.SerumPreset",
+      "sha256": "6ddb1c5bafc8799837df07efd99d552a42593d9f5548ea0737c8ca151927a34c",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    },
+    {
+      "id": "poly-brass",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\poly-brass.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\poly-brass.SerumPreset",
+      "sha256": "8a7711901dfd3c953ade3638a0611e3fd8b5c3988fbc815b61757687f546b60c",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    },
+    {
+      "id": "three-two-pulse",
+      "installed": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261016-neon-orbits\\v003\\three-two-pulse.SerumPreset",
+      "delivered": "C:\\Users\\rafif\\OneDrive\\Documents\\code-base\\midi-creator\\projects\\20261016-neon-orbits\\v003\\Presets\\three-two-pulse.SerumPreset",
+      "sha256": "41215a9a0335fb7808f5b060af36b5c96d52876d9588a3ea1a709c7fdaa15f12",
+      "structural_readback": {
+        "oscillators": true,
+        "filters": true,
+        "envelopes": true,
+        "lfos": true,
+        "macros": true,
+        "fx_chain": true,
+        "global": true,
+        "arp": true,
+        "mod_routes": true,
+        "name": true
+      },
+      "wire_type_issues": [],
+      "dependency_notes": []
+    }
+  ],
+  "server": {
+    "name": "serum-mcp",
+    "title": null,
+    "version": "1.28.1",
+    "websiteUrl": null,
+    "icons": null
+  }
+}

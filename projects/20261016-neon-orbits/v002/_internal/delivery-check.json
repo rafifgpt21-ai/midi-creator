@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "README_links": "all resolve",
+  "MIDI_files": 13,
+  "native_presets": 7,
+  "native_wire_scan_exit": 0,
+  "layout": "README.md, MIDI, Presets, _internal",
+  "audio_rendered": false,
+  "listened": false
+}

@@ -1,0 +1,134 @@
+{
+  "Juno": {
+    "query": "Juno",
+    "expanded_terms": [
+      "juno"
+    ],
+    "count": 2,
+    "truncated": false,
+    "results": [
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261011-afterimage-garden\\v001\\juno-pad.SerumPreset",
+        "source": "MIDI Creator",
+        "matched_terms": [
+          "juno"
+        ],
+        "is_serum_mcp_generated": true
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)\\NW_CP_Bass_juno_legend.SerumPreset",
+        "source": "Neon Wave - Circuit Pulse - Synthwave for Serum 2 (2025)",
+        "matched_terms": [
+          "juno"
+        ],
+        "is_serum_mcp_generated": false
+      }
+    ]
+  },
+  "analog bass": {
+    "query": "analog bass",
+    "expanded_terms": [
+      "analog",
+      "bass"
+    ],
+    "count": 3,
+    "truncated": true,
+    "results": [
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\Retro Analog\\BA - Fonk.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "analog",
+          "bass"
+        ],
+        "is_serum_mcp_generated": false
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\Retro Analog\\BA - Eighty.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "analog",
+          "bass"
+        ],
+        "is_serum_mcp_generated": false
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Bass\\Retro Analog\\BA - Pulsar.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "analog",
+          "bass"
+        ],
+        "is_serum_mcp_generated": false
+      }
+    ]
+  },
+  "pluck": {
+    "query": "pluck",
+    "expanded_terms": [
+      "pluck"
+    ],
+    "count": 3,
+    "truncated": true,
+    "results": [
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pluck\\PL - Adam.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "pluck"
+        ],
+        "is_serum_mcp_generated": false
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pluck\\PL - June.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "pluck"
+        ],
+        "is_serum_mcp_generated": false
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pluck\\PL - Alive.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "pluck"
+        ],
+        "is_serum_mcp_generated": false
+      }
+    ]
+  },
+  "glass": {
+    "query": "glass",
+    "expanded_terms": [
+      "glass"
+    ],
+    "count": 3,
+    "truncated": true,
+    "results": [
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\Factory\\Pluck\\PL - Noisy Glass.SerumPreset",
+        "source": "Factory",
+        "matched_terms": [
+          "glass"
+        ],
+        "is_serum_mcp_generated": false
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-black-glass\\v001\\sub-bass.SerumPreset",
+        "source": "MIDI Creator",
+        "matched_terms": [
+          "glass"
+        ],
+        "is_serum_mcp_generated": true
+      },
+      {
+        "path": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Presets\\User\\MIDI Creator\\20261012-black-glass\\v002\\sub-bass.SerumPreset",
+        "source": "MIDI Creator",
+        "matched_terms": [
+          "glass"
+        ],
+        "is_serum_mcp_generated": true
+      }
+    ]
+  }
+}

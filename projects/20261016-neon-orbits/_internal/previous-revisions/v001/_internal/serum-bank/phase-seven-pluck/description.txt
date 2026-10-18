@@ -1,0 +1,33 @@
+Preset: phase-seven-pluck
+Description: Seven-eighth-note ostinato voice: dry transient from rounded saw, short filter decay, limited tempo echo; external MIDI owns the 7/8 cycle.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.52  pan=+0  wavetable=analog_warm  table_pos=0.0  warp=fm(0.00)
+Osc B: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.29  resonance=19%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=3.0ms  decay=0.36s  sustain=0.00  release=0.12s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXDelay (wet=12%)
+  - FXReverb (wet=8%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +30%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.40  mono=off  poly=16

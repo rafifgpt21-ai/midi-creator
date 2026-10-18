@@ -1,0 +1,211 @@
+{
+  "ok": true,
+  "checks": {
+    "global_tempo_meter_bars_resolution_sections_preserved": true,
+    "strict_no_swing_grid": true,
+    "all_13_layers_present": true,
+    "harmonic_minor_all_pitched_notes": true,
+    "chord_tones_all_pitched_notes": true,
+    "mono-bass_no_gate_into_incompatible_chord": true,
+    "juno-pad_no_gate_into_incompatible_chord": true,
+    "phase-seven-pluck_no_gate_into_incompatible_chord": true,
+    "three-two-pulse_no_gate_into_incompatible_chord": true,
+    "analog-lead_no_gate_into_incompatible_chord": true,
+    "poly-brass_no_gate_into_incompatible_chord": true,
+    "glass-keys_no_gate_into_incompatible_chord": true,
+    "kick_exactly_preserved": true,
+    "snare-clap_exactly_preserved": true,
+    "crash_exactly_preserved": true,
+    "bass_only_chord_roots": true,
+    "bass_nominal_release_ends_before_next_kick": true,
+    "pad_voicings_have_no_clusters": true,
+    "main_pad_voice_leading_max_three_semitones": true,
+    "pad_nominal_amp_release_clears_chord_change": true,
+    "one_foreground_gate_at_a_time": true,
+    "one_foreground_with_nominal_amp_releases": true,
+    "no_vertical_semitones_in_pitched_note_gates": true,
+    "cross_rhythm_background_substantially_reduced": true,
+    "lead_at_least_half_as_many_notes": true,
+    "four_floor_all_grooves_and_drops": true,
+    "7over8_continuous_accent_and_rest_phase_17": true,
+    "7over8_continuous_accent_and_rest_phase_37": true,
+    "7over8_continuous_accent_and_rest_phase_57": true,
+    "7over8_eight_complete_cycles_57": true,
+    "7over8_continuous_accent_and_rest_phase_73": true,
+    "7over8_eight_complete_cycles_73": true,
+    "7over8_continuous_accent_and_rest_phase_101": true,
+    "7over8_continuous_accent_and_rest_phase_121": true,
+    "7over8_eight_complete_cycles_121": true,
+    "7over8_continuous_accent_and_rest_phase_137": true,
+    "7over8_eight_complete_cycles_137": true,
+    "7over8_continuous_accent_and_rest_phase_145": true,
+    "7over8_eight_complete_cycles_145": true,
+    "true_3to2_exact_640_ticks_69": true,
+    "3to2_vs_two_quarter_kicks_69": true,
+    "pulse_pitch_stable_within_chord_69": true,
+    "true_3to2_exact_640_ticks_133": true,
+    "3to2_vs_two_quarter_kicks_133": true,
+    "pulse_pitch_stable_within_chord_133": true,
+    "breakdown_has_only_keys_as_foreground": true,
+    "beatless_breakdown": true,
+    "three_release_bars": true,
+    "drum_roots_and_channels": true,
+    "mono-bass_SMF1_single_track_shared_length": true,
+    "mono-bass_no_forbidden_metadata": true,
+    "juno-pad_SMF1_single_track_shared_length": true,
+    "juno-pad_no_forbidden_metadata": true,
+    "phase-seven-pluck_SMF1_single_track_shared_length": true,
+    "phase-seven-pluck_no_forbidden_metadata": true,
+    "three-two-pulse_SMF1_single_track_shared_length": true,
+    "three-two-pulse_no_forbidden_metadata": true,
+    "analog-lead_SMF1_single_track_shared_length": true,
+    "analog-lead_no_forbidden_metadata": true,
+    "poly-brass_SMF1_single_track_shared_length": true,
+    "poly-brass_no_forbidden_metadata": true,
+    "glass-keys_SMF1_single_track_shared_length": true,
+    "glass-keys_no_forbidden_metadata": true,
+    "kick_SMF1_single_track_shared_length": true,
+    "kick_no_forbidden_metadata": true,
+    "snare-clap_SMF1_single_track_shared_length": true,
+    "snare-clap_no_forbidden_metadata": true,
+    "closed-hat_SMF1_single_track_shared_length": true,
+    "closed-hat_no_forbidden_metadata": true,
+    "open-hat_SMF1_single_track_shared_length": true,
+    "open-hat_no_forbidden_metadata": true,
+    "synth-tom_SMF1_single_track_shared_length": true,
+    "synth-tom_no_forbidden_metadata": true,
+    "crash_SMF1_single_track_shared_length": true,
+    "crash_no_forbidden_metadata": true,
+    "CLI_verify_pass": true,
+    "seven_native_builds_readback_wire_scan": true,
+    "analog-lead_native_delivered_hash": true,
+    "glass-keys_native_delivered_hash": true,
+    "juno-pad_native_delivered_hash": true,
+    "mono-bass_native_delivered_hash": true,
+    "phase-seven-pluck_native_delivered_hash": true,
+    "poly-brass_native_delivered_hash": true,
+    "three-two-pulse_native_delivered_hash": true,
+    "analog-lead_retro_oscillators_filters_routes_preserved": true,
+    "glass-keys_retro_oscillators_filters_routes_preserved": true,
+    "juno-pad_retro_oscillators_filters_routes_preserved": true,
+    "mono-bass_retro_oscillators_filters_routes_preserved": true,
+    "phase-seven-pluck_retro_oscillators_filters_routes_preserved": true,
+    "poly-brass_retro_oscillators_filters_routes_preserved": true,
+    "three-two-pulse_retro_oscillators_filters_routes_preserved": true,
+    "no_rhythmic_voice_delays": true
+  },
+  "inventory": {
+    "mono-bass": {
+      "notes": 480,
+      "pitch_min": 28,
+      "pitch_max": 36,
+      "sha256": "5dcd971d157f56018bcc6288a09e4ceca29c8805fc30e862bc6caab7c4705d59"
+    },
+    "juno-pad": {
+      "notes": 219,
+      "pitch_min": 54,
+      "pitch_max": 64,
+      "sha256": "0d3ab45f6838ca7afcf50598585cf778fb05bc808eb2b5510dfb83988b9e81cd"
+    },
+    "phase-seven-pluck": {
+      "notes": 384,
+      "pitch_min": 63,
+      "pitch_max": 72,
+      "sha256": "ec61db6f78350c06cd4a5f41bde947be539eebb7ab3235e20b7bdf1af2819d67"
+    },
+    "three-two-pulse": {
+      "notes": 48,
+      "pitch_min": 76,
+      "pitch_max": 78,
+      "sha256": "35739e939c9added6762f4350b699998a48df8484741055061906d085ca8819c"
+    },
+    "analog-lead": {
+      "notes": 72,
+      "pitch_min": 71,
+      "pitch_max": 84,
+      "sha256": "ec2bb9bf755bec6c31d3d5d83826fdad02372d478a862671d028f27b26867473"
+    },
+    "poly-brass": {
+      "notes": 21,
+      "pitch_min": 66,
+      "pitch_max": 76,
+      "sha256": "90ccee3a69e2b163f26f938a0b280689224406fc96fca3a155346d9fa0b36386"
+    },
+    "glass-keys": {
+      "notes": 37,
+      "pitch_min": 66,
+      "pitch_max": 76,
+      "sha256": "9d5115451c6fdf15ac1975acc0fd001cf60fd52616a2b77a48bd2459c704b0af"
+    },
+    "kick": {
+      "notes": 495,
+      "pitch_min": 60,
+      "pitch_max": 60,
+      "sha256": "aceb599897f1917eb81e6edb34de4c59fc6931a7d620889c023525184ae0b45f"
+    },
+    "snare-clap": {
+      "notes": 246,
+      "pitch_min": 60,
+      "pitch_max": 60,
+      "sha256": "565f51067607a4e58d28b992a1e2c96f1f318d89d4a359434fa9bcb33bce4cfe"
+    },
+    "closed-hat": {
+      "notes": 885,
+      "pitch_min": 60,
+      "pitch_max": 60,
+      "sha256": "18f09d2d45d75e47382d6cfb425ac58c29093b658154f704d14327c9c039d866"
+    },
+    "open-hat": {
+      "notes": 199,
+      "pitch_min": 60,
+      "pitch_max": 60,
+      "sha256": "c150b46dfe108e4f8c88848f04fed74e8c3e8c0e3e4d7edeb6f537c96c2cb003"
+    },
+    "synth-tom": {
+      "notes": 22,
+      "pitch_min": 60,
+      "pitch_max": 60,
+      "sha256": "69ca5df21c4f777afd0408751cb2edf7521a25dbf0e6f8662d2246ece25585f2"
+    },
+    "crash": {
+      "notes": 6,
+      "pitch_min": 60,
+      "pitch_max": 60,
+      "sha256": "29ea677cfffc8e4f7f368f5771930b2cbcca7c41cd6fbf0cfc4b8f19cd3a0fd8"
+    }
+  },
+  "comparison": {
+    "v002": {
+      "foreground_gate_competition": {
+        "two_or_more_foregrounds_beats": 132.793333,
+        "three_or_more_beats": 24.866667,
+        "max_simultaneous_foregrounds": 4
+      },
+      "vertical_semitone_gate_beats": 362.973333,
+      "melodic_notes": 2261
+    },
+    "v003": {
+      "foreground_gate_competition": {
+        "two_or_more_foregrounds_beats": 0,
+        "three_or_more_beats": 0,
+        "max_simultaneous_foregrounds": 1
+      },
+      "foreground_with_nominal_releases": {
+        "two_or_more_foregrounds_beats": 0,
+        "three_or_more_beats": 0,
+        "max_simultaneous_foregrounds": 1
+      },
+      "vertical_semitone_gate_beats": 0,
+      "melodic_notes": 1261
+    }
+  },
+  "interpretation": "Symbolic metrics diagnose written density and clashes only. Triads and one foreground are deliberate choices for this repair, not universal definitions of good music. Amp-release budgets exclude reverb tails and are not rendered audio measurements.",
+  "status": {
+    "MIDI_structure": "passed",
+    "native_structure": "passed",
+    "plugin_loading": "untested",
+    "Cubase_import": "untested",
+    "audio_render": "not_performed",
+    "actual_listening": "not_performed"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "MC": [
+    "mc-workflow",
+    "mc-form",
+    "mc-arrangement-arch",
+    "mc-development",
+    "mc-harmony",
+    "mc-melody",
+    "mc-rhythm-groove",
+    "mc-rhythm-section",
+    "mc-orchestration",
+    "mc-texture-layering",
+    "mc-sound-design",
+    "mc-mix-intent",
+    "mc-render-compile",
+    "mc-symbolic-score",
+    "mc-style-edm",
+    "mc-ai-tell-audit"
+  ],
+  "Serum": [
+    "serum-sound-design",
+    "serum-synthesis",
+    "serum-modulation",
+    "serum-effects",
+    "serum-preset-build",
+    "serum-preset-qa"
+  ],
+  "not_needed": {
+    "mc-modulation": "No key changes requested; preserve E harmonic minor.",
+    "mc-progressions": "Progression authored from harmonic-minor function, no library lookup used.",
+    "mc-counterpoint": "No contrapuntal canon/fugue; roles are interlocking ostinatos and phrase answers.",
+    "mc-vocal-direction": "Instrumental.",
+    "serum-reference-match": "No reference audio or exact preset matching requested."
+  }
+}

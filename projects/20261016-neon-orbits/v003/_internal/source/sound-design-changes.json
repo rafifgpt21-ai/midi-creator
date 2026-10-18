@@ -1,0 +1,62 @@
+{
+  "changes": {
+    "juno-pad": {
+      "amp": {
+        "attack": 0.35,
+        "release": 0.22
+      },
+      "wet": {
+        "FXReverb": 6
+      }
+    },
+    "phase-seven-pluck": {
+      "amp": {
+        "decay": 0.24,
+        "release": 0.06
+      },
+      "remove": [
+        "FXDelay"
+      ],
+      "wet": {
+        "FXReverb": 4
+      }
+    },
+    "three-two-pulse": {
+      "amp": {
+        "decay": 0.2,
+        "release": 0.055
+      },
+      "wet": {
+        "FXReverb": 4
+      }
+    },
+    "analog-lead": {
+      "amp": {
+        "release": 0.1
+      },
+      "remove": [
+        "FXDelay"
+      ],
+      "wet": {
+        "FXReverb": 6
+      }
+    },
+    "glass-keys": {
+      "amp": {
+        "release": 0.25
+      },
+      "remove": [
+        "FXDelay"
+      ],
+      "wet": {
+        "FXReverb": 12
+      }
+    }
+  },
+  "unchanged": [
+    "mono-bass",
+    "poly-brass"
+  ],
+  "preserved_architecture": "Maintained analog-family approximations, stable DCO pad, static VCO detune; all oscillators/filters/routes preserved.",
+  "limitation": "Shorter stored releases and lower wet values are design evidence; true plugin tails and perceptual blend remain unauditioned."
+}

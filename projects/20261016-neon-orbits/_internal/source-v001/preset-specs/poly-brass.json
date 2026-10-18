@@ -1,0 +1,136 @@
+{
+  "name": "poly-brass",
+  "description": "Prophet-family approximation, two distinct saw tables offset -3/+3 cents, brass-like filter swell; phrase-gap answers, modest chorus.",
+  "oscillators": [
+    {
+      "enabled": true,
+      "wavetable": "analog_warm",
+      "table_position": 0,
+      "volume": 0.38,
+      "unison": 1.0,
+      "filter_routing": "filter",
+      "fine": -3
+    },
+    {
+      "enabled": true,
+      "wavetable": "default",
+      "table_position": 0,
+      "volume": 0.28,
+      "unison": 1.0,
+      "filter_routing": "filter",
+      "fine": 3
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "filters": [
+    {
+      "enabled": true,
+      "type": "lowpass_24",
+      "cutoff": 0.35,
+      "resonance": 10,
+      "drive": 8,
+      "stereo": 50,
+      "level_out": 0.5
+    },
+    {
+      "enabled": false
+    }
+  ],
+  "envelopes": [
+    {
+      "attack": 0.028,
+      "decay": 0.48,
+      "sustain": 0.48,
+      "release": 0.19
+    },
+    {
+      "attack": 0.04,
+      "decay": 0.42,
+      "sustain": 0.25,
+      "release": 0.18
+    }
+  ],
+  "macros": [
+    {
+      "name": "Tone",
+      "value": 15
+    },
+    {
+      "name": "Contour",
+      "value": 20
+    }
+  ],
+  "lfos": [],
+  "fx_chain": [
+    {
+      "type": "FXChorus",
+      "wet": 15,
+      "params": {
+        "kParamRate": 0.24,
+        "kParamDepth": 2.2,
+        "kParamDelay": 6,
+        "kParamFeedback": 0,
+        "kParamFilt": 5000
+      },
+      "rack": 0
+    },
+    {
+      "type": "FXReverb",
+      "wet": 10,
+      "params": {
+        "kParamType": "kVintage",
+        "kParamSize": 36,
+        "kParamDelay": 22,
+        "kParamWidth": 90
+      },
+      "rack": 0
+    }
+  ],
+  "global": {
+    "master_volume": 0.4,
+    "mono": false,
+    "poly_count": 16,
+    "portamento_time": 0,
+    "legato": false,
+    "limit_same_note_polyphony": true,
+    "swing": 0
+  },
+  "arp": {
+    "enabled": false
+  },
+  "mod_routes": [
+    {
+      "source": "env1",
+      "destination": "filter0.cutoff",
+      "amount": 23
+    },
+    {
+      "source": "mod_wheel",
+      "destination": "filter0.cutoff",
+      "amount": 24
+    },
+    {
+      "source": "macro0",
+      "destination": "filter0.cutoff",
+      "amount": 10
+    },
+    {
+      "source": "macro1",
+      "destination": "env1.decay",
+      "amount": 12
+    },
+    {
+      "source": "velocity",
+      "destination": "filter0.cutoff",
+      "amount": 4
+    }
+  ]
+}

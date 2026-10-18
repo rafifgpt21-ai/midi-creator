@@ -1,0 +1,137 @@
+{
+  "revision": "v003",
+  "source": "v002",
+  "tempo": 124,
+  "meter": "4/4",
+  "bars": 164,
+  "seed": null,
+  "principle": "One foreground at a time; harmony defines stable anchors; cross-rhythms supply contrast between calls.",
+  "arp_spans": [
+    [
+      17,
+      33
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      57,
+      64
+    ],
+    [
+      73,
+      80
+    ],
+    [
+      101,
+      109
+    ],
+    [
+      121,
+      128
+    ],
+    [
+      137,
+      144
+    ],
+    [
+      145,
+      152
+    ]
+  ],
+  "pulse_spans": [
+    [
+      69,
+      73
+    ],
+    [
+      133,
+      137
+    ]
+  ],
+  "lead_calls": [
+    [
+      49,
+      57
+    ],
+    [
+      65,
+      69
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      113,
+      121
+    ],
+    [
+      129,
+      133
+    ],
+    [
+      144,
+      145
+    ]
+  ],
+  "rhythm": {
+    "kick": "Quarter-note floor",
+    "bass": "Unchanging eighth offbeats, root only",
+    "snare": "Backbeats 2 and 4",
+    "lead": "Calls rest or soften around backbeats"
+  },
+  "harmonic_rhythm": "Two bars per chord throughout; no extra diminished detour",
+  "motif": "E-G-B / G-E; transferred to C and Am; F#-D#-B answers on the dominant",
+  "registers": {
+    "mono-bass": [
+      28,
+      36
+    ],
+    "juno-pad": [
+      54,
+      64
+    ],
+    "phase-seven-pluck": [
+      63,
+      72
+    ],
+    "three-two-pulse": [
+      76,
+      78
+    ],
+    "analog-lead": [
+      71,
+      84
+    ],
+    "poly-brass": [
+      66,
+      76
+    ],
+    "glass-keys": [
+      66,
+      76
+    ]
+  },
+  "preserved": [
+    "tempo",
+    "meter",
+    "length",
+    "PPQN",
+    "section boundaries",
+    "kick",
+    "snare-clap",
+    "crash"
+  ],
+  "changed": [
+    "all seven melodic performances",
+    "harmonic voicings",
+    "foreground windows",
+    "hat density",
+    "tom fills",
+    "five preset envelopes/FX",
+    "seven CC1 curves"
+  ],
+  "listening_status": "untested; symbolic and native structure only"
+}

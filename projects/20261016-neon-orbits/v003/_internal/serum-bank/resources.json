@@ -1,0 +1,135 @@
+{
+  "Analog/Basic Mini.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\Basic Mini.wav",
+    "sha256": "9648f6b5beb4d914236816322e5f3ff53151d771bef2c07e3c28c335bbcc5507",
+    "frames": 4,
+    "sample_rate": 44100,
+    "peak_selected_frame": 0.999260425567627,
+    "selected_frame": 0,
+    "harmonic_ratios": [
+      1.0,
+      0.4942096471786499,
+      0.322253555059433,
+      0.23905454576015472,
+      0.19009611010551453,
+      0.15797175467014313,
+      0.13546285033226013,
+      0.11836082488298416
+    ],
+    "factory": true
+  },
+  "Analog/Basic Shapes.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\Basic Shapes.wav",
+    "sha256": "73b8641a9d61427e5f39313bffa8652a5f3f4367fe53be7589fe45fa36b50edc",
+    "frames": 7,
+    "sample_rate": 44100,
+    "peak_selected_frame": 1.0,
+    "selected_frame": 3,
+    "harmonic_ratios": [
+      1.0,
+      0.0013422307092696428,
+      0.33332815766334534,
+      0.0013422152260318398,
+      0.19999068975448608,
+      0.0013421893818303943,
+      0.1428438276052475,
+      0.001342153293080628
+    ],
+    "factory": true
+  },
+  "S2 Tables/Digital/Basic OPL.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Digital\\Basic OPL.wav",
+    "sha256": "f6b180531a604410ba8a56fe1653f6e014c38f9ae92056bbc24a7bf1a9e6e1d2",
+    "frames": 8,
+    "sample_rate": 44100,
+    "peak_selected_frame": 1.0,
+    "selected_frame": 1,
+    "harmonic_ratios": [
+      1.0,
+      0.42441418766975403,
+      6.09521144667724e-09,
+      0.08488363027572632,
+      5.626133781078124e-09,
+      0.03637927398085594,
+      7.375746680082784e-09,
+      0.020211150869727135
+    ],
+    "factory": true
+  },
+  "S2 Tables/Digital/Dying Sine.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Digital\\Dying Sine.wav",
+    "sha256": "e6821159989aec2eac361661f3a59d5eb626253512d42b94ddbec362744d0b1e",
+    "frames": 256,
+    "sample_rate": 44100,
+    "peak_selected_frame": 0.9703587889671326,
+    "selected_frame": 48,
+    "harmonic_ratios": [
+      1.0,
+      0.0061285230331122875,
+      1.8593919277191162,
+      0.0061285230331122875,
+      1.8593919277191162,
+      0.0061285230331122875,
+      0.0061285230331122875,
+      0.0061285230331122875
+    ],
+    "factory": true
+  },
+  "Analog/PWM Juno.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\Analog\\PWM Juno.wav",
+    "sha256": "39996d11cd5c5b39e371691d72db42cc815ec58ae6943fbdcdf1314aed9f31ad",
+    "frames": 112,
+    "sample_rate": 44100,
+    "peak_selected_frame": 0.9954672455787659,
+    "selected_frame": 56,
+    "harmonic_ratios": [
+      1.0,
+      0.5221588611602783,
+      0.026856811717152596,
+      0.45375946164131165,
+      0.039157893508672714,
+      0.15386898815631866,
+      0.15016525983810425,
+      0.040899354964494705
+    ],
+    "factory": true
+  },
+  "S2 Tables/Analog/DM - OSCAR.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Analog\\DM - OSCAR.wav",
+    "sha256": "0e7eea510978c130e7a69b8970100a79907ddbacf7c6144811bfd68e2fbd5572",
+    "frames": 4,
+    "sample_rate": 44100,
+    "peak_selected_frame": 1.0,
+    "selected_frame": 0,
+    "harmonic_ratios": [
+      1.0,
+      0.4827105700969696,
+      0.3082432448863983,
+      0.21690690517425537,
+      0.16293469071388245,
+      0.1272369623184204,
+      0.10303930938243866,
+      0.08472781628370285
+    ],
+    "factory": true
+  },
+  "S2 Tables/Default Shapes.wav": {
+    "file": "C:\\Users\\rafif\\OneDrive\\Documents\\Xfer\\Serum 2 Presets\\Tables\\S2 Tables\\Default Shapes.wav",
+    "sha256": "337014d2ceb01480224324187c27504dbfd884747654aecdff637b90b883ea7f",
+    "frames": 9,
+    "sample_rate": 44100,
+    "peak_selected_frame": 1.0,
+    "selected_frame": 2,
+    "harmonic_ratios": [
+      1.0,
+      0.0,
+      0.11111180484294891,
+      0.0,
+      0.04000075161457062,
+      0.0,
+      0.020408932119607925,
+      0.0
+    ],
+    "factory": true
+  }
+}

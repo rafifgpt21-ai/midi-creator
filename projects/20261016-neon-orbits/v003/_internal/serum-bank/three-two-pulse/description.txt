@@ -1,0 +1,32 @@
+Preset: three-two-pulse
+Description: Hollow square/triangle electronic pulse, three attacks over two beats in external MIDI; compact tail and narrow image. v003: compact articulation and reduced space for arrangement coherence; no extra note-generating echo.
+Author: serum-mcp
+
+Osc A: ON   octave=+0  volume=0.47  pan=+0  wavetable=analog_basic  table_pos=3.0  warp=fm(0.00)
+Osc B: ON   octave=+0  volume=0.29  pan=+0  wavetable=default  table_pos=2.0  warp=fm(0.00)
+Osc C: off  octave=+0  volume=0.75  pan=+0  wavetable=default  table_pos=0.0  warp=fm(0.00)
+Osc Noise: off  octave=+0  volume=0.75  pan=+0  noise_type=White
+Osc Sub: off  octave=+0  volume=0.75  pan=+0  sub_shape=saw
+
+Filter 1: ON   type=lowpass_24  cutoff=0.43  resonance=8%  drive=8%  stereo=50%
+Filter 2: off  type=lowpass_24  cutoff=0.50  resonance=10%  drive=0%  stereo=50%
+
+Env 1: attack=6.0ms  decay=0.20s  sustain=0.10  release=0.06s
+Env 2: attack=3.0ms  decay=0.25s  sustain=0.00  release=0.12s
+Env 3: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+Env 4: attack=0.5ms  decay=1.00s  sustain=1.00  release=0.01s
+
+Macro 1 "Tone": 15%
+Macro 2 "Contour": 20%
+
+FX chain:
+  - FXReverb (wet=4%)
+
+Mod matrix (recognized routes only):
+  - env1 -> filter0.cutoff: +16%
+  - mod_wheel -> filter0.cutoff: +24%
+  - macro0 -> filter0.cutoff: +10%
+  - macro1 -> env1.decay: +12%
+  - velocity -> filter0.cutoff: +4%
+
+Global: master_volume=0.40  mono=off  poly=16

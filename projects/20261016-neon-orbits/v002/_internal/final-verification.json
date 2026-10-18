@@ -1,0 +1,646 @@
+{
+  "ok": true,
+  "errors": [],
+  "files": {
+    "MIDI/mono-bass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Mono Bass",
+          "end_tick": 629760,
+          "note_count": 488,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 28,
+          "pitch_max": 48,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 637
+          }
+        }
+      ],
+      "note_count": 488,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/juno-pad.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Juno Pad",
+          "end_tick": 629760,
+          "note_count": 228,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 51,
+          "pitch_max": 69,
+          "peak_polyphony": 4,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 641
+          }
+        }
+      ],
+      "note_count": 228,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/phase-seven-pluck.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Phase Seven Pluck",
+          "end_tick": 629760,
+          "note_count": 1020,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 63,
+          "pitch_max": 83,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 605
+          }
+        }
+      ],
+      "note_count": 1020,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/three-two-pulse.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Three Two Pulse",
+          "end_tick": 629760,
+          "note_count": 192,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 69,
+          "pitch_max": 81,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 541
+          }
+        }
+      ],
+      "note_count": 192,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/analog-lead.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Analog Lead",
+          "end_tick": 629760,
+          "note_count": 200,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 71,
+          "pitch_max": 84,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 573
+          }
+        }
+      ],
+      "note_count": 200,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/poly-brass.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Poly Brass",
+          "end_tick": 629760,
+          "note_count": 96,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 63,
+          "pitch_max": 78,
+          "peak_polyphony": 3,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 573
+          }
+        }
+      ],
+      "note_count": 96,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/glass-keys.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Glass Keys",
+          "end_tick": 629760,
+          "note_count": 37,
+          "channels": [
+            1
+          ],
+          "programs": [],
+          "pitch_min": 63,
+          "pitch_max": 81,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1,
+            "1": 641
+          }
+        }
+      ],
+      "note_count": 37,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/kick.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Kick",
+          "end_tick": 629760,
+          "note_count": 495,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 495,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/snare-clap.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Snare Clap",
+          "end_tick": 629760,
+          "note_count": 246,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 246,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/closed-hat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Closed Hat",
+          "end_tick": 629760,
+          "note_count": 733,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 733,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/open-hat.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Open Hat",
+          "end_tick": 629760,
+          "note_count": 399,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 399,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/synth-tom.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Synth Tom",
+          "end_tick": 629760,
+          "note_count": 42,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 42,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    },
+    "MIDI/crash.mid": {
+      "ok": true,
+      "errors": [],
+      "format": 1,
+      "ticks_per_beat": 960,
+      "tracks": [
+        {
+          "index": 0,
+          "name": "Crash",
+          "end_tick": 629760,
+          "note_count": 6,
+          "channels": [
+            10
+          ],
+          "programs": [],
+          "pitch_min": 60,
+          "pitch_max": 60,
+          "peak_polyphony": 1,
+          "control_counts": {
+            "7": 1,
+            "10": 1
+          }
+        }
+      ],
+      "note_count": 6,
+      "end_tick": 629760,
+      "tempos": [
+        {
+          "tick": 0,
+          "microseconds_per_quarter": 483871
+        }
+      ],
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "sysex_count": 0,
+      "warnings": []
+    }
+  },
+  "timing": {
+    "mode": "strict",
+    "grid_division": 48,
+    "on_grid": true,
+    "off_grid_note_ons": 0,
+    "layers": [
+      {
+        "id": "mono-bass",
+        "note_ons": 488,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "juno-pad",
+        "note_ons": 228,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "phase-seven-pluck",
+        "note_ons": 1020,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "three-two-pulse",
+        "note_ons": 192,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "analog-lead",
+        "note_ons": 200,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "poly-brass",
+        "note_ons": 96,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "glass-keys",
+        "note_ons": 37,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "kick",
+        "note_ons": 495,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "snare-clap",
+        "note_ons": 246,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "closed-hat",
+        "note_ons": 733,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "open-hat",
+        "note_ons": 399,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "synth-tom",
+        "note_ons": 42,
+        "off_grid_note_ons": 0,
+        "examples": []
+      },
+      {
+        "id": "crash",
+        "note_ons": 6,
+        "off_grid_note_ons": 0,
+        "examples": []
+      }
+    ],
+    "scope": "note-on positions; note-off gates may be shorter than the grid"
+  }
+}

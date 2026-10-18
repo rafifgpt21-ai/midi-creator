@@ -1,0 +1,69 @@
+{
+  "condition": "Maintained instrument-family approximations, not verified hardware emulations.",
+  "registers": {
+    "mono-bass": {
+      "min": 28,
+      "max": 48
+    },
+    "juno-pad": {
+      "min": 51,
+      "max": 69
+    },
+    "phase-seven-pluck": {
+      "min": 63,
+      "max": 83
+    },
+    "three-two-pulse": {
+      "min": 69,
+      "max": 81
+    },
+    "analog-lead": {
+      "min": 71,
+      "max": 84
+    },
+    "poly-brass": {
+      "min": 63,
+      "max": 78
+    },
+    "glass-keys": {
+      "min": 63,
+      "max": 81
+    }
+  },
+  "architecture": "A/B -> Filter 1 -> Main serial FX -> output. Unused sources/Filter 2 disabled; no auxiliary buses or direct paths.",
+  "five_analog_techniques": {
+    "voice_calibration": "Not used: native control scales uncalibrated; stable source architecture chosen.",
+    "noise_FM": "Off: not needed for clean maintained character.",
+    "continuous_drift": "Off: DCO stays stable; VCO layers use documented static fine offsets. Phase randomness is not claimed as drift.",
+    "noise_AM": "Off: clean electronic palette.",
+    "drive_tape": "Small voice-filter drive only; no tape/wow/fast compression added by default."
+  },
+  "limitations": [
+    "Juno pad uses a factory sampled PWM wavetable scan, not proof of a DCO circuit or duty-cycle emulation.",
+    "Phase memory and voice-priority controls stay at Init; unsupported phase/voice calibration behavior is not claimed.",
+    "Cutoff and modulation depths are stored normalized values, not measured Hz/cents endpoints.",
+    "Delay time is fixed at 30/124 seconds (eighth note at 124 BPM), explicitly free mode; retime after tempo changes.",
+    "Filter changes are CC1 -> mod_wheel routes; macros default to Tone 15 and Contour 20, with usable ranges requiring listening validation.",
+    "Native plugin loading, audio renders, stereo/mono response and listening are separate untested steps."
+  ],
+  "acceptance": [
+    "7 real native presets, independent readback and wire-type scan.",
+    "All wavetable dependencies resolve and hashes recorded; no custom resources.",
+    "Bass and lead mono; pad/brass polyphony budget 16; unused internal arp disabled.",
+    "MIDI note ranges and actual gates appropriate to source envelopes; voice-filter and FX intent documented."
+  ],
+  "macro_ranges": {
+    "Tone": {
+      "default": 15,
+      "min": 0,
+      "max": 100,
+      "effect": "Adds 0..10 percentage points of filter modulation at the stored route scale."
+    },
+    "Contour": {
+      "default": 20,
+      "min": 0,
+      "max": 100,
+      "effect": "Lengthens timbre-envelope decay via 0..12% route; physical seconds need plugin calibration."
+    }
+  }
+}

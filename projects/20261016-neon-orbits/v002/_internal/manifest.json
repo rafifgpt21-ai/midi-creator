@@ -1,0 +1,193 @@
+{
+  "version": 2,
+  "midi_profile": "cubase-single-track",
+  "generator": {
+    "name": "midi-creator",
+    "version": "0.1.0"
+  },
+  "title": "Neon Orbits",
+  "combined": false,
+  "composition_sha256": "714098310f09028ee0295b7d65d62063da020ff7ba5a65f4a4e2c341ef60c1ea",
+  "tempo_bpm": 124,
+  "time_signature": [
+    4,
+    4
+  ],
+  "bars": 164,
+  "ticks_per_beat": 960,
+  "end_tick": 629760,
+  "duration_seconds": 317.419376,
+  "layers": [
+    {
+      "id": "mono-bass",
+      "name": "Mono Bass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 38,
+      "note_count": 488,
+      "file": "MIDI/mono-bass.mid"
+    },
+    {
+      "id": "juno-pad",
+      "name": "Juno Pad",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 89,
+      "note_count": 228,
+      "file": "MIDI/juno-pad.mid"
+    },
+    {
+      "id": "phase-seven-pluck",
+      "name": "Phase Seven Pluck",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 1020,
+      "file": "MIDI/phase-seven-pluck.mid"
+    },
+    {
+      "id": "three-two-pulse",
+      "name": "Three Two Pulse",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 80,
+      "note_count": 192,
+      "file": "MIDI/three-two-pulse.mid"
+    },
+    {
+      "id": "analog-lead",
+      "name": "Analog Lead",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 81,
+      "note_count": 200,
+      "file": "MIDI/analog-lead.mid"
+    },
+    {
+      "id": "poly-brass",
+      "name": "Poly Brass",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 62,
+      "note_count": 96,
+      "file": "MIDI/poly-brass.mid"
+    },
+    {
+      "id": "glass-keys",
+      "name": "Glass Keys",
+      "kind": "melodic",
+      "channel": 1,
+      "program": 98,
+      "note_count": 37,
+      "file": "MIDI/glass-keys.mid"
+    },
+    {
+      "id": "kick",
+      "name": "Kick",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 495,
+      "file": "MIDI/kick.mid"
+    },
+    {
+      "id": "snare-clap",
+      "name": "Snare Clap",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 246,
+      "file": "MIDI/snare-clap.mid"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Closed Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 733,
+      "file": "MIDI/closed-hat.mid"
+    },
+    {
+      "id": "open-hat",
+      "name": "Open Hat",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 399,
+      "file": "MIDI/open-hat.mid"
+    },
+    {
+      "id": "synth-tom",
+      "name": "Synth Tom",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 42,
+      "file": "MIDI/synth-tom.mid"
+    },
+    {
+      "id": "crash",
+      "name": "Crash",
+      "kind": "drums",
+      "channel": 10,
+      "program": null,
+      "note_count": 6,
+      "file": "MIDI/crash.mid"
+    }
+  ],
+  "files": [
+    {
+      "path": "MIDI/mono-bass.mid",
+      "sha256": "905960c1f9db8cc19dd0b4ba2a1e7b570f754082a0a523be8723242c4e088b1b"
+    },
+    {
+      "path": "MIDI/juno-pad.mid",
+      "sha256": "7cb10a10c8bcb666eedf50a17bb32e71381cd88535e3313b25d32d9dd5bca1ed"
+    },
+    {
+      "path": "MIDI/phase-seven-pluck.mid",
+      "sha256": "25e4e5ff56e751ebfde1caf9fd988561db66b0290d32f17e800d68bd2b8db59f"
+    },
+    {
+      "path": "MIDI/three-two-pulse.mid",
+      "sha256": "210f0e8becc037f1e3e3a5e1d2b960965f50a84cb2d0fbec754216bb196daed6"
+    },
+    {
+      "path": "MIDI/analog-lead.mid",
+      "sha256": "c06a5eba318d692ba882a734c65f8a9fde81faff16d99344c25edc7d0a3a573a"
+    },
+    {
+      "path": "MIDI/poly-brass.mid",
+      "sha256": "07737608c8d9fdbc8a57e595499267fbef74b9540447039a0283d78016dd327d"
+    },
+    {
+      "path": "MIDI/glass-keys.mid",
+      "sha256": "5f96bc6015ce79e364bae66aea023e9e6c62faadeab4936144c049dc8278037a"
+    },
+    {
+      "path": "MIDI/kick.mid",
+      "sha256": "aceb599897f1917eb81e6edb34de4c59fc6931a7d620889c023525184ae0b45f"
+    },
+    {
+      "path": "MIDI/snare-clap.mid",
+      "sha256": "565f51067607a4e58d28b992a1e2c96f1f318d89d4a359434fa9bcb33bce4cfe"
+    },
+    {
+      "path": "MIDI/closed-hat.mid",
+      "sha256": "18153719f1bf2b785e4fe988c3097a2dbb1d24491fc607c69b6451b0d47bb594"
+    },
+    {
+      "path": "MIDI/open-hat.mid",
+      "sha256": "d9735983d05b6323dd9792f4828fce52db044787a2a7ed862ee2c7dfdf553a6f"
+    },
+    {
+      "path": "MIDI/synth-tom.mid",
+      "sha256": "dba9b4d1482f66baf63d875a21bf84d79fed34cb7f10572695b5e0c22a069056"
+    },
+    {
+      "path": "MIDI/crash.mid",
+      "sha256": "29ea677cfffc8e4f7f368f5771930b2cbcca7c41cd6fbf0cfc4b8f19cd3a0fd8"
+    }
+  ]
+}

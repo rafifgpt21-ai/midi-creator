@@ -1,0 +1,20 @@
+{
+  "applied": [
+    "mc-workflow",
+    "mc-harmony",
+    "mc-rhythm-groove",
+    "mc-texture-layering",
+    "serum-sound-design",
+    "serum-modulation",
+    "serum-effects",
+    "serum-preset-build",
+    "serum-preset-qa"
+  ],
+  "applications": [
+    "Harmonic function before color; triad tones as anchors",
+    "Melody makes gaps for backbeat",
+    "Foreground competition resolved by alternation and register",
+    "Preserve retro oscillator architecture; shorten envelopes and remove echoes"
+  ],
+  "precedence": "Strict repo grid and user harmonic-minor request override generic humanization or chromatic-color suggestions."
+}
